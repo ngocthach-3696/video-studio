@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Condensed,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,2,110,110,420,1
+Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,90,1
+Style: Watermark,Noto Sans Condensed,37,&H50E0E0E0,&H000000FF,&H70000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,6,0,162,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:03.40,Title,,0,0,0,,{\fad(120,0)}81 NGÀY ĐÊM
+Dialogue: 1,0:00:03.40,0:00:07.27,Title,,0,0,0,,{\fad(120,0)}MƯA ĐỎ
+Dialogue: 1,0:00:20.27,0:00:24.00,Title,,0,0,0,,{\fad(120,0)}1809
+Dialogue: 1,0:00:46.13,0:00:49.37,Title,,0,0,0,,{\fad(120,0)}1/5/1972
+Dialogue: 1,0:01:03.67,0:01:08.43,Title,,0,0,0,,{\fad(120,0)}LAM SƠN 72
+Dialogue: 1,0:01:24.57,0:01:25.63,Title,,0,0,0,,{\fad(120,0)}GIỮ
+Dialogue: 1,0:01:34.70,0:01:38.73,Title,,0,0,0,,{\fad(120,0)}328.000 TẤN
+Dialogue: 1,0:02:12.60,0:02:16.80,Title,,0,0,0,,{\fad(120,0)}SÔNG THẠCH HÃN
+Dialogue: 1,0:02:38.10,0:02:42.87,Title,,0,0,0,,{\fad(120,0)}6/9/1971
+Dialogue: 1,0:03:17.53,0:03:20.53,Title,,0,0,0,,{\fad(120,0)}16/9/1972
+Dialogue: 1,0:03:50.43,0:03:54.47,Title,,0,0,0,,{\fad(120,0)}27/1/1973
+Dialogue: 1,0:04:13.57,0:04:16.90,Title,,0,0,0,,{\fad(120,0)}LƯU DANH

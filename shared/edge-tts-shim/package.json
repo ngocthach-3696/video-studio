@@ -1,0 +1,14 @@
+{
+  "name": "edge-tts-universal",
+  "version": "1.4.0-shim.1",
+  "description": "Drop-in replacement for edge-tts-universal@1.4.0 backed by msedge-tts (Edge now requires the v2 Sec-MS-GEC token, which edge-tts-universal lacks -> HTTP 403).",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "msedge-tts": "2.1.1"
+  }
+}

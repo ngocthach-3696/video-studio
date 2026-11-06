@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:1640px;height:624px;overflow:hidden}
+  .c{position:relative;width:1640px;height:624px;
+     background:radial-gradient(ellipse at 50% 40%,#fbf6ea 0%,#f3e8d0 60%,#e8d6b4 100%);font-family:'Playfair Display',Georgia,serif}
+  .frame{position:absolute;inset:18px;border:2px solid #b8913f;border-radius:6px}
+  .frame2{position:absolute;inset:26px;border:1px solid rgba(160,28,36,.55);border-radius:4px}
+  svg.waves{position:absolute;left:0;bottom:0;width:1640px;height:210px}
+  .title{position:absolute;top:118px;left:0;right:0;text-align:center}
+  .vy{font-family:'Dancing Script',cursive;font-size:96px;color:#a01c24;line-height:1;letter-spacing:1px}
+  .su{font-weight:700;font-size:118px;color:#22262b;margin-left:18px}
+  .line{width:420px;height:2px;margin:22px auto 18px;background:linear-gradient(90deg,transparent,#b8913f,transparent)}
+  .tag{font-style:italic;font-size:30px;color:#5b4a36}
+  .cloud{position:absolute;opacity:.9}
+</style></head><body>
+<div class="c">
+  <svg class="waves" viewBox="0 0 1640 210" preserveAspectRatio="none">
+    <defs>
+      <pattern id="sg" width="60" height="30" patternUnits="userSpaceOnUse">
+        <g fill="none" stroke="#b8913f" stroke-width="1.6" opacity=".55">
+          <circle cx="30" cy="30" r="28"/><circle cx="30" cy="30" r="20"/><circle cx="30" cy="30" r="12"/>
+          <circle cx="0" cy="15" r="28"/><circle cx="0" cy="15" r="20"/><circle cx="0" cy="15" r="12"/>
+          <circle cx="60" cy="15" r="28"/><circle cx="60" cy="15" r="20"/><circle cx="60" cy="15" r="12"/>
+        </g>
+      </pattern>
+    </defs>
+    <path d="M0,90 C260,40 480,140 820,95 C1160,50 1380,140 1640,85 L1640,210 L0,210Z" fill="#f6edd9"/>
+    <path d="M0,90 C260,40 480,140 820,95 C1160,50 1380,140 1640,85 L1640,210 L0,210Z" fill="url(#sg)"/>
+    <path d="M0,150 C300,105 520,190 840,150 C1160,110 1400,185 1640,140 L1640,210 L0,210Z" fill="#a01c24"/>
+    <path d="M0,172 C320,135 540,205 860,172 C1180,140 1410,200 1640,168 L1640,210 L0,210Z" fill="#22262b"/>
+    <path d="M0,150 C300,105 520,190 840,150 C1160,110 1400,185 1640,140" fill="none" stroke="#d6b25e" stroke-width="3"/>
+  </svg>
+
+  <!-- auspicious clouds -->
+  <svg class="cloud" style="left:120px;top:70px" width="230" height="110" viewBox="0 0 230 110">
+    <g fill="none" stroke="#b8913f" stroke-width="4" stroke-linecap="round">
+      <path d="M20,80 C20,50 60,45 70,65 C75,35 120,30 128,60 C140,40 180,45 178,75 C200,75 210,95 195,100 L30,100 C10,100 8,82 20,80Z" fill="rgba(160,28,36,.10)"/>
+      <path d="M70,65 C80,75 95,75 100,62"/><path d="M128,60 C135,72 150,72 152,60"/>
+    </g>
+  </svg>
+  <svg class="cloud" style="right:120px;top:70px;transform:scaleX(-1)" width="230" height="110" viewBox="0 0 230 110">
+    <g fill="none" stroke="#b8913f" stroke-width="4" stroke-linecap="round">
+      <path d="M20,80 C20,50 60,45 70,65 C75,35 120,30 128,60 C140,40 180,45 178,75 C200,75 210,95 195,100 L30,100 C10,100 8,82 20,80Z" fill="rgba(160,28,36,.10)"/>
+      <path d="M70,65 C80,75 95,75 100,62"/><path d="M128,60 C135,72 150,72 152,60"/>
+    </g>
+  </svg>
+
+  <div class="title">
+    <span class="vy">Vy kể chuyện</span><span class="su">Sử</span>
+    <div class="line"></div>
+    <div class="tag">Trăm năm trôi qua, có những câu chuyện vẫn chưa hề phai</div>
+  </div>
+  <div class="frame"></div><div class="frame2"></div>
+</div>
+</body></html>

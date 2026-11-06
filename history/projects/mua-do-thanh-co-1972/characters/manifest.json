@@ -1,0 +1,11 @@
+{
+ "linh-sinh-vien": {
+  "provider": "manual"
+ },
+ "chi-huy": {
+  "provider": "manual"
+ },
+ "cuu-binh": {
+  "provider": "manual"
+ }
+}

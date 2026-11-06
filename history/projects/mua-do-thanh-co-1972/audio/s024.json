@@ -1,0 +1,46 @@
+{
+ "key": "010ed20a82a4",
+ "duration": 2.429375,
+ "words": [
+  {
+   "start": 0,
+   "end": 0.163,
+   "text": "Kế"
+  },
+  {
+   "start": 0.163,
+   "end": 0.448,
+   "text": "hoạch"
+  },
+  {
+   "start": 0.448,
+   "end": 0.651,
+   "text": "ban"
+  },
+  {
+   "start": 0.651,
+   "end": 0.916,
+   "text": "đầu,"
+  },
+  {
+   "start": 1.059,
+   "end": 1.262,
+   "text": "chỉ"
+  },
+  {
+   "start": 1.262,
+   "end": 1.547,
+   "text": "chừng"
+  },
+  {
+   "start": 1.547,
+   "end": 1.751,
+   "text": "hai"
+  },
+  {
+   "start": 1.751,
+   "end": 2.095,
+   "text": "tuần."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+# ---- Bí mật / thông tin cá nhân ----
+.env
+.env.local
+.env.*.local
+!.env.example
+.playwright-mcp/
+.claude/settings.local.json
+
+# ---- Cài lại được bằng setup.ps1 ----
+node_modules/
+tools/node/
+tools/ffmpeg/
+tools/pyedge/
+
+# ---- File kết quả / cache (tạo lại được, nhiều file > 100 MB) ----
+*.mp4
+*.mov
+*.wav
+history/projects/*/clips/
+history/projects/*/old/
+explainer/out/
+news/output/
+
+# ---- Rác hệ điều hành / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+__pycache__/

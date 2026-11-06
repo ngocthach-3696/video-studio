@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+date: Thu, 05 Nov 2026 17:11:23 GMT
+server: uvicorn
+x-audio-id: 3a7f935c
+x-gen-time: 79.68
+x-audio-path: 3a7f935c.wav
+x-seed: 10374651
+x-audio-duration: 21.74
+content-length: 1043460
+x-omnivoice-routing: accelerated
+x-omnivoice-routing-reason: NVIDIA GeForce GTX 1060 3GB has 3.0 GB VRAM; this engine wants about 6 GB. It will run, but expect slow generations that may time out. Unload other models before generating, keep the text short, or pick a lighter engine.
+content-type: audio/wav
+x-omnivoice-backend: 0.5.7
+

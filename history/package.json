@@ -1,0 +1,13 @@
+{
+  "name": "history-video",
+  "private": true,
+  "type": "module",
+  "description": "AI-image history videos: script -> Edge TTS -> AI images -> Ken Burns + crossfade + subtitles + music (FFmpeg)",
+  "scripts": {
+    "make": "node src/make.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "edge-tts-universal": "file:../shared/edge-tts-shim"
+  }
+}
