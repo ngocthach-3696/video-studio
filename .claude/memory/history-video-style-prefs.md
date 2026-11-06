@@ -40,3 +40,9 @@ The user asked (2026-11-05) to remember ALL of their review and feedback for fut
 
 **Why:** these are direct corrections from the user's review.
 **How to apply:** use these as the defaults for every new history episode (project.json + scripts); see [[video-studio]] and [[flow-project-per-topic]].
+
+**Motion (2026-11-06)**
+- The user wants motion like the reference cartoon video (see history/styles/hoat-hinh-su-viet.md): short AI image-to-video clips (Google Flow/Veo) with SUBTLE, minimal motion: water ripples, smoke, candle flicker, cloth or leaves swaying, a character blinking, breathing, trembling, tightening a grip. Static camera or an extremely slow push-in, no cuts inside a clip, keep the exact 2D style and faces ("Animate this exact illustration…"). Use only about 2–4 s of each clip, with hard cuts. Do not use big actions (rowing, turning, walking) or strong camera moves. Veo sound: ambience only, no dialogue or music (muted or replaced in the mix).
+
+**Preferred style (2026-11-06): history/styles/hoat-hinh-chuyen-dong-ai.md**
+- The user picked the reference Facebook.mp4 (their Downloads, a Vietnamese 2D cartoon history video, 504s, about 2.6 s per shot, hard cuts, -14 LUFS) as THE style: "tôi muốn style như này". Each shot is an AI image-to-video clip with small, local motion (eyes darting, a slight head turn, flags waving, papers or dust flying, smoke, torches, cartoon wind streaks) and an almost static camera. Local `"fx"` effects (src/fx.py) cannot animate eyes, flags or papers, so use them only for static shots (landscapes, maps, villages). Shots with characters need AI clips (Flow/Veo, Kling/Wan via fal, or free tiers). Always confirm the cost with the user first.

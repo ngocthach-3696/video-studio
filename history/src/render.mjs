@@ -1,6 +1,26 @@
 import fs from "node:fs";
 import path from "node:path";
-import { ffmpeg, log, probeDuration, probeSize, readJson, sha1 } from "./util.mjs";
+import { fileURLToPath } from "node:url";
+import { ffmpeg, log, probeDuration, probeSize, readJson, run, sha1 } from "./util.mjs";
+
+// Local "living still" effects (src/fx.py): 2.5D parallax drift, water ripple,
+// fog, rain/ash/embers/dust, flicker. Free, no AI video. Enabled per scene with
+// "fx": {...} (or project-level "fx" as the default; scene "fx": null opts out).
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const FX_PY = path.join(HERE, "fx.py");
+const DEPTH_MODEL = path.resolve(HERE, "../../tools/models/depth_anything_v2_small.onnx");
+const PYTHON = process.env.PYTHON || "python";
+
+async function renderFx(src, out, spec, frames, W, H, cropBottom, seed) {
+  if (!fs.existsSync(DEPTH_MODEL)) {
+    throw new Error(`Thiếu model chiều sâu: ${DEPTH_MODEL}\nChạy setup.ps1 hoặc tải onnx-community/depth-anything-v2-small (onnx/model.onnx) về đó.`);
+  }
+  await run(PYTHON, [
+    "-I", FX_PY, "--image", src, "--out", out, "--dur", (frames / FPS).toFixed(4), "--fps", String(FPS),
+    "--size", `${W}x${H}`, "--fx", JSON.stringify(spec), "--model", DEPTH_MODEL, "--ffmpeg", "ffmpeg",
+    "--seed", String(seed), "--crop-bottom", String(cropBottom || 0),
+  ]);
+}
 
 export const FPS = 30;
 const UPSCALE = 4; // zoompan on an upscaled frame to avoid sub-pixel jitter
@@ -106,17 +126,21 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     const marked = project.animateScope !== "marked" || !!project.scenes[i].video?.trim();
     const useVideo = animated && marked && fs.existsSync(aiVideo);
     const src = useVideo ? aiVideo : path.join(dir, "images", `${s.id}.jpg`);
-    const motion = useVideo ? "ai-video" : project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length];
     const cropBottom = useVideo ? 0 : manifest[s.id]?.cropBottom || 0;
     const defaultFit = manifest[s.id]?.provider === "commons" ? "auto" : "cover";
     const fit = useVideo ? "cover" : await resolveFit(project.scenes[i].fit || defaultFit, src, W, H);
+    const fxSpec = "fx" in project.scenes[i] ? project.scenes[i].fx : project.fx;
+    const useFx = !useVideo && fit === "cover" && !!fxSpec;
+    const motion = useVideo ? "ai-video" : useFx ? "fx" : project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length];
     const st = fs.statSync(src);
-    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit].join("|"));
+    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : ""].join("|"));
     const out = path.join(clipsDir, `${s.id}.mp4`);
     const keyFile = `${out}.key`;
     if (fs.existsSync(out) && fs.existsSync(keyFile) && fs.readFileSync(keyFile, "utf8") === key) continue;
     log(`  clip ${s.id} (${motion}${fit === "contain" ? ", contain" : ""}, ${s.dur.toFixed(1)}s)`);
-    if (motion === "still" && fit === "cover") {
+    if (useFx) {
+      await renderFx(src, out, fxSpec, s.frames, W, H, cropBottom, i + 1);
+    } else if (motion === "still" && fit === "cover") {
       await ffmpeg(["-loop", "1", "-framerate", String(FPS), "-i", src, "-vf", stillFilter(W, H, cropBottom), "-frames:v", String(s.frames), ...X264, out]);
     } else {
       const vf = useVideo ? fitVideo(await probeDuration(src), s.dur, W, H) : kenBurns(motion, s.frames, W, H, cropBottom, fit);

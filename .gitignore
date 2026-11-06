@@ -11,6 +11,7 @@ node_modules/
 tools/node/
 tools/ffmpeg/
 tools/pyedge/
+tools/models/
 
 # ---- File kết quả / cache (tạo lại được, nhiều file > 100 MB) ----
 *.mp4
@@ -27,3 +28,4 @@ Thumbs.db
 desktop.ini
 *.log
 __pycache__/
+*.depth.png
