@@ -1,7 +1,7 @@
 # Video Studio — quy tắc cho Claude
 
 Đây là bản sao bộ nhớ (rule, style, kinh nghiệm) của chủ repo, để dùng được trên mọi máy.
-Xem tổng quan repo ở @README.md.
+Xem tổng quan repo ở @README.md. Cài đặt trên máy mới: làm theo `SETUP-MAY-MOI.md`.
 
 **Đường dẫn:** repo có thể nằm ở ổ khác (máy có thể không có ổ C:). Trong skill, README và ghi chú bên dưới,
 `<ROOT>` hoặc `C:\video-studio` = thư mục gốc repo này (thư mục chứa file CLAUDE.md), và `C:\Users\Admin` = thư mục

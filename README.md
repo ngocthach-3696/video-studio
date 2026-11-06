@@ -22,6 +22,8 @@ Skill được cài ở mức user (`C:\Users\Admin\.claude\skills\`), gọi đ�
 
 ## Cài trên máy mới
 
+Hướng dẫn đầy đủ từng bước (để nhờ Claude làm): **[SETUP-MAY-MOI.md](SETUP-MAY-MOI.md)**. Tóm tắt:
+
 1. Clone repo về ổ/thư mục nào cũng được (vd. `D:\video-studio`). Trong tài liệu, `C:\video-studio` / `<ROOT>` nghĩa là thư mục đó.
 2. `powershell -ExecutionPolicy Bypass -File <ROOT>\setup.ps1` — tải Node 22 + FFmpeg portable vào `tools/`, thêm vào PATH, `npm install` các project, tạo venv edge-tts + yt-dlp (nếu có Python), tạo file `.env` từ `.env.example`.
 3. Điền lại key / tên kênh trong các file `.env` (không có trên GitHub).
