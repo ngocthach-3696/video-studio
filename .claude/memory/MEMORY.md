@@ -1,0 +1,7 @@
+- [Reply in Vietnamese](reply-in-vietnamese.md) — always answer the user in Vietnamese
+- [Video studio](video-studio.md) — C:\video-studio: repos, history engine + cartoon preset, Flow via Playwright MCP, gotchas
+- [Flow project per topic](flow-project-per-topic.md) — one Flow project per topic; always 9:16 (Facebook); x1 image per prompt; settings are per project
+- [Confirm dates](confirm-dates.md) — state exact date when user says "mai" near midnight
+- [Workspace split](workspace-split.md) — video work lives here; Shopee bot is a separate workspace
+- [Voice clone status](voice-clone-status.md) — narrator cloning attempts; VoiceStudio removed; next = VieNeu-TTS; samples in voice-ref
+- [History video style prefs](history-video-style-prefs.md) — ALL user review feedback: no subs/watermark, soft logo, -16 LUFS, music+ambience, strong hook, cut filler, cover w/o logo, short caption

@@ -1,0 +1,36 @@
+---
+name: video-studio
+description: Local short-video system at C:\video-studio (3 Cuongyd196 repos + user-level skills) and its non-obvious gotchas
+metadata:
+  node_type: memory
+  type: project
+  originSessionId: 306eb94e-d3cb-40a4-a94f-cb5286fcafe1
+  modified: 2026-11-06T06:15:41.901Z
+---
+
+2026-11-06: C:\video-studio is now a local git repo (to push to a private GitHub repo). Project copies of the 5 video skills live in .claude/skills/, and a copy of this memory lives in .claude/memory/, loaded via CLAUDE.md. When you save or update a memory, also update the repo copy. setup.ps1 sets up a new machine.
+
+Built 2026-11-02: C:\video-studio = explainer/ (Remotion), news/ (auto-video-gen, HyperFrames), compare/ (auto-compare-video, HyperFrames). Skills installed as thin wrappers in C:\Users\Admin\.claude\skills\{remotion-topic-explainer,create-news-video,create-video} that point to each repo's original SKILL.md. Portable Node 22 + FFmpeg in C:\video-studio\tools (added to User PATH; old shells may need PATH prepended). Branding set to "Tạp hóa nhà bơ" (the user's Facebook Page for the Shopee affiliate bot, which lives in a separate workspace — see [[workspace-split]]).
+
+Gotchas:
+- edge-tts-universal@1.4.0 gets 403 from Microsoft (Sec-MS-GEC v2). Replaced by C:\video-studio\shared\edge-tts-shim (msedge-tts 2.1.1) linked via file: deps. Edge endpoint drops ~40% of requests, so the shim retries; don't run TTS jobs concurrently.
+- news/.env.local TIKTOK_HANDLE=@taphoanhabo is a placeholder I invented — user must replace it.
+- news render is slow: ~8 min per 27s of video at 60fps.
+- 2026-11-03: added history/ (my own FFmpeg pipeline, skill /history-video) for AI-image history storytelling videos, modeled on a reference TikTok (epicloresstudios, 13 min, ~134 AI image-to-video shots of ~6s). Free Pollinations images: ~1/min limit (HTTP 402), 576px, poor prompt adherence (Western ships, modern VN flag in a 938 scene) — draft only. openai/gemini providers written but untested (no keys). PC is GTX 1060 3GB / 8GB RAM: no local image generation.
+- User chose "mức 3" (match the reference): history/ now defaults to fal.ai — Nano Banana images (~$0.04) + Kling 2.6 Pro image-to-video (~$0.35/scene). Estimates: 60s video ≈ $5, 13-min ≈ $50. fal code written from docs, NOT yet run with a real key (user must create fal account, add FAL_KEY to history/.env, top up). Always confirm cost with user before running the paid video step.
+
+- 2026-11-03: user has Google Flow (flow.google.com, Veo + Nano Banana) — preferred over fal. Added `animate: "flow"` mode: user hand-makes clips from videos/flow-prompts.txt, saves videos/s001.mp4…; pipeline grabs first frames, skips fal. User then chose Flow IMAGES (Nano Banana, outputs 2752x1536 16:9) + free Ken Burns instead of clips: bach-dang-938-flow switched to format 16:9, imageProvider manual, animate none; final.mp4 rendered 2026-11-04 (65s, 2.7 min render). User downloads to Downloads\ and Windows hides extensions (got s001.jpg.jpg once). assets/music is empty → no background music. Claude can't generate photoreal images itself.
+
+**Why:** user wants to make TikTok/Reels-style videos (likely for the home-goods affiliate page).
+**How to apply:** for video requests, use those skills; for Shopee product videos, product pages are JS-rendered, so get the product text into a .txt first.
+
+Engine features added 2026-11-05 (history/src): `"tts": "manual"` (reads audio/sNNN.mp3, estimates word timings), scene `"skip": true`, `musicStart: "end"|seconds`, `musicTrim`, `ambience: {file, volume}` (not ducked), `brand.logoOpacity/logoBlur`, `loudnorm: <number>` target. The machine has NO D: drive. yt-dlp is installed via pip (Python 3.12). The user's own GUI downloader is at C:\video-studio\yt-audio-gui\yt_audio_gui.py (defaults to ~\Music\YouTube when there's no D:).
+
+Style bible learned from a reference cartoon-history video (2026-11-04): `C:\video-studio\history\styles\hoat-hinh-su-viet.md` — chibi 2D, ~2.7s/shot hard cuts, ~223 wpm, -14 LUFS, 3 text layers. Implemented 2026-11-04 as `"preset": "cartoon"` in history engine (src/presets.mjs) + skill `/cartoon-history-video`. Backup of pre-change code: history/src.bak-20261104. fal nano-banana/edit (character refs) not yet tested with a real FAL_KEY.
+
+History channel brand (2026-11-04): "Vy kể chuyện Sử" (different from the Shopee page). FB Page created 2026-11-05: facebook.com/vykechuyensu (id 61596479001242), category Digital creator, profanity filter + spam keyword blocklist on. Cover made as HTML→screenshot: history/assets/brand/cover.html → cover.png (1640x624; no Pillow on this PC, file:// blocked in Playwright, so serve via `python -m http.server`). Playwright --extension CANNOT upload files (setFiles "Not allowed") — user uploads manually. Logo at history/assets/brand/logo.png (512px round, transparent, cropped from logo-original.jpg = Flow 2752x1536 jpg). Use watermark "Vy kể chuyện Sử" in project.json brand unless the user says otherwise.
+
+Google Flow (free image gen) is driven via Playwright MCP, user scope, `@playwright/mcp@0.0.83 --extension` (added 2026-11-04 at user's request). Rule: use the user's real logged-in Chrome only; no captcha solvers or anti-bot evasion — if Google shows a captcha, the user solves it. User accepted the Google ToS/account risk.
+Finding 2026-11-04: the free Flow account showed the banner "Bạn đã dùng hết tín dụng Google Flow" after ~6 images, BUT image generation (Nano Banana 2.1) still worked afterwards: test image ~45s, downloaded via editor view → button "Tải nội dung nghe nhìn xuống" → menuitem "1K Kích thước gốc" → 768x1376 jpg in Downloads, named after Flow's caption (e.g. Official_peeking_over_city_wall_d900fd19.jpg). Small Gemini ✦ mark bottom-right (covered by the logo). Real image quota still unknown — watch for failures on long batches. Playwright MCP writes snapshots to <workspace>/.playwright-mcp (contains the user's Google email — delete when done).
+2026-11-05: Flow sometimes says "Tác nhân đang có lượng truy cập cao" and images can take >60s, finishing after a run already gave up — poll until the first tile's src changes (flow-gen.mjs in mua-do-thanh-co-1972 does this). Playwright extension only sees tabs the user connects ("Allow & select"). It serves ONE client at a time: if another Claude Code session is open, or this session's MCP restarted, tool calls hang with no prompt — have the user open the extension page (shows "No clients are currently connected"), then make one call so the connect dialog appears.
+ElevenLabs: free API key gets 402 on library voices (and lacks user_read). At the user's request, TTS was done via the ElevenLabs web UI with Playwright (el-gen.mjs/el-run.js/el-collect.sh in the project): voice Tung Dang 3VnrjnYrskPMDsapTr8X, model Eleven v4 (Multilingual v2 has no Vietnamese), ~15s/clip, credits = characters, downloads land in Downloads as ElevenLabs_<ts>_….mp3. Engine has `"tts": "manual"` (src/tts.mjs) that reads audio/sNNN.mp3 and estimates word timings. Free plan = no commercial use + attribution required (told the user); a $1 Starter offer ran until 2026-11-08.
