@@ -1,7 +1,8 @@
 // usage: node flow-gen.mjs FROM TO  -> writes flow-run.js with the prompts inlined
 import fs from "node:fs";
+import { fileURLToPath } from "node:url";
 const [FROM, TO] = process.argv.slice(2).map(Number);
-const DIR = "C:/video-studio/history/projects/mua-do-thanh-co-1972";
+const DIR = fileURLToPath(new URL(".", import.meta.url)).replace(/\\/g, "/").replace(/\/$/, "");
 const batch = JSON.parse(fs.readFileSync(DIR + "/flow-batch.json", "utf8"))
   .slice(FROM - 1, TO).filter((b) => !fs.existsSync(`${DIR}/images/${b.id}.jpg`));
 fs.mkdirSync(DIR + "/images", { recursive: true });

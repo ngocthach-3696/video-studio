@@ -1,18 +1,20 @@
 ---
 name: history-video
-description: Tạo video kể chuyện lịch sử kiểu "faceless documentary" — ảnh AI minh hoạ từng cảnh + hiệu ứng zoom/pan Ken Burns + chuyển cảnh mờ dần + giọng đọc Edge TTS + phụ đề + nhạc nền. Hỗ trợ dọc 9:16 (TikTok/Reels, 60-90s) và ngang 16:9 (YouTube, 5-15 phút). Dùng khi người dùng nói "làm video lịch sử về X", "kể chuyện trận/nhân vật/triều đại X", "video lịch sử kiểu epic", "/history-video X". Project nằm ở C:\video-studio\history.
+description: Tạo video kể chuyện lịch sử kiểu "faceless documentary" — ảnh AI minh hoạ từng cảnh + hiệu ứng zoom/pan Ken Burns + chuyển cảnh mờ dần + giọng đọc Edge TTS + phụ đề + nhạc nền. Hỗ trợ dọc 9:16 (TikTok/Reels, 60-90s) và ngang 16:9 (YouTube, 5-15 phút). Dùng khi người dùng nói "làm video lịch sử về X", "kể chuyện trận/nhân vật/triều đại X", "video lịch sử kiểu epic", "/history-video X". Project nằm ở <ROOT>\history.
 ---
+
+> `<ROOT>` = thư mục gốc repo video-studio (thư mục chứa `CLAUDE.md`, ví dụ `C:\video-studio` hoặc `D:\video-studio`). Thay bằng đường dẫn thực tế khi chạy lệnh.
 
 # History Video
 
-**Project:** `C:\video-studio\history` · **Lệnh:** `node src/make.mjs projects/<slug> [--images-only] [--redo s003,s007] [--no-subs]`. Chạy **mọi lệnh với cwd = `C:\video-studio\history`**.
+**Project:** `<ROOT>\history` · **Lệnh:** `node src/make.mjs projects/<slug> [--images-only] [--redo s003,s007] [--no-subs]`. Chạy **mọi lệnh với cwd = `<ROOT>\history`**.
 
-Shell là Windows PowerShell 5.1 (không `&&`, không `mkdir -p`). Nếu không thấy `node`/`ffmpeg`: `$env:Path = "C:\video-studio\tools\node;C:\video-studio\tools\ffmpeg\bin;" + $env:Path`.
+Shell là Windows PowerShell 5.1 (không `&&`, không `mkdir -p`). Nếu không thấy `node`/`ffmpeg`: `$env:Path = "<ROOT>\tools\node;<ROOT>\tools\ffmpeg\bin;" + $env:Path`.
 
 ## Quy trình
 
 ### 1. Chốt yêu cầu
-Đọc `C:\video-studio\history\.env` để biết `IMAGE_PROVIDER`. Nếu người dùng chưa nói, mặc định: **9:16, 60-90s, 10-15 cảnh**. Video ngang 16:9 dài: ~6s/cảnh → 10 phút ≈ 100 cảnh (báo trước thời gian/chi phí ảnh).
+Đọc `<ROOT>\history\.env` để biết `IMAGE_PROVIDER`. Nếu người dùng chưa nói, mặc định: **9:16, 60-90s, 10-15 cảnh**. Video ngang 16:9 dài: ~6s/cảnh → 10 phút ≈ 100 cảnh (báo trước thời gian/chi phí ảnh).
 
 ### 2. Nghiên cứu — bắt buộc, lịch sử không được bịa
 - Dùng WebSearch/WebFetch: Wikipedia tiếng Việt + tiếng Anh + ít nhất 1 nguồn khác.
@@ -78,5 +80,5 @@ Các bước đã xong được cache (sửa 1 cảnh chỉ làm lại — và c
 - Nguồn ảnh (`IMAGE_PROVIDER` trong `.env`): `fal` (mặc định, Nano Banana ~$0.04/ảnh); `pollinations` miễn phí nhưng **chỉ đủ để thử** (576px, bám prompt kém, hay sai thời đại); `openai` / `gemini` cần API key riêng; `manual` cho ảnh tự tạo. Phần gọi fal/openai/gemini đã viết theo tài liệu nhưng **chưa chạy thật với key** — lần đầu dùng, theo dõi kỹ log; nếu lỗi schema, đọc thông báo HTTP và sửa `src/images.mjs` / `src/animate.mjs` (tài liệu: `https://fal.ai/models/<model-id>/llms.txt`).
 - Ảnh → video: `ANIMATE=fal`, model `FAL_VIDEO_MODEL` (mặc định Kling 2.6 Pro, $0.07/s, tắt audio). Đổi model khác có thể phải đổi `FAL_VIDEO_IMAGE_FIELD` (tên trường ảnh đầu vào).
 - Nhạc nền: chỉ dùng file người dùng bỏ vào `assets/music/` (nhạc miễn phí bản quyền: YouTube Audio Library, Pixabay Music). Không tự tải nhạc có bản quyền.
-- Edge TTS chạy qua shim `C:\video-studio\shared\edge-tts-shim` — không `npm update` gói `edge-tts-universal`.
+- Edge TTS chạy qua shim `<ROOT>\shared\edge-tts-shim` — không `npm update` gói `edge-tts-universal`.
 - Không sao chép kịch bản/hình của kênh khác; video tham khảo chỉ dùng để học phong cách.

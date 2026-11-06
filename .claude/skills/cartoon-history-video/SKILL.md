@@ -1,14 +1,16 @@
 ---
 name: cartoon-history-video
-description: Tạo video lịch sử Việt dạng HOẠT HÌNH 2D chibi kể chuyện chính sử — dọc 9:16, cắt thẳng mỗi 2-3 giây, nhân vật cố định có ảnh tham chiếu, tiêu đề cảnh lớn ("10 NĂM SAU"), phụ đề giữa màn hình, logo + chữ chìm kênh, giọng Edge TTS nhanh, chuẩn −14 LUFS. Dài 1-8 phút, có thể làm series nhiều tập. Dùng khi người dùng nói "video hoạt hình lịch sử", "kể sử kiểu hoạt hình/chibi", "làm tập X series lịch sử", "/cartoon-history-video <chủ đề>". Video lịch sử kiểu phim tài liệu ảnh thật/ken burns → dùng history-video. Project nằm ở C:\video-studio\history.
+description: Tạo video lịch sử Việt dạng HOẠT HÌNH 2D chibi kể chuyện chính sử — dọc 9:16, cắt thẳng mỗi 2-3 giây, nhân vật cố định có ảnh tham chiếu, tiêu đề cảnh lớn ("10 NĂM SAU"), phụ đề giữa màn hình, logo + chữ chìm kênh, giọng Edge TTS nhanh, chuẩn −14 LUFS. Dài 1-8 phút, có thể làm series nhiều tập. Dùng khi người dùng nói "video hoạt hình lịch sử", "kể sử kiểu hoạt hình/chibi", "làm tập X series lịch sử", "/cartoon-history-video <chủ đề>". Video lịch sử kiểu phim tài liệu ảnh thật/ken burns → dùng history-video. Project nằm ở <ROOT>\history.
 ---
+
+> `<ROOT>` = thư mục gốc repo video-studio (thư mục chứa `CLAUDE.md`, ví dụ `C:\video-studio` hoặc `D:\video-studio`). Thay bằng đường dẫn thực tế khi chạy lệnh.
 
 # Cartoon History Video
 
-Chạy trên engine `C:\video-studio\history` với `"preset": "cartoon"`.
-**Đọc trước:** `C:\video-studio\history\styles\hoat-hinh-su-viet.md` (style bible: thông số đo được, cấu trúc kịch bản, quy tắc hình, chữ, âm thanh).
+Chạy trên engine `<ROOT>\history` với `"preset": "cartoon"`.
+**Đọc trước:** `<ROOT>\history\styles\hoat-hinh-su-viet.md` (style bible: thông số đo được, cấu trúc kịch bản, quy tắc hình, chữ, âm thanh).
 
-**Lệnh** (cwd = `C:\video-studio\history`; PowerShell 5.1, không `&&`):
+**Lệnh** (cwd = `<ROOT>\history`; PowerShell 5.1, không `&&`):
 ```
 node src/make.mjs projects/<slug> --characters-only     # B1: ảnh tham chiếu nhân vật
 node src/make.mjs projects/<slug> --images-only         # B2: ảnh toàn bộ cảnh
@@ -16,7 +18,7 @@ node src/make.mjs projects/<slug> --no-animate          # B3: bản xem trước
 node src/make.mjs projects/<slug>                       # B4: bản có clip AI (tốn tiền)
 --redo s004,phung-hung   # tạo lại ảnh cảnh / nhân vật với seed mới
 ```
-Không thấy `node`/`ffmpeg`: `$env:Path = "C:\video-studio\tools\node;C:\video-studio\tools\ffmpeg\bin;" + $env:Path`.
+Không thấy `node`/`ffmpeg`: `$env:Path = "<ROOT>\tools\node;<ROOT>\tools\ffmpeg\bin;" + $env:Path`.
 
 ## Quy trình
 
@@ -93,4 +95,4 @@ Trình bày bảng: số cảnh · lời đọc · title · nhân vật, cộng 
 - Nhạc nền: chỉ file người dùng bỏ vào `assets/music/` (nhạc miễn phí bản quyền). Video mẫu: nhạc nhẹ chạy liên tục.
 - Edge TTS hay đứt kết nối ("Stream closed before the synthesis completed") → chạy lại lệnh, phần đã xong được cache.
 - Font phụ đề/tiêu đề: `assets/fonts/NotoSans-CondensedBold.ttf` (có dấu tiếng Việt).
-- Không `npm update` gói `edge-tts-universal` (shim ở `C:\video-studio\shared\edge-tts-shim`).
+- Không `npm update` gói `edge-tts-universal` (shim ở `<ROOT>\shared\edge-tts-shim`).

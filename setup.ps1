@@ -1,6 +1,6 @@
 ﻿# Cài đặt video-studio trên máy mới.
-# Chạy:  powershell -ExecutionPolicy Bypass -File C:\video-studio\setup.ps1
-# Repo phải nằm ở C:\video-studio (skill ghi đường dẫn tuyệt đối).
+# Chạy:  powershell -ExecutionPolicy Bypass -File <thư mục repo>\setup.ps1
+# Repo đặt ở ổ/thư mục nào cũng được (C:, D:, ...).
 
 $ErrorActionPreference = 'Stop'
 $root  = $PSScriptRoot
@@ -8,9 +8,6 @@ $tools = Join-Path $root 'tools'
 New-Item -ItemType Directory -Force $tools | Out-Null
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-if ($root -ne 'C:\video-studio') {
-    Write-Warning "Repo đang ở $root, không phải C:\video-studio. Skill sẽ trỏ sai đường dẫn."
-}
 
 function Get-Zip($url, $dest) {
     $zip = Join-Path $env:TEMP ([IO.Path]::GetFileName($url))
@@ -86,5 +83,5 @@ foreach ($d in $envs.Keys) {
 
 Write-Host ''
 Write-Host 'Xong. Mở terminal mới để PATH có hiệu lực.'
-Write-Host 'Skill nằm trong C:\video-studio\.claude\skills — mở Claude Code ở C:\video-studio là dùng được.'
+Write-Host "Skill nằm trong $root\.claude\skills — mở Claude Code ở $root là dùng được."
 Write-Host 'Muốn dùng Google Flow: claude mcp add --scope user playwright -- npx @playwright/mcp@0.0.83 --extension'

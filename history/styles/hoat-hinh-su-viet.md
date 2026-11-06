@@ -98,7 +98,7 @@ râu bạc; hào trưởng Việt = cởi trần, khăn quấn đầu xanh, kho�
 - Giọng đọc nhanh, đều, rõ chữ; không kéo dài cuối câu. Câu hỏi tu từ đọc lên giọng nhẹ.
 - Nhạc nền nhẹ, liên tục, không cao trào lớn; âm lượng thấp dưới giọng.
 - Toàn bộ mix nén chặt, −14 LUFS.
-- (Chưa xác nhận bằng tai) hiệu ứng âm thanh ngắn ở chuyển cảnh/tiêu đề — dùng thư viện `C:\video-studio\news\SFX`.
+- (Chưa xác nhận bằng tai) hiệu ứng âm thanh ngắn ở chuyển cảnh/tiêu đề — dùng thư viện `news\SFX` (trong thư mục gốc repo).
 
 ## 6. Đã hiện thực trong engine (2026-11-04)
 

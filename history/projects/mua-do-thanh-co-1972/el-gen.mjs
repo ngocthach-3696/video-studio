@@ -1,6 +1,7 @@
 // usage: node el-gen.mjs  -> writes el-run.js with narrations of scenes whose audio/sNNN.mp3 is missing
 import fs from "node:fs";
-const DIR = "C:/video-studio/history/projects/mua-do-thanh-co-1972";
+import { fileURLToPath } from "node:url";
+const DIR = fileURLToPath(new URL(".", import.meta.url)).replace(/\\/g, "/").replace(/\/$/, "");
 const p = JSON.parse(fs.readFileSync(DIR + "/project.json", "utf8"));
 const items = p.scenes.map((s, i) => ({ id: "s" + String(i + 1).padStart(3, "0"), text: s.narration }))
   .filter((x) => !fs.existsSync(`${DIR}/audio/${x.id}.mp3`));

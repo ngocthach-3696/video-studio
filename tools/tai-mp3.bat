@@ -13,7 +13,7 @@ set "URL="
 set /p "URL=Link: "
 if not defined URL goto end
 
-yt-dlp -x --audio-format mp3 --audio-quality 0 --no-playlist --ffmpeg-location "C:\video-studio\tools\ffmpeg\bin" -o "%OUT%\%%(title)s.%%(ext)s" "%URL%"
+yt-dlp -x --audio-format mp3 --audio-quality 0 --no-playlist --ffmpeg-location "%~dp0ffmpeg\bin" -o "%OUT%\%%(title)s.%%(ext)s" "%URL%"
 if errorlevel 1 (echo. & echo [LOI] Khong tai duoc link nay.) else (echo. & echo [XONG] Da luu vao %OUT%)
 goto loop
 
