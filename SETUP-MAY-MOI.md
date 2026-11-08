@@ -41,10 +41,16 @@ Cách nhanh nhất: người dùng **chép 4 file này từ máy cũ** (USB / Dr
 | `explainer\.env` | /remotion-topic-explainer | `CHANNEL_NAME`, giọng `EDGE_TTS_VOICE` |
 | `compare\.env` | /create-video | `CHANNEL`, `TTS_PROVIDER`, `EDGE_VOICE` |
 | `news\.env.local` | /create-news-video | `TIKTOK_DISPLAY_NAME`, `TIKTOK_HANDLE`, `ELEVENLABS_API_KEY` (nếu dùng) |
-| `history\.env` | /history-video, /cartoon-history-video | `IMAGE_PROVIDER`, `ELEVENLABS_API_KEY`, `FAL_KEY` (nếu dùng fal) |
+| `history\.env` | /history-video, /cartoon-history-video | `VIBI_API_KEY` (giọng Anh Nghĩa — key xem ở vibi.pro/docs khi đã đăng nhập), `IMAGE_PROVIDER`, `ELEVENLABS_API_KEY`, `FAL_KEY` (nếu dùng fal) |
 
 Nếu không có file cũ: hỏi người dùng từng giá trị; tên kênh/giọng xem trong `README.md` và `.claude/memory/`.
 Không bao giờ commit các file `.env`.
+
+### Hiệu ứng local `"fx"` (tuỳ chọn, history/src/fx.py)
+```powershell
+pip install opencv-python-headless onnxruntime
+```
+Tải model `onnx/model.onnx` từ Hugging Face `onnx-community/depth-anything-v2-small` → lưu thành `tools\models\depth_anything_v2_small.onnx` (thư mục này không có trên GitHub).
 
 ## 4. Playwright MCP (để điều khiển Google Flow / ElevenLabs trên Chrome)
 ```powershell
