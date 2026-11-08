@@ -7,6 +7,8 @@ description: Tạo video kể chuyện lịch sử kiểu "faceless documentary"
 
 # History Video
 
+> **Quy tắc người dùng thắng mặc định của skill** (`.claude/memory/history-video-style-prefs.md`, nạp qua CLAUDE.md). Với video đăng kênh "Vy kể chuyện Sử": 9:16, `"subtitles": false`, `"loudnorm": -16`, brand `{"logo":"auto","watermark":null,"logoWidth":0.18,"logoOpacity":0.7,"logoBlur":0.8,"logoMarginX":0.06}`, giọng **Anh Nghĩa** qua vibi.pro (`node src/vibi-tts.mjs <file.txt> <out.mp3>` → `audio/sNNN.mp3`, đặt `"tts": "manual"`), âm thanh nền = nhạc người dùng đưa vào `<project>/music/` hoặc `soundscape` SFX theo cảnh (không chiêng/chuông, pháo thưa). Lời mở/kết, caption, ảnh bìa: làm như skill `cartoon-history-video` (bước 3 và 9). Edge TTS + phụ đề + `music: "auto"` bên dưới chỉ là mặc định cũ của engine / bản nháp.
+
 **Project:** `<ROOT>\history` · **Lệnh:** `node src/make.mjs projects/<slug> [--images-only] [--redo s003,s007] [--no-subs]`. Chạy **mọi lệnh với cwd = `<ROOT>\history`**.
 
 Shell là Windows PowerShell 5.1 (không `&&`, không `mkdir -p`). Nếu không thấy `node`/`ffmpeg`: `$env:Path = "<ROOT>\tools\node;<ROOT>\tools\ffmpeg\bin;" + $env:Path`.
@@ -79,6 +81,6 @@ Các bước đã xong được cache (sửa 1 cảnh chỉ làm lại — và c
 ## Ghi chú
 - Nguồn ảnh (`IMAGE_PROVIDER` trong `.env`): `fal` (mặc định, Nano Banana ~$0.04/ảnh); `pollinations` miễn phí nhưng **chỉ đủ để thử** (576px, bám prompt kém, hay sai thời đại); `openai` / `gemini` cần API key riêng; `manual` cho ảnh tự tạo. Phần gọi fal/openai/gemini đã viết theo tài liệu nhưng **chưa chạy thật với key** — lần đầu dùng, theo dõi kỹ log; nếu lỗi schema, đọc thông báo HTTP và sửa `src/images.mjs` / `src/animate.mjs` (tài liệu: `https://fal.ai/models/<model-id>/llms.txt`).
 - Ảnh → video: `ANIMATE=fal`, model `FAL_VIDEO_MODEL` (mặc định Kling 2.6 Pro, $0.07/s, tắt audio). Đổi model khác có thể phải đổi `FAL_VIDEO_IMAGE_FIELD` (tên trường ảnh đầu vào).
-- Nhạc nền: chỉ dùng file người dùng bỏ vào `assets/music/` (nhạc miễn phí bản quyền: YouTube Audio Library, Pixabay Music). Không tự tải nhạc có bản quyền.
+- Nhạc nền: chỉ dùng file người dùng đưa vào (`<project>/music/`, hoặc `assets/music/` cho `"music": "auto"`). Không tự tải nhạc có bản quyền. Nhạc thấp hơn giọng ~15 dB (đo, đừng đoán); `musicStart: "end"` + `musicTrim` khi nhạc dài ≈ video.
 - Edge TTS chạy qua shim `<ROOT>\shared\edge-tts-shim` — không `npm update` gói `edge-tts-universal`.
 - Không sao chép kịch bản/hình của kênh khác; video tham khảo chỉ dùng để học phong cách.

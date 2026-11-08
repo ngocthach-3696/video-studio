@@ -4,4 +4,4 @@
 - [Confirm dates](confirm-dates.md) — state exact date when user says "mai" near midnight
 - [Workspace split](workspace-split.md) — video work lives here; Shopee bot is a separate workspace
 - [Voice clone status](voice-clone-status.md) — narrator cloning attempts; VoiceStudio removed; next = VieNeu-TTS; samples in voice-ref
-- [History video style prefs](history-video-style-prefs.md) — ALL user review feedback: no subs/watermark, soft logo, -16 LUFS, music+ambience, strong hook, cut filler, cover w/o logo, short caption
+- [History video style prefs](history-video-style-prefs.md) — ALL user review feedback: no subs/watermark, soft logo (marginX 0.06), -16 LUFS, voice Anh Nghĩa (vibi.pro), music or SFX soundscape (no gongs), AI-motion style, strong hook, Vy intro/outro, cut filler, each episode standalone, cover w/o logo, short caption
