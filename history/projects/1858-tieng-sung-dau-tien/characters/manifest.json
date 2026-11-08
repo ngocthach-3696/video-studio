@@ -1,0 +1,17 @@
+{
+ "nguyen-tri-phuong": {
+  "provider": "manual"
+ },
+ "nguyen-trung-truc": {
+  "provider": "manual"
+ },
+ "truong-dinh": {
+  "provider": "manual"
+ },
+ "linh-phap": {
+  "provider": "manual"
+ },
+ "quan-trieu-nguyen": {
+  "provider": "manual"
+ }
+}

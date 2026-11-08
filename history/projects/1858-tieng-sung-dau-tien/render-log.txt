@@ -1,0 +1,15 @@
+[14:32:44] Dự án: 1858 – Tiếng súng đầu tiên — 73 cảnh, 9:16, preset cartoon-solemn
+[14:32:44] [0/7] Ảnh tham chiếu nhân vật
+[14:32:44]   C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\characters\nguyen-tri-phuong.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\characters\nguyen-trung-truc.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\characters\truong-dinh.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\characters\linh-phap.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\characters\quan-trieu-nguyen.jpg
+[14:32:44] [1/7] Giọng đọc (Edge TTS)
+[14:32:44]   tổng lời đọc 254.2s
+[14:32:44] [2/7] Ảnh (manual)
+[14:32:45]   contact sheet: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-01.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-02.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-03.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-04.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-05.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\sheets\sheet-06.jpg
+[14:32:45] [3/7] Ảnh → video AI: tắt (dùng Ken Burns)
+[14:32:45] [4/7] Clip từng cảnh
+[14:32:45] [5/7] Ghép clip (cắt thẳng)
+[14:32:47] [6/7] Âm thanh + phụ đề
+[14:32:53]   soundscape: 18 lớp nền, 20 tiếng điểm (giọng -16.8 LUFS)
+[14:32:53]   nhạc nền: không · logo: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\assets\brand\logo.png
+[14:32:53] [7/7] Xuất video
+[14:36:23] ✔ Xong: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1858-tieng-sung-dau-tien\final.mp4 — 267.5s, 92.5 MB, mất 3.6 phút

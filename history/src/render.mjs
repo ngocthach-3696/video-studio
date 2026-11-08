@@ -360,7 +360,7 @@ export async function finalize(dir, { subs, music, musicVolume, musicDelay = nul
     const m = Math.round(W * 0.02);
     const soft = logo.blur > 0 ? `,gblur=sigma=${logo.blur}` : "";
     const alpha = logo.opacity < 1 ? `,colorchannelmixer=aa=${logo.opacity}` : "";
-    parts.push(`[${logoIdx}:v]scale=${lw}:-1,format=rgba${soft}${alpha}[lg]`, `[0:v][lg]overlay=W-w-${m}:H-h-${m}[vl]`);
+    parts.push(`[${logoIdx}:v]scale=${lw}:-1,format=rgba${soft}${alpha}[lg]`, `[0:v][lg]overlay=W-w-${Math.round(W * (logo.marginX ?? 0.02))}:H-h-${m}[vl]`);
     v = "[vl]";
   }
   parts.push(subs ? `${v}subtitles=${subs}${fd}${fade}[v]` : `${v}null${fade}[v]`);

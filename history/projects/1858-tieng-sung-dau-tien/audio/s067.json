@@ -1,0 +1,51 @@
+{
+ "key": "a9ffc0af41a3",
+ "duration": 3.004063,
+ "words": [
+  {
+   "start": 0,
+   "end": 0.28,
+   "text": "Triều"
+  },
+  {
+   "start": 0.28,
+   "end": 0.519,
+   "text": "đình"
+  },
+  {
+   "start": 0.519,
+   "end": 0.679,
+   "text": "đã"
+  },
+  {
+   "start": 0.679,
+   "end": 0.965,
+   "text": "ký."
+  },
+  {
+   "start": 1.119,
+   "end": 1.398,
+   "text": "Nhưng"
+  },
+  {
+   "start": 1.398,
+   "end": 1.678,
+   "text": "người"
+  },
+  {
+   "start": 1.678,
+   "end": 1.938,
+   "text": "dân,"
+  },
+  {
+   "start": 2.077,
+   "end": 2.277,
+   "text": "thì"
+  },
+  {
+   "start": 2.277,
+   "end": 2.615,
+   "text": "chưa."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Condensed,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,2,110,110,420,1
+Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,90,1
+Style: Watermark,Noto Sans Condensed,37,&H50E0E0E0,&H000000FF,&H70000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,6,0,162,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:04.70,Title,,0,0,0,,{\fad(120,0)}1858
+Dialogue: 1,0:00:15.97,0:00:20.00,Title,,0,0,0,,{\fad(120,0)}NGƯỢC DÒNG TRĂM NĂM
+Dialogue: 1,0:00:20.00,0:00:24.53,Title,,0,0,0,,{\fad(120,0)}ĐẠI NAM
+Dialogue: 1,0:00:50.77,0:00:54.57,Title,,0,0,0,,{\fad(120,0)}31/8/1858
+Dialogue: 1,0:01:01.13,0:01:03.57,Title,,0,0,0,,{\fad(120,0)}1/9/1858
+Dialogue: 1,0:01:11.20,0:01:14.13,Title,,0,0,0,,{\fad(120,0)}TIẾNG SÚNG ĐẦU TIÊN
+Dialogue: 1,0:01:20.37,0:01:23.23,Title,,0,0,0,,{\fad(120,0)}NGUYỄN TRI PHƯƠNG
+Dialogue: 1,0:01:50.87,0:01:54.37,Title,,0,0,0,,{\fad(120,0)}5 THÁNG
+Dialogue: 1,0:02:07.27,0:02:10.77,Title,,0,0,0,,{\fad(120,0)}17/2/1859
+Dialogue: 1,0:02:20.40,0:02:23.63,Title,,0,0,0,,{\fad(120,0)}CHÍ HÒA
+Dialogue: 1,0:02:37.80,0:02:42.27,Title,,0,0,0,,{\fad(120,0)}NHẬT TẢO
+Dialogue: 1,0:03:11.07,0:03:16.07,Title,,0,0,0,,{\fad(120,0)}5/6/1862
+Dialogue: 1,0:03:46.07,0:03:49.63,Title,,0,0,0,,{\fad(120,0)}TRƯƠNG ĐỊNH
+Dialogue: 1,0:04:00.50,0:04:03.67,Title,,0,0,0,,{\fad(120,0)}ĐẤT MẤT, LÒNG KHÔNG MẤT
+Dialogue: 1,0:04:14.43,0:04:18.80,Title,,0,0,0,,{\fad(120,0)}TẬP 2

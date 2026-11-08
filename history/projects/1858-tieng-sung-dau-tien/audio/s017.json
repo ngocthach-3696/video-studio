@@ -1,0 +1,46 @@
+{
+ "key": "caa4313153ea",
+ "duration": 2.272625,
+ "words": [
+  {
+   "start": 0,
+   "end": 0.235,
+   "text": "Sáng"
+  },
+  {
+   "start": 0.235,
+   "end": 0.431,
+   "text": "hôm"
+  },
+  {
+   "start": 0.431,
+   "end": 0.685,
+   "text": "sau,"
+  },
+  {
+   "start": 0.823,
+   "end": 0.979,
+   "text": "họ"
+  },
+  {
+   "start": 0.979,
+   "end": 1.175,
+   "text": "gửi"
+  },
+  {
+   "start": 1.175,
+   "end": 1.371,
+   "text": "tối"
+  },
+  {
+   "start": 1.371,
+   "end": 1.567,
+   "text": "hậu"
+  },
+  {
+   "start": 1.567,
+   "end": 1.872,
+   "text": "thư."
+  }
+ ]
+}

@@ -19,6 +19,7 @@ import { contactSheet, generateCharacters, generateImages } from "./images.mjs";
 import { applyPreset } from "./presets.mjs";
 import { buildNarration, buildSubtitles, buildTimeline, finalize, joinClips, renderClips } from "./render.mjs";
 import { log, probeDuration, sha1 } from "./util.mjs";
+import { buildSoundscape } from "./soundscape.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 dotenv.config({ path: path.join(ROOT, ".env"), quiet: true });
@@ -78,6 +79,7 @@ function resolveLogo(project) {
     width: Number(project.brand.logoWidth ?? 0.26),
     opacity: Number(project.brand.logoOpacity ?? 1), // 0-1
     blur: Number(project.brand.logoBlur ?? 0), // gblur sigma in px, 0 = sharp
+    marginX: Number(project.brand.logoMarginX ?? 0.02), // gap to the right edge, fraction of width
   };
 }
 
@@ -159,6 +161,8 @@ async function main() {
 
   log("[6/7] Âm thanh + phụ đề");
   await buildNarration(dir, timeline, tts);
+  // project.soundscape (beds + hits per scene, see soundscape.mjs) → soundscape.wav, mixed in place of `ambience`
+  const soundscape = await buildSoundscape(project, dir, timeline, tts);
   const subs = buildSubtitles(project, dir, timeline, tts, { W, H }, env, {
     subs: !(opts.noSubs || project.subtitles === false),
   });
@@ -183,7 +187,7 @@ async function main() {
     musicDelay,
     musicTrim,
     // project.ambience: { file: "<path relative to history/ or absolute>", volume: 1 }
-    ambience: (() => {
+    ambience: soundscape ? { file: soundscape, volume: 1 } : (() => {
       const a = project.ambience;
       if (!a?.file) return null;
       const f = path.isAbsolute(a.file) ? a.file : path.join(ROOT, a.file);
