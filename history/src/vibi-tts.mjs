@@ -1,8 +1,12 @@
-// Tạo giọng đọc qua vibi.pro (mặc định: "Anh Nghĩa" = MiniMax Vietnamese_Serene_Man).
+// Tạo giọng đọc qua vibi.pro.
+// Mặc định (chốt 2026-11-11): "Tuấn Anh" = ElevenLabs shared voice HG0MlJIknmaXREpTckfK, model eleven_turbo_v2_5
+// (model được ElevenLabs xác nhận cho tiếng Việt của giọng này), stability 0.35 (người dùng chọn 2026-11-11).
+// Từ 2026-11-12 mặc định đổi sang eleven_v3, stability 0.5 (người dùng chọn qua nghe thử ở tập 1867); turbo cũ: --model eleven_turbo_v2_5 --stability 0.35.
+// vd. Anh Nghĩa = Vietnamese_Serene_Man của tập 1) vẫn dùng được: --voice Vietnamese_Serene_Man.
 // Văn bản luôn đọc từ file UTF-8 và gửi bằng fetch, để không bị hỏng dấu tiếng Việt
 // (curl trong Git Bash/PowerShell trên Windows làm mất dấu).
 //
-// Dùng:  node src/vibi-tts.mjs <file.txt> <out.mp3> [--voice ID] [--model speech-2.8-hd] [--speed 1] [--pitch 0] [--vol 1]
+// Dùng:  node src/vibi-tts.mjs <file.txt> <out.mp3> [--voice ID] [--model ID] [--speed 1] [--stability 0.35] [--similarity 0.75] [--style 0]  (MiniMax: [--pitch 0] [--vol 1])
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -20,14 +24,29 @@ function loadKey() {
 
 export async function vibiTTS(text, outFile, opts = {}) {
   const key = loadKey();
-  const voice = opts.voice ?? 'Vietnamese_Serene_Man';
-  const body = {
-    text,
-    model_id: opts.model ?? 'speech-2.8-hd',
-    provider: 'minimax',
-    language_code: 'Vietnamese',
-    voice_settings: { speed: opts.speed ?? 1, pitch: opts.pitch ?? 0, vol: opts.vol ?? 1 },
-  };
+  const voice = opts.voice ?? 'HG0MlJIknmaXREpTckfK';
+  const minimax = voice.startsWith('Vietnamese_');
+  const body = minimax
+    ? {
+        text,
+        model_id: opts.model ?? 'speech-2.8-hd',
+        provider: 'minimax',
+        language_code: 'Vietnamese',
+        voice_settings: { speed: opts.speed ?? 1, pitch: opts.pitch ?? 0, vol: opts.vol ?? 1 },
+      }
+    : {
+        text,
+        model_id: opts.model ?? 'eleven_v3',
+        provider: 'elevenlabs',
+        language_code: 'vi',
+        voice_settings: {
+          stability: opts.stability ?? 0.5,
+          similarity_boost: opts.similarity ?? 0.75,
+          style: opts.style ?? 0,
+          use_speaker_boost: true,
+          speed: opts.speed ?? 1,
+        },
+      };
   const headers = { 'xi-api-key': key, 'Content-Type': 'application/json; charset=utf-8' };
   const res = await fetch(`${API}/text-to-speech/${encodeURIComponent(voice)}`, {
     method: 'POST', headers, body: JSON.stringify(body),
@@ -58,7 +77,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const opts = {};
   for (let i = 0; i < rest.length; i += 2) {
     const k = rest[i].replace(/^--/, ''), v = rest[i + 1];
-    opts[k] = ['speed', 'pitch', 'vol'].includes(k) ? Number(v) : v;
+    opts[k] = ['speed', 'pitch', 'vol', 'stability', 'similarity', 'style'].includes(k) ? Number(v) : v;
   }
   const text = fs.readFileSync(inFile, 'utf8').replace(/^﻿/, '').trim();
   const r = await vibiTTS(text, outFile, opts);

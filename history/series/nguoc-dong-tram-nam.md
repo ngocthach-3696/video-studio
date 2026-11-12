@@ -23,7 +23,7 @@ Tiêu đề lớn "1858" từ khung đầu, vài khung hình rất nhanh lấy t
 ## Thông số chung
 - 3–4 phút/tập, 9:16, khoảng 70–90 cảnh (~2,6 s/cảnh), style hoạt hình chuyển động AI
   (history/styles/hoat-hinh-chuyen-dong-ai.md). Bối cảnh thế kỷ 19: áo dài, nón quan, đại bác, chiến thuyền buồm.
-- Giọng **Anh Nghĩa** (vibi.pro, giọng hệ thống MiniMax `Vietnamese_Serene_Man`, model `speech-2.8-hd`, tiếng Việt), -16 LUFS, nhạc người dùng cung cấp. Các style khác theo history-video-style-prefs.
+- Giọng (chốt 2026-11-11, từ tập 2): **Tuấn Anh** (vibi.pro mục Cộng đồng = ElevenLabs shared voice `HG0MlJIknmaXREpTckfK` "Tuan Anh - Deep & Narrative", nam trẻ giọng Bắc; tiếng Việt được xác nhận trên `eleven_turbo_v2_5`/`eleven_flash_v2_5`, chưa có v4). Cài đặt chốt: `eleven_turbo_v2_5`, stability 0.35, similarity 0.75, speed 1 (người dùng chọn bản doan-2 trong voice-ref/vibi-tuan-anh). Tập 1 dùng Anh Nghĩa (MiniMax `Vietnamese_Serene_Man`, `speech-2.8-hd`). -16 LUFS, nhạc người dùng cung cấp. Các style khác theo history-video-style-prefs.
 - Mỗi tập một project Flow riêng, đặt tên theo tên tập.
 - Ảnh tham chiếu cho nhân vật xuất hiện nhiều tập: Nguyễn Tri Phương (tập 1, 2), Nguyễn Trung Trực (tập 1, 2).
 - Kết mỗi tập bằng câu treo dẫn sang tập sau. Mỗi tập có sources.md, đánh dấu ⚠ chỗ các nguồn khác nhau.

@@ -7,8 +7,7 @@ Hệ thống tạo video ngắn 9:16 chạy local, gộp từ 3 repo của Cuong
 | `explainer/` | remotion-cuongit-template | Remotion (React) | Giải thích 1 chủ đề, 50-60s, 6 cảnh | `/remotion-topic-explainer <chủ đề>` |
 | `news/` | auto-video-gen | HyperFrames (HTML+GSAP) | Từ URL / file .txt → video ~60s + caption | `/create-news-video <url hoặc file.txt>` |
 | `compare/` | auto-compare-video | HyperFrames | So sánh X vs Y, 30-40s, robot MC | `/create-video <X> và <Y>` |
-| `history/` | (tự xây) | FFmpeg | Kể chuyện lịch sử bằng ảnh AI + Ken Burns + phụ đề, 9:16 hoặc 16:9 | `/history-video <chủ đề>` |
-| `history/` (preset `cartoon`) | (tự xây) | FFmpeg | Hoạt hình 2D chibi kể chính sử, cắt nhanh, nhân vật cố định, tiêu đề cảnh, logo | `/cartoon-history-video <chủ đề>` |
+| `history/` (preset `cartoon-flat`) | (tự xây) | FFmpeg | Hoạt hình 2D phẳng kể chính sử, cắt nhanh, nhân vật cố định, tiêu đề cảnh, logo | `/cartoon-history-video <chủ đề>` |
 
 ### history/
 - `node src/make.mjs projects/<slug>` — đọc `projects/<slug>/project.json` → `final.mp4`. `--images-only` để duyệt ảnh trước, `--redo s003` để tạo lại 1 ảnh.
@@ -16,7 +15,7 @@ Hệ thống tạo video ngắn 9:16 chạy local, gộp từ 3 repo của Cuong
 - Mức 3 — ảnh → clip video AI: `ANIMATE=fal` (Kling 2.6 Pro qua fal.ai, ~$0.35/cảnh). `--no-animate` để xem trước miễn phí bằng hiệu ứng zoom/pan.
 - Nhạc nền: bỏ file nhạc miễn phí bản quyền vào `history/assets/music/`.
 - Ví dụ: `history/projects/bach-dang-938/`.
-- Preset `cartoon` (`"preset": "cartoon"`): xem `history/styles/hoat-hinh-su-viet.md` và `history/src/presets.mjs`. `--characters-only` tạo ảnh tham chiếu nhân vật (`characters/<key>.jpg`). Logo kênh: `history/assets/brand/logo.png`. Bản sao lưu code trước khi thêm preset: `history/src.bak-20261104`.
+- Preset `cartoon-flat` (tập mới) và `cartoon-solemn` (tập cũ): xem `history/src/presets.mjs`, `history/styles/ke-chuyen-cuon-hut.md`, `history/styles/hoat-hinh-su-viet.md`. `--characters-only` tạo ảnh tham chiếu nhân vật (`characters/<key>.jpg`). Logo kênh: `history/assets/brand/logo.png`. Bản sao lưu code trước khi thêm preset: `history/src.bak-20261104`.
 
 Skill được cài ở mức user (`C:\Users\Admin\.claude\skills\`), gọi được từ mọi workspace trong Claude Code. Bản sao nằm trong repo ở `.claude/skills/` (dùng được khi mở Claude Code ở `C:\video-studio`).
 

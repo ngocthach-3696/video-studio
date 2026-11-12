@@ -1,11 +1,11 @@
 // Style presets. A project opts in with "preset": "<name>"; any field the
 // project sets itself wins (nested objects are merged key by key).
 //
-// "default" reproduces the original documentary look (crossfades, Ken Burns).
-// "cartoon" comes from analysing a reference chibi-history video
-// (styles/hoat-hinh-su-viet.md): hard cuts every ~2-3s, near-still frames,
-// fast narration, condensed subtitles mid-screen, big scene titles on top,
-// channel logo + watermark, loudness normalised to -14 LUFS.
+// DEFAULT is only the base config every preset builds on (crossfades, Ken Burns);
+// it is not an image style any more. Image styles (2026-11-12, the user kept only these two):
+// "cartoon-solemn" = semi-realistic painterly 2D (episodes Mua do 1972, 1858, 1867);
+// "cartoon-flat"   = simple flat 2D Vietnamese-YouTube cartoon, the style for new episodes
+//                    (styles/ke-chuyen-cuon-hut.md, section "Prompt style hinh").
 
 const DEFAULT = {
   transition: "fade",
@@ -26,13 +26,10 @@ const DEFAULT = {
   brand: { logo: null, logoWidth: 0.26, watermark: null },
 };
 
-const CARTOON = {
-  style:
-    "2D cartoon illustration in a clean educational webcomic style, bold uniform black outlines, " +
-    "flat cel shading with one soft shadow layer, chibi characters with large heads and big expressive round eyes, " +
-    "manga emotion symbols such as sweat drops and shaking lines, warm earthy palette of tan, brown, brick red and muted teal, " +
-    "detailed but uncluttered background, keep the upper fifth and the lower-middle area free of important details",
-  rate: "+15%",
+// Shared cartoon editing grammar: hard cuts every ~2-3s, near-still frames,
+// big scene titles on top, channel logo, loudness normalised.
+const CARTOON_EDIT = {
+  rate: "+10%",
   transition: "cut",
   motion: "breathe",
   animateScope: "marked", // AI clips only for scenes with a "video" prompt
@@ -43,20 +40,28 @@ const CARTOON = {
   brand: { logo: "auto" },
 };
 
-// Same editing grammar as "cartoon" (hard cuts, titles, logo) but for
-// war / sacrifice topics: normal human proportions, muted palette, no gags,
-// no gore, slightly slower narration.
 const CARTOON_SOLEMN = {
-  ...CARTOON,
+  ...CARTOON_EDIT,
   style:
     "2D animated illustration, semi-realistic characters with normal adult human proportions (not chibi), " +
     "clean ink outlines, painterly cel shading, muted palette of olive green, ash grey and earth brown " +
     "with deep red accents and dusky orange skies, solemn cinematic mood, respectful, no gore, no visible wounds or blood on people, " +
     "no text, keep the upper fifth and the lower-middle area free of important details",
-  rate: "+10%",
 };
 
-export const PRESETS = { default: DEFAULT, cartoon: CARTOON, "cartoon-solemn": CARTOON_SOLEMN };
+// Approved by the user 2026-11-12 (Flow tests style-test/t3, t4 in the 1867 project).
+const CARTOON_FLAT = {
+  ...CARTOON_EDIT,
+  style:
+    "simple flat 2D cartoon like a Vietnamese YouTube history animation. Very clean smooth thick black outlines, " +
+    "flat solid colors, almost no shading (at most one flat soft shadow tone), no texture, no wrinkles, no hatching, no painterly lighting. " +
+    "Characters: big rounded heads (about one quarter of body height), stocky simplified bodies and simple hands, smooth simple faces " +
+    "with small almond-shaped eyes and black dot pupils, simple line eyebrows, a tiny line nose, small mouth, slightly comical deadpan " +
+    "or smug expressions, plain skin. Simple clean background made of flat shapes. Muted palette of teal, mustard yellow, warm red, " +
+    "light beige and soft grey-blue. Respectful, no gore, no text, keep the upper fifth and the lower-middle area free of important details",
+};
+
+export const PRESETS = { default: DEFAULT, "cartoon-solemn": CARTOON_SOLEMN, "cartoon-flat": CARTOON_FLAT };
 
 const isObj = (v) => v && typeof v === "object" && !Array.isArray(v);
 

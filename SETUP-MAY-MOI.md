@@ -41,7 +41,7 @@ Cách nhanh nhất: người dùng **chép 4 file này từ máy cũ** (USB / Dr
 | `explainer\.env` | /remotion-topic-explainer | `CHANNEL_NAME`, giọng `EDGE_TTS_VOICE` |
 | `compare\.env` | /create-video | `CHANNEL`, `TTS_PROVIDER`, `EDGE_VOICE` |
 | `news\.env.local` | /create-news-video | `TIKTOK_DISPLAY_NAME`, `TIKTOK_HANDLE`, `ELEVENLABS_API_KEY` (nếu dùng) |
-| `history\.env` | /history-video, /cartoon-history-video | `VIBI_API_KEY` (giọng Anh Nghĩa — key xem ở vibi.pro/docs khi đã đăng nhập), `IMAGE_PROVIDER`, `ELEVENLABS_API_KEY`, `FAL_KEY` (nếu dùng fal) |
+| `history\.env` | /cartoon-history-video | `VIBI_API_KEY` (giọng Tuấn Anh — key xem ở vibi.pro/docs khi đã đăng nhập), `IMAGE_PROVIDER`, `ELEVENLABS_API_KEY`, `FAL_KEY` (nếu dùng fal) |
 
 Nếu không có file cũ: hỏi người dùng từng giá trị; tên kênh/giọng xem trong `README.md` và `.claude/memory/`.
 Không bao giờ commit các file `.env`.
@@ -68,7 +68,7 @@ claude mcp add --scope user playwright -- C:/video-studio/tools/node/npx.cmd -y 
 - **Facebook / Business Suite** — trang "Vy kể chuyện Sử" (người dùng tự đăng bài).
 
 ## 6. Kiểm tra cuối
-- Trong Claude Code gõ `/` → thấy 5 skill: `history-video`, `cartoon-history-video`, `create-news-video`,
+- Trong Claude Code gõ `/` → thấy 4 skill: `cartoon-history-video`, `create-news-video`,
   `create-video`, `remotion-topic-explainer` (nằm ở `<ROOT>\.claude\skills\`).
 - `CLAUDE.md` tự nạp rule/style của người dùng từ `.claude/memory/` — hỏi thử "style video lịch sử của tôi là gì?".
 - Thử render nhanh không tốn tiền:

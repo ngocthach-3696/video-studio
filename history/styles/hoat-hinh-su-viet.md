@@ -1,4 +1,7 @@
-# Style bible — "Hoạt hình sử Việt" (chibi 2D, kể chuyện chính sử)
+# Nhịp dựng & kịch bản — "Hoạt hình sử Việt" (video mẫu 2026-11-04)
+
+> 2026-11-12: người dùng xoá style hình chibi của video mẫu này. File chỉ còn thông số nhịp dựng, cấu trúc kịch bản,
+> ngôn ngữ cảnh, chữ và âm thanh. Style hình: xem `src/presets.mjs` (`cartoon-flat` cho tập mới) và [ke-chuyen-cuon-hut.md](ke-chuyen-cuon-hut.md).
 
 Rút ra từ phân tích 1 video mẫu (8 phút, 9:16) ngày 2026-11-04. Chỉ học **cấu trúc và phong cách** —
 không chép kịch bản, nhân vật, mascot, logo hay tên kênh của họ.
@@ -51,25 +54,7 @@ mỗi câu một ý. Kể như nói chuyện, không văn sách.
 
 **Quy tắc câu cho TTS + phụ đề:** 6–15 từ/câu; câu dài tách bằng dấu phẩy thành cụm 3–6 từ (= 1 dòng phụ đề).
 
-## 3. Hình ảnh
-
-**Phong cách:** hoạt hình 2D vector kiểu webcomic giáo dục — nét viền đen đậm đều, tô màu phẳng
-có 1 lớp đổ bóng mềm, nhân vật chibi đầu to (tỉ lệ ~1:3), mắt tròn to biểu cảm, biểu tượng cảm xúc
-manga (giọt mồ hôi, vạch run, mặt đỏ). Nền chi tiết vừa phải, phối cảnh rõ.
-
-**Prompt nền (dán vào `style` của project.json):**
-```
-2D cartoon illustration in a clean educational webcomic style, bold uniform black outlines,
-flat cel shading with one soft shadow layer, chibi characters with large heads and big expressive
-round eyes, manga emotion symbols (sweat drops, shaking lines), warm earthy palette of tan, brown,
-brick red and muted teal, detailed but uncluttered background, 8th century Vietnam and Tang dynasty
-setting, vertical composition with empty space in the upper third and the lower middle for text
-```
-
-**Bảng màu đo được (k-means, tỉ lệ diện tích):**
-`#a78157` 12% · `#63452f` 11% · `#746a4b` 11% · `#3a2d25` 10% · `#cda06a` 9% · `#dec09c` 8% ·
-`#9aa39e` 8% · `#cbdfe2` 8% · `#9b5733` 7% · `#191918` 7% — độ bão hoà TB 0,39, độ sáng TB 0,56.
-→ Tông đất ấm + xanh xám nhạt; đỏ (cột cung điện, ghế) làm điểm nhấn; cảnh đêm/căng thẳng dùng xanh đen.
+## 3. Hình ảnh — ngôn ngữ cảnh
 
 **Ngôn ngữ cảnh (xen kẽ đều):**
 - Cận mặt nhân vật biểu cảm mạnh (≈30%) — gánh phần cảm xúc/hài.
@@ -82,8 +67,6 @@ setting, vertical composition with empty space in the upper third and the lower 
   nên ưu tiên để chữ đó ở lớp overlay thay vì trong ảnh.
 
 **Nhân vật lặp lại** (giữ đồng nhất): mỗi nhân vật có 1 câu mô tả cố định + 1 ảnh tham chiếu.
-Quy ước trang phục trong mẫu: quan nhà Đường = mũ phốc đầu đen hai cánh, áo tím; sử gia = khăn đen, áo xanh than,
-râu bạc; hào trưởng Việt = cởi trần, khăn quấn đầu xanh, khoác da hổ; dân = áo nâu, nón lá.
 
 ## 4. Chữ trên màn hình (3 lớp)
 
@@ -100,10 +83,9 @@ râu bạc; hào trưởng Việt = cởi trần, khăn quấn đầu xanh, kho�
 - Toàn bộ mix nén chặt, −14 LUFS.
 - (Chưa xác nhận bằng tai) hiệu ứng âm thanh ngắn ở chuyển cảnh/tiêu đề — dùng thư viện `news\SFX` (trong thư mục gốc repo).
 
-## 6. Đã hiện thực trong engine (2026-11-04)
+## 6. Đã hiện thực trong engine
 
-`"preset": "cartoon"` trong project.json (xem `src/presets.mjs`) bật: cắt thẳng, nhịp cảnh ngắn
-(lead 0,05s / pad 0,15s), motion `breathe`, tốc độ đọc +15%, phụ đề Noto Sans Condensed Bold 82px,
-tiêu đề cảnh (`title`), logo `assets/brand/logo.png` + chữ chìm (`brand.watermark`), fade-in 0,5s,
-loudnorm −14 LUFS, nhân vật cố định (`characters` + ảnh tham chiếu), clip AI chỉ cho cảnh có `video`.
+Preset `cartoon-solemn` / `cartoon-flat` (xem `src/presets.mjs`) bật: cắt thẳng, nhịp cảnh ngắn (lead 0,05s / pad 0,15s),
+motion `breathe`, tiêu đề cảnh (`title`), logo `assets/brand/logo.png`, fade-in 0,5s, loudnorm, nhân vật cố định
+(`characters` + ảnh tham chiếu), clip AI chỉ cho cảnh có `video`. Preset `cartoon` (chibi) đã xoá 2026-11-12.
 Skill: `/cartoon-history-video`.

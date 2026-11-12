@@ -29,3 +29,6 @@ desktop.ini
 *.log
 __pycache__/
 *.depth.png
+
+# ---- Repo ngoài (clone riêng) ----
+stickman-video-director/

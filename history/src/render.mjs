@@ -22,6 +22,25 @@ async function renderFx(src, out, spec, frames, W, H, cropBottom, seed) {
   ]);
 }
 
+// Layered cut-out animation (src/layers.py): scene "layers": "layers/s012.json" (path relative to the
+// project) or an inline spec object. Background, cut-out characters and props move on keyframes.
+const LAYERS_PY = path.join(HERE, "layers.py");
+async function renderLayers(spec, dir, out, frames, W, H, seed) {
+  const arg = typeof spec === "string" ? path.resolve(dir, spec) : JSON.stringify(spec);
+  await run(PYTHON, [
+    "-I", LAYERS_PY, "--spec", arg, "--base", dir, "--out", out, "--dur", (frames / FPS).toFixed(4),
+    "--fps", String(FPS), "--size", `${W}x${H}`, "--ffmpeg", "ffmpeg", "--seed", String(seed),
+  ]);
+}
+const layersKey = (spec, dir) => {
+  const txt = typeof spec === "string" ? fs.readFileSync(path.resolve(dir, spec), "utf8") : JSON.stringify(spec);
+  const files = [...txt.matchAll(/"path"\s*:\s*"([^"]+)"/g)].map((m) => {
+    const f = path.resolve(dir, m[1]);
+    return fs.existsSync(f) ? `${m[1]}:${fs.statSync(f).mtimeMs}` : m[1];
+  });
+  return txt + files.join(",");
+};
+
 export const FPS = 30;
 const UPSCALE = 4; // zoompan on an upscaled frame to avoid sub-pixel jitter
 const ZOOM = 0.18;
@@ -33,12 +52,15 @@ const MOTIONS = ["zoom-in", "pan-right", "zoom-out", "pan-left", "pan-up", "zoom
 // cut). Its voice starts at start+lead and owns an audio segment that ends
 // exactly where the next scene's voice begins, so narration and pictures stay
 // locked together. pace = { xf, lead, pad, tail } in seconds (see presets.mjs).
-export function buildTimeline(tts, pace) {
+// pauseAfter = { sceneId: seconds } adds a silence after that scene's line (the
+// picture holds), used for dramatic pauses before a turn in the story.
+export function buildTimeline(tts, pace, pauseAfter = {}) {
   const { xf, lead, pad, tail } = pace;
   let t = 0;
   const scenes = tts.map((a, i) => {
     const last = i === tts.length - 1;
-    const frames = Math.ceil((last ? lead + a.duration + tail : a.duration + pad + xf) * FPS);
+    const extra = Number(pauseAfter[a.id] ?? 0);
+    const frames = Math.ceil((last ? lead + a.duration + tail : a.duration + pad + extra + xf) * FPS);
     const dur = frames / FPS;
     const s = { id: a.id, start: t, dur, frames, voiceStart: t + lead, audioSeg: last ? dur - lead : dur - xf };
     t += dur - xf;
@@ -130,15 +152,19 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     const defaultFit = manifest[s.id]?.provider === "commons" ? "auto" : "cover";
     const fit = useVideo ? "cover" : await resolveFit(project.scenes[i].fit || defaultFit, src, W, H);
     const fxSpec = "fx" in project.scenes[i] ? project.scenes[i].fx : project.fx;
-    const useFx = !useVideo && fit === "cover" && !!fxSpec;
-    const motion = useVideo ? "ai-video" : useFx ? "fx" : project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length];
+    const layersSpec = project.scenes[i].layers;
+    const useLayers = !useVideo && !!layersSpec;
+    const useFx = !useVideo && !useLayers && fit === "cover" && !!fxSpec;
+    const motion = useVideo ? "ai-video" : useLayers ? "layers" : useFx ? "fx" : project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length];
     const st = fs.statSync(src);
-    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : ""].join("|"));
+    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : "", useLayers ? layersKey(layersSpec, dir) : ""].join("|"));
     const out = path.join(clipsDir, `${s.id}.mp4`);
     const keyFile = `${out}.key`;
     if (fs.existsSync(out) && fs.existsSync(keyFile) && fs.readFileSync(keyFile, "utf8") === key) continue;
     log(`  clip ${s.id} (${motion}${fit === "contain" ? ", contain" : ""}, ${s.dur.toFixed(1)}s)`);
-    if (useFx) {
+    if (useLayers) {
+      await renderLayers(layersSpec, dir, out, s.frames, W, H, i + 1);
+    } else if (useFx) {
       await renderFx(src, out, fxSpec, s.frames, W, H, cropBottom, i + 1);
     } else if (motion === "still" && fit === "cover") {
       await ffmpeg(["-loop", "1", "-framerate", String(FPS), "-i", src, "-vf", stillFilter(W, H, cropBottom), "-frames:v", String(s.frames), ...X264, out]);

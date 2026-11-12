@@ -140,7 +140,9 @@ async function main() {
     return;
   }
 
-  const timeline = buildTimeline(tts, project.pace);
+  // scene "pauseAfter": seconds of silence after its line (dramatic pause before a turn)
+  const pauseAfter = Object.fromEntries(project.scenes.filter((s) => s.pauseAfter).map((s) => [s.id, s.pauseAfter]));
+  const timeline = buildTimeline(tts, project.pace, pauseAfter);
   fs.writeFileSync(path.join(dir, "timeline.json"), JSON.stringify(timeline, null, 1));
 
   const animated = !opts.noAnimate && animationEnabled(project, env);

@@ -1,0 +1,29 @@
+{
+ "phan-thanh-gian": {
+  "provider": "manual"
+ },
+ "nguyen-trung-truc": {
+  "provider": "manual"
+ },
+ "nguyen-tri-phuong": {
+  "provider": "manual"
+ },
+ "hoang-dieu": {
+  "provider": "manual"
+ },
+ "linh-phap": {
+  "provider": "manual"
+ },
+ "quan-trieu-nguyen": {
+  "provider": "manual"
+ },
+ "quan-co-den": {
+  "provider": "manual"
+ },
+ "garnier": {
+  "provider": "manual"
+ },
+ "riviere": {
+  "provider": "manual"
+ }
+}

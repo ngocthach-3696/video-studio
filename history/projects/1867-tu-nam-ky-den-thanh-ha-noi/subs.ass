@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Condensed,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,2,110,110,420,1
+Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,90,1
+Style: Watermark,Noto Sans Condensed,37,&H50E0E0E0,&H000000FF,&H70000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,6,0,162,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:05.07,Title,,0,0,0,,{\fad(120,0)}1867
+Dialogue: 1,0:00:05.07,0:00:09.43,Title,,0,0,0,,{\fad(120,0)}1873
+Dialogue: 1,0:00:09.43,0:00:15.00,Title,,0,0,0,,{\fad(120,0)}1882
+Dialogue: 1,0:00:20.60,0:00:27.37,Title,,0,0,0,,{\fad(120,0)}TỪ NAM KỲ ĐẾN THÀNH HÀ NỘI
+Dialogue: 1,0:00:36.53,0:00:41.13,Title,,0,0,0,,{\fad(120,0)}VĨNH LONG
+Dialogue: 1,0:00:48.73,0:00:56.13,Title,,0,0,0,,{\fad(120,0)}20/6/1867
+Dialogue: 1,0:01:08.63,0:01:11.17,Title,,0,0,0,,{\fad(120,0)}SÁU TỈNH NAM KỲ
+Dialogue: 1,0:01:52.70,0:01:55.80,Title,,0,0,0,,{\fad(120,0)}NGUYỄN TRUNG TRỰC
+Dialogue: 1,0:01:59.60,0:02:03.33,Title,,0,0,0,,{\fad(120,0)}1868
+Dialogue: 1,0:02:31.37,0:02:37.03,Title,,0,0,0,,{\fad(120,0)}27/10/1868
+Dialogue: 1,0:02:43.60,0:02:50.53,Title,,0,0,0,,{\fad(120,0)}1873
+Dialogue: 1,0:02:58.37,0:03:03.30,Title,,0,0,0,,{\fad(120,0)}NGUYỄN TRI PHƯƠNG
+Dialogue: 1,0:03:18.03,0:03:21.53,Title,,0,0,0,,{\fad(120,0)}20/11/1873
+Dialogue: 1,0:03:38.53,0:03:41.87,Title,,0,0,0,,{\fad(120,0)}CẦU GIẤY
+Dialogue: 1,0:04:03.90,0:04:08.90,Title,,0,0,0,,{\fad(120,0)}1874
+Dialogue: 1,0:04:18.53,0:04:23.97,Title,,0,0,0,,{\fad(120,0)}25/4/1882
+Dialogue: 1,0:04:27.30,0:04:30.93,Title,,0,0,0,,{\fad(120,0)}HOÀNG DIỆU
+Dialogue: 1,0:04:46.47,0:04:49.97,Title,,0,0,0,,{\fad(120,0)}THÀNH MẤT, NGƯỜI KHÔNG HÀNG
+Dialogue: 1,0:04:49.97,0:04:55.13,Title,,0,0,0,,{\fad(120,0)}19/5/1883
+Dialogue: 1,0:05:09.73,0:05:16.10,Title,,0,0,0,,{\fad(120,0)}BA CON NGƯỜI, MỘT LỰA CHỌN
+Dialogue: 1,0:05:26.10,0:05:34.93,Title,,0,0,0,,{\fad(120,0)}TẬP 3
