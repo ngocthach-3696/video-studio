@@ -61,7 +61,23 @@ const CARTOON_FLAT = {
     "light beige and soft grey-blue. Respectful, no gore, no text, keep the upper fifth and the lower-middle area free of important details",
 };
 
-export const PRESETS = { default: DEFAULT, "cartoon-solemn": CARTOON_SOLEMN, "cartoon-flat": CARTOON_FLAT };
+// Approved by the user 2026-11-13 (episode 1885, tests style-test/ in that project): same characters as
+// cartoon-flat, but composed like the reference video (styles/ke-chuyen-cuon-hut.md, "Bố cục khung hình").
+const CARTOON_BOLD = {
+  ...CARTOON_EDIT,
+  style:
+    "bold 2D cartoon like a Vietnamese YouTube history animation. Clean thick smooth black outlines, flat colours with two-tone " +
+    "cel shading (one darker shadow tone), simple wood grain and fabric patterns on props. Characters: big rounded heads, stocky " +
+    "simplified bodies, simple hands, expressive faces with small almond-shaped eyes and black dot pupils, simple eyebrows, tiny line " +
+    "nose, slightly comical deadpan, smug or worried expressions. Cinematic storyboard composition: the main characters are LARGE, " +
+    "filling 60-80% of the frame height (knee-up, waist-up or close-up); the frame is FULL edge to edge with rich detailed background " +
+    "architecture, nature and props, no empty sky or empty ground; three depth layers (a foreground prop or frame edge, the characters, " +
+    "a detailed background with small extras); clear perspective. Bold saturated colours with strong contrast: vermilion red, black, gold, " +
+    "warm wood brown, jungle green, deep night blue; visible light sources (torches, lanterns, candles, fire, sunrise) casting a warm glow. " +
+    "Respectful, no gore",
+};
+
+export const PRESETS = { default: DEFAULT, "cartoon-solemn": CARTOON_SOLEMN, "cartoon-flat": CARTOON_FLAT, "cartoon-bold": CARTOON_BOLD };
 
 const isObj = (v) => v && typeof v === "object" && !Array.isArray(v);
 

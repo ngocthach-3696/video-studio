@@ -5,3 +5,4 @@
 - [Workspace split](workspace-split.md) — video work lives here; Shopee bot is a separate workspace
 - [Voice clone status](voice-clone-status.md) — narrator voice: CHOSEN Tuấn Anh (vibi Community, ElevenLabs HG0MlJIknmaXREpTckfK) from ep 2; clone attempts history
 - [History video style prefs](history-video-style-prefs.md) — ALL user review feedback (image style from ep 3: ke-chuyen-cuon-hut.md): no subs/watermark, soft logo (marginX 0.06), -16 LUFS, voice Tuấn Anh on eleven_v3 + phrasing text, one documentary music track (no SFX), AI-motion style, strong hook, Vy intro/outro, cut filler, each episode standalone, cover w/o logo, short caption
+- [Confirm script before images](confirm-script-before-images.md) — wait for explicit approval of script text before editing files or generating images

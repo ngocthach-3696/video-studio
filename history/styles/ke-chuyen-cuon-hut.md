@@ -77,6 +77,30 @@ nhưng thêm **cách kể** và **cách dựng hình theo từng câu**.
 - Họ có phụ đề nhỏ giữa màn hình và một linh vật người kể chuyện cố định ở góc phải dưới. Kênh mình đã chọn **không phụ đề**
   và logo nhỏ mờ; linh vật "Vy" cố định góc dưới là một ý có thể hỏi người dùng sau, không tự làm.
 
+## Bố cục khung hình (cắt 100 shot của video mẫu, 2026-11-13)
+
+Bảng xem: styles/ref-ke-chuyen/sheet-01…07.jpg. So với ảnh tập 1885 (người dùng: "nhân vật oke nhưng chủ thể, màu sắc,
+cảnh vật chưa đủ wow"), khác biệt nằm ở các điểm sau:
+- **Chủ thể to:** nhân vật chính cao 60–85% khung, thường lấy từ gối hoặc eo trở lên, đầu ở khoảng 1/4–1/3 từ trên xuống.
+  Khoảng 1/4 số shot là cận mặt, mặt chiếm nửa khung (chữ đè nằm trên trán). Hiếm khi người tí hon giữa cảnh rộng.
+- **Kín khung, không chỗ trống:** nền là kiến trúc dày chi tiết (cột son, rèm, đèn lồng, đuốc, gạch lát phối cảnh, giá
+  binh khí, kệ thẻ tre), gần như không có mảng trời hoặc đất trống. Ở cảnh ngoài trời, cổng thành chiếm cả nửa trên.
+- **Ba lớp chiều sâu:** tiền cảnh (đạo cụ như hòm, giường, bàn, mép rèm), trung cảnh (nhân vật), hậu cảnh (kiến trúc và
+  người phụ nhỏ). Phối cảnh một điểm tụ rõ: bậc thang dẫn lên ngai, hai hàng quan, sân điện.
+- **Bố cục đối xứng giữa khung** cho cảnh mở và cảnh địa danh: nhân vật đứng chính giữa trước cổng, biển tên trên đầu.
+  Cảnh hai người thì một người nghiêng chéo, một người ngồi vững.
+- **Màu đậm, tương phản:** đỏ son, đen, vàng kim, nâu gỗ ấm. Nền đêm xanh đen để đuốc và nến bật cam. Hoàng hôn tím cam
+  sau cổng thành. Không dùng gam pastel nhạt.
+- **Đổ bóng kiểu cel 2 tông** (vẫn phẳng nhưng có khối). Mặt có nếp nhăn tuổi tác, râu chi tiết, viền dày. Đạo cụ có
+  vân gỗ, hoa văn vải.
+- **Ánh sáng sân khấu:** nguồn sáng thấy trong khung (đuốc hai bên cổng, nến bên giường, đèn dầu bàn viết). Có vệt sáng
+  rọi chéo lên nhân vật lúc "phán", khói và lửa phía sau trận đánh, mưa và gió xoáy ở cảnh bi.
+- **Ẩn dụ thị giác chiếm cả khung:** bóng người hắt lên bình phong, hồn ma xanh mờ, bóng đại bàng dang cánh sau lưng,
+  hai thanh gỗ ghép mộng, bong bóng icon trên đầu, cuộn danh sách dài chạy xuống sàn.
+- **Dùng lại bối cảnh:** cùng một cổng, một phòng bệnh, một sân điện xuất hiện nhiều lần, chỉ đổi biểu cảm hoặc đạo cụ.
+  Người xem nhận ra nơi chốn ngay.
+- Prompt tương ứng: xem "Lớp bố cục điện ảnh" bên dưới.
+
 ## Chuyển động
 
 Giống style cũ: clip AI từ ảnh, cử động nhỏ, camera gần như đứng yên. Đo trên khung hình:
@@ -86,6 +110,16 @@ Giống style cũ: clip AI từ ảnh, cử động nhỏ, camera gần như đ�
 - Cảnh lời thoại: nhân vật đang nói thì miệng mấp máy, người nghe phản ứng (chớp mắt, quay đầu nhẹ).
 - Ở repo: prompt Veo thêm "the speaking character's mouth moves slightly as if talking" cho cảnh thoại;
   cảnh bản đồ/đoàn quân dùng `layers` + `path` (đã được duyệt).
+
+### Đo lại độ phủ chuyển động (2026-11-14)
+Người dùng hỏi "video mẫu chỉ cho chuyển động ở đoạn đầu, về sau là thuần hình?" → đo chênh lệch khung hình (10 fps) trên 111 cảnh:
+- **KHÔNG.** Chuyển động phủ suốt video: mỗi quãng 30 giây có 94–100% thời lượng là cảnh động, cuối video vẫn động như đầu.
+- Chỉ ~8 cảnh tĩnh hoàn toàn, đều rất ngắn (0,6–1,2s), rải rác: các nhịp tóm tắt cắt nhanh ("xuất thân áo vải", "thắng Hạng Vũ",
+  "Thái tử lên ngôi", "Lữ hậu qua đời"), cận mặt phản ứng, giới thiệu tên ("Vương Lăng").
+- Chuyển động là cử động THẬT của nhân vật/vật (không phải chỉ zoom ảnh): ngựa kéo xe đi, lính giơ nắm đấm, mưa rơi, khói phụt,
+  người nằm trở mình; cả đạo cụ ẩn dụ cũng động (các thanh gỗ trượt vào nhau khi nói "ghép mộng").
+- Thêm thủ pháp: **chia đôi màn hình** (trên: quân lính hô; dưới: ngai vàng + biển "180 TCN") cho câu có 2 vế.
+→ Muốn giống mẫu thì gần như cảnh nào cũng cần clip động; ảnh tĩnh chỉ dùng cho cú cắt ≤1s.
 
 ## Prompt style hình (thử trên Flow 2026-11-12)
 Người dùng gửi thêm 3 ảnh mẫu (vua bé trên ngai, vua ngả ngai, đoàn thuyền) → lưu ở
@@ -101,3 +135,15 @@ bị chê "chưa đúng lắm". Lượt 2 (t3, t4) dùng đoạn dưới, gần 
 
 Gotcha: tải ảnh từ chat agent đôi khi không mở được trình chỉnh sửa (nút "Tải…" không hiện) → fetch src của tile đầu
 trong trang rồi tải blob (chỉ là bản xem trước webp ~26KB).
+
+### Lớp bố cục điện ảnh (đề xuất 2026-11-13, CHƯA thử trên Flow)
+Thêm sau đoạn style ở trên (nhân vật giữ nguyên ảnh tham chiếu):
+
+> Composition: the main character is LARGE, filling 60–80% of the frame height (knees-up or waist-up), placed in the
+> centre or on a strong diagonal; close-ups fill half the frame with the face. The frame is FULL edge to edge: rich,
+> detailed background architecture and props (red lacquered pillars, curtains, lanterns, torches, tiled floor in
+> perspective), no empty sky or empty ground. Three depth layers: a foreground prop or frame edge, the character in the
+> middle, detailed background with small extras. Clear one-point perspective. Bold saturated colours with strong
+> contrast: vermilion red, black, gold, warm wood brown, deep night blue; visible light sources (torches, candles, oil
+> lamps, sunset) casting warm glow and two-tone cel shading. Expressive faces with cartoon symbols (sweat drop, anger red
+> face, speed lines).
