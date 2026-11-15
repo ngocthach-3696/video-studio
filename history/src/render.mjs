@@ -46,6 +46,10 @@ const UPSCALE = 4; // zoompan on an upscaled frame to avoid sub-pixel jitter
 const ZOOM = 0.18;
 const BREATHE = 0.04; // "breathe": barely-there push-in for near-still cartoon frames
 const GROUP = 12; // clips per xfade pass (keeps decoder count / RAM bounded)
+// "alternate": the reference-video camera (2026-11-15, styles/quy-chuan-dao-dien.md):
+// slow 7% push-in / pull-out, alternating scene by scene, drifting toward a varying anchor.
+const PUSH = 0.07;
+const ANCHORS = [[0.5, 0.5], [0.35, 0.4], [0.65, 0.35], [0.5, 0.3], [0.4, 0.6], [0.6, 0.55]];
 const MOTIONS = ["zoom-in", "pan-right", "zoom-out", "pan-left", "pan-up", "zoom-in", "pan-down", "zoom-out"];
 
 // Scene k is on screen for `dur`, overlapping the next scene by xf (0 = hard
@@ -80,7 +84,13 @@ async function resolveFit(fit, img, W, H) {
   return Math.abs(Math.log(w / h / (W / H))) > 0.25 ? "contain" : "cover";
 }
 
-function kenBurns(motion, frames, W, H, cropBottom, fit = "cover") {
+export function resolveMotion(m, i) {
+  if (m === "alternate") return `${i % 2 ? "pull" : "push"}:${i % ANCHORS.length}`;
+  if (m === "push" || m === "pull") return `${m}:${i % ANCHORS.length}`;
+  return m;
+}
+
+export function kenBurns(motion, frames, W, H, cropBottom, fit = "cover") {
   const M = Math.max(frames - 1, 1);
   const p = `(on/${M})`;
   const e = `(${p}*${p}*(3-2*${p}))`; // smoothstep easing
@@ -88,7 +98,13 @@ function kenBurns(motion, frames, W, H, cropBottom, fit = "cover") {
   const cy = "ih/2-(ih/zoom/2)";
   const Z = fit === "contain" ? CONTAIN_ZOOM : ZOOM;
   const zf = `${1 + Z}`;
-  const spec = {
+  const pp = /^(push|pull):(\d+)$/.exec(motion);
+  const [ax, ay] = pp ? ANCHORS[Number(pp[2]) % ANCHORS.length] : [0.5, 0.5];
+  const spec = pp ? [
+    pp[1] === "push" ? `1+${PUSH}*${e}` : `${1 + PUSH}-${PUSH}*${e}`,
+    `(iw-iw/zoom)*${ax}`,
+    `(ih-ih/zoom)*${ay}`,
+  ] : {
     still: ["1", cx, cy],
     breathe: [`1+${BREATHE}*${e}`, cx, cy],
     "zoom-in": [`1+${Z}*${e}`, cx, cy],
@@ -98,7 +114,7 @@ function kenBurns(motion, frames, W, H, cropBottom, fit = "cover") {
     "pan-down": [zf, cx, `(ih-ih/zoom)*${e}`],
     "pan-up": [zf, cx, `(ih-ih/zoom)*(1-${e})`],
   }[motion];
-  if (!spec) throw new Error(`motion không hợp lệ: ${motion} (dùng still, breathe, zoom-in, zoom-out, pan-left, pan-right, pan-up, pan-down)`);
+  if (!spec) throw new Error(`motion không hợp lệ: ${motion} (dùng still, breathe, push, pull, alternate, zoom-in, zoom-out, pan-left, pan-right, pan-up, pan-down)`);
   const [z, x, y] = spec;
   const UW = W * UPSCALE;
   const UH = H * UPSCALE;
@@ -118,6 +134,11 @@ function kenBurns(motion, frames, W, H, cropBottom, fit = "cover") {
 }
 
 const X264 = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-r", String(FPS)];
+// Every clip must come out as limited-range yuv420p: JPEG stills otherwise stay yuvj420p, and a
+// format switch inside video.mp4 makes ffmpeg re-init the final filtergraph, which drops the
+// logo overlay for a few frames at each still <-> Veo cut (seen 2026-11-15). Colour tags still differ
+// (Veo smpte170m vs stills bt470bg), so finalize also reads video.mp4 with -reinit_filter 0.
+const NORM = ",scale=out_range=tv,format=yuv420p";
 
 // An AI clip is usually shorter than its scene: slow it down a little, then
 // hold the last frame for whatever is still missing.
@@ -139,14 +160,56 @@ function fitVideo(clipDur, sceneDur, W, H) {
 const stillFilter = (W, H, cropBottom) =>
   `${cropBottom ? `crop=iw:ih*${(1 - cropBottom).toFixed(3)}:0:0,` : ""}scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
 
+// True when scene i is shown with its AI clip videos/<id>.mp4 (not the still image).
+export function sceneUsesVideo(project, dir, i, id, animated) {
+  const marked = project.animateScope !== "marked" || !!project.scenes[i].video?.trim();
+  return animated && marked && fs.existsSync(path.join(dir, "videos", `${id}.mp4`));
+}
+
+// project.veoAudio: { volume: 1, lufs: -24 } — keep the clips' own ambience (Veo sound):
+// each used clip's audio is cut to its scene, levelled to `lufs`, faded at the cuts and
+// placed at the scene start. Writes veo-audio.wav (or returns null when nothing to mix).
+export async function buildVeoAudio(project, dir, timeline, animated) {
+  const cfg = project.veoAudio;
+  if (!cfg || cfg.enabled === false) return null;
+  const items = timeline.scenes
+    .map((s, i) => ({ s, i }))
+    .filter(({ s, i }) => sceneUsesVideo(project, dir, i, s.id, animated) && !(project.scenes[i].veoAudio === false));
+  if (!items.length) return null;
+  const lufs = Number(cfg.lufs ?? -24);
+  const fade = 0.12;
+  const args = [];
+  const parts = [];
+  items.forEach(({ s }, k) => {
+    args.push("-i", path.join("videos", `${s.id}.mp4`));
+    const d = s.dur;
+    parts.push(
+      `[${k}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,atrim=0:${d.toFixed(3)},asetpts=PTS-STARTPTS,` +
+        `loudnorm=I=${lufs}:LRA=11:TP=-6,aresample=48000,` +
+        `afade=t=in:d=${fade},afade=t=out:st=${Math.max(d - fade, 0).toFixed(3)}:d=${fade},` +
+        `adelay=${Math.round(s.start * 1000)}:all=1[v${k}]`,
+    );
+  });
+  const total = timeline.total ?? timeline.scenes.at(-1).start + timeline.scenes.at(-1).dur;
+  parts.push(
+    `${items.map((_, k) => `[v${k}]`).join("")}amix=inputs=${items.length}:duration=longest:normalize=0,` +
+      `apad,atrim=0:${total.toFixed(3)}[out]`,
+  );
+  const graph = path.join(dir, "veo-audio.graph.txt");
+  fs.writeFileSync(graph, parts.join(";"));
+  await ffmpeg([...args, "-/filter_complex", "veo-audio.graph.txt", "-map", "[out]", "-ar", "48000", "-ac", "2", "veo-audio.wav"], { cwd: dir });
+  fs.rmSync(graph);
+  log(`  tiếng Veo: ${items.length} clip (${items.map(({ s }) => s.id).join(" ")})`);
+  return { file: path.join(dir, "veo-audio.wav"), volume: Number(cfg.volume ?? 1) };
+}
+
 export async function renderClips(project, dir, timeline, { W, H, animated }) {
   const clipsDir = path.join(dir, "clips");
   fs.mkdirSync(clipsDir, { recursive: true });
   const manifest = readJson(path.join(dir, "images", "manifest.json"), {});
   for (const [i, s] of timeline.scenes.entries()) {
     const aiVideo = path.join(dir, "videos", `${s.id}.mp4`);
-    const marked = project.animateScope !== "marked" || !!project.scenes[i].video?.trim();
-    const useVideo = animated && marked && fs.existsSync(aiVideo);
+    const useVideo = sceneUsesVideo(project, dir, i, s.id, animated);
     const src = useVideo ? aiVideo : path.join(dir, "images", `${s.id}.jpg`);
     const cropBottom = useVideo ? 0 : manifest[s.id]?.cropBottom || 0;
     const defaultFit = manifest[s.id]?.provider === "commons" ? "auto" : "cover";
@@ -155,9 +218,9 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     const layersSpec = project.scenes[i].layers;
     const useLayers = !useVideo && !!layersSpec;
     const useFx = !useVideo && !useLayers && fit === "cover" && !!fxSpec;
-    const motion = useVideo ? "ai-video" : useLayers ? "layers" : useFx ? "fx" : project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length];
+    const motion = useVideo ? "ai-video" : useLayers ? "layers" : useFx ? "fx" : resolveMotion(project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length], i);
     const st = fs.statSync(src);
-    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : "", useLayers ? layersKey(layersSpec, dir) : ""].join("|"));
+    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : "", useLayers ? layersKey(layersSpec, dir) : "", "tv-range"].join("|"));
     const out = path.join(clipsDir, `${s.id}.mp4`);
     const keyFile = `${out}.key`;
     if (fs.existsSync(out) && fs.existsSync(keyFile) && fs.readFileSync(keyFile, "utf8") === key) continue;
@@ -167,10 +230,10 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     } else if (useFx) {
       await renderFx(src, out, fxSpec, s.frames, W, H, cropBottom, i + 1);
     } else if (motion === "still" && fit === "cover") {
-      await ffmpeg(["-loop", "1", "-framerate", String(FPS), "-i", src, "-vf", stillFilter(W, H, cropBottom), "-frames:v", String(s.frames), ...X264, out]);
+      await ffmpeg(["-loop", "1", "-framerate", String(FPS), "-i", src, "-vf", stillFilter(W, H, cropBottom) + NORM, "-frames:v", String(s.frames), ...X264, out]);
     } else {
       const vf = useVideo ? fitVideo(await probeDuration(src), s.dur, W, H) : kenBurns(motion, s.frames, W, H, cropBottom, fit);
-      await ffmpeg(["-i", src, "-an", "-vf", vf, "-frames:v", String(s.frames), ...X264, out]);
+      await ffmpeg(["-i", src, "-an", "-vf", vf + NORM, "-frames:v", String(s.frames), ...X264, out]);
     }
     fs.writeFileSync(keyFile, key);
   }
@@ -365,7 +428,7 @@ export function buildSubtitles(project, dir, timeline, tts, { W, H }, env, { sub
 
 // fontsDir: bundled fonts for libass. logo: { file, width } overlaid
 // bottom-right. fadeIn: seconds of fade from black. loudnorm: -14 LUFS.
-export async function finalize(dir, { subs, music, musicVolume, musicDelay = null, musicTrim = 0, ambience = null, total, fontsDir, logo, fadeIn = 0, loudnorm = false, W }) {
+export async function finalize(dir, { subs, music, musicVolume, musicDelay = null, musicTrim = 0, ambience = null, veo = null, total, fontsDir, logo, fadeIn = 0, loudnorm = false, W }) {
   const args = ["-i", "video.mp4", "-i", "narration.wav"];
   // musicDelay === null → loop the track from t=0 (old behaviour); a number →
   // play once, starting at that second (used to land the track's ending on the video's end).
@@ -373,9 +436,15 @@ export async function finalize(dir, { subs, music, musicVolume, musicDelay = nul
   // ambience: { file, volume } — a sound bed (rain, rumble…) from t=0, NOT ducked under the voice.
   const ambIdx = music ? 3 : 2;
   if (ambience) args.push("-i", ambience.file);
-  const logoIdx = ambIdx + (ambience ? 1 : 0);
-  if (logo) args.push("-i", logo.file);
+  // veo: { file, volume } — clip ambience track (buildVeoAudio), ducked under the voice like the music.
+  const veoIdx = ambIdx + (ambience ? 1 : 0);
+  if (veo) args.push("-i", veo.file);
+  // Two passes (2026-11-15): mixing the audio in the same ffmpeg run as the video filters dropped
+  // ~3 s chunks of audio (AAC packets with gaps; players jumped 0:04 → 0:11) once the Veo branch
+  // was added. Pass 1 mixes the audio alone into final-audio.wav; pass 2 encodes the picture.
+  const logoIdx = 2; // pass 2 inputs: video.mp4, final-audio.wav, logo
 
+  const vparts = [];
   const parts = [];
   // Relative path + forward slashes: Windows drive colons break the filter syntax.
   const fd = fontsDir ? `:fontsdir='${path.relative(dir, fontsDir).replace(/\\/g, "/")}'` : "";
@@ -386,15 +455,15 @@ export async function finalize(dir, { subs, music, musicVolume, musicDelay = nul
     const m = Math.round(W * 0.02);
     const soft = logo.blur > 0 ? `,gblur=sigma=${logo.blur}` : "";
     const alpha = logo.opacity < 1 ? `,colorchannelmixer=aa=${logo.opacity}` : "";
-    parts.push(`[${logoIdx}:v]scale=${lw}:-1,format=rgba${soft}${alpha}[lg]`, `[0:v][lg]overlay=W-w-${Math.round(W * (logo.marginX ?? 0.02))}:H-h-${m}[vl]`);
+    vparts.push(`[${logoIdx}:v]scale=${lw}:-1,format=rgba${soft}${alpha}[lg]`, `[0:v][lg]overlay=W-w-${Math.round(W * (logo.marginX ?? 0.02))}:H-h-${m}[vl]`);
     v = "[vl]";
   }
-  parts.push(subs ? `${v}subtitles=${subs}${fd}${fade}[v]` : `${v}null${fade}[v]`);
+  vparts.push(subs ? `${v}subtitles=${subs}${fd}${fade}[v]` : `${v}null${fade}[v]`);
   const aOut = loudnorm ? "[a0]" : "[a]";
   if (music) {
     const fadeOut = Math.max(total - 3, 0).toFixed(2);
     parts.push(
-      "[1:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,asplit=2[n1][n2]",
+      `[1:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,asplit=${veo ? 3 : 2}[n1][n2]${veo ? "[n3]" : ""}`,
       `[2:a]atrim=start=${musicTrim},asetpts=PTS-STARTPTS,` +
         "aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo," +
         // carve room for the voice: drop rumble, dip the 2-4 kHz speech band a little
@@ -405,9 +474,17 @@ export async function finalize(dir, { subs, music, musicVolume, musicDelay = nul
       "[m][n2]sidechaincompress=threshold=0.03:ratio=4:attack=60:release=900[md]",
     );
   } else {
-    parts.push("[1:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[n1]");
+    parts.push(`[1:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo${veo ? ",asplit=2[n1][n3]" : "[n1]"}`);
   }
   const mix = ["[n1]", ...(music ? ["[md]"] : [])];
+  if (veo) {
+    parts.push(
+      `[${veoIdx}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,volume=${veo.volume ?? 1},apad[vo]`,
+      // dip (not mute) under the voice so fire/rain/cannon still read between and under lines
+      "[vo][n3]sidechaincompress=threshold=0.03:ratio=3:attack=40:release=600[vd]",
+    );
+    mix.push("[vd]");
+  }
   if (ambience) {
     parts.push(`[${ambIdx}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,volume=${ambience.volume ?? 1},apad[amb]`);
     mix.push("[amb]");
@@ -415,13 +492,17 @@ export async function finalize(dir, { subs, music, musicVolume, musicDelay = nul
   parts.push(mix.length > 1 ? `${mix.join("")}amix=inputs=${mix.length}:duration=first:normalize=0${aOut}` : `[n1]anull${aOut}`);
   if (loudnorm) parts.push(`[a0]loudnorm=I=${typeof loudnorm === "number" ? loudnorm : -14}:LRA=7:TP=-1,aresample=48000[a]`);
   const graphFile = path.join(dir, "final.graph.txt");
+  // pass 1: audio only (input 0 = video.mp4 is listed only to keep the input indices; it is not decoded)
   fs.writeFileSync(graphFile, parts.join(";"));
+  await ffmpeg([...args, "-/filter_complex", "final.graph.txt", "-map", "[a]", "-t", total.toFixed(3), "-c:a", "pcm_s16le", "-ar", "48000", "final-audio.wav"], { cwd: dir });
+  // pass 2: picture (logo, subtitles, fade) + the mixed audio
+  fs.writeFileSync(graphFile, vparts.join(";"));
   await ffmpeg(
     [
-      ...args,
+      "-reinit_filter", "0", "-i", "video.mp4", "-i", "final-audio.wav", ...(logo ? ["-loop", "1", "-framerate", String(FPS), "-i", logo.file] : []),
       "-/filter_complex", "final.graph.txt",
       "-map", "[v]",
-      "-map", "[a]",
+      "-map", "1:a",
       "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
       "-c:a", "aac", "-b:a", "192k",
       "-t", total.toFixed(3),

@@ -17,7 +17,7 @@ import { animateMode, animateScenes, animationEnabled, estimateCost, importFlowC
 import { synthesizeScenes } from "./tts.mjs";
 import { contactSheet, generateCharacters, generateImages } from "./images.mjs";
 import { applyPreset } from "./presets.mjs";
-import { buildNarration, buildSubtitles, buildTimeline, finalize, joinClips, renderClips } from "./render.mjs";
+import { buildNarration, buildSubtitles, buildTimeline, buildVeoAudio, finalize, joinClips, renderClips } from "./render.mjs";
 import { log, probeDuration, sha1 } from "./util.mjs";
 import { buildSoundscape } from "./soundscape.mjs";
 
@@ -165,6 +165,8 @@ async function main() {
   await buildNarration(dir, timeline, tts);
   // project.soundscape (beds + hits per scene, see soundscape.mjs) → soundscape.wav, mixed in place of `ambience`
   const soundscape = await buildSoundscape(project, dir, timeline, tts);
+  // project.veoAudio: keep the AI clips' own ambience (see buildVeoAudio)
+  const veo = await buildVeoAudio(project, dir, timeline, animated);
   const subs = buildSubtitles(project, dir, timeline, tts, { W, H }, env, {
     subs: !(opts.noSubs || project.subtitles === false),
   });
@@ -196,6 +198,7 @@ async function main() {
       if (!fs.existsSync(f)) { log(`  ⚠ không thấy ambience ${f} — bỏ qua`); return null; }
       return { file: f, volume: Number(a.volume ?? 1) };
     })(),
+    veo,
     musicVolume: Number(project.musicVolume ?? env.MUSIC_VOLUME ?? 0.25),
     total: timeline.total,
     fontsDir: path.join(ROOT, "assets", "fonts"),

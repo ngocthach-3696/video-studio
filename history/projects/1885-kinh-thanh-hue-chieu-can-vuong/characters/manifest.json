@@ -1,0 +1,29 @@
+{
+ "ham-nghi": {
+  "provider": "manual"
+ },
+ "ton-that-thuyet": {
+  "provider": "manual"
+ },
+ "nguyen-van-tuong": {
+  "provider": "manual"
+ },
+ "harmand": {
+  "provider": "manual"
+ },
+ "de-courcy": {
+  "provider": "manual"
+ },
+ "tu-duc": {
+  "provider": "manual"
+ },
+ "truong-quang-ngoc": {
+  "provider": "manual"
+ },
+ "linh-phap": {
+  "provider": "manual"
+ },
+ "quan-ta": {
+  "provider": "manual"
+ }
+}

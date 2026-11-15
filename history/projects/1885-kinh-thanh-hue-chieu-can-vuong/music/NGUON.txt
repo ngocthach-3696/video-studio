@@ -1,0 +1,5 @@
+Nhạc nền MẶC ĐỊNH cho mọi video lịch sử (người dùng chốt 2026-11-12, dùng từ tập 1867):
+historical-documentary.mp3  ViacheslavStarostin – "Historical History Documentary Music" (204 s)
+https://pixabay.com/music/main-title-historical-history-documentary-music-366065/
+Pixabay Content License: miễn phí, dùng thương mại được, không bắt buộc ghi nguồn.
+Dựng cho đúng độ dài video: bash src/build-bgm.sh <giây video> projects/<slug>/music/bgm.wav

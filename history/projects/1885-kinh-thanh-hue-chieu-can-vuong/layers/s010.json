@@ -1,0 +1,9 @@
+{
+  "camera": {"push": 0.06, "pan": [0, 0.04]},
+  "layers": [
+    {"path": "images/s010.jpg", "cover": true},
+    {"type": "path", "draw": [0.4, 7.0], "color": [45, 45, 185], "width": 0.008, "dash": 0.016, "head": true,
+     "icon": "ship", "target": true,
+     "points": [[0.74, 0.70], [0.745, 0.64], [0.725, 0.575], [0.70, 0.525], [0.665, 0.50], [0.63, 0.49], [0.60, 0.485]]}
+  ]
+}

@@ -4,7 +4,13 @@
  "preset": "cartoon-bold",
  "format": "9:16",
  "imageProvider": "manual",
- "animate": "none",
+ "animate": "flow",
+ "animateScope": "marked",
+ "veoAudio": {
+  "volume": 1,
+  "lufs": -24
+ },
+ "motion": "alternate",
  "tts": "manual",
  "voiceNote": "vibi.pro, giọng Tuấn Anh = ElevenLabs HG0MlJIknmaXREpTckfK, eleven_v3, stability 0.5, speed 1, lời từ tts-ngat-nhip.txt",
  "brand": {
@@ -18,7 +24,7 @@
  "loudnorm": -16,
  "music": "projects/1885-kinh-thanh-hue-chieu-can-vuong/music/bgm.wav",
  "musicStart": 0,
- "musicVolume": 0.7,
+ "musicVolume": 1,
  "subtitles": false,
  "characters": {
   "ham-nghi": {
@@ -60,128 +66,132 @@
  },
  "scenes": [
   {
-   "narration": "Rạng sáng hôm ấy, giữa tiếng súng, một cậu bé mười ba tuổi được đưa ra khỏi kinh thành Huế.",
-   "image": "Night before dawn, low camera angle in front of the Cua Huu (south-west gate) of the Hue citadel: a thick old brick and stone citadel wall with ONE big round-arched gate tunnel, on top of the wall above the arch a small single-storey wooden watchtower pavilion with a curved yellow tiled roof, and set into the wall directly above the arch a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK. Behind the wall the sky glows orange with fire, gunfire flashes and grey smoke rise. Out of the arch, large in the frame and walking toward the viewer, the red-robed regent firmly leads the young emperor by the hand, both glancing back worried. Burning torches on both sides of the arch, a few small palace guards with spears in the background, dark stone pavement with orange reflections in the foreground, the edge of a red lacquered pillar framing the left side",
-   "title": "1885",
+   "narration": "Rạng sáng ngày năm tháng Bảy năm một tám tám lăm, kinh thành Huế chìm trong khói lửa.",
+   "image": "Wide high view before dawn: the Hue imperial citadel engulfed in fire, the Ngo Mon gate pavilion silhouetted against a huge orange glow, black smoke columns rising, tiny flashes of gunfire along the walls, the Perfume River reflecting the flames in the foreground. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title. Nobody in the scene: no people, no figures, no soldiers, no faces",
+   "title": "VUA BỎ NGAI, VÀO RỪNG?",
+   "video": "Turn the attached image veo2-s001.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every building, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the fires behind the Ngo Mon gate flicker and surge along the roofs, the black smoke columns slowly billow and rise into the night sky. Ambient motion: tiny glowing embers drifting upward, orange firelight reflections shimmering on the river, one or two small gunfire flashes on the citadel walls. The gate, palaces, walls, steps and boats stay exactly the same: nothing collapses, no new buildings, no people, no text. Keep the flat 2D cartoon style, thick black outlines and the same colours. Ambience sound only: fire crackling, wind, distant gunshots. No music, no dialogue. No text, no letters appear anywhere."
+  },
+  {
+   "narration": "Qua cửa Hữu, một đoàn người lặng lẽ thoát ra giữa tiếng súng.",
+   "image": "Pre-dawn, medium-wide view in front of the Cua Huu (south-west gate) of the Hue citadel: a thick old brick and stone citadel wall with ONE big round-arched gate tunnel, on top of the wall above the arch a small single-storey wooden watchtower pavilion with a curved yellow tiled roof, and set into the wall directly above the arch a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK: a small column of people in dark robes slips quietly out of the arch toward the viewer, bent low, some carrying bundles; burning torches on both sides of the arch, orange fire glow and smoke behind the wall, gunfire flashes in the sky, wet dark stone road in the foreground"
+  },
+  {
+   "narration": "Trong đoàn người ấy, có một cậu bé mười ba tuổi bị kéo tay đi, mắt vẫn ngoái lại phía sau.",
+   "image": "Close-up: a big strong hand in a vermilion red silk sleeve grips the thin wrist of the young emperor and pulls him forward; the young emperor, waist-up and large, is dragged along but looks back over his shoulder with frightened wide eyes; orange firelight and smoke behind, sparks in the air",
    "characters": [
-    "ton-that-thuyet",
     "ham-nghi"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s003.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the big hand in the red silk sleeve keeps gently and steadily tugging the boy emperor wrist toward the left, again and again; his wrist, sleeve and shoulder shift slightly with each tug. His head and eyes keep looking back over his shoulder exactly as in the image for all 8 seconds: he does not turn his head, does not look sideways. He only blinks and his closed lips tremble a little. His mouth stays closed the whole time: he does not open his mouth, does not cry, does not shout, no tears, no sweat; his worried expression stays exactly as in the image. He stays in the same place and size. Ambient motion: tiny glowing embers drift slowly through the air, the black smoke clouds slowly billow, the flames on the roofs in the background and the brazier flicker in place, tiny figures far away run past. The sky contains ONLY dark smoke and tiny embers: no fire shapes, no fire ribbons, no dragons, no streaks of light, no flying objects, nothing new appears. Exactly the same hands as in the image: one adult hand gripping and the boy own hand, five fingers each, no extra hands or arms. Keep the face, yellow turban and dragon robe unchanged. Keep the flat 2D cartoon style, thick black outlines and the same colours. Ambience sound only: fire crackling, wind, distant crowd noise without words. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
    "narration": "Cậu không mang theo ngai vàng, cũng chẳng mang theo kho báu nào.",
-   "image": "Low angle inside a dark Hue throne hall at night: a big empty golden throne on red lacquered steps fills the centre, moonlight beams falling through the open doors, red lacquered pillars framing both sides, orange fire glow through the lattice windows; in the foreground on the steps an open wooden chest of gold ingots left behind and a fallen yellow silk parasol, nobody there"
+   "image": "Insert, low angle inside a dark abandoned throne hall: a big empty golden throne on red lacquered steps, an open wooden chest of gold ingots left on the steps in the foreground, a fallen yellow silk parasol, cold moonlight beams through the open doors, orange fire glow behind the lattice windows. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Thứ cậu để lại cho đất nước, chỉ là một tờ giấy.",
-   "image": "Big close-up: a small hand in a bright yellow silk sleeve holds a single rolled paper scroll tied with a red cord, filling the centre of the frame, the scroll glowing softly; behind it a dark palace corridor with red lanterns and pillars, gunfire glow far away"
+   "image": "Extreme close-up insert: a small hand in a bright yellow silk sleeve holds one rolled paper scroll tied with a red cord in the centre of the frame, the scroll lit by a soft warm glow; dark blurred palace corridor with red lanterns behind"
   },
   {
    "narration": "Cậu bé ấy là một vị vua. Vị vua ấy là Hàm Nghi.",
-   "image": "Waist-up portrait of the young emperor facing the viewer, filling most of the frame, calm serious face, inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective, a golden throne and golden screen behind him, warm candlelight from both sides",
+   "image": "Close-up portrait: the young emperor's face fills most of the frame, calm and serious beyond his age, soot on one cheek, orange firelight on one side of his face and cold blue dawn light on the other, smoke drifting behind",
    "characters": [
     "ham-nghi"
-   ]
-  },
-  {
-   "narration": "Ba năm sau, cậu bị bắt, rồi bị đày sang tận châu Phi, không bao giờ trở về.",
-   "image": "The young emperor (now wearing a plain dark brown tunic instead of the robe), waist-up and large in the foreground, holds the wet rail of an old steamship and looks back sadly; ropes, a lifebuoy and a smoking black funnel frame the shot; behind him a stormy grey-green sea and a misty coastline with mountains far away, seagulls",
-   "characters": [
-    "ham-nghi"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s006.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the young emperor blinks slowly once, then his eyes stay fixed straight at the viewer, calm and resolute; his chest and shoulders rise and fall gently with his breathing. His mouth stays closed the whole time: he does not speak, does not open his mouth, does not cry. His head does not turn and his expression stays calm and serious. Ambient motion: orange firelight flickers softly on his cheek, the black smoke behind slowly billows, the torn flag in the foreground flutters gently in the wind, a few tiny embers drift. Nothing new appears in the sky: no fire shapes, no dragons, no flying objects, only tiny embers. The distant soldiers stay still. Keep the face, the soot mark on his cheek, the yellow turban and the dragon robe exactly the same. Keep the flat 2D cartoon style, thick black outlines and the same colours. Ambience sound only: fire crackling, wind, a flag flapping. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
    "narration": "Vì sao một vị vua lại bỏ ngai vàng để vào rừng? Và một tờ giấy, thì làm được gì trước đại bác?",
-   "image": "Comical contrast in a jungle clearing at sunset: the young emperor stands in the centre, puzzled, with a sweat drop; on his left on a tree stump lies a tiny rolled paper scroll, on his right a huge black French cannon towers over him; dense bamboo and banana trees behind, orange sunset light",
-   "title": "VÌ SAO VUA BỎ NGAI VÀNG?",
+   "image": "Visual metaphor, low camera angle in a jungle clearing at dusk: the young emperor (in a plain brown tunic) stands small in the centre holding up one rolled paper scroll toward a gigantic black French cannon that towers over him and fills the right half of the frame; bamboo and banana leaves frame the edges, orange dusk light. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
+   "title": "TỜ GIẤY ĐẤU ĐẠI BÁC?",
    "characters": [
     "ham-nghi"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s007.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the young emperor tightens his grip and raises the rolled paper scroll a little higher, then holds it up firmly, chin slightly raised, eyes fixed on the cannon with determination. He stays standing in the same place and size, does not walk, does not turn his head, mouth closed, he does not speak. The scroll stays rolled up: it does not open, no writing appears. Ambient motion: the banana leaves and bamboo sway in the evening wind, the hem of his yellow robe moves slightly, the thin smoke behind the cannon drifts slowly, one or two leaves fall. The cannon stays completely still: it does not fire, the barrel does not move, the wheels do not roll. The sky at the top stays calm and empty: no fire shapes, no flying objects. Keep the face, yellow turban and dragon robe unchanged, exactly two arms and two hands. Keep the flat 2D cartoon style, thick black outlines and the same colours. Ambience sound only: evening jungle wind, rustling leaves, insects. No music, no dialogue, no cannon shot. No text, no letters appear anywhere."
   },
   {
-   "narration": "Ở tập trước, quân Pháp đã chiếm thành Hà Nội, và chiến thuyền của họ đang tiến về cửa biển Thuận An, sát nách kinh thành.",
-   "image": "an aged parchment map in flat cartoon style filling the whole frame, lying on a dark wooden table, simple ink coastline and rivers, green hills, an oil lamp and an ink brush at the edges, no labels, no text, no letters: the coast of central Vietnam with a lagoon river mouth and a square walled citadel a little inland, several small French steam warships with black smoke drawn at sea in the lower right. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "narration": "Hôm nay, hãy cùng Vy lần lại hai năm sóng gió nhất của kinh thành Huế nhé.",
+   "image": "Grand view of the Hue citadel at sunrise: the Ngo Mon gate with its two-storey pavilion and yellow tiled roofs, the wide Perfume River with small sampans in front, flowering trees in the foreground; heavy dark storm clouds rolling in from the sea over the golden sunrise, birds flying away. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
-   "narration": "Hôm nay, hãy cùng Vy đi nốt chặng cuối của câu chuyện này nhé, về kinh thành Huế những năm tháng sóng gió nhất.",
-   "image": "Grand view of the Hue citadel at sunrise: the Ngo Mon gate with its two-storey pavilion and yellow tiled roofs fills the upper half, in front the wide Perfume River with small sampans and a dragon boat, flowering trees and a stone embankment in the foreground; heavy dark storm clouds rolling in from the sea over the golden sunrise, birds flying away. Nobody in the scene: no people, no figures, no soldiers, no faces"
-  },
-  {
-   "narration": "Tháng Bảy năm một tám tám ba, vua Tự Đức băng hà, không có con trai nối ngôi.",
-   "image": "Inside a dim imperial bedchamber: the frail old emperor lies in bed under a yellow silk canopy, large in the frame, eyes peacefully closed; in the foreground the backs of kneeling mandarins in black turbans with bowed heads; tall red candles, incense smoke, gold and deep red tones, sad and solemn",
-   "title": "1883",
+   "narration": "Tháng Bảy năm một tám tám ba, ở Huế, vua Tự Đức băng hà, không có con trai nối ngôi.",
+   "image": "Inside a dim imperial bedchamber: the frail old emperor lies in bed under a yellow silk canopy, large in the frame, eyes peacefully closed; in the foreground the backs of kneeling mandarins in black turbans with bowed heads; tall red candles, incense smoke, cold grey light from a window with rain",
    "characters": [
     "tu-duc"
    ]
   },
   {
-   "narration": "Chưa đầy một tháng sau, chiến thuyền Pháp nã pháo vào cửa Thuận An.",
-   "image": "Low angle from the sand dunes at a river mouth: big French steam warships with tall black funnels fire their cannons, huge white smoke clouds and orange muzzle flashes; in the foreground an earthen Vietnamese fort wall with an old bronze cannon and sand flying from explosions"
+   "narration": "Ở tập trước, quân Pháp đã chiếm thành Hà Nội. Chưa đầy một tháng sau khi vua mất, chiến thuyền của họ nã pháo vào cửa biển Thuận An, sát nách kinh thành.",
+   "image": "(ảnh giữ lại: map: French warships to Thuan An (old s007))",
+   "layers": "layers/s010.json"
   },
   {
-   "narration": "Chỉ ba ngày, các đồn canh giữ cửa biển đã thất thủ.",
-   "image": "A Vietnamese soldier large in the foreground runs back across a smoking earthen fort on the sand dunes, looking back in fear; behind him French marines climb over the broken wall with rifles; smoke, small fires, broken sandbags and a toppled old cannon",
+   "narration": "Ba ngày. Các đồn canh giữ cửa biển thất thủ.",
+   "image": "A Vietnamese soldier large in the foreground runs back across a smoking earthen fort on grey sand dunes, looking back in fear; behind him French marines climb over the broken wall; smoke, small fires, a toppled old bronze cannon; on a wooden post in the foreground three fresh knife tally marks",
    "characters": [
     "quan-ta",
     "linh-phap"
    ]
   },
   {
-   "narration": "Viên đại diện Pháp là Hác-măng gửi tối hậu thư, cho triều đình đúng hai mươi bốn giờ để trả lời.",
-   "image": "Inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective: the French commissioner, large on the right, holds out a sealed letter with a red wax seal; a nervous Vietnamese mandarin in a black turban on the left with sweat drops; on the table in the foreground between them a big hourglass with sand running out",
+   "narration": "Viên đại diện Pháp là Hác-măng gửi tối hậu thư: triều đình có đúng hai mươi bốn giờ để trả lời.",
+   "image": "Medium shot inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective, grey storm light: the French commissioner, large on the right, holds out a sealed letter with a red wax seal; a nervous Vietnamese mandarin in a black turban on the left with sweat drops; on the table in the foreground between them a big hourglass with the sand running out fast. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
+   "title": "24 GIỜ",
    "characters": [
     "harmand"
    ]
   },
   {
    "narration": "Sử chép, ông ta còn đe: \"Cái tên Việt Nam… sẽ bị xóa khỏi lịch sử.\"",
-   "image": "Close-up of the French commissioner, his face filling half the frame, smug arrogant smile, pointing his finger at the viewer; behind him on the wall a big pink eraser rubbing out part of an old parchment map, lit from below by an oil lamp",
+   "image": "Close-up of the French commissioner, his face filling half the frame, smug arrogant smile, pointing his finger at the viewer; behind him on the wall an old parchment map of an S-shaped coastline with a big pink eraser rubbing at it, lit from below by an oil lamp",
    "characters": [
     "harmand"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s013.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the French commissioner in the top hat narrows his eyes and his smug grin widens slightly, and his pointing finger jabs gently toward the viewer once, then holds. His mouth stays in the same closed-teeth grin: he does not speak, does not laugh, does not open his mouth. Second motion: the hand holding the pink eraser on the right rubs it back and forth on the wall map, small pink eraser crumbs fall; the map stays visible and is NOT erased. Ambient motion: the oil lamp flame flickers softly, warm light shimmers. Keep his face, moustache, goatee, top hat and suit unchanged. Exactly the same hands as in the image: his pointing hand and the eraser hand, each with five fingers, no extra hands or fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. Ambience sound only: soft rubbing of an eraser on paper, a quiet room, the lamp. No music, no dialogue, no laughter. No text, no letters appear anywhere."
   },
   {
-   "narration": "Triều đình đành ký hòa ước Quý Mùi, nhận sự bảo hộ của nước Pháp.",
-   "image": "Signing ceremony inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective: in the foreground Vietnamese mandarins with sad faces sign a long document at a red lacquered table with brush and ink; the French commissioner stands large behind them with arms crossed, smug; two French soldiers guard the door",
+   "narration": "Triều đình ký hòa ước Quý Mùi. Trong đó có hai chữ: \"bảo hộ\".",
+   "image": "Signing scene inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective: in the foreground sad Vietnamese mandarins sign a long treaty document at a red lacquered table with brush and ink; the French commissioner stands large behind them with arms crossed, smug; two French soldiers guard the door; grey rain light from the windows",
    "characters": [
     "nguyen-van-tuong",
     "harmand"
    ]
   },
   {
-   "narration": "Chữ \"bảo hộ\" nghe như được che chở. Nhưng thực ra là mất quyền tự quyết.",
-   "image": "Gag in a palace courtyard in heavy rain: a big French soldier, large in the frame, with exactly two arms and two hands: his right hand holds a black umbrella tilted fully over the head of a small worried Vietnamese mandarin standing beside him, as if protecting him from the rain, while his left hand grips the back of the mandarin's collar firmly; his rifle is slung across his back with no hand on it; the soldier himself gets wet, smug smile; puddles, red pillars and a tiled roof behind",
-   "characters": [
-    "linh-phap"
-   ]
+   "narration": "Hãy nhìn vào hai chữ ấy.",
+   "image": "Extreme close-up insert, top-down: a sheet of old treaty paper fills the whole frame, covered with neat rows of small grey scribble lines that are not readable; in the middle a large clean empty rectangle of paper with nothing written in it, circled by a thick red ink brush circle; a brush tip and an ink stone at the bottom edge. No readable text anywhere. Nobody in the scene: no people, no figures, no soldiers, no faces",
+   "motion": "still"
+  },
+  {
+   "narration": "Nghe như được che chở. Nhưng từ nay, muốn nói chuyện với bất cứ nước nào, triều đình cũng phải đi qua người Pháp.",
+   "image": "Gag at a red lacquered table in a palace pavilion: a Vietnamese mandarin in a black turban on the left holds out a sealed letter toward a Qing Chinese envoy in a round hat on the right, but a smug French official in a black frock coat leans in between them, large in the centre, and snatches the letter in mid-air; both envoys look shocked"
   },
   {
    "narration": "Giống như một ngôi nhà vẫn treo biển tên chủ cũ, nhưng chìa khóa cửa đã nằm trong túi người khác.",
-   "image": "Gag: a traditional Vietnamese wooden house with a curved tiled roof fills the frame, a blank wooden name board above the door; the Vietnamese owner in a black turban stands large in the left foreground looking at it sadly; a French officer leans in the doorway twirling a big iron key ring, smug; potted bonsai, lanterns, warm afternoon light",
+   "image": "Gag: a traditional Vietnamese wooden house with a curved tiled roof, a large horizontal plain wooden board that is COMPLETELY BLANK (no writing) above the door; the Vietnamese owner in a black turban stands large in the left foreground looking at it sadly; a French officer leans in the doorway twirling a big iron key ring, smug; potted bonsai, lanterns, grey afternoon light",
    "characters": [
     "linh-phap"
    ]
   },
   {
-   "narration": "Trong cung, ngai vàng cũng chẳng yên ổn hơn.",
-   "image": "Inside a dim palace throne hall: a golden throne on red steps in the centre wobbles (small motion lines), long dark shadows of grasping hands reach toward it from both sides across the floor, red pillars framing the shot, a single beam of cold moonlight. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "narration": "Còn trong cung, ngồi lên ngai vàng lúc ấy, còn nguy hiểm hơn đứng ngoài cửa biển.",
+   "image": "Inside a dim palace throne hall: a golden throne on red steps in the centre, long dark shadows of grasping hands reach toward it from both sides across the floor, cracks in the floor tiles, red pillars framing the shot, one beam of cold moonlight; outside the window far away a stormy sea. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Chỉ trong khoảng một năm, bốn vị vua lần lượt bước lên ngai.",
-   "image": "Gag still life, no people: four small yellow silk imperial turbans (soft wrapped cloth head bands with visible fabric folds, clearly cloth headwear, not fruit, not pots) each on its own small wooden hat stand on a long red lacquered shelf filling the frame; three stands knocked over with their turbans fallen, only one still upright; palace background with red pillars and a lantern",
+   "image": "Gag still life in a palace dressing room: four bright yellow imperial robes on four wooden clothes stands in a row; the first three stands are knocked over with their yellow robes crumpled on the floor, only the fourth stand is still upright with its robe; red pillars and one lantern behind. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title. Nobody in the scene: no people, no figures, no soldiers, no faces",
    "title": "MỘT NĂM, BỐN VUA"
   },
   {
-   "narration": "Vua Dục Đức ở ngôi ba ngày thì bị phế.",
-   "image": "A young Vietnamese emperor of about 30 in a yellow robe, large in the frame, is escorted out of the throne hall by two palace guards gripping his arms, surprised face; on a side table in the foreground three burnt-out candles; the empty throne behind"
+   "narration": "Vua Dục Đức: ba ngày, rồi bị phế.",
+   "image": "A young Vietnamese emperor of about 30 in a yellow robe, large in the frame, is escorted out of the throne hall by two palace guards gripping his arms, surprised face; on a side table in the foreground three short burnt-out candles"
   },
   {
-   "narration": "Vua Hiệp Hòa được bốn tháng, rồi bị ép uống thuốc độc.",
-   "image": "Night in a dim palace room: a middle-aged Vietnamese emperor in a yellow robe sits slumped and frightened, large in the frame, while a stern official's arm holds out a small cup on a lacquered tray toward him in the foreground; one oil lamp casting long shadows"
+   "narration": "Vua Hiệp Hòa: bốn tháng, rồi bị ép uống thuốc độc.",
+   "image": "Night in a dim palace room: a middle-aged Vietnamese emperor in a yellow robe sits slumped and frightened, large in the frame, while a stern official's arm in a dark sleeve holds out a small cup on a lacquered tray toward him in the foreground; one oil lamp casting long shadows on the wall"
   },
   {
-   "narration": "Vua Kiến Phúc mới mười lăm tuổi, ở ngôi tám tháng thì qua đời.",
-   "image": "A pale thin young Vietnamese emperor in a yellow robe lies sick in bed under a canopy, large in the frame, an old physician kneels feeling his pulse; a steaming medicine bowl in the foreground, dim candlelight, worried servants in the background"
+   "narration": "Vua Kiến Phúc: tám tháng, rồi qua đời khi mới mười lăm tuổi.",
+   "image": "A pale thin young Vietnamese emperor in a yellow robe lies sick in bed under a canopy, large in the frame, an old physician kneels feeling his pulse; a steaming medicine bowl in the foreground, dim candlelight, worried servants behind"
   },
   {
    "narration": "Đứng sau những lần thay vua ấy, là hai vị phụ chính: Nguyễn Văn Tường và Tôn Thất Thuyết.",
@@ -192,53 +202,55 @@
    ]
   },
   {
-   "narration": "Chỗ này sử chép khác nhau, Vy nói cả hai.",
-   "image": "An open old book with blank pages fills the frame, lying on a scholar's desk; the left half of the background is sunny and calm with blossoms, the right half dark and stormy with lightning; an ink brush and ink stone in the foreground"
+   "narration": "Chỗ này sử chép khác nhau. Có người bảo họ đặt vua lên rồi nhấc xuống như những quân cờ.",
+   "image": "Gag, high angle: two giant hands from above, one in a red silk sleeve and one in a teal silk sleeve, move small emperor figurines in yellow robes on a big chessboard that fills the frame; two figurines already knocked over; candle light on a palace floor"
   },
   {
-   "narration": "Có người bảo họ chuyên quyền, đặt vua lên rồi nhấc xuống như những quân cờ.",
-   "image": "Gag: two giant hands from above, one in a red sleeve and one in a teal sleeve, place small emperor figurines in yellow robes on a big chessboard that fills the frame like chess pieces; one figurine already knocked over; palace floor around"
-  },
-  {
-   "narration": "Có người lại cho rằng, họ đang tìm một ông vua dám đứng lên chống Pháp.",
-   "image": "The red-robed regent stands large in the foreground at an open palace window seen from behind his shoulder, fist clenched, determined angry eyebrows, watching French warships with smoking funnels on the Perfume River outside; wooden lattice frames the shot",
+   "narration": "Có người lại cho rằng, họ đang tìm cho bằng được một ông vua dám chống Pháp.",
+   "image": "The red-robed regent stands large in the foreground at an open palace window, seen over his shoulder, fist clenched, determined angry eyebrows, watching French warships with smoking funnels on the river outside; wooden lattice frames the shot",
    "characters": [
     "ton-that-thuyet"
    ]
   },
   {
-   "narration": "Năm một tám tám bốn, triều đình lại phải ký thêm hòa ước Giáp Thân.",
-   "image": "Inside a palace pavilion: Vietnamese mandarins in black turbans sign papers at a red lacquered table in the foreground, reluctant; a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat) stands over them pointing at the paper; red pillars and lanterns",
-   "title": "1884",
+   "narration": "Tháng Sáu năm một tám tám bốn, triều đình ký thêm hòa ước Giáp Thân.",
+   "image": "Wide view of a palace pavilion: Vietnamese mandarins in black turbans sign papers at a red lacquered table, reluctant; a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat) stands over them pointing at the paper; French soldiers along the walls, red pillars and lanterns",
    "characters": [
     "nguyen-van-tuong"
    ]
   },
   {
    "narration": "Chiếc ấn mà nhà Thanh phong cho vua Nguyễn bị đem nấu chảy, ngay trước mặt sứ thần Pháp.",
-   "image": "A square metal seal with a small crouching lion on top (no characters on it) melts in a small glowing furnace in the foreground, flames and sparks; a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat) watches smugly with arms crossed; Vietnamese mandarins in black turbans watch sadly in the background"
+   "image": "Close-up: a square metal seal with a small crouching lion on top (no characters on it) melts in a small glowing furnace in the foreground, flames and sparks; a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat) watches smugly with arms crossed; mandarins in black turbans watch sadly in the background",
+   "video": "Turn the attached image veo2-s027.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the square metal seal with the small lion on top slowly melts in the furnace during the whole clip: the block softens and sags, the lion tilts and slowly sinks into a pool of glowing golden molten metal. Second motion: the bald French diplomat keeps his arms crossed and lifts his chin a little with a smug smile; the Vietnamese mandarins bow their heads a little lower, one closes his eyes. Nobody speaks, nobody walks. Ambient motion: the furnace flames surge and flicker, sparks rise, firelight flickers on the faces, the hanging lanterns sway gently. The flames never cover the diplomat's face. Ambience sound only: roaring furnace, sizzling metal, a quiet sigh. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
-   "narration": "Từ đây, Đại Nam chỉ còn một ông chủ đứng sau lưng: nước Pháp.",
-   "image": "Gag: a huge dark silhouette of a French officer in a kepi stands behind a small golden Vietnamese throne, holding puppet strings attached to it, inside a red palace hall lit by a single lamp"
+   "narration": "Đến đây, ai cũng tưởng nhà Nguyễn đã cúi đầu hẳn.",
+   "image": "High angle wide view of a palace courtyard: a long row of Vietnamese mandarins in black turbans and colourful robes bow deeply toward a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat) and French officers standing at the top of the stairs; yellow tiled roofs, grey sky"
   },
   {
-   "narration": "Tháng Tám năm ấy, một cậu bé mười ba tuổi được đưa lên ngai vàng: vua Hàm Nghi.",
-   "image": "Coronation: low angle, the young emperor sits on a big golden throne, large in the frame, his feet not touching the floor, looking small and serious; rows of mandarins kneeling below in the foreground; golden light, red pillars, incense smoke, yellow parasols",
-   "title": "HÀM NGHI",
+   "narration": "Tháng Tám năm ấy, ngai vàng có người thứ tư: một cậu bé mười ba tuổi tên Ưng Lịch.",
+   "image": "Coronation, low angle: the young emperor sits on a huge golden throne, his feet not touching the floor, looking small and serious; rows of mandarins kneeling below in the foreground; warm golden light, red pillars, incense smoke, yellow parasols",
    "characters": [
     "ham-nghi"
    ]
   },
   {
-   "narration": "Cậu vốn sống ngoài cung, quen cảnh thường dân, chưa từng nghĩ mình sẽ làm vua.",
-   "image": "Warm sunny flashback: the young emperor (wearing plain brown commoner clothes instead of the robe) carries a bucket of water, large in the frame, in front of a humble village house with a thatched roof, a bamboo fence, chickens and banana trees",
+   "narration": "Trước đó, cậu sống ngoài cung, ăn uống đạm bạc như con nhà thường dân.",
+   "image": "Warm sunny flashback: the young emperor (wearing plain brown commoner clothes instead of the robe) eats a simple bowl of rice with a pair of chopsticks, sitting on a bamboo bench in front of a humble thatched village house, chickens and banana trees around, large in the frame",
    "characters": [
     "ham-nghi"
    ]
   },
   {
-   "narration": "Người đứng cạnh cậu, là Tôn Thất Thuyết.",
+   "narration": "Cậu chưa từng nghĩ mình sẽ làm vua. Giờ, cậu là vua Hàm Nghi.",
+   "image": "The young emperor in his yellow robe stands large in front of a tall bronze mirror in a palace room, looking at it in wonder; in the mirror his reflection wears plain brown commoner clothes; warm lantern light",
+   "characters": [
+    "ham-nghi"
+   ]
+  },
+  {
+   "narration": "Người đứng cạnh cậu là Tôn Thất Thuyết, người cầm đầu phe chủ chiến.",
    "image": "The red-robed regent stands large beside the young emperor's golden throne with his hand on his sword hilt, protective and stern, the young emperor seated; inside a Hue palace hall with red lacquered pillars, carved golden wooden screens, hanging red paper lanterns and a polished tiled floor in perspective",
    "characters": [
     "ton-that-thuyet",
@@ -246,22 +258,15 @@
    ]
   },
   {
-   "narration": "Ông là người cầm đầu phe chủ chiến trong triều.",
-   "image": "War council at night: the red-robed regent leans over a big map spread on a table in the foreground, pointing; mandarins in black turbans lean in around the table and nod; one oil lamp lights their faces from below, dark room",
-   "characters": [
-    "ton-that-thuyet"
-   ]
-  },
-  {
-   "narration": "Ngoài mặt, ông vẫn tiếp đón sứ Pháp. Nhưng sau lưng, ông lặng lẽ chuẩn bị.",
-   "image": "Split composition: the red-robed regent bows politely to a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat), but behind his back his hand grips his sword hilt (shown clearly in the foreground); palace courtyard with red pillars",
+   "narration": "Ngoài mặt, ông vẫn tiếp đón sứ Pháp. Sau lưng, ông lặng lẽ chuẩn bị.",
+   "image": "Split composition: the red-robed regent bows politely to a French diplomat in a black frock coat, white shirt and black bow tie, grey mustache, bare head (no hat), but behind his back his hand grips his sword hilt, shown clearly in the foreground; palace courtyard with red pillars",
    "characters": [
     "ton-that-thuyet"
    ]
   },
   {
    "narration": "Ông lập những đội quân riêng, lấy tên là Phấn Nghĩa.",
-   "image": "Training ground in front of palace walls: the red-robed regent stands large in the foreground with arms crossed; behind him rows of young Vietnamese soldiers practise thrusting spears in a diagonal line, dust, flags without writing",
+   "image": "Training ground in front of palace walls: the red-robed regent stands large in the foreground with arms crossed; behind him rows of young Vietnamese soldiers practise thrusting spears in unison, dust, morning sun",
    "characters": [
     "ton-that-thuyet",
     "quan-ta"
@@ -269,23 +274,19 @@
   },
   {
    "narration": "Ông cho tích trữ lương thực, súng đạn, chuyển bớt vàng bạc ra khỏi kinh thành.",
-   "image": "Night: workers carry wooden chests and sacks of rice onto ox carts out of a palace side gate, lit by red lanterns; one worker large in the foreground puts a finger to his lips, secretive mood"
+   "image": "Night: workers carry wooden chests and sacks of rice onto ox carts out of a palace side gate, lit by red lanterns; one worker large in the foreground puts a finger to his lips, secretive"
   },
   {
-   "narration": "Và ông bí mật dựng một căn cứ giữa núi rừng Quảng Trị: sơn phòng Tân Sở.",
-   "image": "a jungle mountain fortress: a tall wooden palisade gate with two small watchtowers, thatched barracks and earthen walls among dense green jungle, misty mountains behind, seen from the path in front of the gate; the gate fills the upper half and above the gate hangs a large horizontal wooden name board that is COMPLETELY BLANK; soldiers with spears at the gate, torches, ferns in the foreground"
+   "narration": "Và giữa núi rừng Quảng Trị, ông bí mật dựng một căn cứ: sơn phòng Tân Sở.",
+   "image": "a jungle mountain fortress: a tall wooden palisade gate with two small watchtowers, thatched barracks and earthen walls among dense green jungle, misty mountains behind, seen from the path in front of the gate; above the gate hangs a large horizontal plain wooden board that is COMPLETELY BLANK (no writing); soldiers carry supplies in through the gate, morning mist"
   },
   {
-   "narration": "Nghe thì như một triều đình đã cúi đầu. Nhưng thực ra, họ chỉ đang chờ thời cơ.",
-   "image": "The red-robed regent kneels, large in the frame, with his head bowed politely, but his eyes glance up sideways sharply with a small secret smile; palace floor and red pillars behind",
-   "characters": [
-    "ton-that-thuyet"
-   ]
+   "narration": "Hãy nhớ cái tên ấy. Một năm sau, nhà vua sẽ phải chạy về đó.",
+   "image": "Extreme close-up insert: the tip of a fine ink brush draws a red circle around a tiny hidden fort among green mountains on an aged parchment map; the map fills the frame, an oil lamp glow at the edge; no labels, no letters. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Đầu tháng Bảy năm một tám tám lăm, tướng Pháp Đờ Cuốc-xi kéo quân tới Huế.",
-   "image": "The French general on horseback, large in the foreground, leads a long column of French marines along the Perfume River toward the walls of the Hue citadel; banana trees and the riverbank, afternoon light",
-   "title": "1885",
+   "image": "The French general on horseback, large in the foreground, leads a long column of French marines along the Perfume River toward the walls of the Hue citadel; banana trees and the riverbank, hot afternoon light",
    "characters": [
     "de-courcy",
     "linh-phap"
@@ -293,39 +294,33 @@
   },
   {
    "narration": "Ông ta muốn ra oai với triều đình, và tính chuyện bắt Tôn Thất Thuyết.",
-   "image": "The French general sits smugly in a carved armchair, large in the frame, hiding a pair of iron handcuffs behind his back (shown clearly); a French colonial office with a desk, papers and a French flag",
+   "image": "The French general sits smugly in a carved armchair, large in the frame, hiding a pair of iron handcuffs behind his back, shown clearly; a French colonial office with a desk, papers and a tricolour-free plain wall",
    "characters": [
     "de-courcy"
    ]
   },
   {
-   "narration": "Tương truyền, Đờ Cuốc-xi còn đòi dẫn quân đi qua cửa giữa Ngọ Môn, lối đi chỉ dành riêng cho nhà vua.",
-   "image": "Symmetrical frontal view of the Ngo Mon gate of the Hue imperial citadel: a massive brick gate base with a big arched middle door and smaller side doors, topped by a two-storey wooden pavilion with yellow glazed tiled curved roofs, and directly above the middle door a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK; the gate fills the upper half of the frame, warm late afternoon light. In front of the middle door, large in the frame, the French general on a horse arrogantly points at the big middle door, which glows golden. In the foreground lower corners Vietnamese mandarins in teal and red robes turn their heads, shocked, sweat drops. Red flags and bronze cauldrons along the stone courtyard",
+   "narration": "Tương truyền, ông ta còn đòi dẫn quân đi qua cửa giữa Ngọ Môn, lối đi chỉ dành riêng cho nhà vua.",
+   "image": "Symmetrical frontal view of the Ngo Mon gate of the Hue imperial citadel: a massive brick gate base with a big arched middle door and smaller side doors, topped by a two-storey wooden pavilion with yellow glazed tiled curved roofs, and directly above the middle door a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK, warm late afternoon light. In front of the middle door the French general on a horse points his riding crop at the middle door, while a Vietnamese palace guard stands in the doorway blocking it with his spear crossed, shocked",
    "characters": [
     "de-courcy"
    ]
   },
   {
    "narration": "Tôn Thất Thuyết cáo ốm, không đến buổi tiếp.",
-   "image": "The red-robed regent lies in bed pretending to be sick, large in the frame, a wet cloth on his forehead, one eye open slyly; his sword leaning on the bed, a teapot on a side table, wooden bedroom",
+   "image": "The red-robed regent lies in bed pretending to be sick, large in the frame, a wet cloth on his forehead, one eye open slyly; his sword leaning on the bed, a teapot on a side table, wooden room",
    "characters": [
     "ton-that-thuyet"
    ]
   },
   {
-   "narration": "Ông hiểu, chờ thêm nữa, là chờ người ta đến bắt mình.",
-   "image": "Night: the red-robed regent sits up in bed, large in the frame, a thought bubble above him showing French soldiers coming with handcuffs; lantern light, dark wooden room",
-   "characters": [
-    "ton-that-thuyet"
-   ]
-  },
-  {
-   "narration": "Đánh thì chưa chắc thắng. Không đánh thì chắc chắn mất tất cả.",
-   "image": "Extreme close-up: the regent's face fills more than half the frame, split lighting, the left half lit warm red-orange by a red paper lantern at the frame edge, the right half in deep blue shadow, a single drop of sweat, hard determined eyes; dark palace pillars behind",
+   "narration": "Đánh thì chưa chắc thắng. Còn chờ, là chờ người ta đến bắt mình.",
+   "image": "Extreme close-up: the regent's face fills more than half the frame, split lighting, the left half lit warm red-orange by a lantern at the frame edge, the right half in deep blue shadow, eyes narrowed in a hard decision. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
    "title": "ĐÁNH HAY CHỜ?",
    "characters": [
     "ton-that-thuyet"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s042.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the regent's eyes slowly shift to one side and back, his brows knit tighter and his jaw clenches, one small drop of sweat slides down his temple. His head does not turn, his mouth stays closed, he does not speak. Ambient motion: the warm red lantern light on one half of his face and the cold blue light on the other half flicker softly, a thin wisp of smoke drifts behind him. Ambience sound only: a quiet night room, a lantern flame, distant crickets. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
    "narration": "Ông chọn đánh trước.",
@@ -335,72 +330,72 @@
    ]
   },
   {
-   "narration": "Rạng sáng ngày năm tháng Bảy năm một tám tám lăm, một tiếng súng lệnh vang lên giữa đêm.",
-   "image": "Night on the citadel wall: a big signal cannon in the foreground fires into the dark sky, a bright yellow flash and white smoke; a Vietnamese gunner covers his ears; a red flag without writing on the battlement",
-   "title": "5/7/1885",
+   "narration": "Đêm hai mươi hai rạng hai mươi ba tháng Năm âm lịch, một tiếng súng lệnh xé toạc màn đêm.",
+   "image": "Night on the citadel wall: a big signal cannon in the foreground fires into the dark blue sky, a bright yellow flash and white smoke; a Vietnamese gunner covers his ears; a crescent moon; a plain red flag without writing",
    "characters": [
     "quan-ta"
-   ]
+   ],
+   "video": "Turn the attached image veo2-s044.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the big signal cannon on the citadel wall fires ONE single shot at the start: a bright flash and a big puff of white smoke burst from the muzzle, the barrel jolts back slightly, then the smoke slowly drifts and thins; no second shot. The soldier crouching beside it covers his ears and flinches, the soldier with the spear stays standing and blinks. Ambient motion: the red flag on the wall flutters strongly, the torches flicker. Ambience sound only: one cannon boom at the start, then wind and crackling torches. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
-   "narration": "Quân ta đồng loạt đánh vào tòa Khâm sứ và đồn Mang Cá, nơi quân Pháp đóng.",
-   "image": "Night attack, camera placed BEHIND the whole Vietnamese army: EVERY soldier is seen from the back, we only see their backs, red tunics and the backs of their conical hats, NO faces visible at all, nobody looks back or turns toward the camera; all of them run in the same direction, away from the viewer, toward a burning enemy building across a river; the nearest soldier, large in the lower foreground seen from behind, raises a blazing torch and thrusts his spear forward; in front of him a crowd of soldiers (all backs) rushes down the riverbank and wades into the shallow water, torches and spears raised, fire arrows arcing through the night sky toward the building; in the upper part of the frame, across the river, a two-storey European colonial building with a French flag is on fire, orange smoke rising into a deep blue night sky; torchlight reflected on the water; aggressive forward attack",
-   "characters": [
-    "quan-ta"
-   ]
+   "narration": "Quân ta đồng loạt đánh vào tòa Khâm sứ bên kia sông Hương, và đồn Mang Cá ngay trong thành.",
+   "image": "Night attack, camera placed BEHIND the whole Vietnamese army: EVERY soldier is seen from the back, we only see their backs, red tunics and the backs of their conical hats, NO faces visible; they wade across the river and charge toward a two-storey French colonial residence building with arched windows on the far bank, fire arrows flying toward it"
   },
   {
    "narration": "Lửa bốc cháy khắp hai bờ sông Hương.",
-   "image": "Night: fires burning along both banks of the Perfume River, roofs of houses aflame, orange reflections on the water, a small sampan in the foreground, black smoke, no bridge"
+   "image": "Night: fires burning along both banks of the Perfume River, roofs of houses aflame, orange reflections on the dark blue water, a small empty sampan in the foreground, black smoke, no bridge",
+   "video": "Turn the attached image veo2-s046.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the fires on the roofs of the houses along both river banks burn and surge, black smoke rises slowly. Ambient motion: the dark river ripples with shimmering orange reflections, the small wooden boat bobs gently, the two villagers on the bank stay in place, one breathes heavily and lowers his raised hand slightly. Ambience sound only: crackling fire, water lapping, distant shouts without words. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
    "narration": "Nhưng quân Pháp giữ được trận địa. Trời vừa sáng, họ phản công.",
-   "image": "Dawn: French marines kneel behind sandbag barricades firing rifles toward the viewer, the front marine large in the foreground, smoke and pale morning light",
+   "image": "Grey dawn: French marines kneel behind sandbag barricades firing rifles toward the viewer, the front marine large in the foreground, gun smoke and pale morning light",
    "characters": [
     "linh-phap"
    ]
   },
   {
-   "narration": "Một lần nữa, súng trường và đại bác lại nói lời quyết định.",
-   "image": "Dawn, inside the Hue citadel, camera placed BEHIND a French field cannon: the cannon is large in the lower foreground seen from behind, its barrel pointing STRAIGHT AWAY from the viewer into the distance, a bright muzzle flash and a big white smoke cloud bursting from the FRONT end of the barrel; two French gunners beside it seen from behind and the side, one covering his ears, one holding the rammer; in the distance ahead, beyond the smoke, a thick old brick citadel wall and palace roofs burning with black smoke; small Vietnamese soldiers far away retreat and run AWAY from the cannon toward the wall, their backs to the viewer, some carrying a wounded comrade, no blood; pale grey-orange dawn sky; the French clearly winning",
+   "narration": "Súng trường và đại bác, một lần nữa, nói lời quyết định.",
+   "image": "Dawn inside the Hue citadel, camera placed BEHIND a French field cannon: the cannon is large in the lower foreground seen from behind, its barrel pointing STRAIGHT AWAY from the viewer, firing at a burning citadel wall far ahead, a white muzzle blast; far ahead, small Vietnamese soldiers retreat AWAY from the viewer toward that wall: EVERY Vietnamese soldier is seen from the back, NO faces visible",
    "characters": [
-    "linh-phap",
-    "quan-ta"
+    "linh-phap"
    ]
   },
   {
    "narration": "Kinh thành thất thủ. Cung điện bị cướp phá, vô số người dân chết trong khói lửa.",
-   "image": "Palace buildings burning with black smoke; French soldiers in the foreground carry away golden vases and wooden chests, one grinning; broken lanterns on the ground",
+   "image": "Palace buildings burning with black smoke; French soldiers in the foreground carry away golden vases and wooden chests, one grinning; broken lanterns and scattered papers on the ground",
    "characters": [
     "linh-phap"
    ]
   },
   {
-   "narration": "Đến hôm nay, người Huế vẫn lấy ngày hai mươi ba tháng Năm âm lịch, làm ngày giỗ chung.",
-   "image": "Evening in an old Hue street: a family kneels in the foreground at their home altar lighting incense, soft smoke curling; other houses with lit altars down the street, lanterns, solemn warm light"
-  },
-  {
-   "narration": "Trong lúc hỗn loạn, Tôn Thất Thuyết đưa vua Hàm Nghi và Tam cung ra khỏi thành.",
-   "image": "Smoky dawn, in front of the Cua Huu (south-west gate) of the Hue citadel: a thick old brick and stone citadel wall with ONE big round-arched gate tunnel, on top of the wall above the arch a small single-storey wooden watchtower pavilion with a curved yellow tiled roof, and set into the wall directly above the arch a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK: the red-robed regent, large in the frame, leads the young emperor and three royal ladies in long robes out of the arch, carrying bundles; soldiers with torches behind, fire glow over the wall",
+   "narration": "Trong hỗn loạn, Tôn Thất Thuyết đưa vua Hàm Nghi và Tam cung ra khỏi thành, qua cửa Hữu.",
+   "image": "Smoky dawn in front of the Cua Huu (south-west gate) of the Hue citadel: a thick old brick and stone citadel wall with ONE big round-arched gate tunnel, on top of the wall above the arch a small single-storey wooden watchtower pavilion with a curved yellow tiled roof, and set into the wall directly above the arch a large horizontal dark red wooden name plaque with a gold border that is COMPLETELY BLANK: the red-robed regent, large in the frame, leads the young emperor and three royal ladies in long robes out of the arch, carrying bundles; a few soldiers with spears behind; grey-orange light",
    "characters": [
     "ton-that-thuyet",
     "ham-nghi"
    ]
   },
   {
-   "narration": "Cậu bé mười ba tuổi bước qua cổng kinh thành. Và không bao giờ trở lại.",
-   "image": "Seen from behind, over his shoulder: the young emperor walks out through a dark citadel gate tunnel toward a misty road, looking back once; through the arch behind him the palace glows orange with fire; brick tunnel walls frame the shot",
-   "characters": [
-    "ham-nghi"
-   ]
+   "narration": "Đây chính là buổi sáng ở đầu câu chuyện.",
+   "image": "(ảnh giữ lại: callback = s003 in sepia)",
+   "motion": "still"
   },
   {
-   "narration": "Đoàn người băng rừng vượt núi, ra đến Tân Sở, Quảng Trị.",
-   "image": "an aged parchment map in flat cartoon style filling the whole frame, lying on a dark wooden table, simple ink coastline and rivers, green hills, an oil lamp and an ink brush at the edges, no labels, no text, no letters: central Vietnam with a square walled citadel beside a river near the coast, and green mountains to the north-west with a small hidden fort among them. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "narration": "Cậu bé mười ba tuổi bước qua cổng kinh thành. Và không bao giờ trở lại.",
+   "image": "Seen from behind over his shoulder: the young emperor walks out through a dark citadel gate tunnel toward a misty road, looking back once; through the arch behind him the palace glows orange with fire",
+   "characters": [
+    "ham-nghi"
+   ],
+   "video": "Turn the attached image veo2-s052.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the young emperor stands still in the dark gate tunnel; he slowly turns his head to look forward and lowers his eyes, a quiet resolved farewell. He does NOT walk, does not step, does not leave the frame, his body and feet stay in place, his mouth stays closed. Ambient motion: grey mist swirls slowly around his feet, the fire glowing through the gate behind him flickers, tiny embers drift. Ambience sound only: distant fire, wind through the gate, soft footsteps of others far away. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
+  },
+  {
+   "narration": "Đoàn người băng rừng, về đúng nơi đã được chuẩn bị từ một năm trước: Tân Sở.",
+   "image": "(ảnh giữ lại: map: Hue → Tan So (old s054))",
+   "layers": "layers/s053.json"
   },
   {
    "narration": "Ngày mười ba tháng Bảy năm một tám tám lăm, tại đây, một tờ chiếu được ban ra, nhân danh vua Hàm Nghi.",
-   "image": "Inside a jungle fortress hall made of wood and bamboo: the red-robed regent stands large in the frame reading aloud from an unrolled yellow edict, the young emperor seated behind him; in the foreground the backs of kneeling officials and soldiers; torchlight",
+   "image": "Inside a jungle fortress hall made of wood and bamboo: the red-robed regent stands large in the frame reading aloud from an unrolled yellow edict, the young emperor seated behind him; in the foreground the backs of kneeling officials and soldiers; torchlight. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
    "title": "13/7/1885",
    "characters": [
     "ton-that-thuyet",
@@ -409,12 +404,12 @@
   },
   {
    "narration": "Đó là chiếu Cần Vương. Cần Vương, nghĩa là hết lòng phò vua, giúp nước.",
-   "image": "Close-up still life, no people, no hands: a long yellow silk imperial edict scroll unrolled on a red lacquered table filling the frame, its surface completely plain and blank (no writing, no characters, no marks), only one red square seal stamp near the end, rays of golden light falling on it",
+   "image": "Close-up still life, no people, no hands: a long yellow silk imperial edict scroll unrolled on a red lacquered table, its surface completely plain and blank (no writing, no characters, no marks), only one red square seal stamp near the end, rays of golden light falling on it. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title. Nobody in the scene: no people, no figures, no soldiers, no faces",
    "title": "CẦN VƯƠNG"
   },
   {
    "narration": "Chiếu kể rõ vì sao vua phải rời kinh thành, rồi kêu gọi muôn dân đứng lên.",
-   "image": "Messengers on horseback gallop out of the gate of a jungle mountain fortress: a tall wooden palisade gate with two small watchtowers, thatched barracks and earthen walls among dense green jungle, misty mountains behind, toward the viewer and in different directions, the front rider large in the foreground holding a rolled scroll; dust and morning light"
+   "image": "Messengers on horseback gallop out of the gate of a jungle mountain fortress: a tall wooden palisade gate with two small watchtowers, thatched barracks and earthen walls among dense green jungle, misty mountains behind, toward the viewer and in different directions, the front rider large in the foreground holding a rolled scroll; dust and golden morning light"
   },
   {
    "narration": "Đại ý: ai có sức thì góp sức, ai có của thì góp của, ai có mưu thì góp mưu.",
@@ -422,28 +417,39 @@
   },
   {
    "narration": "Một tờ giấy, không bắn được viên đạn nào.",
-   "image": "Comical contrast on a grassy hill: a tiny rolled paper scroll lies in the foreground beside a huge black cannon that fills most of the frame, low camera angle, clouds behind. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "image": "Comical contrast on a grassy hill, low camera angle: a tiny rolled paper scroll lies in the foreground next to a neat pyramid of black cannonballs, beside a huge black cannon that fills most of the frame; clouds behind. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Nhưng nó như một tàn lửa, rơi xuống cánh đồng rơm khô.",
-   "image": "Close-up: a tiny glowing ember falls onto a field of dry golden straw filling the frame, small flames starting to spread, sparks, dusk sky. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "image": "Close-up: a tiny glowing ember falls onto a field of dry golden straw filling the frame, small flames starting to spread, sparks, dusk sky. Nobody in the scene: no people, no figures, no soldiers, no faces",
+   "video": "Turn the attached image veo2-s059.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the tiny glowing ember falls slowly onto the dry golden straw, the straw catches and a small flame grows slowly and spreads a little across the straw during the clip (it stays a small fire, not a big blaze). Ambient motion: thin smoke rises, tiny sparks float up, the dry straw stems tremble in the evening breeze, the bamboo fence stays still. Ambience sound only: soft crackling of straw catching fire, evening wind. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
+  },
+  {
+   "narration": "Vì sao lại cháy? Lý do thứ nhất: lần đầu tiên, chính nhà vua đứng về phía những người muốn đánh.",
+   "image": "Hilltop at dawn: the young emperor (in a plain brown tunic) stands among ordinary peasants with hoes and soldiers with spears, all large in the frame; the people look at him surprised and moved; at the side of the path a wooden signpost with a large horizontal plain wooden board that is COMPLETELY BLANK (no writing); golden sunrise behind",
+   "characters": [
+    "ham-nghi"
+   ]
+  },
+  {
+   "narration": "Ấn cũ đã bị nấu chảy, hòa ước đã ký. Nhưng tờ chiếu này mang tên một ông vua chưa đầu hàng.",
+   "image": "Split composition divided vertically: on the left half, in cold grey light, a small puddle of melted metal with a broken lion-shaped knob in a dead furnace; on the right half, in warm golden light, a long yellow edict scroll with one red square seal stamp and no writing. Nobody in the scene: no people, no figures, no soldiers, no faces"
+  },
+  {
+   "narration": "Lý do thứ hai: rơm đã khô từ lâu. Hai bản hòa ước, bốn ông vua, một chiếc ấn bị nấu chảy. Người dân đã nhìn thấy cả.",
+   "image": "A wide dry field of golden straw under a scorching sun, cracked earth, villagers in conical hats standing at the edge watching the sky; at the edge of the field a wooden signpost with a large horizontal plain wooden board that is COMPLETELY BLANK (no writing); dry heat haze"
   },
   {
    "narration": "Từ Thanh Hóa, Nghệ An, Hà Tĩnh, đến Quảng Nam, Quảng Ngãi, Bình Định, văn thân, sĩ phu và dân thường lần lượt đứng lên.",
-   "image": "Sunrise over mountains and rice fields: a crowd of scholars in black turbans and peasants with spears and hoes rise up and march toward the viewer under plain red banners without writing, the front marchers large in the foreground, more groups on the hills behind"
+   "image": "Sunrise over mountains and rice fields: a crowd of scholars in black turbans and peasants with spears and hoes march toward the viewer under plain red banners without writing, the front marchers large in the foreground, more groups on the hills behind"
   },
   {
-   "narration": "Ở Hà Tĩnh, cụ Phan Đình Phùng cầm quân suốt mười năm giữa núi rừng Hương Khê.",
-   "image": "An old scholar-general with a long white beard, black turban and dark blue robe, waist-up and large in the frame, commands his troops in a mountain forest, pointing ahead; soldiers with old guns and spears behind him among big trees, mist",
-   "title": "PHAN ĐÌNH PHÙNG"
+   "narration": "Ở Hà Tĩnh, cụ Phan Đình Phùng cầm quân hơn mười năm giữa núi rừng Hương Khê.",
+   "image": "an old Vietnamese scholar-general aged about 50 with a long thin white beard, black wrapped turban, dark blue scholar robe, a sword at his belt, waist-up and large in the frame, commands his troops in a misty mountain forest, pointing ahead; soldiers with old guns and spears behind him among big trees"
   },
   {
    "narration": "Ở Thanh Hóa, Đinh Công Tráng dựng chiến lũy Ba Đình giữa đồng chiêm trũng.",
-   "image": "A fortified village surrounded by flooded rice fields, thick bamboo hedges and earthen walls; at the village gate a large horizontal wooden name board that is COMPLETELY BLANK; defenders with spears and old guns on the walls; the front defender large in the foreground"
-  },
-  {
-   "narration": "Ngọn lửa Cần Vương cháy suốt hơn mười năm.",
-   "image": "Night: many beacon fires lighting up one after another on hills across a long landscape; in the foreground a watchman lights a big beacon fire with a torch, sparks flying"
+   "image": "A fortified village surrounded by flooded rice fields, thick bamboo hedges and earthen walls; at the village gate a large horizontal plain wooden board that is COMPLETELY BLANK (no writing); defenders with spears and old guns on the walls; the front defender large in the foreground"
   },
   {
    "narration": "Còn vua Hàm Nghi, ông cùng nghĩa quân ẩn mình trong núi rừng Quảng Bình, suốt ba năm.",
@@ -453,16 +459,8 @@
    ]
   },
   {
-   "narration": "Năm một tám tám tám, vì có kẻ phản bội, ông bị bắt.",
-   "image": "Night: French soldiers with lanterns surround a small thatched hut in the jungle, the front soldier large in the foreground raising his rifle; big leaves frame the shot, moonlight",
-   "title": "1888",
-   "characters": [
-    "linh-phap"
-   ]
-  },
-  {
-   "narration": "Kẻ dẫn quân Pháp tới, là Trương Quang Ngọc, người từng theo hầu bên vua.",
-   "image": "Night jungle path: the shifty traitor, large in the foreground, leads French soldiers along the path, pointing ahead and looking back nervously; lanterns and big leaves",
+   "narration": "Năm một tám tám tám, có kẻ dẫn quân Pháp tới: Trương Quang Ngọc, người từng theo hầu bên vua.",
+   "image": "Night jungle path: the shifty traitor, large in the foreground, leads French soldiers with lanterns along the path, pointing ahead and looking back nervously; big leaves frame the shot, moonlight",
    "characters": [
     "truong-quang-ngoc",
     "linh-phap"
@@ -470,23 +468,31 @@
   },
   {
    "narration": "Sử chép, vua nói: \"Mi giết ta đi… còn hơn là mi mang ta ra nộp cho Tây.\"",
-   "image": "The young emperor (in a brown jungle tunic instead of the robe) stands defiantly and points angrily at the traitor, who flinches and looks away in shame; both large in the frame, jungle clearing, French soldiers in the background",
+   "image": "The young emperor (in a brown jungle tunic instead of the robe) stands defiantly and points angrily at the traitor, who flinches and looks away in shame; both large in the frame, jungle clearing at night with torches, French soldiers in the background",
    "characters": [
     "ham-nghi",
     "truong-quang-ngoc"
    ]
   },
   {
-   "narration": "Người Pháp đày ông sang An-giê, ở tận Bắc Phi, khi ông mới mười bảy tuổi.",
-   "image": "An old steamship arrives at a white North African harbour city with domes, minarets and palm trees, bright sun; on the deck in the foreground a young Vietnamese man in a dark tunic looks at the strange city with a sad face"
+   "narration": "Người Pháp đày ông sang An-giê-ri, ở tận Bắc Phi. Năm ấy, ông mười bảy tuổi.",
+   "image": "An old steamship arrives at a white North African harbour city with domes, minarets and palm trees under a harsh bright sun; on the deck in the foreground the young emperor in a dark tunic looks at the strange city with a sad face",
+   "characters": [
+    "ham-nghi"
+   ]
   },
   {
-   "narration": "Ông sống nơi đất khách hơn năm mươi năm, và trở thành một họa sĩ, ký tên Tử Xuân.",
+   "narration": "Ông sống trên quê hương mười bảy năm. Nơi đất khách, năm mươi lăm năm.",
+   "image": "Split-screen composition divided horizontally into two panels: the upper panel shows a green Vietnamese river landscape with a thatched village and a boy in brown clothes; the lower panel shows a sunny North African garden with white houses and palm trees and an old Vietnamese man in a dark Western suit with a grey beard; a thin dark line between the panels. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
+   "title": "17 NĂM · 55 NĂM"
+  },
+  {
+   "narration": "Ông trở thành một họa sĩ, ký tên Tử Xuân, vẽ rất nhiều trời, mây, núi, sông.",
    "image": "An older Vietnamese man with a neat black beard, wearing a dark Western suit, paints at an easel, knee-up and large in the frame, in a sunny garden with palm trees, white houses and bougainvillea"
   },
   {
-   "narration": "Ông vẽ rất nhiều cảnh trời, mây, núi, sông. Nhưng chưa một lần được trở về quê hương.",
-   "image": "Close-up: a painting on an easel showing sky, clouds, mountains and a river fills the frame, an old man's hand holding a brush in front of it, a single tear drop falling; window light"
+   "narration": "Nhưng chưa một lần được trở về.",
+   "image": "Close-up: a painting on an easel showing sky, clouds, green mountains and a river fills the frame, an old man's hand holding a brush in front of it, a single tear drop falling; window light"
   },
   {
    "narration": "Vậy, vì sao một vị vua lại bỏ ngai vàng để vào rừng?",
@@ -501,32 +507,38 @@
   },
   {
    "narration": "Còn một tờ giấy làm được gì trước đại bác? Nó không thắng được trận nào. Nhưng nó giữ cho ngọn lửa không tắt.",
-   "image": "Close-up: a small flame in an old lantern in the centre, protected from wind and rain by many hands of different people around it (farmer, scholar, soldier, old woman), rain falling, warm glow on the hands"
+   "image": "Close-up: a small flame in an old lantern in the centre, protected from wind and rain by the cupped hands of four Vietnamese people around it: a farmer in a conical hat, a scholar in a black turban, an old woman in a brown headscarf, and a Nguyen dynasty soldier in a short red tunic and a small pointed conical hat (NO armour, NO helmet); rain falling, warm glow on the hands and faces",
+   "video": "Turn the attached image veo2-s075.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: the small flame inside the old lantern flickers and bends in the wind, almost going out, then steadies and glows brighter as the four people cup their hands closer around it. Nobody speaks, their faces stay the same, they do not walk. Ambient motion: rain falls steadily, raindrops splash on the hands, sleeves and the roof edge, warm light glows on their faces. Ambience sound only: steady rain, a small flame. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
+  },
+  {
+   "narration": "Đến hôm nay, cứ ngày hai mươi ba tháng Năm âm lịch, nhiều nhà ở Huế lại thắp hương, giỗ chung cho những người mất trong đêm ấy.",
+   "image": "Present day evening in an old street of Hue: families in modern clothes kneel at small altar tables set in front of their houses, lighting incense, soft smoke curling, offerings of fruit and rice, motorbikes parked, warm lanterns, solemn",
+   "video": "Turn the attached image veo2-s076.jpg into one short video with Veo. Animate this exact illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom out. CAMERA: completely locked-off on a tripod for all 8 seconds: no dolly, no zoom, no pan, no tracking. Main motion: thin incense smoke rises and curls slowly from the incense sticks on the small altar tables; the people kneeling keep their palms together and bow their heads slightly once. Ambient motion: the red lanterns along the old street sway gently, the candle flames flicker, warm evening light. No passers-by, no moving vehicles, the parked motorbike stays still. Ambience sound only: a quiet evening street, soft wind chimes far away. Nothing new appears in the sky or the background: no fire shapes, no dragons, no flying objects, no new people. Keep every face, costume and building unchanged, every character keeps exactly the same number of arms and hands with five fingers. Keep the flat 2D cartoon style, thick black outlines and the same colours. No music, no dialogue. No text, no letters appear anywhere."
   },
   {
    "narration": "Hác-măng từng đe, cái tên Việt Nam sẽ bị xóa khỏi lịch sử. Nó đã không bị xóa.",
-   "image": "Gag still life, top-down view, no people, no hands: a big pink rubber eraser broken into two pieces with small crumbs, lying on an old parchment map of an S-shaped coastline on a wooden desk filling the frame; the map is completely intact, nothing erased, no labels"
+   "image": "Gag still life, top-down view, no people, no hands: a big pink rubber eraser broken into two pieces with small crumbs, lying on an old parchment map of an S-shaped coastline on a wooden desk filling the frame; the map is completely intact, nothing erased, no labels. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Ngọn lửa Cần Vương cháy thêm hơn mười năm, rồi lụi dần.",
-   "image": "Dusk on a lonely hilltop: a big beacon fire that once blazed is burning down to low glowing embers and thin smoke, fills the lower half of the frame, a broken plain red banner without writing lying beside it, misty mountains and a fading orange sky behind. Nobody in the scene: no people, no figures, no soldiers, no faces"
+   "image": "Dusk on a lonely hilltop: a big beacon fire burning down to low glowing embers and thin smoke fills the lower half of the frame, a broken plain red banner without writing lying beside it, misty mountains and a fading orange sky behind. Nobody in the scene: no people, no figures, no soldiers, no faces"
   },
   {
    "narration": "Nhưng tờ giấy năm ấy, đã kịp đến tay một chàng thư sinh chưa đầy hai mươi tuổi ở Nghệ An.",
-   "image": "Night in a humble thatched village house in Nghe An: a a thin Vietnamese young scholar aged about 19, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe sits large in the frame at a low wooden table reading a copy of a long yellow edict scroll by the light of one oil lamp, his eyes burning with determination; the scroll surface is plain with no writing; old books and a brush on the table, a bamboo window with a dark village outside"
+   "image": "Night in a humble thatched village house: a thin Vietnamese young scholar, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe sits large in the frame at a low wooden table reading a copy of a long yellow edict scroll by the light of one oil lamp, his eyes burning with determination; the scroll surface is plain with no writing; old books and a brush on the table, a bamboo window with a dark village outside"
   },
   {
    "narration": "Anh rủ bạn học lập một đội quân nhỏ để hưởng ứng. Đội quân ấy tan rất nhanh. Còn chàng trai, thì không bỏ cuộc.",
-   "image": "Rainy hillside at dawn: the a thin Vietnamese young scholar aged about 19, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe stands alone, knee-up and large in the frame, soaked, fists clenched, staring at the horizon with unbroken determination; behind him on the ground lie abandoned bamboo spears and a torn plain red banner without writing, his fellow students walking away in the distance"
+   "image": "Rainy hillside at dawn: a thin Vietnamese young scholar, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe stands alone, knee-up and large in the frame, soaked, fists clenched, staring at the horizon with unbroken determination; behind him on the ground lie abandoned bamboo spears and a torn plain red banner without writing, his fellow students walking away in the distance"
   },
   {
    "narration": "Anh là ai?",
-   "image": "Mysterious close-up: the face of a a thin Vietnamese young scholar aged about 19, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe fills the frame, half lit warm by an oil lamp at the frame edge and half in deep shadow, eyes looking straight at the viewer, serious and thoughtful; dark background with a faint glow",
+   "image": "Mysterious close-up: the face of a thin Vietnamese young scholar, sharp bright eyes, determined face, black wrapped turban, plain dark indigo scholar robe fills the frame, half lit warm by an oil lamp at the frame edge and half in deep shadow, eyes looking straight at the viewer, serious and thoughtful; dark background with a faint glow. Keep the top quarter of the frame calm and simple (dark sky, smoke or plain wall) with no important details, room for a big title",
    "title": "ANH LÀ AI?"
   },
   {
    "narration": "Và ở Quảng Nam, cha của một cậu bé trạc tuổi vua Hàm Nghi, cũng đã theo Cần Vương.",
-   "image": "Quang Nam village insurgent camp at dawn: a young Vietnamese boy in plain brown clothes, a black head wrap, practises with a long wooden staff, large in the frame, watched proudly by his father, a stern middle-aged Vietnamese commander in a dark blue robe and black turban with a sword; behind them village volunteers train with spears among coconut palms and thatched huts, plain red banners without writing"
+   "image": "Village volunteer camp at dawn among coconut palms: a young Vietnamese boy in plain brown clothes and a black head wrap practises with a long wooden staff, large in the frame, watched proudly by his father, a stern middle-aged Vietnamese commander in a dark blue robe and black turban with a sword; villagers train with spears behind, plain red banners without writing"
   },
   {
    "narration": "Hai người ấy sẽ cầm ngọn lửa đi tiếp, nhưng không còn để \"giúp vua\" nữa. Một người muốn đánh đuổi giặc. Một người muốn khai sáng cho dân.",
@@ -534,7 +546,7 @@
   },
   {
    "narration": "Con đường nào, mới cứu được nước?",
-   "image": "A road splits into two at dawn on a hill: two young Vietnamese scholars seen from behind, large in the foreground, their faces not visible, each walks down a different path: the one on the left in a dark indigo robe and black turban carries a sword and walks toward a distant battlefield with smoke and dark mountains, the one on the right in a white robe carries a book and walks toward a sunny village with a small school house; big dawn sky"
+   "image": "A road splits into two at dawn on a hill: two young Vietnamese scholars seen from behind, large in the foreground, faces not visible, each walks down a different path: the one on the left in a dark indigo robe carries a sword toward a distant battlefield with smoke and dark mountains, the one on the right in a white robe carries a book toward a sunny village with a small school house; big dawn sky"
   },
   {
    "narration": "Cảm ơn bạn đã xem hết video. Nếu đoán được họ là ai, hãy để lại bình luận, và nhớ theo dõi Vy để không bỏ lỡ tập sau nhé.",

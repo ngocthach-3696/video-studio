@@ -1,0 +1,16 @@
+[16:20:55] Dự án: 1885 – Kinh thành Huế và chiếu Cần Vương — 85 cảnh, 9:16, preset cartoon-bold
+[16:20:55] [0/7] Ảnh tham chiếu nhân vật
+[16:20:55]   C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\ham-nghi.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\ton-that-thuyet.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\nguyen-van-tuong.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\harmand.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\de-courcy.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\tu-duc.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\truong-quang-ngoc.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\linh-phap.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\characters\quan-ta.jpg
+[16:20:55] [1/7] Giọng đọc (Edge TTS)
+[16:20:55]   tổng lời đọc 367.1s
+[16:20:55] [2/7] Ảnh (khung đầu của clip Google Flow)
+[16:20:55]   contact sheet: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-01.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-02.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-03.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-04.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-05.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-06.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\sheets\sheet-07.jpg
+[16:20:55] [3/7] Ảnh → video AI: dùng clip Google Flow có sẵn
+[16:20:55] [4/7] Clip từng cảnh
+[16:20:56] [5/7] Ghép clip (cắt thẳng)
+[16:20:58] [6/7] Âm thanh + phụ đề
+[16:21:01]   tiếng Veo: 13 clip (s001 s003 s006 s007 s013 s027 s042 s044 s046 s052 s059 s075 s076)
+[16:21:01]   nhạc nền: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\music\bgm.wav · logo: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\assets\brand\logo.png
+[16:21:01]   nhạc vào ở 0.0s (dài 382.4s)
+[16:21:01] [7/7] Xuất video
+[16:23:44] ✔ Xong: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1885-kinh-thanh-hue-chieu-can-vuong\final.mp4 — 382.4s, 210.8 MB, mất 2.8 phút
