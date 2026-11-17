@@ -1,6 +1,6 @@
 async (page) => { await page.bringToFront().catch(()=>{});
   const id = (await (await page.context().request.get('http://127.0.0.1:8765/id.txt')).text()).trim();
-  if (page.url().includes('/edit/')) { await page.goto('https://flow.google.com/project/7995242f-9c54-4cdc-bf29-de69527893d7'); await page.waitForTimeout(6000); }
+  if (page.url().includes('/edit/')) { await page.goto('https://flow.google.com/project/__PROJECT_ID__'); await page.waitForTimeout(6000); }
   const b64 = (await (await page.context().request.get('http://127.0.0.1:8765/veo2-' + id + '.jpg')).body()).toString('base64');
   await page.evaluate(([b64, name]) => {
     const bin = atob(b64); const u = new Uint8Array(bin.length); for (let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i);

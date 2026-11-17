@@ -1,4 +1,4 @@
-async (page) => { await page.bringToFront().catch(()=>{});
+async (page) => { await page.bringToFront().catch(()=>{}); await page.screenshot(); await page.waitForTimeout(1000);
   const id = (await (await page.context().request.get('http://127.0.0.1:8765/id.txt')).text()).trim();
   const P = JSON.parse(await (await page.context().request.get('http://127.0.0.1:8765/prompts.json')).text());
   if (!(await page.getByRole('textbox', {name: 'Tìm kiếm thành phần'}).isVisible().catch(()=>false))) await page.getByRole('button', {name: /Thêm thành phần/}).first().click({force:true});

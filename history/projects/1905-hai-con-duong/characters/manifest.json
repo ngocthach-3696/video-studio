@@ -1,0 +1,26 @@
+{
+ "phan-boi-chau": {
+  "provider": "manual"
+ },
+ "phan-boi-chau-gia": {
+  "provider": "manual"
+ },
+ "phan-chau-trinh": {
+  "provider": "manual"
+ },
+ "phan-chau-trinh-gia": {
+  "provider": "manual"
+ },
+ "luong-khai-sieu": {
+  "provider": "manual"
+ },
+ "toan-quyen": {
+  "provider": "manual"
+ },
+ "linh-phap": {
+  "provider": "manual"
+ },
+ "du-hoc-sinh": {
+  "provider": "manual"
+ }
+}

@@ -1,0 +1,62 @@
+s047 take1 score 0.909 dur 7.967313 tail 0.230918
+s047 take2 score 0.909 dur 8.359125 tail 0.216427
+s047 take3 score 0.955 dur 7.706063 tail 1.44017
+s047 CHON take3 diem 0.955
+s048 take1 score 0.943 dur 7.314250 tail 0.252708
+s048 take2 score 0.943 dur 7.157500 tail 0.151037
+s048 take3 score 0.943 dur 6.765688 tail 0.254282
+s048 CHON take1 diem 0.943
+s049 take1 score 0.955 dur 6.034250 tail 0.258445
+s049 CHON take1 diem 0.955
+s050 take1 score 1.0 dur 6.530563 tail 0.1702
+s050 CHON take1 diem 1
+s051 take1 score 0.96 dur 8.437500 tail 0.174099
+s051 CHON take1 diem 0.96
+s052 take1 score 0.955 dur 9.247313 tail 0.185952
+s052 CHON take1 diem 0.955
+s053 take1 score 0.944 dur 12.669375 tail 0.174228
+s053 take2 score 0.944 dur 11.728938 tail 0.159868
+s053 take3 score 0.917 dur 11.964063 tail 0.928167
+s053 CHON take1 diem 0.944
+s054 take1 score 0.931 dur 8.594250 tail 1.72561
+s054 take2 score 0.931 dur 8.829375 tail 1.85353
+s054 take3 score 0.931 dur 8.751000 tail 0.188778
+s054 CHON take1 diem 0.931
+s055 take1 score 1.0 dur 8.359125 tail 0.205315
+s055 CHON take1 diem 1
+s058 take1 score 0.95 dur 6.765688 tail 2.09115
+s058 CHON take1 diem 0.95
+s071 take1 score 0.85 dur 5.955875 tail 1.34363
+s071 take2 score 0.9 dur 6.112625 tail 0.190244
+s071 take3 score 0.85 dur 6.191000 tail 0.180524
+s071 CHON take2 diem 0.9
+s072 take1 score 1.0 dur 4.205688 tail 2.52455
+s072 CHON take1 diem 1
+s073 take1 score 0.967 dur 9.404063 tail 0.156081
+s073 CHON take1 diem 0.967
+s074 take1 score 0.964 dur 8.359125 tail 1.234
+s074 CHON take1 diem 0.964
+s075 take1 score 1.0 dur 7.235875 tail 0.218641
+s075 CHON take1 diem 1
+s076 take1 score 1.0 dur 3.474250 tail 1.67416
+s076 CHON take1 diem 1
+s077 take1 score 1.0 dur 5.485688 tail 0.171652
+s077 CHON take1 diem 1
+s078 take1 score 0.88 dur 3.709375 tail 0.168037
+s078 take2 score 0.88 dur 3.552625 tail 2.35154
+s078 take3 score 0.923 dur 3.787750 tail 0.215278
+s078 CHON take3 diem 0.923
+s079 take1 score 0.909 dur 8.202438 tail 0.184071
+s079 take2 score 0.93 dur 8.202438 tail 4.5596
+s079 take3 score 0.909 dur 8.124063 tail 0.171002
+s079 CHON take2 diem 0.93
+s080 take1 score 1.0 dur 5.564063 tail 0.150707
+s080 CHON take1 diem 1
+s082 take1 score 1.0 dur 2.847313 tail 0.181712
+s082 CHON take1 diem 1
+s083 take1 score 0.927 dur 4.989375 tail 1.77847
+s083 take2 score 0.927 dur 4.754250 tail 1.785
+s083 take3 score 0.927 dur 5.146063 tail 0.190258
+s083 CHON take1 diem 0.927
+XONG
+s079 DOI sang take1 (take2 lặng cuối 4,6 s)

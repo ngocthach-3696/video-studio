@@ -25,7 +25,7 @@ Cách đo: lời thoại chép bằng faster-whisper (mốc thời gian lấy t�
 | Cỡ cảnh chủ đạo | trung cảnh và cận cảnh nhân vật | toàn cảnh, cảnh nhìn từ trên cao xuống phố, bản đồ |
 | Chuyển chương | cắt thẳng, lúc xúc động thì mờ qua đen | vệt nhòe lướt ngang (whip-pan) hoặc mờ qua đen |
 
-Với video dọc 9:16 của kênh, **xương sống nên theo A** (nhập vai, nhịp nhanh, cận nhân vật). Từ B học **kiến trúc câu chuyện** (câu hỏi lớn, các "lý do thứ N", gieo và gặt, ẩn dụ giải thích cơ chế, sự trung thực với nguồn).
+Với video dọc 9:16 của kênh, **xương sống nên theo A** (nhập vai, nhịp nhanh, cận nhân vật). Từ B học **kiến trúc câu chuyện** (câu hỏi lớn, gieo và gặt, ẩn dụ giải thích cơ chế, sự trung thực với nguồn). (2026-11-17: KHÔNG lặp câu khuôn "Lý do thứ nhất/thứ hai" từ tập này sang tập khác, người dùng chê bắt chước; mỗi tập tự nghĩ cách lật riêng.)
 
 ---
 

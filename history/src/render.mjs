@@ -388,9 +388,10 @@ export function buildSubtitles(project, dir, timeline, tts, { W, H }, env, { sub
   // Scene titles: big text at the top for the whole scene ("10 NĂM SAU", "776").
   const tt = project.titleStyle;
   const titles = timeline.scenes
-    .map((s, i) => ({ s, text: project.scenes[i].title }))
+    .map((s, i) => ({ s, text: project.scenes[i].title, size: project.scenes[i].titleSize }))
     .filter((x) => x.text?.trim())
-    .map(({ s, text }) => `Dialogue: 1,${assTime(s.start)},${assTime(s.start + s.dur)},Title,,0,0,0,,{\\fad(120,0)}${assText(text)}`);
+    // scene "titleSize": smaller font for one long title so a line does not wrap on its own
+    .map(({ s, text, size }) => `Dialogue: 1,${assTime(s.start)},${assTime(s.start + s.dur)},Title,,0,0,0,,{\\fad(120,0)${size ? `\\fs${size}` : ""}}${assText(text)}`);
 
   // Channel watermark: one word per line, small, faint, right edge, whole video.
   const wm = project.brand?.watermark?.trim();

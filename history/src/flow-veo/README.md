@@ -16,3 +16,11 @@ Mỗi cảnh (CHẠY TỪNG BƯỚC, mỗi bước một lần gọi MCP):
 6. `P=<project> SP=<served dir> bash collect.sh sNNN sNNN-tiep`: chuyển file mới nhất trong Downloads → `videos/v2/sNNN-veo.mp4`, đặt id kế tiếp.
 
 Sau đó soát từng clip (khung ở 0, 1/3, 2/3, cuối đoạn dùng) rồi chép sang `videos/sNNN.mp4`.
+
+Cập nhật 2026-11-17 (tập 1905):
+- Các script dùng `__PROJECT_ID__` thay cho id dự án Flow. Khi chép vào `.playwright-mcp/`:
+  `for f in history/src/flow-veo/veo*.js; do sed "s#__PROJECT_ID__#<id dự án Flow>#g" $f > .playwright-mcp/$(basename $f); done`
+- `veo3-up.js` = prep + menu gộp một lần gọi (bỏ bước chụp màn hình riêng). Menu "+" mở bằng sự kiện DOM trên nút
+  "Trình đơn thêm nội dung nghe nhìn" (bảng tác nhân mở thì toạ độ 1611,37 bị che). `veo2-go.js` tự chụp màn hình trước khi bấm.
+- Mỗi cảnh: `veo3-up.js` → `veo2-go.js` → `veo2-dl.js` → collect.sh. Gửi lại cùng ảnh (không tải lên mới): ghi nhãn ô mới nhất vào `old.txt`.
+- Flow có lúc báo "Không tạo được âm thanh… hoàn tiền": đổi câu mô tả âm thanh trong prompt rồi gửi lại.

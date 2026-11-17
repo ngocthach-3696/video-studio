@@ -3,7 +3,7 @@
 Chốt với người dùng ngày 2026-11-07. Kênh "Vy kể chuyện Sử".
 
 **Ý tưởng:** từ video "Mưa đỏ" (Thành cổ Quảng Trị 1972), dẫn khán giả ngược về năm 1858, khi thực dân Pháp
-bắt đầu xâm lược, rồi kể xuôi. Không làm tiếp chuyện năm 1972. Series gồm 3 tập.
+bắt đầu xâm lược, rồi kể xuôi. Không làm tiếp chuyện năm 1972. Ban đầu chốt 3 tập; 2026-11-16 người dùng làm tiếp tập 4.
 
 Tiêu đề khi đăng: "Ngược dòng trăm năm – Tập N: <năm> – <tên tập>"
 
@@ -12,6 +12,7 @@ Tiêu đề khi đăng: "Ngược dòng trăm năm – Tập N: <năm> – <tên
 | 1 | 1858 – Tiếng súng đầu tiên | 1858–1862 | Pháp nổ súng ở Đà Nẵng (Sơn Trà), phòng tuyến Nguyễn Tri Phương; Pháp quay vào đánh Gia Định; đốt tàu trên sông Nhật Tảo; Hiệp ước 1862 cắt 3 tỉnh miền Đông | Nguyễn Tri Phương, Nguyễn Trung Trực, Trương Định | Trương Định không tuân lệnh bãi binh: "triều đình đã ký, nhưng người dân thì chưa" |
 | 2 | 1867 – Từ Nam Kỳ đến thành Hà Nội | 1867–1882 | Mất trọn 6 tỉnh Nam Kỳ (Phan Thanh Giản); câu nói của Nguyễn Trung Trực trước khi bị xử; Hà Nội thất thủ 1873 (Nguyễn Tri Phương) và 1882 (Hoàng Diệu); hai trận Cầu Giấy. Trục kể: "ba người chọn cái chết" | Phan Thanh Giản, Nguyễn Trung Trực, Nguyễn Tri Phương, Hoàng Diệu | Pháp chiếm Bắc Kỳ, chiến thuyền tiến về cửa Thuận An, sát kinh thành Huế |
 | 3 | 1885 – Kinh thành Huế và chiếu Cần Vương | 1883–1885 | Các hiệp ước 1883–1884, Việt Nam thành xứ bảo hộ; đêm phản công ở kinh thành Huế; vua Hàm Nghi rời kinh thành; chiếu Cần Vương | Tôn Thất Thuyết, vua Hàm Nghi | Khép series, gọi lại Mưa đỏ: "Cuộc đấu tranh ấy kéo dài gần một trăm năm, đến tận những ngày mưa đỏ ở Thành cổ…" |
+| 4 | 1905 – Hai con đường | 1904–1926 | Phan Bội Châu (Duy Tân hội, Đông Du) và Phan Châu Trinh (thư gửi Toàn quyền, Đông Kinh Nghĩa Thục, Côn Đảo, Pa-ri); cả hai con đường gãy 1907–1909; lật ngược 1925–1926 (PBC được ân xá nhờ phong trào ôn hòa, đám tang PCT làm cả nước đứng lên). Khung gương: ba con tàu | Phan Bội Châu, Phan Châu Trinh | Con tàu thứ ba: 1911, chàng trai xứ Nghệ xuống tàu ở bến Nhà Rồng (chỉ vẽ từ sau lưng) |
 
 ## Mở đầu tập 1 (đã duyệt)
 > "Ở tập trước, chúng ta đã cùng nhau đi qua 81 ngày đêm mưa đỏ ở Thành cổ Quảng Trị. Nhiều bạn hỏi Vy: vì sao

@@ -1,0 +1,16 @@
+[22:56:14] Dự án: 1905 – Hai con đường — 82 cảnh, 9:16, preset cartoon-bold
+[22:56:14] [0/7] Ảnh tham chiếu nhân vật
+[22:56:14]   C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\phan-boi-chau.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\phan-boi-chau-gia.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\phan-chau-trinh.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\phan-chau-trinh-gia.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\luong-khai-sieu.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\toan-quyen.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\linh-phap.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\characters\du-hoc-sinh.jpg
+[22:56:14] [1/7] Giọng đọc (Edge TTS)
+[22:56:14]   tổng lời đọc 421.0s
+[22:56:14] [2/7] Ảnh (khung đầu của clip Google Flow)
+[22:56:14]   contact sheet: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-01.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-02.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-03.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-04.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-05.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-06.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\sheets\sheet-07.jpg
+[22:56:14] [3/7] Ảnh → video AI: dùng clip Google Flow có sẵn
+[22:56:14] [4/7] Clip từng cảnh
+[22:56:14] [5/7] Ghép clip (cắt thẳng)
+[22:56:17] [6/7] Âm thanh + phụ đề
+[22:56:20]   tiếng Veo: 13 clip (s001 s008 s010 s015 s016 s022 s023 s028 s035 s040 s066 s078 s082)
+[22:56:20]   nhạc nền: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\music\bgm.wav · logo: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\assets\brand\logo.png
+[22:56:20]   nhạc vào ở 0.0s (dài 435.8s)
+[22:56:20] [7/7] Xuất video
+[23:00:57] ✔ Xong: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1905-hai-con-duong\final.mp4 — 435.8s, 224.9 MB, mất 4.7 phút

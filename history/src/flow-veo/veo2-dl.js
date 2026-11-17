@@ -24,6 +24,6 @@ async (page) => { await page.bringToFront().catch(()=>{});
   const it = items.find(i => /720p/.test(i.t) && i.w > 0);
   if (!it) return {id, label, items: items.map(i => i.t), err: 'not a video'};
   await page.mouse.click(it.x, it.y); await page.waitForTimeout(20000);
-  await page.goto('https://flow.google.com/project/7995242f-9c54-4cdc-bf29-de69527893d7'); await page.waitForTimeout(6000);
+  await page.goto('https://flow.google.com/project/__PROJECT_ID__'); await page.waitForTimeout(6000);
   return {id, label, ok: new Date().toLocaleTimeString()};
 }
