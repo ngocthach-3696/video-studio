@@ -121,7 +121,7 @@ Người dùng hỏi "video mẫu chỉ cho chuyển động ở đoạn đầu,
 - Thêm thủ pháp: **chia đôi màn hình** (trên: quân lính hô; dưới: ngai vàng + biển "180 TCN") cho câu có 2 vế.
 → Muốn giống mẫu thì gần như cảnh nào cũng cần clip động; ảnh tĩnh chỉ dùng cho cú cắt ≤1s.
 
-## Prompt style hình (thử trên Flow 2026-11-12)
+## Prompt style hình (thử trên Flow 2026-11-12) — ĐÃ THAY THẾ 2026-11-18 bằng quy-chuan-dao-dien.md mục 10 (giữ lại để tham khảo)
 Người dùng gửi thêm 3 ảnh mẫu (vua bé trên ngai, vua ngả ngai, đoàn thuyền) → lưu ở
 projects/1867-tu-nam-ky-den-thanh-ha-noi/style-test/mau-nguoi-dung/. Lượt 1 (t1, t2: nét dày nhưng mặt còn "người thật")
 bị chê "chưa đúng lắm". Lượt 2 (t3, t4) dùng đoạn dưới, gần mẫu hơn:

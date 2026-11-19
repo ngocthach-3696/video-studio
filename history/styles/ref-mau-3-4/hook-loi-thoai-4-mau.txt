@@ -1,0 +1,117 @@
+[  0.00-  1.74] Bạn không chọn được nơi mình sinh ra.
+[  2.18-  7.58] Lần này, bạn là một nông dân ở quảng Ngãi năm 1835 đời vua minh mệnh.
+[  8.10- 10.14] Mọi đàn ông trong làng đều có tên trong Sổ Đinh.
+[ 10.60- 13.56] Sổ ấy dùng để thu thuế và cũng dùng để bắt lính.
+[ 14.18- 17.58] Năm nay, chiều đình cần thêm quân cho một vùng đất mới ở phía Tây Nam,
+[ 17.76- 19.00] tên là Chấn Tây Thành,
+[ 19.52- 22.26] và cái tên được khoanh trong Sổ Làng Bạn là Tên Bạn.
+[ 23.72- 27.10] Ngày nhập ngũ, bạn được phát nón, phát giáo, quân phục,
+   pauses: 25.5->25.9, 26.3->26.8
+[ 27.10- 30.64] chiều đình phát vải, còn may có vừa hay không là việc của bạn.
+   pauses: 28.3->28.7
+[ 31.22- 35.88] Lương tháng, một quan tiền, một phương gạo, đủ sống, không đủ gửi về nhà nhiều.
+   pauses: 31.8->32.2, 33.6->34.0
+[ 36.52- 39.72] Người trong làng dặn bạn cẩn thận giặc xiêm, cẩn thận giáo mắc,
+[ 40.16- 42.78] nhưng không ai nói cho bạn biết, ở nơi bạn sắp đến,
+   pauses: 41.4->41.9
+[ 43.24- 45.36] thứ đáng sợ nhất lại không phải là dặng.
+[ 47.26- 48.32] Bạn không đi một mình.
+[ 48.96- 51.68] Năm ấy, chiều đình lấy 5 cơ lính từ Nam Tỉnh,
+[ 52.02- 54.94] Quảng Ngãi, Bình Định, Phú Yên, Khánh Hòa, Bình Thuận.
+[ 54.94- 60.20] Mỗi cơ trừng 500 người, phần đông là dân cày như bạn vừa buông cày đã cầm giáo.
+   pauses: 56.7->57.2
+[ 60.66- 62.74] Bạn đi mãi vào Nam tới An Giang.
+[ 63.24- 66.12] Từ đây, số sách của chiều đình tính đúng 4 ngày đường nữa
+   pauses: 63.6->64.0
+[ 66.12- 69.96] và phát lương ăn đường cho đúng 4 ngày, đi chậm hơn thì tự lo.
+   pauses: 68.3->68.7
+[ 70.76- 73.68] Hết ngày thứ 4, bạn thấy một toa thành bên bờ sông lớn.
+[ 74.04- 76.28] Đây là Nam Vang, tức Phnom Pinh ngày nay.
+[ 76.74- 79.92] Chiều đình vừa đặt cho cả vùng này một cái tên mới, Trấn Tây.
+   pauses: 79.1->79.5
+[ 80.60- 83.78] Quân Bản Sứ bị bỏ chức cũ, nhận chức mới theo phép nhà nguyễn.
+[ 83.78- 87.80] Còn bạn nhận việc của mình, canh thành, giữ đồn và chờ.
+   pauses: 85.5->85.9, 86.3->86.6
+[ 88.46- 89.98] Một ngày của bạn giờ chia theo...
+[  0.00-  3.44] 8 giờ 3 phút tối 19 tháng 12 năm 1946
+[  3.94-  8.16] ở Hà Nội, vương Thừa Vũ, người chỉ huy bộ đội và tự vệ cả thành phố
+   pauses: 4.7->5.2
+[  8.16- 11.74] chờ một tín hiệu, điện tắt, đó là lệnh tấn công.
+   pauses: 9.2->9.6, 10.1->10.5
+[ 13.06- 16.40] Trong thành phố, quân Pháp có xe tăng, có pháo, có máy bay.
+[ 16.86- 18.56] Họ đã đóng sẵn ở mấy chục vị trí.
+[ 19.12- 20.88] Hôm trước, họ gửi một tối hậu thư.
+[ 21.48- 24.54] Trong 24 giờ, nột vũ khí, giao thành phố cho họ dữ.
+   pauses: 22.3->22.7, 23.2->23.6
+[ 25.60- 28.86] Phía bên kia là 5 triệu đoàn vệ quốc đoàn và mấy nghìn tự vệ.
+[ 28.86- 30.50] Phần lớn chỉ có súng trường.
+[ 30.96- 34.82] Để chặn xe tăng, họ có miền tự tạo và một thứ gọi là bom ba càng.
+[ 35.38- 38.40] Một người ôm quả bom ấy chạy vào xe tăng thì không trở ra.
+[ 38.96- 41.40] Người giao nhiệm vụ cho ông chỉ mong giữ được 1 tháng.
+[ 42.34- 46.70] Vậy, vì sao Pháp có xe tăng mà vương Thừa Vũ giữ được Hà Nội 60 ngày?
+[ 47.66- 50.06] Trong nửa giờ tới, chúng ta sẽ thấy 4 cảnh.
+   pauses: 48.5->48.9
+[ 50.62- 54.24] Những người lính đục tường xuyên cả 1 khu phố để đi mà không ra đường.
+[ 54.86- 57.84] Một cái chợ bị ném bom 3 ngày rồi bị xe tăng đánh vào.
+[ 57.84- 60.74] Người giữ trợ còn 4 năm viên đạn mỗi khẩu súng.
+[ 61.56- 65.68] 3 lãnh sự nước ngoài ngồi họp giữa phố để xin 1 ngày ngừng bắn cho dân ra.
+[ 66.20- 69.44] Và cả 1 trung đoàn đi dưới gầm 1 cây cầu có lính pháp gác
+[ 69.44- 72.64] qua sông bằng thuyền của 1 làng trong 1 đêm mưa phùn.
+[ 73.44- 75.32] Đây là câu chuyện về 1 cây cầu.
+[ 75.92- 77.92] Người giữ thành phố đi dưới nó để ra.
+[ 78.44- 82.18] Gần 8 năm sau, người chiếm thành phố đi trên nó để đi.
+[ 84.74- 89.98] Cuối năm 1946, một người vừa dạy ở trường quân sự Sơn Tây về Hà Nội nhận chỉu
+   pauses: 86.2->86.9
+[  0.00-  3.96] Đây là câu chuyện về một lớp học mà người Pháp nhìn thấy từ đầu đến cuối
+[  3.96-  5.84] và không làm gì được.
+[  6.70-  9.12] Một buổi sáng năm 1926
+[  9.12- 13.92] tại các nhà số 13 Phố Van Minh, thành phố Quảng Châu, miền Nam Trung Hoa
+[ 13.92- 15.78] một người Việt Nam đứng trước bảng đen
+[ 15.78- 19.24] trước mặt người ấy là vài trục thanh niên ngồi trên ghế giải.
+[ 20.84- 23.08] Người đứng trước bảng tên là Nguyễn Ái Quốc
+[ 23.08- 25.62] nhưng ở đây không ai gọi ông bằng tên ấy
+[ 25.62- 28.10] học cho gọi ông là Đồng Chí Vương
+[ 28.66- 30.60] Giấy tờ của ông Ghi Lý Thụy
+[ 30.60- 32.62] phiên dịch cho phái bộ Cố Vấn Liên Xô
+[ 32.62- 36.14] và ông đang dậy một môn mà không trường nào ở Đông Dương dậy
+[ 36.14- 38.42] cách làm cách mạng.
+[ 39.18- 41.18] Cách đó vài ngày đường ở Hà Nội
+[ 41.18- 43.78] sở mật thám pháp có một hồ sơ về căn phòng này
+[ 43.78- 46.68] trong hồ sơ có tên lớp, có tên học viên
+[ 46.68- 49.20] và theo các tài liệu có cả ảnh của họ
+[ 49.20- 51.80] vì trong phòng này có một người của họ
+[ 51.80- 55.72] người ấy ngồi cùng ghế, học cùng bài và viết về Hà Nội.
+[ 56.82- 58.98] Vậy vì sao, biết mặt từng người
+[ 58.98- 61.00] người Pháp vẫn không bắt hết được họ?
+[ 62.20- 63.60] Trong hơn 30 phút tới
+[ 63.60- 66.92] chúng ta sẽ xem một quả bom ném vào bữa tiệc ở xa diện
+[ 66.92- 69.10] đã đưa ông đến Quảng Châu bằng cách nào
+[ 69.10- 71.76] xem một khóa học 6 tuần dậy những gì
+[ 71.76- 74.44] và vì sao một cuốn sách mỏng yên thạch
+[ 74.44- 76.22] lại khó chặn hơn một khẩu súng.
+[ 77.10- 79.66] Xem lớp học ấy đóng cửa chỉ sau 3 năm
+[ 79.66- 83.18] và chuyện gì xảy ra khi 75 học trò đã về nước
+[ 83.18- 84.44] mà thầy thì đi mất.
+[ 84.44- 87.56] Và vì sao, đến năm 1929
+   pauses: 85.8->86.2
+[ 87.56- 89.98] người Pháp phải đối phó không phải với một...
+[  0.00-  4.04] Năm 1140, nhà Tống có mọi lý do để đánh lên phía Bắc.
+   pauses: 1.3->1.8
+[  4.62-  7.70] Anh vua đang ở trong tay giặc, mẹ vua đang ở trong tay giặc.
+   pauses: 5.8->6.2
+[  8.16-  9.56] Quan tài cha vua cũng ở đó.
+[ 10.10- 11.48] Kinh đô cũ ở trong tay giặc.
+[ 12.02- 15.88] Ông tướng giỏi nhất, nhạc phi đang thắng, các kinh đô cũ 20 cây số.
+   pauses: 14.1->14.5
+[ 16.42- 18.00] Dân phía Bắc đã ra đường đóng.
+[ 18.26- 20.12] Nghĩa là chỉ còn một việc, đi tiếp.
+   pauses: 19.4->19.8
+[ 20.82- 22.28] Thế mà vua Tống làm ngược lại.
+[ 22.76- 24.56] Ông gọi nhạc phi về, rồi diết.
+   pauses: 23.7->24.1
+[ 25.88- 26.44] Vì sao?
+[ 26.94- 30.18] Vì sao có đủ mọi lý do để đi tiếp mà ông vua lại dừng?
+[ 30.70- 34.58] Và dừng xong còn ký giấy sưng bề tôi với người đang giữ mẹ mình.
+[ 36.98- 39.36] Chuyện là ông vua ấy tên là trệu cấu.
+[ 39.86- 42.56] Muốn hiểu ông phải lùi về lúc ông chưa phải vua.
+[ 43.74- 44.70] Năm 1127

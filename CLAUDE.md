@@ -15,6 +15,8 @@ Node/FFmpeg portable nằm ở `<ROOT>\tools\node` và `<ROOT>\tools\ffmpeg\bin`
 @.claude/memory/confirm-dates.md
 @.claude/memory/workspace-split.md
 @.claude/memory/confirm-script-before-images.md
+@.claude/memory/topic-deep-secrets.md
+@.claude/memory/draw-revered-figures-face.md
 
 ## Bối cảnh dự án & lưu ý kỹ thuật
 @.claude/memory/video-studio.md

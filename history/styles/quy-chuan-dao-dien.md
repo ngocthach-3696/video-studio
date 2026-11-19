@@ -205,3 +205,252 @@ Chuyển động camera (đẩy/kéo xen kẽ 5–7%, lia dọc đoàn quân) l�
 - [ ] Kết bằng callback + câu hỏi mở + mồi tập sau, rồi lời chào của Vy.
 - [ ] Mỗi câu một hình đúng nghĩa đen; xen kẽ cỡ cảnh; chữ trong cảnh.
 - [ ] Camera đẩy/kéo xen kẽ cho ảnh tĩnh; clip AI chỉ một động tác + môi trường; mờ qua đen chỉ ở 1–2 nhịp nặng nhất.
+- [ ] Chạy thêm checklist mục 7.4 (bổ sung từ mẫu 3 và 4).
+
+---
+
+## 7. Bổ sung từ video mẫu 3 và 4 (2026-11-18, người dùng: "học hỏi để áp dụng vào các video sau")
+
+Nguồn: Downloads, đo cùng cách như trên (Whisper + tách cảnh + khớp điểm ảnh). Tờ khung hình và lời thoại lưu ở `styles/ref-mau-3-4/`.
+- **Mẫu 3** = `Video mau 3.mp4`: ngang, 41:21, 510 cảnh. Hội VN Cách mạng Thanh niên ở Quảng Châu 1924–1929. Cùng kênh với video B (giọng "tập này", "lý do thứ N").
+- **Mẫu 4** = `Video mau 4.mp4`: **dọc 9:16, 5:36, 145 cảnh**, kênh "Lịch sử ngoại truyện Á Châu". Triệu Cấu gọi Nhạc Phi về rồi giết. **Đây là mẫu gần kênh mình nhất** (dọc, 5 phút, nhịp nhanh).
+
+Chỉ ghi điều MỚI so với mục 0–6. Quy tắc riêng của người dùng vẫn thắng: không phụ đề, logo nhỏ, không câu khuôn "lý do thứ nhất/thứ hai", tối đa 1–2 câu meta, giữ nhịp đọc cũ (mẫu 3 và 4 đọc khoảng 190–200 từ/phút, −14 LUFS; chỉ ghi để biết, không đổi).
+
+### 7.1 Kể chuyện
+
+**Mở đầu "đủ mọi lý do → làm ngược lại" (mẫu 4, 0:00–0:30).** Liệt kê nhanh mọi lý do để làm X, mỗi lý do một cảnh 2 giây có chữ lớn 2–3 chữ ("ANH VUA" → "MẸ VUA" → "CẢ QUAN TÀI" → kinh đô cũ → tướng giỏi nhất đang thắng, cách kinh đô 20 cây số → dân ra đường đón). Chốt: "Nghĩa là chỉ còn một việc: đi tiếp." Rồi lật: "Thế mà vua Tống làm ngược lại. Ông gọi Nhạc Phi về, rồi giết." → "Vì sao?" (0:26). Đây là một dạng nghịch lý mở đầu, dùng khi nhân vật chọn điều trái với mọi lẽ thường.
+
+**Câu đầu là một câu tóm cả tập (mẫu 3, 0:00).** "Đây là câu chuyện về một lớp học mà người Pháp nhìn thấy từ đầu đến cuối và không làm gì được." Một câu, một nghịch lý, người xem biết ngay mình sẽ xem gì.
+
+**Giữ câu trả lời đến câu cuối, và nói nó dưới dạng câu hỏi (mẫu 4).** Cả video chỉ trả lời từng mảnh. Câu cuối: "Vua Tống không đón anh về. Vì anh về thì ai làm vua?" Chữ lớn khung cuối cũng là "AI LÀM VUA?". Người xem tự nói ra đáp án trong đầu. Với kênh mình: đặt câu này ngay trước câu mồi tập sau của Vy.
+
+**Suy động cơ từ việc làm, không đoán ý nghĩ.**
+- "Mình không biết ông nghĩ gì. Mình chỉ biết ông làm gì." (mẫu 4, 3:16); "Ông em có hiểu điều đó không? Việc ông làm trả lời thay." (1:28).
+- **Chỗ sử im lặng cũng là bằng chứng:** "Sử ghi là xin mẹ, xin cha. Không ghi xin anh." (1:40). Hình: hai bong bóng nghĩ có mặt mẹ và cha, cảnh sau là bong bóng chỉ có dấu "?".
+- **Nói rõ mức chắc chắn, mỗi câu một mức:** "Sử không chép ông nói thế." / "Con số 12 là do cháu Nhạc Phi chép lại, sử gia còn nghi." / "Có thật Kim nhắn thế không, sử gia còn cãi." / "Cái chắc là chuyện sau đó." Cách này thay cho giọng "tập này không đoán" của mẫu B, ngắn và tự nhiên hơn.
+
+**Giải mã nghĩa đen của tên gọi, chức tước, câu nói (có chút hài).** "Hôn Đức Công, nghĩa đen là ông công lú lẫn." "Trùng Hôn Hầu, ông hầu lú lẫn gấp đôi." "Mạc tu hữu, nghĩa là: có lẽ có." Tên Hán Việt khô khan thành một cú đấm.
+
+**Câu mỉa ngắn kiểu đời thường:** "Khổ nỗi, Kim không bán lẻ." (muốn mẹ về thì phải ký hòa, mà ký hòa thì không được đánh). "Một tấm là đủ, ông gửi mười hai." "Có một ông vua sợ thắng."
+
+**Gỡ logic từng bước cho người xem tự hiểu:** "Hai vua là ông cha và ông anh. Ông cha chết rồi, nên đón hai vua nghĩa là đón ông anh." (mẫu 4, 3:07). Không nói thẳng kết luận; để người xem ghép.
+
+**Lặp lại danh sách mở đầu ở cuối, có biến tấu.** Mở: anh vua, mẹ vua, quan tài cha đều ở trong tay giặc. Cuối: "Đổi lại Kim trả người. Trả bà mẹ. Trả quan tài ông cha." → "Một bà mẹ, một cỗ quan tài, không có ông anh." Hình cũng lặp từng món một.
+
+**Một cảnh soi chiếu ngang thời (mẫu 4, 4:53).** "Cuối năm 1127, lúc Triệu Cấu vừa lên ngôi, ở Đại Việt có một ông vua mất, là Lý Nhân Tông. Ông cũng không có con trai, ông cũng chọn một đứa cháu nối ngôi. Khác ở chỗ, ông chọn khi còn sống, chọn công khai, và nhà ông không có ai đang ở trong tay nước khác." Kênh mình làm chiều ngược lại: khi kể sử Việt, có thể đặt **một** cảnh "cùng năm ấy ở nước khác…" để làm nổi bật lựa chọn của người Việt. Tối đa một lần mỗi tập.
+
+**Nối với hôm nay ngay trong mạch truyện.** "Phim thường bỏ câu đó." (hình trường quay). "Tượng Tần Cối thì đến nay vẫn quỳ bằng sắt trước mộ Nhạc Phi." Mẫu 3 kết bằng hiện trạng cụ thể: số nhà ngày nay, năm xếp hạng di tích, bảo vật quốc gia năm 2012, tờ báo bị cấm nay lại được giữ kỹ nhất "bởi chính người đã cấm nó".
+
+**Lấy một đồ vật hoặc một nơi chốn làm xương sống (mẫu 3).**
+- Nơi chốn: "căn nhà số 13" được nhắc hàng chục lần, có hẳn một đoạn "đi một vòng" (mặt cắt kiểu nhà búp bê: tầng dưới lớp học, phòng in, tầng trên chỗ ngủ, lối thoát sang nhà bên).
+- Đồ vật: **tấm ảnh trong hồ sơ mật thám**. Gieo ở 0:46 → "Hãy dừng ở tấm ảnh ấy" (19:13) → người trong ảnh xuống mỏ, "không còn giống người trong ảnh" (32:04) → tấm ảnh nằm trên bàn công tố (35:09) → "tấm ảnh trẻ nhất của họ" (39:33) → câu kết: "Người Pháp có ảnh của tất cả những người trong phòng ấy. Thứ họ không chụp được là cái đang được viết lên bảng."
+- **Đổi góc nhìn so với sách giáo khoa:** "Sách giáo khoa gọi nó là cơ quan ngôn luận của Hội. Nhìn từ căn nhà số 13, nó là cánh tay dài nhất của căn nhà ấy, vươn về nước trước cả học trò." Dùng tối đa 1–2 lần mỗi tập.
+
+**Kể qua bàn giấy của phe kia (mẫu 3).** Viên mật thám Pháp có một bàn giấy và một bảng ảnh xuất hiện lặp lại suốt video; bảng được cập nhật theo truyện (thêm ảnh, gạch chéo, ô trống cho người chưa biết mặt, cuối cùng ông ta già đi). Đó là một "bảng tỉ số" cho người xem thấy phe kia đang hiểu đến đâu.
+
+**Gieo một bí ẩn về con người, rất lâu sau mới gọi tên.** "Trong phòng này có một người của họ" (0:49) → tên Lâm Đức Thụ mãi đến 19:02. Trong lúc chưa có tên, người này được vẽ đầu đội túi giấy (xem 7.2).
+
+**Câu tóm có nhịp đếm:** "3 năm, 1 căn nhà, 3 khóa, 1 tờ báo, 1 cuốn sách. Rồi hết." "Ngày, ông là phiên dịch. Chiều, ông là thầy. Đêm, ông là người viết." "Ngả có súng kết thúc ngoài phố Quảng Châu trong 3 ngày. Ngả có vở về đến làng và còn đi tiếp."
+
+**Câu chỉ chỗ cho người xem:** "Các bạn để ý chỗ này." (mẫu 4, 1:13), hình là đèn chiếu + vòng tròn đỏ quanh nhân vật. Dùng một lần cho mắt xích quan trọng nhất của truyện.
+
+### 7.2 Hình ảnh
+
+**Chữ lớn (mẫu 4) có 4 loại, ngắn 1–4 chữ:** câu hỏi ("ĐANG THẮNG, SAO BỊ GIẾT?" từ khung 0, "VÌ SAO?", "THIẾU MỘT NGƯỜI?", "TẦN CỐI LÀ AI?", "TỘI GÌ?", "AI LÀM VUA?"); tên người lúc mới xuất hiện ("TRIỆU CẤU", "LÝ NHÂN TÔNG"); năm, tuổi, con số ("1137", "20 TUỔI", "38 TUỔI", "250.000 LƯỢNG BẠC", "5 NĂM"); từ khóa của danh sách mở đầu ("ANH VUA", "MẸ VUA"). Kênh mình vẫn theo luật cũ: không đặt mảnh trích dẫn làm chữ lớn.
+
+**Cho thấy SỰ VẮNG MẶT bằng đồ vật, không vẽ xác người:**
+- Hàng tù binh bị giải đi có **một hình người bằng nét chấm trống** ở giữa: người đã thoát (mẫu 4, 0:58, "THIẾU MỘT NGƯỜI?").
+- Ông cha chết: tấm đệm trống có cây bút lông. Ông anh chết: gối trống, mũ, đèn dầu, cửa sổ đầy sao.
+- "Một trong ba người": ba ngọn nến, một ngọn tắt dần.
+- Nhạc Phi chết trong ngục: mũ trụ có chùm tua đỏ nằm trên rơm. "38 tuổi": cây giáo dựng tường buộc khăn trắng.
+- Cảnh cuối: vua già ngồi cạnh một chiếc ghế phủ khăn trắng (chỗ ông anh không bao giờ ngồi).
+- Mẫu 3: chiếc mũ nổi giữa các vòng sóng (người ném bom nhảy sông). Mỗi người học trò ở đoạn kết là một bàn gỗ trống có cuốn sách ghi tên.
+
+**Ẩn dụ được vẽ thành đồ vật thật:** ngai vàng dựng trên cột biển chỉ đường ghi "ANH KHÔNG VỀ" ("ngai của ông đứng trên đúng một việc"); bà mẹ và ông anh bị buộc chung bằng nơ đỏ ở sạp chợ có biển "KHÔNG BÁN LẺ"; nơ hồng buộc lên ngọn giáo ("ký hòa thì không được đánh"); vạch đếm thắng trận khắc lên cột; ông tướng bị vùi dưới đống 12 tấm kim bài; con ốc sên bò trên trang sử ("Vì sao chậm thế?"); chồng giấy cao "5 NĂM"; mạng nhện trên mũ ông già (tin đến quá muộn); quả đào tiên ("sống đến 80 tuổi"). Mẫu 3: tờ báo bay thành một dải dài vươn qua mái nhà ("cánh tay dài nhất"); tổ ong ("bắt một ô không sập cả hàng"); bánh răng trong căn nhà ("cái máy cậu sắp đi vào"); tháp hộp gỗ ghi TỔNG BỘ / KỲ BỘ / TỈNH BỘ / HUYỆN BỘ / CHI BỘ; áo sơ mi trắng → mũi tên → áo thợ ("vô sản hóa").
+
+**Các thủ pháp vẽ khác:**
+- Nhìn vào gương thấy chính mình hồi trẻ = quay ngược thời gian ("phải lùi về lúc ông chưa phải vua").
+- Mặt chia đôi sáng/tối, bóng đen lớn đổ sau lưng = nhân vật mập mờ (Tần Cối).
+- Bong bóng nghĩ có mặt người (nhớ ai), bong bóng chỉ có "?" (không nghĩ tới ai), mây xám trên đầu (lo).
+- Phóng đại hài: mắt xoắn ốc + lè lưỡi ("lú lẫn"), giọt mồ hôi to, tay lắc lia lịa.
+- **Một con vật lặp lại làm điểm nghỉ:** con mèo cam ngủ trong điện của Triệu Cấu, xuất hiện 4 lần, kể cả cảnh cuối.
+- **Cảnh hiện đại chen vào đúng câu:** sử gia cầm kính lúp trong bảo tàng ("sử gia còn nghi"), hai nhà nghiên cứu cãi nhau ("còn cãi"), trường quay ("phim thường bỏ câu đó"), học sinh khăn quàng đỏ đọc sách giáo khoa ("sách giáo khoa gọi…"), khách tham quan di tích hôm nay.
+- **Người chưa biết tên = đầu đội túi giấy/hộp giấy có hai mắt** (mẫu 3, gián điệp; cũng là hình "người kể chuyện" lục hồ sơ ở đoạn nguồn cuối video).
+- ~~Nhân vật được tôn kính chỉ vẽ từ sau lưng hoặc qua vai~~ (mẫu 3 làm thế với Nguyễn Ái Quốc). **Người dùng KHÔNG chọn cách này (2026-11-19, tập "Anh Ba"): "cứ vẽ giống bác nhất có thể. Mình tự hào mà, có gì phải che?"** Vẽ rõ mặt, giống ảnh thật nhất có thể (đối chiếu ảnh tư liệu), biểu cảm đàng hoàng, không phóng đại kiểu hài.
+- Tóm ý then chốt bằng **bảng đen nhỏ nhân vật cầm trước ngực** (mẫu 3 cầm bảng ghi lý do). Kênh mình chỉ mượn hình thức: bảng ghi một kết luận ngắn, không ghi chữ "lý do thứ N".
+- Chia khung 2–3 ô để cho thấy nhiều nơi cùng lúc (Nam Định / Hải Phòng / Mạo Khê).
+- Đoạn tóm tắt cuối dùng lại đúng những hình đã xuất hiện, để người xem nhận ra.
+- Mẫu 4 có một nhân vật người dẫn chuyện (đội nón, cầm cuộn bản đồ) đứng góc dưới phải suốt video. Kênh mình đã có logo nên chưa dùng; nếu người dùng muốn có "Vy" xuất hiện trên hình thì đây là cách làm.
+
+### 7.3 Chuyển động (đo được)
+
+| | Mẫu 4 (dọc, 5:36) | Mẫu 3 (ngang, 41:21) |
+|---|---|---|
+| Số cảnh, độ dài | 145 cảnh, trung bình 2,3 s, trung vị 2,0 s | 510 cảnh, trung bình 4,9 s, trung vị 4,7 s |
+| Đẩy/kéo xen kẽ | 69%, xen kẽ tuyệt đối (0 cặp cùng chiều), **phóng vào tâm khung** | 85%, 6 cặp cùng chiều trên 436 |
+| Tốc độ phóng | **≈ 2%/giây**: cảnh 1,9 s phóng 4%, cảnh 3,4 s phóng 7%; trần khoảng 7% | ≈ 1,6%/giây, tổng trung vị 7%, tối đa 11% |
+| Cảnh đứng yên hẳn | ~18%: cảnh chốt một chữ dài 0,7–1,2 s ("Thoát.", "Anh thì không.", "Ông gửi mười hai.") | ~3%, chủ yếu cảnh giữ lâu để liệt kê (đến 20 s) |
+| Clip AI | ~5% (7 cảnh): khói và áo choàng bay ở khung 0, khói bốc từ đống lửa, cổng thành cháy, sao lấp lánh | ~2%: khói tràn lớp học ở khung 0, lính chào, búa đóng dấu |
+| Lia dọc ảnh cao | 3 cảnh 4–6 s, trượt khoảng 1/3 chiều cao: đường quân Tống → lên khói phía bắc; núi sương → xuống biển "HÀNG CHÂU"; đường quanh co → lên đỉnh tuyết | ít |
+| Chuyển cảnh | cắt thẳng; ~6 lần vệt nhòe lướt; 1 lần hòa tan giữa hai ảnh cùng nơi (toàn → cận); hiện từ đen ở các nhịp chết chóc | cắt thẳng; vệt nhòe lướt khoảng mỗi phút một lần (41 lần) khi đổi đoạn |
+
+**Điều rút ra cho engine của mình** (`"motion": "alternate"` hiện phóng cố định 7% cho mọi cảnh, có easing, điểm neo lệch):
+1. Mức phóng nên **tỉ lệ theo độ dài cảnh** (khoảng 2%/giây, trần 7%) để cảnh ngắn không bị giật mạnh. *(Đề xuất, chưa sửa code; chờ người dùng đồng ý.)*
+2. Cảnh chốt một chữ hoặc một câu rất ngắn: để đứng yên (`"motion": "still"`), dài khoảng 1 giây.
+3. Cảnh mở chương hoặc cảnh địa lý: ảnh dọc cao hơn khung, `pan-up`/`pan-down` 4–6 giây để "lộ" nơi chốn (tên đất trên biển gỗ hiện ra cuối cú lia).
+4. Clip Veo ở mẫu 4 chỉ ~5%, toàn là khói, lửa, sao, áo choàng: kênh mình (10–13 clip) đã dùng nhiều hơn mẫu, không cần tăng.
+
+**Cấu trúc chương (mẫu 3):** chữ lớn câu hỏi ("CHUYỆN GÌ ĐÃ XẢY RA?", "AI ĐÚNG?", "CUỐN SÁCH NÀY LÀM GÌ?") → tối đen → **tên chương viết trên một đạo cụ trong cảnh** (thực đơn bữa tiệc "TỪ TIẾNG BOM ĐẾN LỚP HỌC", tấm biển ở chợ "SÁU TUẦN VÀ MỘT TẤM ẢNH", tờ giấy dán cửa "MỘT HỘI THÀNH BA ĐẢNG"). Video 5–8 phút của kênh mình có thể dùng 2–3 tên chương kiểu này nếu tập có nhiều hồi.
+
+### 7.4 Checklist bổ sung khi viết tập mới
+- [ ] Câu đầu tóm cả tập thành một nghịch lý, HOẶC mở bằng "đủ mọi lý do → làm ngược lại".
+- [ ] Câu trả lời câu hỏi trung tâm để đến câu cuối, nói bằng một câu hỏi ngược, rồi mới đến câu mồi tập sau của Vy.
+- [ ] Ít nhất một chỗ suy ra từ việc làm hoặc từ chỗ sử im lặng ("Sử ghi… Không ghi…").
+- [ ] Mỗi chi tiết không chắc có một câu ngắn nói rõ mức chắc chắn.
+- [ ] Một đồ vật hoặc nơi chốn xuyên suốt, xuất hiện lại ở cảnh cuối.
+- [ ] Danh sách hoặc hình mở đầu được lặp lại ở cuối có biến tấu.
+- [ ] Mỗi cái chết, sự mất mát, sự vắng mặt = một đồ vật (ghế trống, nến tắt, mũ, hình nét chấm), không vẽ xác.
+- [ ] Mỗi ẩn dụ trong lời = một đồ vật vẽ được (biển, nơ, cột, đống, ốc sên…).
+- [ ] 1–2 cảnh hiện đại (học sinh đọc sách, di tích hôm nay, sử gia) đúng câu nói về sách vở, nguồn hay hôm nay.
+- [ ] Cân nhắc một cảnh soi chiếu ngang thời với nước khác (tối đa một lần).
+
+---
+
+## 8. Hook — đoạn mở 30–40 giây đầu (2026-11-18, người dùng: "tôi cần đoạn Hook để tạo điểm nhấn")
+
+Đo trên 4 mẫu (A, B, 3, 4) và 2 tập của mình (1885, 1905): lời có mốc thời gian từng từ, cắt cảnh, khung hình từng giây. Ảnh lưới và lời ở `styles/ref-mau-3-4/hook-*`.
+
+### 8.1 Số đo
+
+| | Mẫu 4 (dọc) | Mẫu A (dọc) | Mẫu B | Mẫu 3 | **Tập 1885** | **Tập 1905** |
+|---|---|---|---|---|---|---|
+| Số cảnh trong 30 s đầu | **11** | **12** | 8 | 9 | 7 | **5** |
+| Cảnh dài nhất trong 30 s đầu | 4,9 s | 5,5 s | 5,1 s | 7,4 s | 5,8 s | **10,7 s** |
+| Số cảnh có chữ lớn trong 30 s đầu | **9** | 2 | 2 | 1 | 2 | 2 |
+| Câu hỏi trung tâm ở giây | **26** | 43 | 42 | 57 | 23 | 18 |
+| "Cửa vào" truyện (sau câu hỏi) | "Chuyện là…" 37 s | "Bạn không đi một mình." 47 s | báo trước 4 cảnh, 47–72 s | báo trước 5 việc, 62–95 s | "Hôm nay hãy cùng Vy…" 29 s | "Hôm nay hãy cùng Vy…" 45 s |
+| Khoảng lặng trước/sau câu đinh | 1,3 s trước "Vì sao?" | 1,9 s sau "không phải là giặc" | ~1 s trước câu hỏi | 1,1 s trước câu hỏi | không có | không có |
+
+Giọng đọc cả 6 video đều vào ngay 0,00 s (không mở bằng nhạc hay im lặng). Mẫu 4 và mẫu 3 hiện từ đen trong khoảng 0,1–0,5 s.
+
+**Điểm yếu của mình:** hình đổi chậm (1905: 30 giây đầu chỉ 5 cảnh, cảnh đầu đứng 10,7 s); ít chữ lớn; không có khoảng lặng nhấn trước cú lật; tập 1905 chen tóm tắt tập trước ("Ở cuối tập trước, bạn đã gặp họ", 20 s) vào giữa hook. **Điểm mạnh nên giữ:** chữ lớn khung 0 dạng hai vế đối nhau ("VUA BỎ NGAI, VÀO RỪNG?", "CÙNG CỨU NƯỚC, CÃI NHAU CẢ ĐỜI"), câu hỏi trung tâm sớm (18–23 s), lộ tên từng lớp ("Cậu bé ấy là một vị vua. Vị vua ấy là… Hàm Nghi"), vòng mở "con tàu thứ ba, Vy để dành đến cuối video".
+
+### 8.2 Chữ lớn khung 0
+Cả bốn mẫu đều có cùng một dạng: **hai vế đối nhau, ngăn bằng dấu phẩy, tối đa 6–7 chữ**: "ĐANG THẮNG, SAO BỊ GIẾT?" (4), "CHƯA ĐÁNH TRẬN NÀO, ĐÃ CHẾT" (A), "CHO 24 GIỜ, GIỮ 60 NGÀY?" (B, con số đối con số), "…VÀ KHÔNG LÀM GÌ ĐƯỢC?" (3). Chữ đứng suốt cảnh đầu (4–5 s). Ở mẫu 4 chữ cao khoảng 7% chiều cao khung, chiếm khoảng 80% chiều ngang; chữ của mình khoảng 4,5%, nhỏ hơn rõ. Hình khung 0 là khoảnh khắc mạnh nhất của truyện (mẫu 4: Nhạc Phi quay lưng nhìn về phía bắc giữa khói và cờ; A: người nông dân bị khoanh tròn đỏ giữa mưa), thường là clip Veo.
+
+### 8.3 Năm kiểu hook (chọn MỘT cho mỗi tập, đổi kiểu giữa các tập)
+1. **Đủ mọi lý do → làm ngược lại** (mẫu 4). 3–6 lý do, mỗi lý do một câu ngắn + một cảnh + một chữ lớn 2–3 chữ → "Nghĩa là chỉ còn một việc: …" → "Thế mà…" → câu đinh.
+2. **Kết quả nghịch lý** (A, mẫu 3): nói kết cục trước, kết cục trái lẽ thường ("chưa đánh trận nào đã chết"; "nhìn thấy từ đầu đến cuối và không làm gì được"), rồi quay về đầu chuyện.
+3. **Đồng hồ + chênh lệch** (B): giờ phút chính xác, một tín hiệu đang chờ ("điện tắt, đó là lệnh tấn công"), so lực lượng hai bên từng món, kỳ vọng thấp ("chỉ mong giữ được 1 tháng") → kết quả cao ("60 ngày").
+4. **Lộ danh tính từng lớp** (tập 1885): tả một người bình thường làm một việc lạ → "Người ấy là… / Người ấy là…" → tên thật.
+5. **Nhập vai "bạn"** (A): "Bạn không chọn được nơi mình sinh ra. Lần này, bạn là…" → cái tên được khoanh trong sổ là tên bạn.
+
+### 8.4 Khung thời gian cho hook dọc 5–8 phút
+| Giây | Lời | Hình |
+|---|---|---|
+| 0–3 | Câu 1 ≤ 12 chữ: neo năm/nơi + mâu thuẫn, hoặc câu tóm cả tập | Hình mạnh nhất (ưu tiên Veo), chữ lớn khung 0 hai vế, hiện từ đen ~0,3 s |
+| 3–20 | 3–6 câu ngắn dựng tình thế bằng chi tiết cụ thể (con số, đồ vật, người) | Mỗi câu một cảnh 2–3 s; 3–5 cảnh có chữ lớn từ khóa 2–3 chữ |
+| ~20 | Cú lật ≤ 8 chữ ("Thế mà…", "Nhưng…", "Ông gọi Nhạc Phi về, rồi giết.") | Một cảnh đồ vật biểu tượng, chữ lớn tóm cú lật ("GỌI VỀ, RỒI GIẾT") |
+| | **Lặng ~1–1,5 s** (một khoảng duy nhất trong hook) | Hình đứng |
+| ~22–30 | Câu hỏi ngắn ("Vì sao?") → câu hỏi đủ → một vế xoáy thêm ("Và dừng xong còn ký giấy xưng bề tôi với người đang giữ mẹ mình.") | Cận mặt có giọt mồ hôi/mắt liếc + chữ lớn câu hỏi |
+| 30–40 | Cửa vào: "Hôm nay, hãy cùng Vy…" (hoặc "Chuyện là…") + có thể thêm một vòng mở ("…Vy để dành đến cuối video") | Đổi bối cảnh, bắt đầu hồi 1 |
+
+### 8.5 Luật hook (kiểm trước khi chốt kịch bản)
+- [ ] Giọng vào ở 0,00 s; câu 1 ≤ 12 chữ.
+- [ ] Trong 30 s đầu: **≥ 10 cảnh, không cảnh nào > 4 s**, ≥ 4 cảnh có chữ lớn (câu hỏi, từ khóa, con số).
+- [ ] Chữ lớn khung 0 dạng hai vế đối nhau, ≤ 7 chữ, cỡ chữ lớn hơn hiện tại (~7% chiều cao khung).
+- [ ] Mọi câu trong hook đều là sự việc cụ thể, không câu dẫn chung chung ("Lịch sử dân tộc ta…").
+- [ ] Có một cú lật rõ ràng và câu hỏi trung tâm trước giây 30.
+- [ ] Đúng **một** khoảng lặng ~1–1,5 s ở cú lật. *(Chỉ trong hook; người dùng đã bỏ kiểu ngắt nhịp khắp video ở tập 1867. Làm bản nghe thử có/không có khoảng lặng để người dùng chọn trước khi áp dụng.)*
+- [ ] Không tóm tắt tập trước trong 40 s đầu; nếu cần nối tập trước thì đặt sau câu "Hôm nay, hãy cùng Vy…", tối đa một câu.
+- [ ] Câu trả lời của câu hỏi trong hook để đến cuối video (xem 7.1).
+- [ ] Hook dài 30–40 s; "Hôm nay, hãy cùng Vy…" không muộn hơn giây 40.
+
+---
+
+## 9. Nhân vật "diễn" thế nào (2026-11-18, người dùng hỏi về di chuyển nhân vật)
+
+Đo bằng cách bù chuyển động camera rồi tìm vùng điểm ảnh tự chuyển động trong từng cảnh, sau đó xem dải khung hình của mọi cảnh tìm được.
+
+### 9.1 Số đo: nhân vật hầu như KHÔNG được làm chuyển động bằng AI
+| | Clip có chuyển động trong khung | Trong đó nhân vật cử động | Vị trí |
+|---|---|---|---|
+| Mẫu 4 (dọc, 145 cảnh) | 8 (5,5%) | **1**: sử quan ngậm bút nhún vai, mắt đảo (2:16) | 5/8 clip nằm trong 2 phút đầu |
+| Mẫu 3 (510 cảnh) | 8 (1,6%) | 5: thầy giáo quay lưng đi dọc lối giữa lớp; thợ in kéo cần máy in; thủy thủ chào, học trò đi thành hàng; chàng trai quay lưng đi vào chợ; đám đông đi trên phố nhìn từ xa | **6/8 clip nằm trong 75 giây đầu** |
+| Mẫu A (mục 3.5) | ~20% | run dưới chăn, buông ống tre, muỗi cắn tay | rải đều |
+
+Các clip còn lại chỉ có môi trường chuyển động: khói, lửa đuốc, áo choàng bay, quạt trần quay, ánh lóe chạy qua tấm kim bài.
+
+### 9.2 Những kiểu cử động nhân vật mà mẫu dám dùng (an toàn với AI)
+1. **Đi xa khỏi camera, nhìn từ sau lưng** (không thấy mặt nên mặt không bị méo): thầy giáo đi dọc lớp, người đi vào chợ.
+2. **Động tác lao động lặp lại tại chỗ**: kéo cần máy in, đóng dấu, gõ búa, viết.
+3. **Một cử chỉ ngắn**: chào, nhún vai, mắt đảo, run.
+4. **Đám đông đi lại nhìn từ xa hoặc từ trên cao.**
+Không có cảnh đánh nhau, chạy về phía camera, quay người, nói chuyện mở miệng.
+
+### 9.3 Cảm giác "nhân vật đang diễn" thực ra đến từ cắt cảnh theo tư thế (miễn phí, chỉ tốn ảnh Flow)
+- **Mỗi câu thoại là một ảnh mới, cùng nhân vật, cùng bối cảnh, đổi tư thế và góc máy.** Mẫu 4, 3:52–3:58, một câu hỏi và một câu đáp được kể bằng 5 ảnh: toàn cảnh (tướng chỉ tay vào Tần Cối) → cận mặt tướng giận, chữ "TỘI GÌ?" → đổi góc, Tần Cối giơ **3 ngón tay** đúng lúc nói "ba chữ" → cận Tần Cối nhếch mép, chữ "MẠC TU HỮU" → tướng mắt xoắn ốc, chữ "CÓ LẼ CÓ".
+- **Cử chỉ minh họa đúng nghĩa đen của lời:** giơ 3 ngón cho "ba chữ"; ôm hoa và trái tim bay cho "mẹ thì muốn đón" → quay mặt huýt sáo (nốt nhạc bay) cho "anh thì không"; cột biển mũi tên chỉ ngược cho "làm ngược lại".
+- **Chuyển động vẽ sẵn trong ảnh tĩnh (kiểu truyện tranh):** vệt gió, ghế lắc có nét rung, giấy bay, bụi phụt, giọt mồ hôi văng ("ngồi xuống nói chuyện", mẫu 4, 2:04); tim, nốt nhạc, bong bóng "?", mây xám trên đầu.
+- **Biểu cảm phóng đại theo từng câu:** mồ hôi, mắt xoắn ốc, mắt liếc, nhếch mép, mặt xìu.
+- Camera đẩy/kéo xen kẽ (mục 7.3) cộng với ảnh đổi mỗi 2 giây làm chuỗi tư thế trông như hoạt hình giật nhịp chậm.
+
+### 9.4 Áp dụng cho kênh
+- Giữ số clip Veo người dùng đã chốt (10–13), nhưng **dồn 3–5 clip vào hook** (40 s đầu) như mẫu 3 và 4; phần còn lại ở nửa đầu và giữa, cuối tối đa 2.
+- Clip có nhân vật: chọn theo 4 kiểu ở 9.2; ưu tiên **nhìn từ sau lưng** hoặc **động tác lặp lại tại chỗ**; không mở miệng.
+- **Mỗi đoạn đối thoại hoặc đối đầu quan trọng = một chuỗi 3–5 ảnh cùng bối cảnh** (toàn → cận người nói → đổi góc → cận người nghe phản ứng). Mỗi tập nên có 2–3 chuỗi như vậy, nghĩa là thêm khoảng 6–10 ảnh Flow (miễn phí, nhưng tính thêm thời gian chờ giới hạn của Flow).
+- Prompt ảnh cho chuỗi tư thế: "Same two characters, same courtyard and lighting as the previous image; now [character] raises three fingers, smug half-smile; [other] glares, sweat drop" + khi cần: "comic motion lines, small dust puff, flying sweat drops, papers flying".
+- Prompt Veo cho người đi xa: "Seen from behind, the man walks slowly away down the classroom aisle; his face is never shown; locked-off static camera; students stay seated, only small head movements."
+
+**Thử Veo đổi tư thế (2026-11-18, s001 tập 1905, `projects/1905-hai-con-duong/videos/test-tu-the/s001-tu-the-veo.mp4`):** nhổm dậy + đập bàn + giấy bay làm được, camera đứng yên, mặt và tay giữ tốt, nhưng người dùng thấy "giống hoạt hình quá". Đo: lúc đỉnh 9,6% điểm ảnh đổi mỗi khung, gấp 2–3 lần clip nhân vật của mẫu (1,6–4,8%). Veo tự thêm nhòe chuyển động, giấy bay, nhún bật. Bài học: động tác lớn trên ảnh bán tả thực thì vênh; nếu dùng Veo đổi tư thế thì động tác chậm, có trọng lượng ("slow, restrained movement with real weight; no cartoon smear, no squash and stretch, no motion blur").
+
+---
+
+## 9b. Khung kịch bản toàn bài (mẫu 4, đo 2026-11-18)
+
+Mẫu 4 (5:36, 1.050 từ, 101 câu) không bao giờ nói thẳng luận điểm "vua giết Nhạc Phi để giữ ngai". Nó chứng minh bằng bằng chứng tăng dần rồi để người xem tự kết luận ở câu cuối. Bản đồ nhịp (tính theo % thời lượng):
+
+| % | Thời điểm | Nhịp | Nội dung |
+|---|---|---|---|
+| 0–10 | 0:00–0:35 | Hook | 6 lý do → làm ngược lại → "Vì sao?" + vế xoáy (ký giấy xưng bề tôi với người đang giữ mẹ mình) |
+| 10–13 | 0:35–0:43 | Cửa vào | "Chuyện là ông vua ấy tên là Triệu Cấu. Muốn hiểu ông phải lùi về lúc ông chưa phải vua." |
+| 13–22 | 0:43–1:12 | Gốc rễ | Biến cố 1127 tạo ra cả câu chuyện: cha và anh bị bắt, ông thoát, thành vua "vì không còn ai khác" |
+| 22–27 | 1:13–1:32 | **Chìa khóa** | "Các bạn để ý chỗ này." Gieo luận điểm ngầm: ngai của ông đứng trên đúng một việc, ông anh không về |
+| 27–41 | 1:32–2:18 | Bằng chứng 1–2 | 13 đoàn sứ xin mẹ, xin cha, không xin anh; Kim dùng ông anh làm con tin → "một ông vua sợ thắng" + "Sử không chép ông nói thế" |
+| 41–51 | 2:19–2:52 | **Giữa bài: đổi thế** | Ông cha chết → còn mẹ và anh; "Kim không bán lẻ"; nhân vật phản diện thứ hai (Tần Cối) xuất hiện |
+| 51–71 | 2:52–3:59 | Cao trào | Nhạc Phi thắng, xin "đón hai vua" (= đón ông anh) → 12 kim bài trong một ngày → bắt, "mạc tu hữu" |
+| 71–87 | 3:59–4:52 | Hệ quả | Nhạc Phi chết; hòa ước nhục; mẹ về, quan tài về, **anh không về** (callback danh sách mở đầu); câu Tần Cối đổ trách nhiệm; tượng quỳ hôm nay |
+| 87–92 | 4:53–5:10 | Soi chiếu | Lý Nhân Tông ở Đại Việt cùng năm, chọn người nối ngôi công khai |
+| 92–100 | 5:10–5:36 | Kết | Ông anh chết, tin về chậm 5 năm "sử không nói vì sao"; vua sống đến 80, "không còn ai để đón" → "Vì anh về thì ai làm vua?" |
+
+**Quy luật rút ra:**
+1. **Một luận điểm ngầm duy nhất**, gieo ở khoảng 25% ("để ý chỗ này"), chứng minh bằng 3–4 bằng chứng **tăng dần độ nặng** (xin sứ → sợ thắng → 12 kim bài → giết), nói ra bằng câu hỏi ở câu cuối.
+2. **Đổi thế ở giữa bài (~45%)**: một sự kiện làm bàn cờ thay đổi (một người chết, một phe mới), kèm nhân vật mới.
+3. **Cao trào ở 50–70%**, không phải ở cuối. 30% sau dành cho hệ quả, callback, soi chiếu, kết.
+4. **Neo năm dày đặc:** 16 lần nhắc năm trong 5,6 phút (khoảng 20 giây một lần), gần như mỗi đoạn mở bằng năm.
+5. **Câu ngắn hơn của mình:** trung bình 10,4 từ/câu (tập 1905: 13,7; 1885: 12,4). Mẫu tách ý phụ thành câu riêng ("Kim không trả lời đoàn nào." / "Kim bận làm việc khác.").
+6. **Nhân vật phụ chỉ có khi có việc:** Tần Cối vào ở 41%, giới thiệu bằng câu hỏi "Tần Cối là ai?" + một chi tiết đáng ngờ ("nói là trốn được. Nhiều người thời đó không tin.").
+7. Mỗi tập chỉ một mạch chính; không kể song song nhiều tuyến.
+
+**Checklist khi dựng dàn ý tập mới:** viết luận điểm ngầm thành 1 câu (không đọc lên) → chọn 3–4 bằng chứng xếp tăng dần → chọn sự kiện đổi thế cho mốc 45% → đặt cao trào trong 50–70% → kiểm 30% cuối có hệ quả + callback + câu hỏi cuối → câu trung bình ≤ 11 từ → mỗi đoạn mở bằng năm hoặc nơi.
+
+---
+
+## 10. STYLE HÌNH MỚI (người dùng chốt 2026-11-18, thay style của tập 1885/1905)
+
+Người dùng hỏi "có áp dụng được style của 4 video mẫu không?", xem các bản thử và **chốt bản A**. Ảnh mẫu style: `styles/style-2026-11-18/anh-mau-style.jpg` (cảnh cụ Phan Bội Châu dẫn du học sinh đến trường ở Tokyo). Thay cho đoạn "Prompt style hình" trong `ke-chuyen-cuon-hut.md` và cho kiểu ảnh đậm, nhiều đổ bóng, ánh sáng điện ảnh của 1885/1905 (mục 2 "Bố cục khung hình" về nhân vật lớn, nhiều đồ vật, 3 lớp chiều sâu vẫn giữ).
+
+**Đặc điểm:** hoạt hình 2D rất phẳng; viền đen dày đều; màu tô phẳng, gần như không đổ bóng, không chuyển màu, không vân; đầu to, mắt tròn đồng tử chấm đen, lông mày đậm, biểu cảm phóng đại dễ đọc; ánh sáng đều; **màu tươi nhưng không gắt**: trời xanh có mây trắng, gỗ nâu đỏ ấm, cỏ xanh tươi, hồng, cam.
+
+**Quy trình mỗi ảnh (bắt buộc, để cả tập đồng đều):**
+1. Trên Flow, gắn `anh-mau-style.jpg` vào ô tác nhân làm **ảnh tham chiếu style** (cách gắn: `src/flow-veo/veo3-up.js` + `veo2-go.js`, tên ô `veo2-<id>.jpg`). Không gắn thì style trôi (ảnh tàu và ảnh đêm mưa thử không gắn ra đổ bóng nhiều, mặt kém tròn).
+2. Prompt mở đầu bằng đoạn style dưới đây, rồi đến cảnh.
+3. Sau khi tải ảnh về: **giảm độ bão hòa 15%** cho mọi ảnh: `ffmpeg -i in.jpg -vf "eq=saturation=0.85" -q:v 2 out.jpg` (Flow vẽ theo prompt "vivid" ra hơi đậm; người dùng chọn mức −15%, không chọn −28%/−40%). Giữ bản gốc chưa giảm trong `images/_goc-chua-giam/`.
+
+**Đoạn style đầu prompt:**
+> Create a NEW image. Use the attached image ONLY as the art-style reference: copy its exact drawing style: very flat solid colours, thick uniform black outlines, no shading, no gradients, no texture, big heads, round simple eyes with black dot pupils, bold expressive eyebrows, simple mouths, exaggerated readable expressions, bright even light. Colours vivid and eye-catching like a bright TV cartoon: clear blue sky with white clouds (for day scenes), rich warm wood brown and red-brown, fresh green, strong pink/orange accents, pure black, strong clean contrast, no pale or washed-out areas.
+
+**Cảnh đêm, cảnh buồn:** vẫn phẳng và đậm màu: trời xanh navy phẳng, mưa là vạch trắng thẳng, đèn là mảng vàng phẳng, vũng nước phẳng (thử ở s040: giữ được không khí buồn nhờ biểu cảm mặt). Không dùng sương, khói mờ, ánh sáng lan.
+
+**Lưu ý khi làm tập mới:** thiết kế lại toàn bộ nhân vật theo style này (ảnh tham chiếu nhân vật mới); chỉnh khung để nhân vật chiếm ~60% khung (Flow hay để phần trời trống quá rộng); ghi rõ số người ("exactly four students") vì Flow hay vẽ thiếu.
