@@ -15,7 +15,7 @@ Hệ thống tạo video ngắn 9:16 chạy local, gộp từ 3 repo của Cuong
 - Mức 3 — ảnh → clip video AI: `ANIMATE=fal` (Kling 2.6 Pro qua fal.ai, ~$0.35/cảnh). `--no-animate` để xem trước miễn phí bằng hiệu ứng zoom/pan.
 - Nhạc nền: bỏ file nhạc miễn phí bản quyền vào `history/assets/music/`.
 - Ví dụ: `history/projects/bach-dang-938/`.
-- Preset `cartoon-flat` (tập mới) và `cartoon-solemn` (tập cũ): xem `history/src/presets.mjs`, `history/styles/ke-chuyen-cuon-hut.md`, `history/styles/hoat-hinh-su-viet.md`. `--characters-only` tạo ảnh tham chiếu nhân vật (`characters/<key>.jpg`). Logo kênh: `history/assets/brand/logo.png`. Bản sao lưu code trước khi thêm preset: `history/src.bak-20261104`.
+- Preset `cartoon-flat` (tập mới) và `cartoon-solemn` (tập cũ): xem `history/src/presets.mjs`, `history/styles/quy-chuan-dao-dien.md` (quy chuẩn duy nhất). `--characters-only` tạo ảnh tham chiếu nhân vật (`characters/<key>.jpg`). Logo kênh: `history/assets/brand/logo.png`. Bản sao lưu code trước khi thêm preset: `history/src.bak-20261104`.
 
 Skill được cài ở mức user (`C:\Users\Admin\.claude\skills\`), gọi được từ mọi workspace trong Claude Code. Bản sao nằm trong repo ở `.claude/skills/` (dùng được khi mở Claude Code ở `C:\video-studio`).
 

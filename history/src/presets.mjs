@@ -5,7 +5,7 @@
 // it is not an image style any more. Image styles (2026-11-12, the user kept only these two):
 // "cartoon-solemn" = semi-realistic painterly 2D (episodes Mua do 1972, 1858, 1867);
 // "cartoon-flat"   = simple flat 2D Vietnamese-YouTube cartoon, the style for new episodes
-//                    (styles/ke-chuyen-cuon-hut.md, section "Prompt style hinh").
+//                    (styles/quy-chuan-dao-dien.md section 2.1).
 
 const DEFAULT = {
   transition: "fade",
@@ -62,7 +62,7 @@ const CARTOON_FLAT = {
 };
 
 // Approved by the user 2026-11-13 (episode 1885, tests style-test/ in that project): same characters as
-// cartoon-flat, but composed like the reference video (styles/ke-chuyen-cuon-hut.md, "Bố cục khung hình").
+// cartoon-flat, but composed like the reference video (styles/quy-chuan-dao-dien.md section 2.2).
 const CARTOON_BOLD = {
   ...CARTOON_EDIT,
   style:
