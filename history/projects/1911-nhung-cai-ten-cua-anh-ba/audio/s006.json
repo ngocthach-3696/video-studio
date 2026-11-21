@@ -1,0 +1,36 @@
+{
+ "key": "c39f04bc1872",
+ "duration": 2.942958,
+ "words": [
+  {
+   "start": 0.169,
+   "end": 0.469,
+   "text": "Tên:"
+  },
+  {
+   "start": 0.631,
+   "end": 0.907,
+   "text": "Chen"
+  },
+  {
+   "start": 0.907,
+   "end": 1.298,
+   "text": "Vang."
+  },
+  {
+   "start": 1.508,
+   "end": 1.838,
+   "text": "Nghề:"
+  },
+  {
+   "start": 2.015,
+   "end": 2.246,
+   "text": "thợ"
+  },
+  {
+   "start": 2.246,
+   "end": 2.606,
+   "text": "ảnh."
+  }
+ ]
+}

@@ -32,6 +32,64 @@ async function renderLayers(spec, dir, out, frames, W, H, seed) {
     "--fps", String(FPS), "--size", `${W}x${H}`, "--ffmpeg", "ffmpeg", "--seed", String(seed),
   ]);
 }
+// Camera moves + several shots per line (src/camera.py, styles/quy-chuan-dao-dien.md section 12).
+// scene "camera": {path, ease, shake, whip, black} on the scene image; scene "shots": [{image: "s005b",
+// at: 0.5, camera: {...}}, ...] cuts to more pictures inside the same line (at = fraction of the scene).
+// A shot with no camera gets the "alternate" push/pull so it matches the other scenes.
+const CAMERA_PY = path.join(HERE, "camera.py");
+function defaultCamera(k) {
+  const [ax, ay] = ANCHORS[k % ANCHORS.length];
+  const a = { t: 0, x: 0.5, y: 0.5, z: 1 };
+  const b = { t: 1, x: 0.5 + (ax - 0.5) * 0.5, y: 0.5 + (ay - 0.5) * 0.5, z: 1 + PUSH };
+  return { path: k % 2 ? [{ ...b, t: 0 }, { ...a, t: 1 }] : [a, b] };
+}
+// A shot whose picture has an AI clip videos/<picture>.mp4 plays that clip instead of the camera move
+// (only when animation is on). Used for scenes with several pictures ("shots").
+const shotVideo = (dir, image, animated) => {
+  const f = path.join(dir, "videos", `${path.basename(image, path.extname(image))}.mp4`);
+  return animated && fs.existsSync(f) ? f : null;
+};
+function cameraShots(scene, dir, id, i, animated = false) {
+  const first = path.join(dir, "images", `${id}.jpg`);
+  const list = [{ image: first, at: 0, camera: scene.camera || defaultCamera(i), video: shotVideo(dir, first, animated) }];
+  for (const [k, sh] of (scene.shots || []).entries()) {
+    const f = sh.image.includes(".") ? path.resolve(dir, sh.image) : path.join(dir, "images", `${sh.image}.jpg`);
+    list.push({ image: f, at: Number(sh.at), camera: sh.camera || defaultCamera(i + k + 1), video: shotVideo(dir, f, animated) });
+  }
+  return list.sort((a, b) => a.at - b.at);
+}
+// Start time and length (s) of every AI clip shown inside a shots scene, relative to the scene start.
+function shotVideoSegments(shots, frames) {
+  return shots.flatMap((sh, k) => {
+    if (!sh.video) return [];
+    const f0 = Math.round(sh.at * frames);
+    const f1 = k + 1 < shots.length ? Math.round(shots[k + 1].at * frames) : frames;
+    return [{ file: sh.video, offset: f0 / FPS, dur: (f1 - f0) / FPS }];
+  });
+}
+async function renderCamera(shots, out, frames, W, H, tmpDir) {
+  const parts = [];
+  for (const [k, sh] of shots.entries()) {
+    const f0 = Math.round(sh.at * frames);
+    const f1 = k + 1 < shots.length ? Math.round(shots[k + 1].at * frames) : frames;
+    const part = shots.length === 1 ? out : path.join(tmpDir, `${path.basename(out, ".mp4")}_${k}.mp4`);
+    if (sh.video) {
+      const vf = fitVideo(await probeDuration(sh.video), (f1 - f0) / FPS, W, H);
+      await ffmpeg(["-i", sh.video, "-an", "-vf", vf + NORM, "-frames:v", String(f1 - f0), ...X264, part]);
+    } else {
+      await run(PYTHON, ["-I", CAMERA_PY, sh.image, part, String(f1 - f0), String(W), String(H), JSON.stringify(sh.camera)]);
+    }
+    parts.push(part);
+  }
+  if (parts.length > 1) {
+    const list = path.join(tmpDir, `${path.basename(out, ".mp4")}_list.txt`);
+    fs.writeFileSync(list, parts.map((p) => `file '${p.replace(/\\/g, "/")}'`).join("\n") + "\n");
+    await ffmpeg(["-f", "concat", "-safe", "0", "-i", list, "-c", "copy", out]);
+    for (const p of [...parts, list]) fs.rmSync(p);
+  }
+}
+const camKey = (shots) => JSON.stringify(shots.map((s) => [s.image, fs.existsSync(s.image) ? fs.statSync(s.image).mtimeMs : 0, s.at, s.camera, s.video ? fs.statSync(s.video).mtimeMs : 0]));
+
 const layersKey = (spec, dir) => {
   const txt = typeof spec === "string" ? fs.readFileSync(path.resolve(dir, spec), "utf8") : JSON.stringify(spec);
   const files = [...txt.matchAll(/"path"\s*:\s*"([^"]+)"/g)].map((m) => {
@@ -161,8 +219,10 @@ const stillFilter = (W, H, cropBottom) =>
   `${cropBottom ? `crop=iw:ih*${(1 - cropBottom).toFixed(3)}:0:0,` : ""}scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
 
 // True when scene i is shown with its AI clip videos/<id>.mp4 (not the still image).
+// Scenes with several pictures ("shots") go through the camera path, which plays clips per picture.
 export function sceneUsesVideo(project, dir, i, id, animated) {
   const marked = project.animateScope !== "marked" || !!project.scenes[i].video?.trim();
+  if (project.scenes[i].shots?.length) return false;
   return animated && marked && fs.existsSync(path.join(dir, "videos", `${id}.mp4`));
 }
 
@@ -172,22 +232,30 @@ export function sceneUsesVideo(project, dir, i, id, animated) {
 export async function buildVeoAudio(project, dir, timeline, animated) {
   const cfg = project.veoAudio;
   if (!cfg || cfg.enabled === false) return null;
-  const items = timeline.scenes
-    .map((s, i) => ({ s, i }))
-    .filter(({ s, i }) => sceneUsesVideo(project, dir, i, s.id, animated) && !(project.scenes[i].veoAudio === false));
+  // whole-scene clips + clips inside shots scenes: {file, start, dur, id}
+  const items = [];
+  timeline.scenes.forEach((s, i) => {
+    const sc = project.scenes[i];
+    if (sc.veoAudio === false) return;
+    if (sceneUsesVideo(project, dir, i, s.id, animated)) {
+      items.push({ file: path.join(dir, "videos", `${s.id}.mp4`), start: s.start, dur: s.dur, id: s.id });
+    } else if (sc.shots?.length) {
+      for (const g of shotVideoSegments(cameraShots(sc, dir, s.id, i, animated), s.frames))
+        items.push({ file: g.file, start: s.start + g.offset, dur: g.dur, id: path.basename(g.file, ".mp4") });
+    }
+  });
   if (!items.length) return null;
   const lufs = Number(cfg.lufs ?? -24);
   const fade = 0.12;
   const args = [];
   const parts = [];
-  items.forEach(({ s }, k) => {
-    args.push("-i", path.join("videos", `${s.id}.mp4`));
-    const d = s.dur;
+  items.forEach(({ file, start, dur: d }, k) => {
+    args.push("-i", path.relative(dir, file));
     parts.push(
       `[${k}:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo,atrim=0:${d.toFixed(3)},asetpts=PTS-STARTPTS,` +
         `loudnorm=I=${lufs}:LRA=11:TP=-6,aresample=48000,` +
         `afade=t=in:d=${fade},afade=t=out:st=${Math.max(d - fade, 0).toFixed(3)}:d=${fade},` +
-        `adelay=${Math.round(s.start * 1000)}:all=1[v${k}]`,
+        `adelay=${Math.round(start * 1000)}:all=1[v${k}]`,
     );
   });
   const total = timeline.total ?? timeline.scenes.at(-1).start + timeline.scenes.at(-1).dur;
@@ -199,7 +267,7 @@ export async function buildVeoAudio(project, dir, timeline, animated) {
   fs.writeFileSync(graph, parts.join(";"));
   await ffmpeg([...args, "-/filter_complex", "veo-audio.graph.txt", "-map", "[out]", "-ar", "48000", "-ac", "2", "veo-audio.wav"], { cwd: dir });
   fs.rmSync(graph);
-  log(`  tiếng Veo: ${items.length} clip (${items.map(({ s }) => s.id).join(" ")})`);
+  log(`  tiếng Veo: ${items.length} clip (${items.map((it) => it.id).join(" ")})`);
   return { file: path.join(dir, "veo-audio.wav"), volume: Number(cfg.volume ?? 1) };
 }
 
@@ -218,14 +286,19 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     const layersSpec = project.scenes[i].layers;
     const useLayers = !useVideo && !!layersSpec;
     const useFx = !useVideo && !useLayers && fit === "cover" && !!fxSpec;
-    const motion = useVideo ? "ai-video" : useLayers ? "layers" : useFx ? "fx" : resolveMotion(project.scenes[i].motion || project.motion || MOTIONS[i % MOTIONS.length], i);
+    const sc = project.scenes[i];
+    const useCamera = !useVideo && !useLayers && !useFx && (!!sc.camera || !!sc.shots?.length);
+    const shots = useCamera ? cameraShots(sc, dir, s.id, i, animated) : null;
+    const motion = useVideo ? "ai-video" : useLayers ? "layers" : useFx ? "fx" : useCamera ? `camera x${shots.length}` : resolveMotion(sc.motion || project.motion || MOTIONS[i % MOTIONS.length], i);
     const st = fs.statSync(src);
-    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : "", useLayers ? layersKey(layersSpec, dir) : "", "tv-range"].join("|"));
+    const key = sha1([st.size, st.mtimeMs, s.frames, motion, W, H, cropBottom, fit, useFx ? JSON.stringify(fxSpec) : "", useLayers ? layersKey(layersSpec, dir) : "", useCamera ? camKey(shots) : "", "tv-range"].join("|"));
     const out = path.join(clipsDir, `${s.id}.mp4`);
     const keyFile = `${out}.key`;
     if (fs.existsSync(out) && fs.existsSync(keyFile) && fs.readFileSync(keyFile, "utf8") === key) continue;
     log(`  clip ${s.id} (${motion}${fit === "contain" ? ", contain" : ""}, ${s.dur.toFixed(1)}s)`);
-    if (useLayers) {
+    if (useCamera) {
+      await renderCamera(shots, out, s.frames, W, H, clipsDir);
+    } else if (useLayers) {
       await renderLayers(layersSpec, dir, out, s.frames, W, H, i + 1);
     } else if (useFx) {
       await renderFx(src, out, fxSpec, s.frames, W, H, cropBottom, i + 1);

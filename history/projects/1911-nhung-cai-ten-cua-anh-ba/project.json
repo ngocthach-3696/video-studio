@@ -1,0 +1,1153 @@
+{
+ "title": "1911 – Những cái tên của anh Ba",
+ "series": "Loạt Bác Hồ – Tập 1",
+ "preset": "cartoon-flat",
+ "format": "9:16",
+ "imageProvider": "manual",
+ "animate": "flow",
+ "veoAudio": {
+  "volume": 1,
+  "lufs": -24
+ },
+ "motion": "alternate",
+ "tts": "manual",
+ "voiceNote": "vibi.pro, giọng Tuấn Anh = ElevenLabs HG0MlJIknmaXREpTckfK, eleven_v3, stability 0.5, speed 1, lời từ tts-ngat-nhip.txt",
+ "brand": {
+  "logo": "auto",
+  "watermark": null,
+  "logoWidth": 0.18,
+  "logoOpacity": 0.7,
+  "logoBlur": 0.8,
+  "logoMarginX": 0.06
+ },
+ "loudnorm": -16,
+ "music": "projects/1911-nhung-cai-ten-cua-anh-ba/music/bgm.wav",
+ "musicStart": 0,
+ "musicVolume": 1,
+ "subtitles": false,
+ "characters": {
+  "anh-ba": {
+   "name": "Anh Ba – Nguyễn Tất Thành 1911 (phụ bếp)",
+   "look": "young Vietnamese kitchen helper, white shirt with rolled sleeves, long white apron, brown trousers"
+  },
+  "nguyen-ai-quoc": {
+   "name": "Nguyễn Ái Quốc 1919–1923 (âu phục đen)",
+   "look": "black Western suit, white high rounded collar, thin black tie"
+  },
+  "naq-gile": {
+   "name": "Nguyễn Ái Quốc – thợ sửa ảnh (gi-lê nâu)",
+   "look": "white shirt sleeves rolled up, dark brown waistcoat, loosened black tie"
+  },
+  "naq-ao-len": {
+   "name": "Nguyễn Ái Quốc – phòng lạnh 1920 (áo len)",
+   "look": "worn grey knitted sweater over white shirt, shabby brown overcoat with a patch"
+  },
+  "naq-mang-to": {
+   "name": "Nguyễn Ái Quốc – rời Pa-ri 1923 (măng tô, mũ phớt)",
+   "look": "long dark navy overcoat, grey felt fedora, small brown suitcase"
+  },
+  "phan-chau-trinh": {
+   "name": "Phan Châu Trinh ở Pa-ri",
+   "look": "slim, greying short hair, thin mustache, grey three-piece suit, black bow tie"
+  },
+  "phan-van-truong": {
+   "name": "Luật sư Phan Văn Trường",
+   "look": "round face, round wire glasses, small mustache, grey suit, leather briefcase"
+  },
+  "mat-tham": {
+   "name": "Mật thám Pháp (hình tượng)",
+   "look": "stocky French detective, bushy brown mustache, black bowler hat, brown overcoat, small notebook"
+  }
+ },
+ "scenes": [
+  {
+   "narration": "Bốn năm, mật thám Pháp biết cả bữa tối của một người: bánh mì, khúc xúc xích, chút sữa.",
+   "image": "The detective crouches on a dark narrow wooden staircase, scribbling in his notebook, peeking through a half-open attic door at a small table that holds only a piece of baguette bread, one sausage and a glass of milk under a weak lamp.",
+   "title": "THEO DÕI 4 NĂM,\nVẪN ĐỂ MẤT",
+   "characters": [
+    "mat-tham"
+   ],
+   "shots": [
+    {
+     "image": "s001b",
+     "at": 0.55
+    },
+    {
+     "image": "s001c",
+     "at": 0.7
+    },
+    {
+     "image": "s001d",
+     "at": 0.84
+    }
+   ]
+  },
+  {
+   "narration": "Họ có hồ sơ dày, ghi chiều cao, nghề nghiệp, và rất nhiều tên gọi.",
+   "image": "Close-up insert from above: an open beige police dossier lying on a dark wooden desk; clipped to the first page a small square portrait photo of the Vietnamese man in his black suit (drawn in the same cartoon style); beside it a small drawing of a height scale, many lines of plain wavy lines (no letters), a list of several short wavy lines in a column, a red round rubber stamp mark with nothing inside, a fountain pen and a desk lamp.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.42,
+      "y": 0.45,
+      "z": 1.45
+     },
+     {
+      "t": 1,
+      "x": 0.42,
+      "y": 0.45,
+      "z": 1.4935
+     }
+    ],
+    "ease": "out",
+    "shake": {
+     "at": 1.6,
+     "dur": 0.4,
+     "amp": 0.006
+    }
+   }
+  },
+  {
+   "narration": "Họ đứng canh ngay dưới nhà, ở ngõ Công-poanh, Pa-ri.",
+   "image": "Dusk in a narrow cobbled Paris cul-de-sac (impasse) in 1923 lined with old four-storey grey stone buildings with shutters and iron balconies, gas street lamps: two French plain-clothes detectives hide behind a gas lamp post in the foreground, large, both staring up at a single lit attic window high on the building; long evening shadows, warm lamp glow. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.75,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.3,
+      "z": 1.3
+     }
+    ]
+   },
+   "shots": [
+    {
+     "image": "s003b",
+     "at": 0.55
+    }
+   ]
+  },
+  {
+   "narration": "Rồi giữa tháng Sáu năm một chín hai ba, căn phòng ấy trống không.",
+   "image": "The detective stands frozen in the open doorway of a tiny poor attic room in an old Paris building: sloping ceiling, one small window with a thin curtain, a narrow iron bed with a grey blanket, a small wooden table and chair, a coat hook on the wall, worn floorboards, his mouth wide open in shock, his notebook dropping from his hand; the room is EMPTY: the bed is neatly made, the coat hook is empty, the window is wide open and the thin curtain flutters in the wind, morning light.",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "black": 0.4,
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.06
+     }
+    ]
+   },
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The shocked detective stands frozen in the doorway of the empty attic room; the falling notebook drops the rest of the way to the wooden floor, bounces once and lies still next to the pencil and the paper. His eyes dart quickly around the room: to the empty bed, then to the open window. The white curtain billows gently in a soft breeze. His mouth stays open in the same shocked shape, it does not move or talk. His body, raised hand, hat and moustache stay still. The room stays empty: no new people, no new objects, no flying papers, no text. Quiet room ambience, a soft thud of the notebook, no music, no dialogue."
+  },
+  {
+   "narration": "Ba ngày sau, ở Béc-lin, có một tờ giấy thông hành lạ.",
+   "image": "Berlin, June 1923: inside an old government office with tall windows showing Berlin rooftops and a green copper dome, close-up of a clerk's hand bringing down a big rubber stamp onto a folded travel document on the desk; ink pad, papers, a brass desk lamp; no face visible, only the hand and sleeve."
+  },
+  {
+   "narration": "Tên: Chen Vang. Nghề: thợ ảnh.",
+   "image": "Close-up insert: an old folded travel document (laissez-passer) lying open on a desk under lamp light; glued on its left page a small photo of the Vietnamese man wearing his felt fedora and navy overcoat (cartoon style); the rest of the page has BLANK printed lines and a round stamp mark with nothing inside. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "CHEN VANG?",
+   "characters": [
+    "naq-mang-to"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.23,
+      "y": 0.55,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.23,
+      "y": 0.55,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Người thợ ảnh ấy chính là người vừa biến mất ở Pa-ri.",
+   "image": "Split frame down the middle: LEFT half the empty Paris attic room with the open window and fluttering curtain; RIGHT half the Vietnamese man in his fedora and navy overcoat holding a small suitcase, walking calmly on a sunny Berlin street with tram lines, glancing back over his shoulder at the viewer with a quiet look.",
+   "characters": [
+    "naq-mang-to"
+   ]
+  },
+  {
+   "narration": "Vì sao cả sở mật thám Pháp phải canh một người thợ sửa ảnh?",
+   "image": "Wide shot of a crowded French police office of the 1920s: many detectives in bowler hats at wooden desks covered in files, all turning to stare at a big cork board on the wall where ONE portrait photo of the Vietnamese man in his black suit is pinned in the centre, circled with red string and pins; a big red question mark floats above the board.",
+   "title": "VÌ SAO?",
+   "characters": [
+    "mat-tham",
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Muốn hiểu, phải quay lại mười hai năm trước, ở bến Nhà Rồng.",
+   "image": "A big old brass clock face fills the top of the frame with its hands spinning backwards (motion lines); below it the scene melts into a sunny Saigon river harbour of 1911 with an early-1900s French cargo steamship with a black hull, white superstructure, one tall black-and-red funnel and two masts at a stone quay, coconut palms, small sampans. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   },
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every object, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The two hands of the big golden clock spin BACKWARDS (counter-clockwise), slowly at first then faster. The melted bottom of the clock drips slowly and gently. Below, grey smoke rises from the ship's funnel and drifts away, the water ripples, the small round-roofed boats bob gently, the palm leaves sway in a light breeze. The clock face, its tick marks, the ship, the stone pier, the crates and barrels stay in place. No numbers or text on the clock face, no new objects, no birds, no people, nothing else in the sky. Harbour ambience with soft water lapping and a faint ticking, no music, no dialogue."
+  },
+  {
+   "narration": "Hôm nay, hãy cùng Vy lần theo những cái tên của Người nhé.",
+   "image": "Warm symbolic shot: three BLANK paper name tags hang on strings in a row in front of a big old world map pinned to a wooden wall, a warm yellow lamp lights them; a small model steamship sits on the shelf below; inviting, mysterious mood. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Ngày năm tháng Sáu năm một chín mười một, một con tàu Pháp rời bến Nhà Rồng.",
+   "image": "Morning at Nha Rong wharf, Saigon, June 1911: an early-1900s French cargo steamship with a black hull, white superstructure, one tall black-and-red funnel and two masts pulls away from the stone quay into the brown Saigon river, white steam from its funnel; on the quay the long two-storey colonial Nha Rong building with a pale yellow facade, arched windows with green shutters and a pair of small green dragons on the roof ridge; coolies in conical hats with sacks, crates and coiled ropes in the foreground, bright blue sky. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The black steamship slowly starts to pull away from the stone pier along the river; grey smoke puffs rise from its funnel and drift to the right; small waves curl along its hull and the brown river water ripples. On the pier the porters keep walking slowly with their loads, the man with the sack on his shoulder takes a small step, the man in the foreground on the right blinks and smiles. Faces keep the exact same design. Mouths stay closed. The colonial building, the trees and the crates stay still. Harbour ambience: water, a distant ship horn, soft footsteps. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Trong bếp có một phụ bếp mới, sổ tàu ghi: Văn Ba.",
+   "image": "Inside the hot cramped ship's galley: the young Vietnamese kitchen helper in his white apron, waist-up and large, carries a heavy pot of potatoes; a small BLANK name card is pinned on his apron; behind him a fat French head cook in a tall white toque shouts and points with a ladle; steam, hanging pans, a round porthole showing the sea.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Tên thật của anh là Nguyễn Tất Thành, hai mươi mốt tuổi.",
+   "image": "Close-up portrait: the young kitchen helper looks out of a round brass porthole at the open sea, calm, bright determined eyes, a soft hopeful smile; sunlight on his face, the blue sea and a seagull outside.",
+   "title": "NGUYỄN TẤT THÀNH",
+   "characters": [
+    "anh-ba"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The young man in the white kitchen apron stands by the round brass porthole; he blinks once slowly and his gentle smile grows a little, his hand rests on the porthole frame. Outside the porthole the sea waves roll softly and the seagull glides across the sky. His face keeps the exact same design and features, mouth closed the whole time, he does not talk. The kitchen shelves, plates and pans stay still. Soft sea ambience, faint waves. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Đó chính là anh Ba, người lên con tàu thứ ba ở cuối tập trước.",
+   "image": "Wide sea view at sunset: three black steamships on the ocean; two of them are small and far away sailing in opposite directions (one to the left, one to the right); the third one is big in the foreground heading straight to the horizon, and on its deck the young kitchen helper stands at the railing looking ahead. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Trước ngày đi, bạn anh hỏi: \"Lấy đâu ra tiền mà đi?\" Anh chỉ xòe hai bàn tay ra: \"Tiền đây!\"",
+   "image": "Flashback in Saigon 1911, a riverside street: the young man (same face, wearing a plain white shirt and brown trousers, WITHOUT the apron) holds up both of his open empty hands with a warm confident smile; facing him a puzzled young Vietnamese friend in a brown tunic and conical hat asks with one hand raised; a market and boats behind.",
+   "characters": [
+    "anh-ba"
+   ],
+   "shots": [
+    {
+     "image": "s015b",
+     "at": 0.52
+    }
+   ]
+  },
+  {
+   "narration": "Lên tàu, anh làm phụ bếp. Theo một nghiên cứu, mỗi tháng anh được bốn mươi lăm phrăng.",
+   "image": "Close-up insert: an old ship's pay ledger open on a wooden table, columns of plain wavy lines (no letters), a quill pen, and next to it a small neat stack of silver coins under a hanging oil lamp. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "45 PHRĂNG"
+  },
+  {
+   "narration": "Trừ tiền ăn, đóng thêm vài khoản, cuối tháng anh chỉ còn chừng mười phrăng.",
+   "image": "On the galley table a stack of coins sits in front of the young kitchen helper; three big hands reach in from the edges of the frame (the head cook's fat hand, a clerk's hand with a pen, a ship officer's gloved hand) and sweep most of the coins away, leaving only a tiny pile; the helper looks at the small pile with a calm, quietly sad face.",
+   "characters": [
+    "anh-ba"
+   ],
+   "shots": [
+    {
+     "image": "s017b",
+     "at": 0.55
+    }
+   ]
+  },
+  {
+   "narration": "Trong khi đó, người phụ bếp Pháp làm đúng việc ấy lại nhận lương gấp ba. Người ta được ba đồng, thì anh chỉ được một.  Làm như nhau, mệt như nhau, nhưng là người dân thuộc địa nên anh bị trả công thấp hơn.",
+   "image": "Side by side in the galley, peeling potatoes at the same table: a young French kitchen helper on the left with THREE tall stacks of coins beside him, and the young Vietnamese kitchen helper on the right with only ONE small stack; both do exactly the same work; the Vietnamese helper keeps peeling calmly.",
+   "title": "CÙNG VIỆC, LƯƠNG GẤP BA",
+   "characters": [
+    "anh-ba"
+   ],
+   "shots": [
+    {
+     "image": "s018b",
+     "at": 0.66
+    }
+   ]
+  },
+  {
+   "narration": "Tháng Chín năm ấy, ở cảng Mác-xây, anh ngồi viết một lá đơn.",
+   "image": "The harbour of Marseille, autumn 1911: the hilltop basilica Notre-Dame de la Garde with its golden statue on top above the old port, sailing ships and steamers; in the foreground the young man (same face, now wearing a plain dark jacket over his white shirt, no apron) sits on a wooden crate on the quay, writing a letter on his knee with a pencil.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Anh xin vào học Trường Thuộc địa của Pháp.",
+   "image": "The young man (dark jacket over white shirt) stands small in front of the tall closed iron gate of a grand French school building with oriental-style arches and a dome, looking up at it with hope, holding his letter; the gate's plaque is BLANK; blue sky, Paris chestnut trees.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Anh viết rằng mình muốn học, để đồng bào được hưởng cái lợi của học vấn.",
+   "image": "Night in a tiny rented room: the young man writes a letter by candlelight at a small table, serious and gentle; above his head a big thought bubble shows Vietnamese village children in a simple school reading books together under a banyan tree.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Lá đơn bị bác, vì một lý do giấy tờ.",
+   "image": "Close-up on a French official's big wooden desk: a gloved hand slams a large red rubber stamp onto the young man's letter, leaving a big red X mark (no letters); piles of files, an inkwell, a blue-white-red ribbon around a folder. Nobody in the scene: no people, no figures, only the hand."
+  },
+  {
+   "narration": "Đơn phải do Toàn quyền Đông Dương chuyển lên.",
+   "image": "A fat French official with a pince-nez and big mustache sits behind his desk and points lazily over his shoulder at a very long chain of paper forms that stretches out of his window, across the sea, all the way to a tiny figure of a colonial Governor-General in a white uniform and pith helmet sitting far away in a tropical palace."
+  },
+  {
+   "narration": "Muốn đi học, anh phải xin phép chính người đang cai trị quê mình.",
+   "image": "Ironic composition: the young man (dark jacket over white shirt) stands small at the bottom of the frame holding up his letter politely; towering above him sits a huge French colonial Governor-General in a white uniform with gold epaulettes and a white pith helmet, on a tall chair set on top of a map of Vietnam, looking down at him without interest.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Hôm nay, lá đơn ấy vẫn nằm trong kho lưu trữ ở miền nam nước Pháp.",
+   "image": "TODAY, a modern archive room in the south of France: long rows of grey metal shelves with numbered grey archive boxes, bright neon light; a modern woman archivist in a cardigan and white cotton gloves holds an old yellowed handwritten letter and looks at it through a magnifying glass; a laptop on the table."
+  },
+  {
+   "narration": "Các bạn thử đặt mình vào chỗ anh Ba năm ấy.",
+   "image": "Waist-up close shot on the windy Marseille quay at dusk, 1911: the young man (dark jacket over white shirt) holds his rejected letter marked with a big red X and turns his head to look straight at the viewer, thoughtful and calm, as if asking us what we would do; ships and the hilltop basilica behind.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Cửa trường đã đóng, trong túi chỉ còn mười phrăng, xung quanh toàn người xa lạ.",
+   "image": "Visual dilemma on the Marseille quay: the young man (dark jacket over white shirt) stands at a fork in the path, seen from the front, looking left and right; on the LEFT path the open door of a steamy ship's galley with a tiny pile of coins on a stool; on the RIGHT path, right in front of him, a tall iron school gate slammed shut with a big padlock.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Quay về quê, hay ở lại một nơi chẳng ai chào đón mình?  Anh chọn đi tiếp, vì quê hương vẫn còn đang chịu cảnh mất nước. Anh muốn tận mắt xem các nước làm thế nào, để tìm đường cứu dân tộc mình.",
+   "image": "On the windy Marseille quay at dusk, 1911: the young man (dark jacket over white shirt, a small cloth bag on his shoulder) stands at a fork in the path, seen from the front, large in the frame; the LEFT path leads to a small round thought-image far away across the sea of a Vietnamese village with bamboo, a thatched house and rice fields (the way home); the RIGHT path leads to a wooden gangway up to a big steamship with smoke rising, ready to sail (the way onward); he turns his head toward the ship, thoughtful and determined.",
+   "characters": [
+    "anh-ba"
+   ],
+   "shots": [
+    {
+     "image": "s028b",
+     "at": 0.35
+    }
+   ]
+  },
+  {
+   "narration": "Những năm sau, anh đi qua nhiều nước, làm đủ nghề để sống.  Cuối năm một chín mười hai, ở Niu Oóc, anh viết thư nhờ người tìm tin cha.",
+   "image": "Three panels in one vertical image, top to bottom, the same young Vietnamese man (same face) in three different jobs in the 1910s: (1) in a ship's galley in a white apron peeling a big basket of potatoes; (2) in a French villa garden by the sea in work clothes, raking leaves with a rake; (3) on a snowy London street in a brown overcoat and flat cap, shovelling snow; each panel bright and simple.",
+   "characters": [
+    "anh-ba"
+   ],
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   },
+   "shots": [
+    {
+     "image": "s029c",
+     "at": 0.4
+    },
+    {
+     "image": "s029b",
+     "at": 0.78
+    }
+   ]
+  },
+  {
+   "narration": "Cha anh bị cách chức từ năm một nghìn chín trăm mười, nhà không ai biết ông đang ở đâu. Đi xa đến mấy, anh vẫn luôn nặng lòng với gia đình và quê hương.",
+   "image": "Thought-image: far away in the Vietnamese countryside, a thin elderly Vietnamese scholar in a faded brown long tunic and black turban walks alone down a long dusty road between rice fields at sunset, carrying a small cloth bundle; his back to the viewer, small in the frame, lonely.",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Sunset over the rice fields. The old man in a long robe with a cloth bundle walks slowly away from us along the winding dirt road, seen from behind, small calm steps. The rice and the banana leaves sway in a warm breeze, the tiny birds in the orange sky glide away, the sun stays low. Nothing else moves. Quiet countryside evening ambience, soft wind, distant birds. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Năm một chín mười bốn, chiến tranh thế giới nổ ra. Anh đang làm phụ bếp ở Luân Đôn.",
+   "image": "London 1914, a busy hotel kitchen in the suburbs: the young man (same face, wearing a white kitchen jacket and white apron) washes a mountain of plates at a deep sink; through the steamy window, foggy London rooftops with chimneys and red double-decker horse buses.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Anh viết thư cho cụ Phan Châu Trinh: các nước lớn đánh nhau, số phận châu Á rồi sẽ đổi thay.",
+   "image": "Close-up: the young man's hand writes on an old picture postcard of London on the kitchen table; above it a thought bubble shows five giant soldiers in different 1914 uniforms fighting over a big globe; a teacup beside the postcard.",
+   "characters": [
+    "anh-ba"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.535,
+      "z": 1.08
+     }
+    ]
+   }
+  },
+  {
+   "narration": "",
+   "image": "",
+   "skip": true
+  },
+  {
+   "narration": "Người phụ bếp ấy đã bắt đầu theo dõi thời cuộc, và nghĩ đến vận mệnh đất nước mình.",
+   "image": "Visual metaphor: the young kitchen helper (apron) stands at the kitchen table and studies a big chessboard placed among pots and vegetables; the chess pieces are small warships, cannons and soldiers of five different armies; he rests his chin on his hand, thinking deeply, a calm clever look.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Khoảng cuối những năm chiến tranh, anh đặt chân đến Pa-ri, ngay giữa lòng nước Pháp đang cai trị quê mình.",
+   "image": "Paris, about 1918-1919: the Vietnamese man in his black suit (now about 28) walks with a small suitcase along a grand Paris boulevard, large in the frame, looking up with calm determination at the city; behind him the Eiffel Tower, grand stone government buildings with columns, cafés and a tram; blue sky; nothing floating in the air.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ],
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "`` Anh ở số sáu ngõ Gô-bơ-lanh, cùng cụ Phan Châu Trinh và luật sư Phan Văn Trường.",
+   "image": "A small quiet Paris cul-de-sac with old houses and ivy (Villa des Gobelins): at the door of number six stand three Vietnamese men, waist-up and large: in the middle the man in the black suit, on his left the older scholar Phan Chau Trinh in a grey three-piece suit and bow tie, on his right the lawyer Phan Van Truong with round glasses and a briefcase; on the wall beside the door a horizontal enamel street-name plate that is COMPLETELY BLANK (blue with a white border, no writing).",
+   "characters": [
+    "nguyen-ai-quoc",
+    "phan-chau-trinh",
+    "phan-van-truong"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.51,
+      "y": 0.43,
+      "z": 1.6
+     },
+     {
+      "t": 1,
+      "x": 0.51,
+      "y": 0.43,
+      "z": 1.6480000000000001
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Ban ngày, anh sửa ảnh kiếm sống, giống như cụ Phan.",
+   "image": "A photo retouching workshop by a bright window: the Vietnamese man in his brown waistcoat leans over a slanted desk retouching a portrait photograph with a very fine brush and a magnifying glass; beside him the older scholar Phan Chau Trinh in a grey suit does the same work; jars of brushes, small bottles of ink, a pile of portrait photos.",
+   "characters": [
+    "naq-gile",
+    "phan-chau-trinh"
+   ]
+  },
+  {
+   "narration": "Năm ấy, các nước thắng trận họp ở Véc-xây, chia lại thế giới.",
+   "image": "Versailles, June 1919, inside the gilded Hall of Mirrors with crystal chandeliers: around a long table, cartoon statesmen of the great powers (an American with round glasses, a British man with a white mustache, a French old man with a white walrus mustache and grey gloves, an Italian) cut a big world map like a cake with a huge knife and fork, smug faces. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "VÉC-XÂY · 1919"
+  },
+  {
+   "narration": "Ngày mười tám tháng Sáu, hội nghị nhận một bản yêu sách tám điểm của người An Nam.",
+   "image": "At the gilded gate of the Palace of Versailles, the Vietnamese man in his black suit politely hands a rolled-up document tied with a ribbon to a tall bored doorman in a red-and-gold uniform; motor cars and diplomats in top hats behind.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Điều lạ là, trong đó không có chữ độc lập.",
+   "image": "Close-up insert: a printed petition sheet with eight short numbered paragraphs (all plain wavy lines (no letters)) lies on a desk; a big magnifying glass hovers over the page and shows an EMPTY gap where something is missing; a small red question mark beside it. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Chỉ xin tự do báo chí, tự do đi lại, xét xử công bằng.",
+   "image": "The man in the black suit stands waist-up and presents, with both hands open, three small floating icons above his palms: a folded newspaper, a pair of walking shoes, and the scales of justice; calm hopeful face, plain warm background of a Paris room.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Xin rất ít. Hội nghị vẫn không đem ra bàn.",
+   "image": "Back in the Hall of Mirrors: under the long conference table the rolled petition lies forgotten in an overflowing wastepaper basket, while the statesmen above keep talking and laughing with cigars, not looking down. Nobody in the scene: only the statesmen's legs and shoes are visible under the table.",
+   "motion": "still"
+  },
+  {
+   "narration": "Cuối bản yêu sách ký một cái tên lạ: Nguyễn Ái Quốc.",
+   "image": "The man in the black suit holds the petition sheet up to his chest, waist-up, looking straight at the viewer with quiet determination; at the bottom of the sheet a single handwritten signature line (plain wavy line); a quill pen in an inkwell beside him. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "NGUYỄN ÁI QUỐC",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Nhưng có một bí mật nhỏ: cái tên ấy, lúc đầu có thể không thuộc về riêng một người nào.  Có nhà nghiên cứu cho rằng, Nguyễn Ái Quốc là tên chung mà mấy người Việt yêu nước ở Pa-ri cùng ký.",
+   "image": "Close-up insert, night, a desk lit by one lamp: the bottom of a petition sheet with a single handwritten signature line (plain wavy line) and a quill pen in an inkwell; on the plain wall behind the desk fall the soft dark cast SHADOWS of three men standing side by side (one with round glasses, one older and slim, one young), the men themselves are not visible; mysterious mood. Nobody in the scene: no people, no figures, only shadows on the wall.",
+   "shots": [
+    {
+     "image": "s044b",
+     "at": 0.45
+    }
+   ]
+  },
+  {
+   "narration": "Vậy mà rồi chỉ có một người mang cái tên ấy đi khắp Pa-ri, và giữ nó suốt nhiều năm. Người đó, chính là anh.",
+   "image": "A busy Paris street in 1919 with cafés, trams and horse carts: the man in the black suit hands printed leaflets to passers-by (a worker in a flat cap, a lady with a parasol, a Vietnamese soldier in uniform); a thick bundle of leaflets under his arm; papers flying in the breeze.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Người Pháp không trả lời bản yêu sách. Họ chỉ lo tìm người ký tên.",
+   "image": "Two detectives hide behind a round green Paris advertising column (Morris column, posters BLANK), one reads a leaflet with a frown, the other looks left and right with a magnifying glass, searching the crowd; comic sneaky poses.",
+   "characters": [
+    "mat-tham"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Busy Paris street. Behind the green advertising column, the detective with the magnifying glass leans out to peek, then quickly pulls back behind the column. The crouching detective in front lowers his paper and glances sideways with suspicion, moustache twitching. In the background the carriage and the car roll slowly, a few autumn leaves blow across the street. Faces keep the exact same design, mouths closed. Street ambience: horse hooves, footsteps. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Báo cáo đầu tiên của mật thám ghi: cái tên này không có trong hồ sơ tư pháp.",
+   "image": "Close-up in a French judicial records office, 1919: a long wooden card-index drawer pulled open, full of BLANK index cards; a detective's hand in a brown coat sleeve flips to an empty gap between the cards where nothing is filed; a red question mark floats above the gap; a typed report with plain wavy lines lies beside the drawer. Nobody in the scene: no people, no figures, only the hand."
+  },
+  {
+   "narration": "Tháng Bảy, một bức thư mật thám giải nghĩa: Ái là yêu, Quốc là nước.",
+   "image": "Close-up insert on a police desk: a typed letter with plain wavy line lines; above it two simple floating cartoon icons joined by a plus sign: a red heart and a small map of Vietnam in an S shape, with an equal sign leading to a glowing light bulb. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Và người dịch cái tên ấy cho chính quyền Pháp, lại là mật thám.",
+   "image": "The detective sits at his desk holding a big magnifying glass over a paper, a light bulb glowing above his head, eyes wide with surprise as he finally understands; papers and coffee cup on the desk. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "ÁI QUỐC = YÊU NƯỚC",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Mật thám Pháp còn cài cả người Việt vào nhóm, để ngày đêm theo dõi anh. Họ được đặt mật danh kiểu Pháp như Giăng, Ê-đu-a, Đê-di-rê.",
+   "image": "A dim Paris alley at night, 1919: three informants stand in a row facing the viewer, each is a Vietnamese informant drawn as a flat dark charcoal-grey silhouette figure with only two white dot eyes visible (no other facial features), wearing a 1920s flat cap and a plain jacket; each wears a small BLANK paper tag hanging on a string around the neck; a gas lamp throws yellow light, long shadows; mysterious mood. Keep the top quarter of the frame simple (sky or plain wall), room for a big title."
+  },
+  {
+   "narration": "Nhưng theo dõi kỹ là vậy, họ vẫn hay báo sai. Ê-đu-a báo anh sinh ở Đà Nẵng, trong khi quê anh ở Nghệ An.",
+   "image": "The detective at his desk reads a typed report with a small simple map of Vietnam drawn on it (S shape, a single red dot on the central coast); in the foreground a huge red rubber-stamp mark shaped like a big X slams across the report; the detective's eyebrows jump in surprise.",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.55,
+      "z": 1.15
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.55,
+      "z": 1.1844999999999999
+     }
+    ],
+    "ease": "out",
+    "shake": {
+     "at": 0.3,
+     "dur": 0.5,
+     "amp": 0.012
+    }
+   }
+  },
+  {
+   "narration": "Đến chiều cao cũng không khớp: phiếu theo dõi ghi một mét sáu mươi hai, thẻ căn cước lại ghi một mét sáu mươi lăm.",
+   "image": "A 1919 police identification room: the man in the black suit stands straight and calm against a wall painted with a height scale (horizontal lines, no numbers), while a detective behind an old wooden box camera on a tripod takes his picture under a flash pan; the man keeps a dignified steady look.",
+   "characters": [
+    "nguyen-ai-quoc",
+    "mat-tham"
+   ],
+   "shots": [
+    {
+     "image": "s052b",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "narration": "Từ phụ bếp Văn Ba, giờ anh đã là Nguyễn Ái Quốc, cái tên khiến mật thám Pháp phải ngày đêm để mắt tới.",
+   "image": "Transformation shot: a tall standing mirror in the middle of the frame; on the left stands the young kitchen helper in his white apron looking into it, and inside the mirror the reflection is the man in the black suit and tie, the same face, looking back at him; warm light.",
+   "characters": [
+    "anh-ba",
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Từ đây, các chỉ điểm thay nhau bám theo Người.",
+   "image": "A Paris street at dusk: the man in the black suit walks calmly toward the viewer, large in the foreground; behind him three detectives in bowler hats follow and hide comically, one behind a lamp post, one behind a tree, one behind an open newspaper.",
+   "characters": [
+    "nguyen-ai-quoc",
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Ông bà mình nói: tai vách mạch rừng. Ở Pa-ri năm ấy, đi đâu Người cũng có tai mắt của mật thám bám theo.",
+   "image": "Cutaway view of a thin attic wall in a Paris building, 1920: on the RIGHT side of the wall the Vietnamese man in his grey sweater writes quietly at his small table by lamplight; on the LEFT side, pressed against the other face of the same wall, the detective listens through a big brass ear trumpet, scribbling in his notebook; a small pay envelope with a coin peeking out sticks from the detective's coat pocket.",
+   "characters": [
+    "naq-ao-len",
+    "mat-tham"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Inside the narrow wall, the detective presses the brass ear trumpet closer to the wall, his eyes narrow and dart sideways, and he scribbles a few quick notes in his small notebook. On the other side of the wall, the young man keeps writing calmly at his desk under the warm yellow lamp, the lamp light flickers softly. Faces keep the exact same design, mouths closed, nobody talks. Quiet room ambience, the scratch of a pen. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Người sửa ảnh, vẽ thuê cả đồ cổ Trung Hoa. Sau này Người viết đùa: đồ cổ ấy, làm ở Pháp.",
+   "image": "In the workshop, the man in his brown waistcoat carefully paints blue Chinese dragon patterns on a white porcelain vase with a fine brush, a calm little smile; on the shelf behind him a row of finished \"antique\" Chinese vases and lacquer boxes.",
+   "characters": [
+    "naq-gile"
+   ],
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Tháng Bảy năm một chín hai mươi, trên báo Nhân Đạo, Người đọc luận cương của Lê-nin về các dân tộc thuộc địa.",
+   "image": "July 1920, night, the tiny attic room: the man in his grey sweater and shabby brown coat sits on the edge of the iron bed reading a newspaper (masthead BLANK) under a small oil lamp, leaning in closely, totally absorbed.",
+   "title": "THÁNG 7 · 1920",
+   "characters": [
+    "naq-ao-len"
+   ],
+   "shots": [
+    {
+     "image": "s057b",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "narration": "Bốn mươi năm sau, Người kể lại: đọc xong, Người khóc.",
+   "image": "Close-up of the man's face (grey sweater) holding the newspaper, a single tear running down his cheek, eyes shining with deep emotion and hope, lamplight on his face; dignified, moved.",
+   "characters": [
+    "naq-ao-len"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Night street close-up. The young man holding the open newspaper: one tear slowly rolls down his cheek, he blinks once slowly, his eyebrows rise a little with emotion, his hands tighten slightly on the newspaper. The street lamp flame flickers softly, a lit window glows. His face keeps the exact same design and features, mouth closed the whole time, he does not talk, dignified and calm. Quiet night ambience. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Ngồi một mình trong phòng, Người nói to lên: \"Đây là con đường giải phóng chúng ta!\"",
+   "image": "In the same tiny attic room at dawn, the man in his grey sweater stands up alone, one arm raised and his hand open, speaking out loud to the empty room as if to a great crowd; through the small window the sky glows orange with sunrise; the newspaper lies on the bed.",
+   "characters": [
+    "naq-ao-len"
+   ]
+  },
+  {
+   "narration": "Con đường thứ ba, Người đã tìm thấy.",
+   "image": "Symbolic crossroads at sunrise: a road splits into three; the left road (toward the east, with an old rifle lying by it) and the middle road (toward the west, with a pile of books by it) fade into grey mist; the third road shines bright gold and red toward a huge rising sun; the man in the black suit stands at the start of the third road, seen from behind at three-quarter view, his face turned slightly toward us.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Tháng Mười hai năm ấy, Đảng Xã hội Pháp họp đại hội ở thành phố Tua.",
+   "image": "Tours, France, December 1920, winter: a big crowded congress hall with a high wooden ceiling, hundreds of French delegates with beards and mustaches in dark coats on wooden benches, long tables, red banners hanging from the balcony (all BLANK), snow visible through tall windows. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "TUA · 12 · 1920",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.3,
+      "y": 0.5,
+      "z": 1.35
+     },
+     {
+      "t": 1,
+      "x": 0.7,
+      "y": 0.5,
+      "z": 1.35
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Người dự với tư cách đại biểu xứ Đông Dương.",
+   "image": "Inside the congress hall: the Vietnamese man in his black suit stands up tall among seated older French delegates with beards and mustaches, speaking with a calm firm face, one hand slightly raised; the delegates turn their heads to look at him.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Người nói: ở xứ tôi, người ta mở nhà tù nhiều hơn trường học.",
+   "image": "The man in the black suit speaks at a wooden lectern, waist-up on the right; behind him on the left a huge visual comparison: a giant grey prison building with many barred windows next to a tiny thatched village school hut with one small door.",
+   "title": "NHÀ TÙ > TRƯỜNG HỌC",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Người từng bị từ chối ở cửa trường, giờ nói câu ấy trước cả nước Pháp.",
+   "image": "Split frame: TOP half, in a sepia memory tone, the young man in a dark jacket standing small outside the closed iron gate of the French school in 1911; BOTTOM half, in full colour, the man in the black suit speaking at the congress lectern in 1920 with the crowd listening.",
+   "characters": [
+    "anh-ba",
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Có người ngắt lời. Người vẫn nói đến câu cuối: \"Hãy cứu chúng tôi!\"",
+   "image": "In the congress hall a bearded French delegate stands up and interrupts, raising his hand and opening his mouth; the man in the black suit keeps speaking calmly and firmly, one hand on the lectern, unshaken.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Đại hội bỏ phiếu gia nhập Quốc tế thứ ba: hơn ba nghìn thuận, hơn một nghìn chống.",
+   "image": "The vote in the Tours congress hall, France 1920: hundreds of FRENCH delegates (white European men with beards and mustaches, dark coats; NO Asian people, no turbans) raise their hands; on the long table at the front two piles of paper ballots, one very tall pile and one much smaller pile, and a wooden ballot box. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "3.208 – 1.022"
+  },
+  {
+   "narration": "Người trở thành một trong những người sáng lập Đảng Cộng sản Pháp.",
+   "image": "After the vote, the man in the black suit shakes hands warmly with older French comrades with beards, everyone smiling, a big red banner (BLANK) behind them, confetti of paper in the air.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  },
+  {
+   "narration": "Năm một chín hai hai, Người ra tờ báo Người Cùng Khổ. Tự viết, tự vẽ, tự đi bán.",
+   "image": "Three panels in one vertical image, top to bottom: (1) the man in his brown waistcoat writes an article at a small desk; (2) he draws a cartoon on a large sheet with a pen; (3) he sells a small newspaper (masthead BLANK) on a Paris street corner, holding a bundle of copies.",
+   "characters": [
+    "naq-gile"
+   ],
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Báo cáo về Người lúc này gửi đi theo từng giờ.",
+   "image": "A busy French police office in 1920: a big round wall clock (simple ticks, no numbers) above; the detective writes reports at top speed; a tall stack of reports on his desk grows like a tower; a messenger boy in a cap runs out of the door with an armful of envelopes; motion lines of hurry.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Trong hai trăm năm mươi phiếu theo dõi, nhóm ở số sáu ngõ Gô-bơ-lanh bị xếp nguy hiểm nhất.",
+   "image": "A French police chief's office, 1920: a whole wall covered with a neat grid of about 250 small BLANK index cards; ONE card in the centre is circled in red, has a red pin and a red ribbon, and glows; a grey-haired French police chief in a dark uniform with a big white mustache points at it sternly with a pointer stick; the detective stands beside him nodding. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "NGUY HIỂM NHẤT",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.45,
+      "z": 1.35
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.45,
+      "z": 1.3905
+     }
+    ],
+    "ease": "out",
+    "shake": {
+     "at": 1.2,
+     "dur": 0.4,
+     "amp": 0.006
+    }
+   }
+  },
+  {
+   "narration": "Họ lén vào phòng Người, chép lại sáu mươi bảy tài liệu.",
+   "image": "Night, a tiny poor attic room in an old Paris building: sloping ceiling, one small window with a thin curtain, a narrow iron bed with a grey blanket, a small wooden table and chair, a coat hook on the wall, worn floorboards lit only by moonlight and the beam of an old 1920s electric torch: two detectives secretly copy documents at the small table; one holds the torch over a stack of the man's papers, the other copies them fast into a notebook; they glance nervously at the door; nobody else in the room.",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.05
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ],
+    "shake": {
+     "at": 0.2,
+     "dur": 0.4,
+     "amp": 0.006
+    }
+   },
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Dark attic room at night. The standing detective slowly sweeps the beam of his flashlight across the papers on the table; the beam moves smoothly and dust specks float in the light. The seated detective copies the documents quickly with his pencil, eyes darting to the door. The curtain moves slightly. Faces keep the exact same design, mouths closed. Quiet tense ambience, the scratch of a pencil. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Những bữa tối bánh mì, căn phòng không lò sưởi, ta biết nhờ chính báo cáo của mật thám.",
+   "image": "The detective writes his report at a desk; above him a big thought bubble shows what he saw: the man in his grey sweater shivering in a cold attic room with a broken stove, eating baguette bread with a small glass of milk.",
+   "characters": [
+    "mat-tham",
+    "naq-ao-len"
+   ]
+  },
+  {
+   "narration": "Mình nghĩ dòng đáng sợ nhất trong hồ sơ, lại là dòng bình thường nhất: bữa tối.",
+   "image": "The detective crouches on a dark narrow wooden staircase, scribbling in his notebook, peeking through a half-open attic door at a small table that holds only a piece of baguette bread, one sausage and a glass of milk under a weak lamp.",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.6,
+      "y": 0.55,
+      "z": 1.35
+     },
+     {
+      "t": 1,
+      "x": 0.6,
+      "y": 0.55,
+      "z": 1.3905
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Biết một người ăn gì mỗi tối, nghĩa là đã đứng đủ gần để nhìn vào đĩa của người ta.",
+   "image": "Extreme close-up seen over the detective's shoulder through a gap in a door: very close in front of us, on a small wooden table, a plate with a piece of baguette bread and one sausage, and a glass of milk, under a weak lamp; the detective's big eye and mustache are in the near foreground edge, peering.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Họ không sợ người thợ ảnh. Họ sợ những trang viết của anh ấy về tới Đông Dương.",
+   "image": "Symbolic wide view: dozens of small folded newspapers (mastheads BLANK) fly like a flock of white birds across a blue sea from the coast of France on the LEFT (a tiny Eiffel Tower) toward the coast of Vietnam on the RIGHT (palm trees, green rice fields, a small village); on the French shore the detective jumps and reaches out with both arms in alarm, too late.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Rồi giữa tháng Sáu năm một chín hai ba, căn phòng ấy trống không.",
+   "image": "a tiny poor attic room in an old Paris building: sloping ceiling, one small window with a thin curtain, a narrow iron bed with a grey blanket, a small wooden table and chair, a coat hook on the wall, worn floorboards, EMPTY, at dawn: the bed neatly made, the coat hook empty, the window wide open, the thin curtain blowing in, a single fine paintbrush left on the table. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "THÁNG 6 · 1923",
+   "camera": {
+    "black": 0.4,
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.06
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Người ta kể Người vào rạp chiếu bóng, rồi ra cửa sau. Chưa có giấy tờ nào xác nhận.",
+   "image": "Paris 1923, an old cinema with a glowing marquee and BLANK film posters: the man in his felt fedora and navy overcoat enters through the front doors among the crowd; in the narrow side alley a back door stands slightly open in the shadows; a detective waits at the front, looking the other way.",
+   "characters": [
+    "naq-mang-to",
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Cái chắc chắn là tờ giấy thông hành số một nghìn tám trăm hai mươi chín, cấp ở Béc-lin.",
+   "image": "Close-up: a hand holds the open travel document showing the small photo of the man in his fedora and a round stamp mark (nothing inside); behind it a blurred train window with German countryside.",
+   "characters": [
+    "naq-mang-to"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.31,
+      "y": 0.63,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.31,
+      "y": 0.63,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Nghề sửa ảnh từng nuôi Người ở Pa-ri, giờ thành tấm áo che cho Người ra đi.",
+   "image": "A steaming railway platform in 1923: the man in his fedora and navy overcoat walks with his small suitcase toward a black steam train, a fine paintbrush sticking out of his breast pocket; porters and steam clouds around.",
+   "characters": [
+    "naq-mang-to"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Railway station. Thick white steam puffs roll out from the black locomotive and drift across the platform. The man in the dark coat and hat walks forward one or two calm steps with his suitcase, the porters in the background walk slowly with their bags, the lantern sways slightly. Faces keep the exact same design, mouths closed. The clock stays the same. Station ambience: steam hiss, distant footsteps. No new people, no new objects, no text appearing. No music, no dialogue."
+  },
+  {
+   "narration": "Từ Hăm-buốc, Người xuống tàu. Ngày ba mươi tháng Sáu, tàu cập bến Pê-tơ-rô-grát, nước Nga.",
+   "image": "an aged parchment map of Europe in flat cartoon style filling the whole frame, simple ink coastlines, pale blue sea, no labels, no text, no letters; a red dashed route runs from Paris east to Berlin, north to Hamburg, then across the Baltic Sea to Petrograd, with a tiny steamship drawn on the sea part of the route. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.25,
+      "y": 0.5,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.75,
+      "y": 0.5,
+      "z": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Bốn tháng sau, Đê-di-rê vẫn báo về: có lẽ Người đã qua Thụy Sĩ, hoặc Bỉ.",
+   "image": "A Paris café in autumn 1923: an informant, a Vietnamese informant drawn as a flat dark charcoal-grey silhouette figure with only two white dot eyes visible (no other facial features), wearing a 1920s flat cap and a plain jacket, sits at a small table writing a report and shrugs with both hands; behind him on the wall a simple map of Europe where two small countries in the middle are circled with big question marks; falling yellow leaves outside the window."
+  },
+  {
+   "narration": "Khi ấy, Người đã ở Mát-xcơ-va.",
+   "image": "Moscow, summer 1923: the Vietnamese man in his felt fedora and navy overcoat stands calmly on a wide cobbled square, holding his small suitcase, a quiet confident look; behind him the colourful onion domes of Saint Basil's Cathedral and red brick walls; blue sky, no flags.",
+   "characters": [
+    "naq-mang-to"
+   ]
+  },
+  {
+   "narration": "Mười hai năm trước, anh Ba rời quê với hai bàn tay trắng.",
+   "image": "Callback: Nha Rong wharf, Saigon 1911, bright morning: the young man in his white shirt (no apron) stands on the deck of the steamship and holds up both open empty hands, a warm brave smile; the yellow Nha Rong building with its two small roof dragons behind.",
+   "characters": [
+    "anh-ba"
+   ],
+   "camera": {
+    "black": 0.3,
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.06
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Giờ Người rời Pa-ri vẫn với hai bàn tay ấy, thêm một cái tên và một con đường.",
+   "image": "On the deck of a steamship crossing the cold northern sea, 1923: the man in his fedora and navy overcoat stands at the railing, his suitcase at his feet, both hands open, looking calmly at the horizon where a bright gold-and-red road of light shines on the water toward the rising sun.",
+   "characters": [
+    "naq-mang-to"
+   ]
+  },
+  {
+   "narration": "Ba cái tên, bốn năm theo dõi, sáu mươi bảy tài liệu bị chép.",
+   "image": "A police cork board: three portrait photos pinned in a row and connected with red string: the young kitchen helper in his apron, the man in the black suit, and the man in the fedora; under each photo a small BLANK card; pins, notes with plain wavy lines.",
+   "characters": [
+    "anh-ba",
+    "nguyen-ai-quoc",
+    "naq-mang-to"
+   ],
+   "shots": [
+    {
+     "image": "s085b",
+     "at": 0.35
+    }
+   ]
+  },
+  {
+   "narration": "Đổi lại, nước Pháp giữ được một hồ sơ thật dày, và một căn phòng trống.",
+   "image": "a tiny poor attic room in an old Paris building: sloping ceiling, one small window with a thin curtain, a narrow iron bed with a grey blanket, a small wooden table and chair, a coat hook on the wall, worn floorboards, EMPTY, at dawn: the bed neatly made, the coat hook empty, the window wide open, the thin curtain blowing in, a single fine paintbrush left on the table. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Năm một chín mười một, nước Pháp đóng cửa trường học trước mặt Người.",
+   "image": "Callback: the young man in a dark jacket stands small in front of the tall CLOSED iron gate of the grand French school, 1911, holding his letter; a big padlock on the gate; grey sky.",
+   "characters": [
+    "anh-ba"
+   ]
+  },
+  {
+   "narration": "Mười hai năm sau, chính họ phải đứng canh cửa phòng Người từng ngày.",
+   "image": "Comic contrast: three detectives in bowler hats stand guard in front of a narrow attic door in a snowy Paris stairwell, shivering, noses red, snow on their hats, calendar pages flying past them.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Vậy cánh cửa nào đã đưa Người tới con đường ấy? Cánh cửa họ mở, hay cánh cửa họ đóng?",
+   "image": "Symbolic: in a dark space two doors stand side by side; on the left a grand ornate door wide open but leading only to darkness; on the right a heavy closed and padlocked iron gate; a line of footprints leads away from the closed gate, around it, and onto a glowing gold road that rises toward a bright sunrise. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "CỬA NÀO?"
+  },
+  {
+   "narration": "Chen Vang sẽ đi đâu, và vì sao chín năm sau, lại có tin Người đã chết? Vy hẹn bạn ở tập sau nhé.",
+   "image": "Night, candlelight: on a wooden table lies a newspaper (masthead BLANK) with a small black-bordered portrait photo of the man in the black suit; a big question mark of smoke rises from the candle; through the window behind, the lights of a 1930s Asian harbour city with junk boats.",
+   "characters": [
+    "nguyen-ai-quoc"
+   ]
+  }
+ ]
+}

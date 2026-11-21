@@ -1,0 +1,4 @@
+Nhạc nền tập 1911: assets/music/inspirational-nastelbom.mp3
+NastelBom "Inspirational" (Pixabay Content License)
+https://pixabay.com/music/epic-classical-inspirational-inspirational-music-623758/
+Người dùng chọn 2026-11-21. Dựng bằng: bash src/build-bgm.sh <giây> projects/1911-nhung-cai-ten-cua-anh-ba/music/bgm.wav assets/music/inspirational-nastelbom.mp3

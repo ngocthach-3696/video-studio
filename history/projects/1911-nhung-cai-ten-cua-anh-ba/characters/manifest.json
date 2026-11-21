@@ -1,0 +1,26 @@
+{
+ "anh-ba": {
+  "provider": "manual"
+ },
+ "nguyen-ai-quoc": {
+  "provider": "manual"
+ },
+ "naq-gile": {
+  "provider": "manual"
+ },
+ "naq-ao-len": {
+  "provider": "manual"
+ },
+ "naq-mang-to": {
+  "provider": "manual"
+ },
+ "phan-chau-trinh": {
+  "provider": "manual"
+ },
+ "phan-van-truong": {
+  "provider": "manual"
+ },
+ "mat-tham": {
+  "provider": "manual"
+ }
+}

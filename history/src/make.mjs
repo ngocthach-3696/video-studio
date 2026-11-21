@@ -51,9 +51,10 @@ function loadProject(dir) {
   if (!["9:16", "16:9"].includes(p.format)) throw new Error(`format phải là "9:16" hoặc "16:9", đang là "${p.format}"`);
   if (!Array.isArray(p.scenes) || p.scenes.length === 0) throw new Error("project.json cần mảng scenes không rỗng");
   p.scenes.forEach((s, i) => {
+    s.id = `s${String(i + 1).padStart(3, "0")}`;
+    if (s.skip) return;
     if (!s.narration?.trim()) throw new Error(`Cảnh ${i + 1} thiếu "narration"`);
     if (!s.image?.trim() && !s.commons?.trim()) throw new Error(`Cảnh ${i + 1} cần "image" (prompt AI) hoặc "commons" (File:... trên Wikimedia Commons)`);
-    s.id = `s${String(i + 1).padStart(3, "0")}`;
   });
   // "skip": true drops a scene but keeps every other scene's id (images/audio stay matched).
   p.scenes = p.scenes.filter((s) => !s.skip);

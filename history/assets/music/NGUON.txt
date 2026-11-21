@@ -3,3 +3,21 @@ historical-documentary.mp3  ViacheslavStarostin – "Historical History Document
 https://pixabay.com/music/main-title-historical-history-documentary-music-366065/
 Pixabay Content License: miễn phí, dùng thương mại được, không bắt buộc ghi nguồn.
 Dựng cho đúng độ dài video: bash src/build-bgm.sh <giây video> projects/<slug>/music/bgm.wav
+
+Bài thứ 2 (người dùng lưu thêm 2026-11-20, dùng khi được yêu cầu):
+documentary-nastelbom.mp3  NastelBom – "Documentary" (Documentary, cinematic, ambient; 111 s)
+https://pixabay.com/music/orchestral-documentary-documentary-music-606698/
+Pixabay Content License: miễn phí, dùng thương mại được, không bắt buộc ghi nguồn.
+Dựng: bash src/build-bgm.sh <giây video> projects/<slug>/music/bgm.wav assets/music/documentary-nastelbom.mp3
+
+Bài thứ 3 (người dùng lưu thêm 2026-11-20, dùng khi được yêu cầu):
+inspirational-nastelbom.mp3  NastelBom – "Inspirational" (epic, classical, inspirational; 160 s)
+https://pixabay.com/music/epic-classical-inspirational-inspirational-music-623758/
+Pixabay Content License: miễn phí, dùng thương mại được, không bắt buộc ghi nguồn.
+Dựng: bash src/build-bgm.sh <giây video> projects/<slug>/music/bgm.wav assets/music/inspirational-nastelbom.mp3
+
+Bài thứ 4 (người dùng lưu thêm 2026-11-20, dùng khi được yêu cầu):
+cinematic-nastelbom.mp3  NastelBom – "Cinematic" (orchestral, cinematic; 165 s)
+https://pixabay.com/music/orchestral-cinematic-cinematic-music-617082/
+Pixabay Content License: miễn phí, dùng thương mại được, không bắt buộc ghi nguồn.
+Dựng: bash src/build-bgm.sh <giây video> projects/<slug>/music/bgm.wav assets/music/cinematic-nastelbom.mp3

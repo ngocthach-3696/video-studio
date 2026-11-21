@@ -1,12 +1,12 @@
 ---
 name: confirm-script-before-images
-description: Do not regenerate images or edit project files for a script change until the user explicitly approves the final text
+description: During script review, write each agreed line into kich-ban.md right away, but don't re-voice, regenerate images or rebuild until the user explicitly approves the final text
 metadata:
   type: feedback
 ---
 
-Khi đề xuất sửa kịch bản (lời đọc), chỉ đưa bản nháp và CHỜ người dùng chốt rõ ràng. Không ghi vào kich-ban.md/build-project.mjs, không dời ảnh, không chạy Flow tạo ảnh.
+Khi review kịch bản: mỗi câu người dùng đã đồng ý thì GHI NGAY vào kich-ban.md (ghi đè, đánh dấu "ĐANG SỬA" ở đầu file). Nhưng KHÔNG đọc giọng lại, không sửa build-project.mjs/tts-ngat-nhip.txt, không dời ảnh, không chạy Flow cho đến khi người dùng chốt rõ ràng.
 
-**Why:** 2026-11-14 tập 1885: người dùng mới góp ý từng câu đoạn kết (câu 79, câu chào) thì tôi đã ghi kịch bản và bắt đầu tạo ảnh. Người dùng phải ngắt: "khoan đã, tôi chưa chốt đoạn kết mà".
+**Why:** 2026-11-14 tập 1885: tôi đã ghi kịch bản và tạo ảnh khi người dùng mới góp ý một câu ("khoan đã, tôi chưa chốt đoạn kết mà"). 2026-11-20 tập 1911: người dùng muốn file kịch bản luôn phản ánh những gì đã thống nhất: "hiện tại mỗi lần tôi review cứ sửa lại kịch bản đi đã".
 
-**How to apply:** Một góp ý lẻ (sửa một câu) KHÔNG phải là chốt. Sau mỗi lượt sửa, trình bày bản đầy đủ và hỏi "chốt chưa?". Chỉ làm tiếp khi người dùng nói rõ là chốt/ok/làm đi. Xem thêm [[history-video-style-prefs]].
+**How to apply:** Một góp ý lẻ chưa phải là chốt cả bản, nhưng câu đã được duyệt ("B nhé", "ok đc đấy") thì sửa kich-ban.md ngay trong lượt đó và báo đã sửa. Các bước tốn credit/thời gian (TTS, ảnh, render) chỉ chạy khi người dùng nói chốt/làm đi. Xem thêm [[history-video-style-prefs]].

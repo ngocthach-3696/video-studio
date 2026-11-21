@@ -51,10 +51,24 @@ export async function vibiTTS(text, outFile, opts = {}) {
   const res = await fetch(`${API}/text-to-speech/${encodeURIComponent(voice)}`, {
     method: 'POST', headers, body: JSON.stringify(body),
   });
-  const job = await res.json();
-  if (!job.id) throw new Error(`vibi lỗi ${res.status}: ${JSON.stringify(job)}`);
-  for (let i = 0; i < 120; i++) {
-    const r = await (await fetch(`${API}/history/${job.id}`, { headers })).json();
+  const sentAt = Date.now();
+  let job = await res.json().catch(() => ({}));
+  if (!job.id) {
+    // vibi sometimes answers the POST with an error yet still creates (and charges) the job:
+    // look for a job with the same text created in the last 2 minutes before giving up.
+    await new Promise((ok) => setTimeout(ok, 5000));
+    const h = await (await fetch(`${API}/history`, { headers })).json().catch(() => ({}));
+    const same = (h.tasks || []).find((t) => t.text === text && Date.parse(t.created_at) > sentAt - 120000);
+    if (!same) throw new Error(`vibi lỗi ${res.status}: ${JSON.stringify(job)}`);
+    console.error(`vibi báo lỗi ${res.status} nhưng đã tạo job ${same.id}, chờ job đó`);
+    job = same;
+  }
+  for (let i = 0; i < 180; i++) {
+    // A poll can fail transiently (network, 5xx, {error} body without a job status) while the job keeps
+    // running and is still charged; only a job whose own status is 'failed' counts as failed.
+    let r;
+    try { r = await (await fetch(`${API}/history/${job.id}`, { headers })).json(); } catch { r = {}; }
+    if (!r.status) { await new Promise((ok) => setTimeout(ok, 3000)); continue; }
     if (r.status === 'completed') {
       if (r.text !== text) throw new Error('Văn bản trên vibi khác văn bản gửi đi (lỗi mã hoá?)');
       const audio = Buffer.from(await (await fetch(r.result.audio_url)).arrayBuffer());
@@ -62,7 +76,7 @@ export async function vibiTTS(text, outFile, opts = {}) {
       fs.writeFileSync(outFile, audio);
       return { id: job.id, credits: r.credits_deducted, file: outFile };
     }
-    if (r.status === 'failed' || r.error) throw new Error(`vibi thất bại: ${JSON.stringify(r.error ?? r.detail_error)}`);
+    if (r.status === 'failed') throw new Error(`vibi thất bại: ${JSON.stringify(r.error ?? r.detail_error)}`);
     await new Promise((ok) => setTimeout(ok, 2000));
   }
   throw new Error('Hết thời gian chờ vibi');
