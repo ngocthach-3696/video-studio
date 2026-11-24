@@ -1,0 +1,961 @@
+{
+ "title": "1931 – Vụ án Tống Văn Sơ",
+ "series": "Loạt Bác Hồ – Tập 2",
+ "preset": "cartoon-flat",
+ "format": "9:16",
+ "imageProvider": "manual",
+ "animate": "flow",
+ "animateScope": "marked",
+ "clipSpeed": "original",
+ "veoAudio": {
+  "volume": 1,
+  "lufs": -24
+ },
+ "motion": "alternate",
+ "tts": "manual",
+ "voiceNote": "vibi.pro, giọng Tuấn Anh = ElevenLabs HG0MlJIknmaXREpTckfK, eleven_v3, stability 0.5, speed 1, lời từ tts-ngat-nhip.txt",
+ "brand": {
+  "logo": "auto",
+  "watermark": null,
+  "logoWidth": 0.18,
+  "logoOpacity": 0.7,
+  "logoBlur": 0.8,
+  "logoMarginX": 0.06
+ },
+ "loudnorm": -16,
+ "music": "projects/1931-vu-an-tong-van-so/music/bgm.wav",
+ "musicStart": 0,
+ "musicVolume": 1.3,
+ "subtitles": false,
+ "characters": {
+  "tong-van-so": {
+   "name": "Nguyễn Ái Quốc – Tống Văn Sơ 1931 (áo dài Hoa xanh đậm)",
+   "look": "thin Vietnamese man about 41, hollow cheeks, dark navy Chinese long gown"
+  },
+  "ly-thuy": {
+   "name": "Lý Thụy – Quảng Châu 1924–27",
+   "look": "light grey Sun Yat-sen tunic suit, thin notebook"
+  },
+  "thau-chin": {
+   "name": "Thầu Chín – Xiêm 1928",
+   "look": "sun-tanned, faded brown peasant shirt, rolled-up trousers, cloth shoulder bag"
+  },
+  "loseby": {
+   "name": "Luật sư Frank Loseby",
+   "look": "English solicitor about 48, round dark-rimmed glasses, light grey three-piece suit, leather briefcase"
+  },
+  "ba-loseby": {
+   "name": "Bà Loseby",
+   "look": "English woman about 40, wavy brown hair, floral 1930s dress, pearls"
+  },
+  "mat-tham": {
+   "name": "Mật thám Pháp ở Hà Nội",
+   "look": "stocky, curled black mustache, white colonial uniform, pith helmet, dossier"
+  },
+  "canh-sat-anh": {
+   "name": "Thanh tra cảnh sát Anh (Hồng Kông)",
+   "look": "tall, ginger mustache, khaki tunic and shorts, peaked cap, cane"
+  },
+  "canh-sat-anh-2": {
+   "name": "Cảnh sát Anh trẻ (thay cảnh sát Ấn, người dùng 2026-11-22)",
+   "look": "young British constable, clean-shaven, khaki tunic and shorts, khaki peaked cap, wooden baton"
+  },
+  "ly-phuong-thuan": {
+   "name": "Lý Phương Thuận",
+   "look": "young Vietnamese woman, low bun, light blue mandarin-collar blouse, dark skirt"
+  }
+ },
+ "scenes": [
+  {
+   "narration": "Rạng sáng ngày 6 tháng 6 năm 1931, ở Cửu Long, Hồng Kông.",
+   "image": "Dawn in Tam Kung Road in Kowloon City, Hong Kong, 1931: a row of three-storey Chinese shophouses with arcaded verandas, wooden shutters, hanging BLANK shop signboards, a rickshaw; in the foreground two Hong Kong policemen, BOTH in khaki tunics, khaki shorts and khaki peaked caps exactly like their sheets (NOT dark blue), (the British inspector with a ginger mustache and the young clean-shaven British constable) walk quickly toward the dark arched doorway of one shophouse with a small BLANK house-number plate; flat blue dawn sky, the last street lamps still lit. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "HỒNG KÔNG · 6.6.1931",
+   "characters": [
+    "canh-sat-anh",
+    "canh-sat-anh-2"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The two British police officers in khaki really walk forward along the street toward the viewer at a calm, natural walking pace: each step lands on the cobblestones and carries their bodies forward, so their position on the street clearly changes and they come a little closer and slightly larger over the clip, but they stay fully inside the frame until the end. No walking in place, no sliding, no bouncing. The yellow street lamp flickers softly and a thin layer of early-morning mist drifts low along the cobblestones. The buildings, shop boards, rickshaw and sky stay still. Their uniforms, caps and faces stay exactly the same. Mouth closed the whole time. No new objects, no text appearing on any board, no extra people. Quiet ambience only, no music, no dialogue.",
+   "titleSize": 88
+  },
+  {
+   "narration": "Cảnh sát Anh leo lên cầu thang gỗ số 186 phố Tam Kung.",
+   "image": "Low angle looking up a narrow steep dark wooden staircase inside an old Kowloon shophouse, peeling plaster walls, a small window with pale blue dawn light: the British inspector climbs first holding an electric torch, the young British constable right behind him with a baton; long dramatic shadows on the wall.",
+   "characters": [
+    "canh-sat-anh",
+    "canh-sat-anh-2"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The two British police officers in khaki really climb the wooden staircase: each of them steps up two steps, one foot placed on the next higher step and the body rising with it, knees bending naturally, one hand sliding along the handrail; their bodies clearly move up the stairs, no stepping in place. The inspector in front holds his flashlight, its yellow beam sways slightly with his steps and dust floats in the light. The staircase, walls, window and door stay still; the shadows on the wall follow their bodies naturally. Their uniforms, caps and faces stay exactly the same. Mouth closed the whole time. No new objects, no text, no extra people. Quiet ambience only, footsteps on wood, no music, no dialogue."
+  },
+  {
+   "narration": "Họ bắt một người đàn ông gầy, ngoài bốn mươi tuổi.",
+   "image": "Inside a small bare upstairs room at dawn (wooden table, a thin mattress, papers): the British inspector grips the arm of the thin Vietnamese man in his dark navy Chinese gown; the man is bare-headed (short black hair, NO hat, NO turban, NO head cloth), exactly his approved face, calm and upright, looking straight ahead; the young British constable fills the doorway.",
+   "characters": [
+    "tong-van-so",
+    "canh-sat-anh",
+    "canh-sat-anh-2"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The British inspector with the ginger moustache tightens his grip on the thin Vietnamese man's arm and pulls him slightly toward himself; the thin man leans a little with the pull, stays upright and calm and blinks once. The young constable at the door tightens his hand on his baton. The dawn light outside the window grows slightly brighter. The room, table and papers stay still. The thin Vietnamese man in the navy gown keeps exactly the same face, calm and dignified, mouth closed the whole time, no fear, no exaggerated expression. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Giấy tờ ghi: Tống Văn Sơ, thương nhân người Hoa.",
+   "image": "Close-up insert: the inspector's hand holds open a small folded Chinese identity paper with a tiny photo of the thin man in his navy gown and a red BLANK square seal; plain wavy lines only, no characters; dawn light from the window. Nobody in the scene: no people, no figures, only the hand and sleeve.",
+   "title": "TỐNG VĂN SƠ?",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.33,
+      "y": 0.42,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.33,
+      "y": 0.42,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Nhưng người Pháp biết rõ: đó là Nguyễn Ái Quốc.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the French officer leans over his desk grinning widely, slamming a red pin into the wall map exactly at Hong Kong; a telegram paper in his other hand.",
+   "title": "NGUYỄN ÁI QUỐC",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Một người đang mang án tử hình ở Đông Dương.",
+   "image": "Dark symbolic still life under a single hanging lamp: a thick beige dossier on a table with a small portrait photo of the thin Vietnamese man clipped on it, a big blood-red BLANK stamp mark across the cover, and a black judge's gavel beside it; deep shadows, solemn mood. Nobody in the scene: no people, no figures, no faces except the small photo.",
+   "title": "ÁN TỬ HÌNH",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The single hanging lamp above the table swings very slightly on its cord, so its yellow pool of light slides gently back and forth across the thick dossier and the gavel; tiny dust specks float in the light. The dossier, photo, stamp mark and gavel stay exactly still and unchanged; the deep shadows stay dark. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Người Anh không ưa cộng sản. Anh và Pháp lại vừa là đồng minh trong Thế chiến.",
+   "image": "Two officials shake hands over a desk in a colonial office: on the left the British inspector with a ginger mustache, on the right the French officer with a curled black mustache; on the wall behind them an old framed painting of British and French soldiers of the Great War marching side by side.",
+   "characters": [
+    "canh-sat-anh",
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Từ Hồng Kông về Hải Phòng, chỉ vài ngày tàu.",
+   "image": "an aged parchment map of East and South-East Asia in flat cartoon style filling the whole frame, simple ink coastlines, pale blue sea, no labels, no text: a short dotted red sea route runs from Hong Kong along the coast to Haiphong in northern Vietnam, with a tiny cartoon steamship sailing on it; two small round pins mark the two ports. Nobody in the scene: no people, no figures, no faces.",
+   "layers": "layers/s008.json"
+  },
+  {
+   "narration": "Pháp chỉ cần một con tàu.",
+   "image": "Hong Kong harbour 1931, a busy quay: a 1930s French passenger-cargo steamship with a black hull, white superstructure and one black-and-red funnel, no flag waits with steam rising from its funnel; in the foreground the French officer stands with his hands on his hips, smugly pointing at the ship with his chin.",
+   "characters": [
+    "mat-tham"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The French security officer in the white suit slowly strokes his curled moustache with one hand and gives a small smug smile with his mouth closed, his eyes narrowing. Behind him, black smoke rises slowly from the steamship funnel, the junk sails sway gently and the people on the busy quay move a little in place. The ship and buildings stay still. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Thế mà gần hai năm sau, Người vẫn bước ra tự do.",
+   "image": "Sunny day at sea: the thin Vietnamese man in his navy gown stands free at the railing of a ship, the sea wind moving his gown, a calm quiet smile, seagulls and white clouds; bright and open.",
+   "title": "VÌ SAO?",
+   "characters": [
+    "tong-van-so"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Sea breeze: the hem of the thin Vietnamese man's navy gown flutters gently and his hair moves slightly; he stands still at the ship rail looking out to sea and blinks once. The blue waves roll softly and two seagulls glide far in the sky. The ship deck, rail and lifebuoy stay still. The thin Vietnamese man in the navy gown keeps exactly the same face, calm and dignified, mouth closed the whole time, no fear, no exaggerated expression. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Có án tử, có người trong tù, vì sao Pháp vẫn không lấy được Người?",
+   "image": "Close-up portrait: the thin Vietnamese man seen through the iron bars of a prison cell window, calm, dignified, determined eyes looking at the viewer; a beam of light on his face.",
+   "characters": [
+    "tong-van-so"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The thin Vietnamese man behind the prison bars breathes slowly, his hands tighten slightly on the iron bars, he blinks once and his eyes look steadily ahead. A pale stripe of light on the stone wall moves very slowly. The bars and walls stay still. The thin Vietnamese man in the navy gown keeps exactly the same face, calm and dignified, mouth closed the whole time, no fear, no exaggerated expression. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Câu trả lời nằm ở chín phiên tòa, một tờ cáo phó, và một chuyến tàu cập bến đúng ngày ba mươi Tết.",
+   "image": "Mysterious still life on a dark wooden table under a warm lamp, three objects in a row: a judge's wooden gavel, a folded newspaper with a black-bordered BLANK box on its front page, and a small toy steamship next to a red paper lantern with a gold tassel. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.45,
+      "y": 0.6,
+      "z": 1.35
+     },
+     {
+      "t": 1,
+      "x": 0.45,
+      "y": 0.6,
+      "z": 1.3905
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Hôm nay, hãy cùng Vy mở lại hồ sơ vụ án Tống Văn Sơ nhé.",
+   "image": "Close-up from above: two hands untie the string of a thick old dossier tied with red tape, dust rising in the lamp light, the cover BLANK with a faded round stamp mark; inviting, mysterious mood. Nobody in the scene: no people, no figures, only the hands."
+  },
+  {
+   "narration": "Ở tập trước, Chen Vang rời Pa-ri, sang nước Nga.",
+   "image": "A 1923 steam train crosses a wide snowy plain toward a far city with onion-domed church towers, black smoke trailing; cold blue sky. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Từ đó, trên bàn mật thám Pháp, tấm bản đồ cứ thêm những chiếc ghim mới.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the French officer pushes another red pin into the wall map with a frown, a red string already linking several pins across Asia and Europe.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Cuối năm 1924, ở Quảng Châu, Người lấy bí danh Lý Thụy, làm phiên dịch.",
+   "image": "Canton (Guangzhou), 1924: a busy street of arcaded qilou shophouses with BLANK signboards, rickshaws and the Pearl River with junks behind; in the foreground the Vietnamese man in a light grey Sun Yat-sen tunic walks briskly holding a thin notebook. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "LÝ THỤY · 1924",
+   "characters": [
+    "ly-thuy"
+   ]
+  },
+  {
+   "narration": "Ban ngày, Người dịch cho cố vấn Liên Xô Bô-rô-đin.",
+   "image": "Inside a meeting room in Canton: the Vietnamese man in a grey tunic sits between a tall Russian adviser (thick dark wavy hair, big dark mustache, dark suit) and two Chinese officials in tunics, translating with one hand raised; teacups and papers on the table.",
+   "characters": [
+    "ly-thuy"
+   ]
+  },
+  {
+   "narration": "Ban đêm, Người mở lớp cho thanh niên Việt Nam.",
+   "image": "Night, a small rented room in Canton lit by an oil lamp: the Vietnamese man in his grey tunic teaches eight young Vietnamese men sitting on benches, pointing at a BLANK blackboard with a stick; eager young faces.",
+   "characters": [
+    "ly-thuy"
+   ]
+  },
+  {
+   "narration": "Học xong, họ lặng lẽ về nước. Bài giảng sau in thành sách Đường Kách mệnh.",
+   "image": "Dawn on a narrow mountain path at the border: three young Vietnamese men with cloth bags walk home in a line, one hides a thin booklet with a BLANK cover inside his shirt; misty green hills of northern Vietnam ahead."
+  },
+  {
+   "narration": "Mật thám có người chỉ điểm ngay trong hội, biết cả địa chỉ.",
+   "image": "The same night class from the back of the room: in the last row a sly young man with narrow shifty eyes secretly writes in a tiny notebook hidden under the bench, while the others listen to the teacher in the grey tunic at the far end (small).",
+   "characters": [
+    "ly-thuy"
+   ]
+  },
+  {
+   "narration": "Nhưng Quảng Châu là đất Trung Hoa. Pháp nhìn thấy mà không với tới.",
+   "image": "A river border: on the near bank the French officer peers through binoculars across a wide river at the Canton skyline; he stretches one arm out uselessly over the water, frustrated; a Chinese guard post on the far bank; river banks with reeds and banyan trees only, NO pink or white blossoms, no cherry trees.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Năm 1927, Quảng Châu quay súng vào những người cộng sản. Lý Thụy biến mất.",
+   "image": "Canton, April 1927, chaos in the street: soldiers with rifles run past, smoke rises behind the buildings; in the foreground the Vietnamese man in the grey tunic slips calmly into a narrow alley carrying a small suitcase, glancing back over his shoulder.",
+   "characters": [
+    "ly-thuy"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.05
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ],
+    "shake": {
+     "at": 0.2,
+     "dur": 0.5,
+     "amp": 0.01
+    }
+   }
+  },
+  {
+   "narration": "Một năm sau, Người sang đông bắc Xiêm. Bà con Việt kiều gọi Người là \"Thầu Chín\".",
+   "image": "A Vietnamese emigrant village in north-east Siam, 1928: wooden houses on stilts, banana trees, a dirt road and a pond; smiling Vietnamese villagers in brown clothes and conical hats welcome a sun-tanned man in a faded brown shirt with a cloth shoulder bag. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "THẦU CHÍN · 1928",
+   "characters": [
+    "thau-chin"
+   ]
+  },
+  {
+   "narration": "Người sống cùng bà con, mở lớp dạy trẻ con chữ Việt.",
+   "image": "Under a big shady tree in the Siam village: the sun-tanned man in the brown shirt kneels beside a small BLANK wooden board, teaching six village children who sit on mats and copy wavy lines on slates; warm afternoon light.",
+   "characters": [
+    "thau-chin"
+   ]
+  },
+  {
+   "narration": "Xiêm là nước độc lập. Mật thám Pháp không có quyền gõ cửa.",
+   "image": "A border checkpoint with a simple wooden barrier: a Siamese guard in a 1920s Siamese police uniform raises his palm firmly to stop the French officer, who stands holding up a document, furious and red-faced.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Mùa xuân 1930, ở Cửu Long, Người hợp nhất các nhóm cộng sản thành một đảng.",
+   "image": "Early 1930, a small secret room in Kowloon with closed shutters: the thin Vietnamese man in his navy gown sits at the head of a round table with five young Vietnamese men in shirts, all leaning in seriously over a single sheet of paper; a teapot, an oil lamp.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Mùa thu năm ấy, Nghệ Tĩnh nổi dậy.",
+   "image": "Autumn 1930, Nghe Tinh: a long column of Vietnamese peasants in brown clothes and conical hats marches along the dykes between golden rice fields carrying red flags, each with a small yellow hammer and sickle in the upper corner next to the pole (the 1930 Communist Party flag), no other symbols, no text, raising fists; sunset sky.",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The red flags with the yellow hammer and sickle wave strongly in the wind; the rice stalks sway; the long column of peasants in the distance moves slowly forward along the path, the people in front raise their fists. The sunset sky stays still. Faces keep the same flat cartoon style. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Mười năm, bốn cái tên, bốn thành phố. Pháp chưa chạm được vào Người lần nào.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the wall map now has four pins (Paris, Moscow, Canton, Siam) joined by red string and each crossed out with a big black X; the French officer stands in front of it scratching his head, confused.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Họ chưa bao giờ thiếu tin tức.",
+   "image": "The French officer almost buried behind a mountain of dossiers, telegrams and photos piled on his desk, only his eyes and mustache visible over the pile.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Họ thiếu một chính quyền ở nước khác, chịu bắt người, rồi chịu trao người.",
+   "image": "Visual metaphor: the French officer stands at a tall border fence, reaching through the bars with an extra-long pair of handcuffs; on the other side, out of his reach, policemen in different uniforms (British, Chinese, Siamese) stand with their arms folded and their backs turned.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Tháng 10 năm 1929, Tòa Đại hình Vinh xử những người của Hội Thanh niên.",
+   "image": "Vinh, October 1929, a colonial tribunal room: a French judge in a black robe sits at a high bench flanked by two Vietnamese mandarins in dark ceremonial robes and hats; in front, a row of young Vietnamese defendants in white shirts stand with heads high; ceiling fans, tall shutters. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "VINH · 1929"
+  },
+  {
+   "narration": "Một ghế bị cáo bỏ trống. Bản án tử hình được tuyên cho người không có mặt: Nguyễn Ái Quốc.",
+   "image": "The same tribunal: in the centre one EMPTY wooden defendant's chair under a single spotlight, the other defendants on both sides turn to look at it; the French judge reads from a paper.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.6,
+      "z": 1.45
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.6,
+      "z": 1.4935
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Án vắng mặt không bắt được ai. Nó chỉ là một tờ giấy.",
+   "image": "Close-up: one sheet of paper with a red BLANK seal lies alone on an empty dark table, its corner lifting in a draught from the window; dust in the light. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Nhưng tờ giấy ấy mang sang nước khác được: \"Đây là tội phạm. Xin giao cho chúng tôi.\"",
+   "image": "In a British colonial office, the French officer bows politely and holds out the sentence paper with both hands toward a British official in a white suit behind a desk, who raises an eyebrow.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Ngày 1 tháng 6 năm 1931, một người liên lạc của Quốc tế Cộng sản bị bắt ở Xin-ga-po.",
+   "image": "Singapore harbour, 1 June 1931: police in white uniforms arrest a thin European man in a cream suit on the quay; one policeman opens his suitcase and pulls out a bundle of letters and papers; palm trees and ships behind."
+  },
+  {
+   "narration": "Giấy tờ của anh ta chỉ về một căn nhà ở Cửu Long.",
+   "image": "Close-up insert: the seized papers fanned out on a police desk; one sheet shows a small hand-drawn street map (wavy lines only) with one tiny square house circled in red ink; a magnifying glass over it. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Và rạng sáng hôm ấy, cảnh sát leo lên cầu thang số 186.",
+   "image": "Side view inside a narrow steep dark wooden staircase inside an old Kowloon shophouse, peeling plaster walls, a small window with pale blue dawn light, a different angle from the previous staircase shot: the British inspector with a ginger mustache and the young British constable climb the steep wooden stairs, seen full body from head to boots with their faces clearly visible, determined; the inspector holds an electric torch whose beam lights a closed wooden door at the top with lamp light under it.",
+   "characters": [
+    "canh-sat-anh",
+    "canh-sat-anh-2"
+   ]
+  },
+  {
+   "narration": "Cùng bị bắt có một cô gái trẻ, Lý Phương Thuận.",
+   "image": "On the shophouse veranda at dawn: the young British constable escorts the young Vietnamese woman in the light blue blouse; she walks calm and upright, chin raised.",
+   "characters": [
+    "ly-phuong-thuan",
+    "canh-sat-anh-2"
+   ]
+  },
+  {
+   "narration": "Trước người thẩm vấn, Người chỉ nhận mình là Tống Văn Sơ, người Hoa.",
+   "image": "A bare interrogation room in the police station: the thin Vietnamese man in his navy gown sits upright on a wooden chair; across a table the British inspector leans forward with a notebook under a hanging lamp.",
+   "characters": [
+    "tong-van-so",
+    "canh-sat-anh"
+   ]
+  },
+  {
+   "narration": "Hỏi thế nào, Người cũng không nhận cái tên Nguyễn Ái Quốc.",
+   "image": "Close-up in the interrogation room: the British inspector pushes a photo across the table of a young Vietnamese man in a black Western suit (same face, Paris 1920); the thin man in the navy gown looks at it calmly with a closed mouth, giving nothing away.",
+   "characters": [
+    "tong-van-so",
+    "canh-sat-anh"
+   ]
+  },
+  {
+   "narration": "Ở Hà Nội, người Pháp chỉ còn chờ một con tàu.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the French officer stands at the tall window looking out at the harbour, tapping his foot impatiently, a pocket watch open in his hand.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Muốn đưa một người ra khỏi Hồng Kông, luật Anh có hai cánh cửa.",
+   "image": "Wide symbolic shot: a tall old stone wall standing alone like a stage set, with TWO doors: on the left a big grand front door of heavy dark wood with brass studs; on the right a small plain narrow back door; both doors closed; a bright empty paved courtyard in front; dramatic and simple. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: no people, no figures, no faces. No trees with pink or white blossoms anywhere, no cherry blossoms, no flowers; plain dusty ground, grey stone and blue sky only.",
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Cửa trước là dẫn độ: nước này trao tội phạm cho nước kia.",
+   "image": "Closer on the big grand front door of heavy dark wood: above it hangs a BLANK brass plaque; two officials stand on either side of it, one in a French white uniform and one in a British khaki uniform, ready to pass a prisoner through.",
+   "title": "CỬA TRƯỚC: DẪN ĐỘ"
+  },
+  {
+   "narration": "Nhưng luật dẫn độ của Anh có một dòng: không trao người vì tội chính trị.",
+   "image": "Close-up insert: an old leather law book lies open; one line of plain wavy text is underlined by a bold red ribbon bookmark lying across the page. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Án tử ở Vinh là án chính trị. Cửa trước khóa chặt.",
+   "image": "The big front door is now wrapped in heavy iron chains with a huge padlock; the French officer tugs at the handle with both hands, straining, his pith helmet falling off.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Cửa sau là trục xuất. Thống đốc được đuổi bất cứ người nước ngoài nào.",
+   "image": "The small plain back door in the stone wall: a hand in a white gloved sleeve with gold braid (the Governor's) pulls it open; warm light pours out; the wall is plain grey stone. No trees with pink or white blossoms anywhere, no cherry blossoms, no flowers; plain dusty ground, grey stone and blue sky only. Nobody in the scene: no people, no figures, only the gloved hand and sleeve.",
+   "title": "CỬA SAU: TRỤC XUẤT",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The wooden door in the grey stone wall slowly swings open a little wider, pushed by the gloved hand, and warm yellow light spills further out across the ground. The stone wall, sky and clouds stay still. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Đuổi đi đâu, luật không hỏi.",
+   "image": "Through the open small back door: a wide harbour full of ships of many kinds, with big question marks floating above the water; the door frame and wall are plain grey stone. No trees with pink or white blossoms anywhere, no cherry blossoms, no flowers; plain dusty ground, grey stone and blue sky only. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Chỉ sáu ngày sau vụ bắt, lệnh trục xuất Tống Văn Sơ được ký.",
+   "image": "The colonial Governor of Hong Kong in a white uniform with gold epaulettes and a white helmet with a plume on the desk beside him signs a document with a fountain pen at a grand desk; a large window shows the harbour."
+  },
+  {
+   "narration": "Lệnh ghi rõ: áp giải lên một con tàu Pháp, có lính canh.",
+   "image": "Close-up insert: the signed document; in the middle of the wavy lines a small drawing of a steamship with two tiny soldiers on its deck; a red wax seal at the bottom. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.42,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.42,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Không ai trao Người cho Pháp. Người chỉ \"tình cờ\" lên đúng con tàu ấy.",
+   "image": "Symbolic: the small back door opens directly onto the gangway of a 1930s French passenger-cargo steamship with a black hull, white superstructure and one black-and-red funnel, no flag; at the top of the gangway the French officer waits smiling innocently, hiding a pair of handcuffs behind his back.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Nhưng vụ việc lọt đến tai một luật sư người Anh.",
+   "image": "A 1931 solicitor's office in Hong Kong Central: tall windows, ceiling fan, shelves of law books; the English solicitor with round glasses looks up from his desk, listening with a serious face to a young Asian visitor in a Western suit seen from behind.",
+   "characters": [
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Luật sư Phờ-ranh Lô-dơ-bi. Ông không phải người cộng sản.",
+   "image": "Waist-up portrait: the English solicitor with round dark-rimmed glasses and a light grey three-piece suit stands by his window, adjusting his glasses, calm and clever. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "FRANK LOSEBY",
+   "characters": [
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Ông vào nhà tù Vích-to-ri-a, ngồi trước người tù gầy.",
+   "image": "The prison visiting room of Victoria Gaol: the English solicitor sits across a plain wooden table from the thin Vietnamese man in his navy gown; both lean in, talking quietly; a young British constable by the iron door; light from a barred window.",
+   "characters": [
+    "loseby",
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Rồi ông viện đến một đạo luật Anh có từ năm 1679: luật bảo thân.",
+   "image": "Close-up: the solicitor's hand rests on a very old thick leather law book with a worn BLANK cover and brass corners, a candle and a quill beside it; golden light. Nobody in the scene: no people, no figures, only the hand and sleeve."
+  },
+  {
+   "narration": "Luật ấy không cần biết người tù có tội gì.",
+   "image": "Visual metaphor: a blindfolded old-fashioned bronze statue of Justice holding scales stands in the light; at her feet a small prisoner's chain lies broken. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.75,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.3,
+      "z": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Nó chỉ bắt người giam phải ra tòa trả lời: giam người dựa vào đâu?",
+   "image": "In a 1931 British colonial courtroom in Hong Kong: dark wood panels, high ceiling with slow ceiling fans, tall windows, a judge in a red robe and white wig on a high bench, barristers in black gowns and white wigs, a young British constable in khaki at the door: two stiff British colonial officials in white suits sit at the government table, one points at the empty witness box, demanding; a big question mark floats above the judge."
+  },
+  {
+   "narration": "Xưa nay, đuổi một người chỉ cần một chữ ký. Lần này, chính quyền phải ra tòa giải thích.",
+   "image": "Funny shot: the two stiff British officials in white suits sit squeezed together on a hard courtroom bench, sweating, fanning themselves with papers, uncomfortable at being made to explain."
+  },
+  {
+   "narration": "Từ cuối tháng 7 đến tháng 9 năm 1931, tòa Hồng Kông họp chín phiên.",
+   "image": "Wide view of a 1931 British colonial courtroom in Hong Kong: dark wood panels, high ceiling with slow ceiling fans, tall windows, a judge in a red robe and white wig on a high bench, barristers in black gowns and white wigs, a young British constable in khaki at the door; on the wall a big tear-off calendar has its pages flying off one after another in a swirl.",
+   "title": "9 PHIÊN TÒA",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. In the colonial courtroom the pages of the big wall calendar flip over one after another and a few loose sheets of paper drift through the air; the ceiling fans turn slowly. The judge, barristers, constable and the people stay almost still, only small natural breathing movements. Mouths closed. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Luật sư bên Người vạch ra: việc bắt và giam ban đầu sai thủ tục.",
+   "image": "A barrister in a black gown and white wig stands and points firmly at a document he holds up, arguing passionately before the judge; the thin Vietnamese man in his navy gown sits calmly in the dock behind him.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Trục xuất chỉ là đuổi đi. Nhưng lệnh này lại chọn sẵn con tàu, về đúng nơi án tử đang chờ.",
+   "image": "Close-up insert: the deportation document with the small steamship drawing; a red dotted arrow runs from the steamship toward a dark stormy coastline under black clouds. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Đuổi mà chọn sẵn chỗ đến, thì đó là trao tay cho Pháp.",
+   "image": "Visual metaphor: the small back door in the stone wall has a paper mask peeling off its face, revealing underneath the heavy padlock and chains of the big front door. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Giữa lúc tòa đang xử, Thống đốc phải lặng lẽ ký một lệnh trục xuất thứ hai.",
+   "image": "Night in the Governor's office lit by a single desk lamp: the Governor in his white uniform quickly and secretly signs a second document, glancing at the door."
+  },
+  {
+   "narration": "Ngày 11 tháng 9, tòa vẫn xử Người thua.",
+   "image": "In a 1931 British colonial courtroom in Hong Kong: dark wood panels, high ceiling with slow ceiling fans, tall windows, a judge in a red robe and white wig on a high bench, barristers in black gowns and white wigs, a young British constable in khaki at the door: the judge in red robe brings down his gavel; in the dock the thin Vietnamese man in his navy gown stands upright and calm. The front of the judge's high bench is ONE solid carved wooden panel with NO door, no opening and no gap underneath; the khaki constable stands beside the main entrance door in the far back wall of the room, well away from the bench.",
+   "characters": [
+    "tong-van-so"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.62,
+      "y": 0.42,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.62,
+      "y": 0.42,
+      "z": 1.3390000000000002
+     }
+    ],
+    "ease": "out",
+    "shake": {
+     "at": 0.35,
+     "dur": 0.4,
+     "amp": 0.008
+    }
+   }
+  },
+  {
+   "narration": "Nhưng cho Người kháng cáo lên Hội đồng Cơ mật ở Luân Đôn.",
+   "image": "The judge leans forward and hands a rolled paper to the barrister; through the tall courtroom window, far away, the silhouette of London's Big Ben clock tower appears in a dreamy bubble."
+  },
+  {
+   "narration": "Chừng nào Luân Đôn chưa xử, không con tàu nào được chở Người đi.",
+   "image": "Hong Kong harbour: a 1930s French passenger-cargo steamship with a black hull, white superstructure and one black-and-red funnel, no flag sails away with no prisoner; on the quay the French officer watches it go, his mouth open, his arms hanging down.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Trong tù, Người mắc bệnh lao phổi.",
+   "image": "Night in a cell in Victoria Gaol, Hong Kong: thick grey granite walls, one small high barred window with a beam of light, a wooden plank bed, a heavy iron door: the thin Vietnamese man in his navy gown sits on the plank bed coughing into a white handkerchief, very thin and tired but still upright; moonlight through the bars.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Tháng 11 năm 1931, Người phải nằm bệnh xá, vẫn có lính canh.",
+   "image": "A prison infirmary ward: plain white iron hospital beds; the thin Vietnamese man lies propped up in one bed under a grey blanket, a glass of water and a medicine bottle on a stool; the young British constable stands guard at the door.",
+   "characters": [
+    "tong-van-so",
+    "canh-sat-anh-2"
+   ]
+  },
+  {
+   "narration": "Rồi tháng 8 năm 1932, một tin lan đi: Nguyễn Ái Quốc đã chết trong tù.",
+   "image": "A Paris street newsstand in August 1932: a fresh newspaper hangs on the kiosk with a large black-bordered BLANK box on its front page; Parisians in hats stop and stare. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "ĐÃ CHẾT?",
+   "camera": {
+    "black": 0.4,
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.06
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Báo Nhân Đạo ở Pa-ri đăng tin. Báo ở Luân Đôn cũng đăng.",
+   "image": "A London street corner in 1932 with red double-decker buses: a newsboy in a cap holds up a newspaper with a black-bordered BLANK box; a gentleman in a bowler hat reads it, shocked."
+  },
+  {
+   "narration": "Quốc tế Cộng sản còn đưa ra cả ngày mất: 26 tháng 6 năm 1932.",
+   "image": "Close-up insert: a wall calendar page torn from a pad lies on a desk, one day circled with a thick black ring, a black ribbon laid across it; candle smoke. Nobody in the scene: no people, no figures, no faces.",
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. The candle flame flickers softly and a thin curl of grey smoke rises from it into the dark; the warm light trembles slightly on the calendar page and the black ribbon. Everything else stays still. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Có người nói đó chỉ là tin đồn. Có người tin đó là một tấm màn che, để Pháp thôi truy tìm.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the French officer reads the newspaper with the black-bordered box, one eyebrow raised high, half relieved and half doubtful; a big question mark floats above his head.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Chỉ biết người \"đã chết\" vẫn nằm trên giường bệnh, chờ Luân Đôn.",
+   "image": "The prison infirmary at dawn: the thin Vietnamese man lies awake in the white iron bed, calm, looking at the soft light from the barred window, a slight peaceful smile; very much alive.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Ngày 27 tháng 6 năm 1932, vụ án đến Hội đồng Cơ mật ở Luân Đôn.",
+   "image": "London, June 1932, foggy morning: the grand stone government buildings of Whitehall with a black taxi and a red double-decker bus passing; pigeons. Keep the top quarter of the frame simple (sky or plain wall), room for a big title. Nobody in the scene: only tiny distant passers-by.",
+   "title": "LUÂN ĐÔN · 1932",
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Nhưng nó khép lại ngoài hành lang, trước khi phiên xử kịp mở.",
+   "image": "A long panelled corridor outside a London courtroom: two English barristers in black gowns and white wigs stand close together near the big closed courtroom door, talking in low voices and about to shake hands."
+  },
+  {
+   "narration": "Chính quyền đề nghị thỏa thuận: Người vẫn phải rời Hồng Kông.",
+   "image": "Close-up: a written agreement on a polished table, two fountain pens laid side by side on it, a wig resting nearby; plain wavy lines only. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Nhưng không lên tàu Pháp, không đến đất Pháp, và được đi nơi mình muốn.",
+   "image": "an aged parchment map of East and South-East Asia in flat cartoon style filling the whole frame, simple ink coastlines, pale blue sea, no labels, no text: from Hong Kong several dotted arrows fan out to different directions; the one arrow going to Indochina is crossed out with a bold red X; the others glow green. Nobody in the scene: no people, no figures, no faces.",
+   "layers": "layers/s076.json"
+  },
+  {
+   "narration": "Lệnh trục xuất vẫn còn. Chỉ con tàu Pháp là bị gạch đi.",
+   "image": "Close-up insert: the deportation document again; a hand with a fountain pen draws one bold red line straight through the small steamship drawing, crossing it out. Nobody in the scene: no people, no figures, only the hand.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.45,
+      "y": 0.42,
+      "z": 1.45
+     },
+     {
+      "t": 1,
+      "x": 0.45,
+      "y": 0.42,
+      "z": 1.4935
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Một dòng chữ. Đổi lấy một mạng người.",
+   "image": "Symbolic still life: on one side a single thin red ink line on white paper, on the other side a small candle flame burning bright and steady in the dark. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Vy nghĩ, Luân Đôn không muốn viết vào luật rằng thuộc địa Anh được đưa người sang chỗ chết hộ nước khác.",
+   "image": "An ornate London council chamber: five elderly British judges in dark robes sit around a horseshoe table; one of them gently pushes away a big heavy BLANK book, shaking his head; the others nod.",
+   "skip": true
+  },
+  {
+   "narration": "Ngày 28 tháng 12 năm 1932, Người được bí mật đưa ra khỏi nhà tù.",
+   "image": "Night: a black 1930s car with dim headlights drives quietly out through the arched stone gate of Victoria Gaol; a lantern above the gate; the thin Vietnamese man's face visible through the back window.",
+   "title": "28.12.1932",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Người lên tàu đi Xin-ga-po. Nhưng Xin-ga-po không cho lên bờ.",
+   "image": "Singapore harbour, January 1933: at the top of a ship's gangway a colonial official in a white suit raises his palm firmly; the thin Vietnamese man in his navy gown stands below him on the gangway with a small bag, calm; palm trees on the quay.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Ngày 19 tháng 1 năm 1933, tàu đưa Người quay lại, và Hồng Kông bắt Người lần nữa.",
+   "image": "Hong Kong quay, 19 January 1933: the British inspector and the young British constable stop the thin Vietnamese man as he steps off a ship's gangway, the inspector holding up one hand; the thin man stays calm.",
+   "characters": [
+    "tong-van-so",
+    "canh-sat-anh",
+    "canh-sat-anh-2"
+   ]
+  },
+  {
+   "narration": "Đây là lúc Pháp đến gần Người nhất.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the French officer reads a telegram and rubs his hands together gleefully, grinning, already reaching for his pith helmet.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Lô-dơ-bi lại đến, tay cầm thỏa thuận Luân Đôn: Hồng Kông đã hứa rồi.",
+   "image": "The English solicitor with round glasses strides into the Governor's grand office holding a document high in one hand, firm and confident; the Governor in white uniform half-rises from his desk, surprised.",
+   "characters": [
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Thống đốc chỉ cho ba ngày để rời Hồng Kông.",
+   "image": "Close-up: on the Governor's desk an hourglass with sand running, and the Governor's gloved hand holding up three fingers. Nobody in the scene: no people, no figures, only the gloved hand."
+  },
+  {
+   "narration": "Bà Lô-dơ-bi may cho Người một bộ áo lụa của thương gia người Hoa.",
+   "image": "A cosy 1930s living room at night lit by a table lamp: the English woman with wavy brown hair sews a rich dark blue silk Chinese merchant's robe; the thin Vietnamese man stands nearby trying on a matching silk cap, a small smile; the English solicitor watches from the doorway.",
+   "characters": [
+    "ba-loseby",
+    "tong-van-so",
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Chiều 22 tháng 1 năm 1933, Người bước lên con tàu An Huy, đi Hạ Môn.",
+   "image": "Hong Kong harbour, late afternoon of 22 January 1933: the thin Vietnamese man, now dressed as a wealthy Chinese merchant in a rich dark blue silk robe and a round silk cap, walks up the gangway of a coastal steamship; a young Chinese secretary follows carrying a suitcase.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Ba ngày sau, tàu cập bến. Hôm ấy là ngày ba mươi Tết.",
+   "image": "Amoy (Xiamen) harbour at dusk on Lunar New Year's Eve: red lanterns glow along the waterfront, small firecracker sparks, junks with sails; the thin Vietnamese man in the silk merchant robe stands at the ship's railing looking at the town lights, calm and moved.",
+   "characters": [
+    "tong-van-so"
+   ],
+   "video": "The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. Evening of the lunar new year at the harbour: red lanterns along the quay sway gently, small fireworks burst far away in the sky, the harbour water ripples and sparkles, the junk sails move slightly. The thin Vietnamese man in the navy gown stands at the ship rail looking at the town, breathes slowly and blinks once. The thin Vietnamese man in the navy gown keeps exactly the same face, calm and dignified, mouth closed the whole time, no fear, no exaggerated expression. No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue."
+  },
+  {
+   "narration": "Vậy vì sao Pháp có án tử, có người trong tù, vẫn không lấy được Người?",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: the wall map with its crossed-out pins; the French officer slumps in his chair holding the empty pair of handcuffs, a big question mark above him. Keep the top quarter of the frame simple (sky or plain wall), room for a big title.",
+   "title": "VÌ SAO?",
+   "characters": [
+    "mat-tham"
+   ],
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Vì đó là án chính trị, cửa trước của luật Anh không mở cho nó.",
+   "image": "The big grand front door from the stone wall, still wrapped in chains and padlocked, in cold light. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Vì một luật sư người Anh đã kéo cửa sau ra giữa tòa.",
+   "image": "The English solicitor with round glasses pulls the small back door wide open into a bright courtroom full of light, the judge and barristers visible inside.",
+   "characters": [
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Vì Luân Đôn thà gạch đi một con tàu, còn hơn mang tiếng giao người cho Pháp xử tử.",
+   "image": "Close-up on an official deportation order on a desk: a typed document with blank wavy lines (no readable letters), one line has a small drawing of a steamship next to it; a hand holding a dip pen firmly draws a thick straight ink line across that ship line, crossing it out. Only the hand and sleeve, no faces."
+  },
+  {
+   "narration": "Và vì suốt mười chín tháng, người tù ấy chưa một lần nhận tên thật của mình.",
+   "image": "Close-up portrait in the interrogation room: the thin Vietnamese man in his navy gown sits silent and calm, mouth closed, steady eyes, his hands resting quietly on the table.",
+   "characters": [
+    "tong-van-so"
+   ]
+  },
+  {
+   "narration": "Pháp có hồ sơ, có bản án, có địa chỉ, có cả đồng minh. Họ chỉ thiếu chính Người.",
+   "image": "In the office of a French colonial police officer in Hanoi 1931: heavy dark wooden desk with a green-shaded lamp, piles of beige dossiers, a slow ceiling fan, tall green shutters with tropical light, a big wall map of Asia (no labels) with red pins: on the desk lie a thick dossier, a sentence paper with a red seal, a map with pins and a photo of two officials shaking hands; the French officer behind it grasps at empty air with both hands, the chair opposite him empty.",
+   "characters": [
+    "mat-tham"
+   ]
+  },
+  {
+   "narration": "Tết năm 1960, vợ chồng Lô-dơ-bi và con gái sang Hà Nội, làm khách của người tù năm xưa.",
+   "image": "Hanoi, Lunar New Year 1960, a bright reception room with peach blossom branches in vases: an elderly Vietnamese leader with white hair and a thin white goatee (the same face as the thin man, thirty years older) in a plain khaki tunic warmly shakes hands with an elderly English couple (the solicitor now white-haired with round glasses, his wife) and their grown-up daughter, who hold bouquets of flowers; teacups on a low table.",
+   "characters": [
+    "tong-van-so",
+    "loseby"
+   ]
+  },
+  {
+   "narration": "Còn tờ cáo phó năm ấy, như một tấm màn, che Người khỏi mắt mật thám suốt nhiều năm.",
+   "image": "Night, a French security police office: on the desk lies an open newspaper with a big black-bordered obituary box (blank wavy lines, no readable letters, no photo); next to it a thick dossier being closed with its strings tied, and a short candle almost burned out, its tiny flame about to go dark; a dark window behind with a flat navy night sky. Nobody in the scene: no people, no figures, no faces.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.3,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.75,
+      "z": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Tám năm sau, năm 1941, Người bước qua một cột mốc biên giới, trở về sau ba mươi năm xa quê. Hẹn gặp lại bạn ở chặng đường tiếp theo của Người.",
+   "image": "Misty dawn in the mountains of Cao Bang at the Vietnam-China border, January 1941: a small square stone border marker (BLANK, no carving) stands beside a narrow path, and next to the path a small plain BLANK wooden signboard on a post facing the viewer; the Vietnamese leader, now 51, walks toward it, face clearly visible in three-quarter view, calm and determined. Use the attached black-and-white PHOTO (taken in 1946) as the FACE LIKENESS reference translated into the cartoon style: very thin face, high cheekbones, hollow cheeks, a thin sparse goatee and a thin mustache (dark grey, not white), short hair with a high forehead, bright eyes. He wears simple dark indigo-blue clothes of the Nung ethnic people (a long-sleeved indigo shirt with cloth buttons, indigo trousers), a cloth shoulder bag, a walking stick, cloth shoes; green limestone peaks behind.",
+   "characters": [
+    "tong-van-so"
+   ]
+  }
+ ]
+}

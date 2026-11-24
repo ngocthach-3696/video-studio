@@ -1,0 +1,1 @@
+Nhạc nền: assets/music/documentary-nastelbom.mp3 (Pixabay, NastelBom "Documentary", https://pixabay.com/music/orchestral-documentary-documentary-music-606698/, Pixabay Content License). bgm.wav = dựng bằng src/build-bgm.sh.

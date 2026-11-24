@@ -17,7 +17,7 @@ import { animateMode, animateScenes, animationEnabled, estimateCost, importFlowC
 import { synthesizeScenes } from "./tts.mjs";
 import { contactSheet, generateCharacters, generateImages } from "./images.mjs";
 import { applyPreset } from "./presets.mjs";
-import { buildNarration, buildSubtitles, buildTimeline, buildVeoAudio, finalize, joinClips, renderClips } from "./render.mjs";
+import { applyClipSpeed, buildNarration, buildSubtitles, buildTimeline, buildVeoAudio, finalize, joinClips, renderClips } from "./render.mjs";
 import { log, probeDuration, sha1 } from "./util.mjs";
 import { buildSoundscape } from "./soundscape.mjs";
 
@@ -156,6 +156,8 @@ async function main() {
     log("[3/7] Ảnh → video AI: tắt (dùng Ken Burns)");
   }
 
+  const moved = await applyClipSpeed(project, dir, timeline, animated);
+  if (moved.length) { log(`  clip tốc độ gốc, cắt sớm: ${moved.join(", ")}`); fs.writeFileSync(path.join(dir, "timeline.json"), JSON.stringify(timeline, null, 1)); }
   log("[4/7] Clip từng cảnh");
   await renderClips(project, dir, timeline, { W, H, animated });
 

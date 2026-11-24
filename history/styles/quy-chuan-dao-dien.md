@@ -24,7 +24,7 @@ Mẫu gần kênh mình nhất: **4, 5, 6, 8** (dọc, 5–6 phút, nhịp nhanh
 - Câu trung bình ≤11 từ; mỗi đoạn mở bằng năm/nơi; con số cụ thể thay tính từ; mỗi hồi một ẩn dụ đời thường hoặc một cú lật.
 - Chủ đề phải có "bí sử" có nguồn; nói rõ mức chắc chắn; tối đa 1–2 câu "sử chép khác nhau".
 - **Trả lời câu hỏi trung tâm cho rõ** ở cuối (người xem của kênh không biết sẵn đáp án), có thể khép bằng một câu hỏi ngược.
-- Kết: callback → trả lời → câu móc tập sau gây tò mò → "Vy hẹn bạn ở tập sau nhé" (hỏi người dùng có giữ câu cảm ơn cũ không).
+- Kết: callback → trả lời → câu móc tập sau gây tò mò, câu chào khép video ĐỔI cách nói mỗi tập ("Cùng đón chờ ở tập sau nhé", "Chuyện ấy, mình để dành cho tập sau"…), không lặp "Vy hẹn bạn ở tập sau nhé"; đưa vài phương án cho người dùng chọn (2026-11-22).
 - Hook có một lời hứa cụ thể (đồ vật lạ, câu hỏi con) được trả ở cao trào (7, 8); gạch trước các lý do người xem dễ đoán (7).
 - Dàn ý ghi "người xem đang cảm thấy gì" cho mỗi hồi; ít nhất một lần đổi phe cảm xúc (1.4b).
 - Giọng Vy: "bạn" ≤2 lần, "Vy nghĩ" ≤2 lần, cảm xúc qua chi tiết, không tính từ to tát (1.4c).

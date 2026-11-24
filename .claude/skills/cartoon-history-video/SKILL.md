@@ -36,7 +36,7 @@ WebSearch/WebFetch: Wikipedia vi + en, và tìm đoạn tương ứng trong Đ�
 - Dựng dàn ý theo mục 1.2, viết hook theo mục 1.1, chọn kỹ thuật kể theo từng nhịp ở mục 1.4 (ghi rõ lấy từ mẫu nào), chạy checklist mục 6 trước khi đưa người dùng.
 - 1 câu đọc = 1 cảnh; câu trung bình ≤ 11 từ.
 - Giới thiệu Vy ấm áp: "Hôm nay, hãy cùng Vy … nhé." **KHÔNG** dùng "Mình là Vy." ở đầu hay cuối.
-- Kết: trả lời rõ câu hỏi trung tâm → câu móc tập sau gây tò mò → "Vy hẹn bạn ở tập sau nhé" (hỏi người dùng có giữ câu cảm ơn cũ không).
+- Kết: trả lời rõ câu hỏi trung tâm → câu móc tập sau gây tò mò, câu chào khép video ĐỔI cách nói mỗi tập ("Cùng đón chờ ở tập sau nhé", "Chuyện ấy, mình để dành cho tập sau"…), không lặp "Vy hẹn bạn ở tập sau nhé"; đưa vài phương án cho người dùng chọn (2026-11-22).
 - Bỏ cảnh nào thì đặt `"skip": true` (giữ nguyên số thứ tự id).
 - Văn tự viết, không sao chép kịch bản kênh khác. Quy tắc TTS: không ký hiệu `% & / → #`, không viết tắt; số phức tạp viết bằng chữ; năm viết số được.
 

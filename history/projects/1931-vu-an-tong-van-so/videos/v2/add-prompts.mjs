@@ -1,0 +1,22 @@
+import fs from 'fs';
+const f = 'videos/v2/omni-prompts.json'; const j = JSON.parse(fs.readFileSync(f, 'utf8'));
+const H = 'The first frame must be identical to the attached image: same framing, same size and position of every character, no reframing, no crop, no zoom out. Animate this exact flat 2D cartoon illustration, keep the exact art style, outlines and colours. Locked-off static camera, no zoom, no pan. ';
+const T = ' No new objects, no text appearing, no extra people. Quiet ambience only, no music, no dialogue.';
+const BAC = ' The thin Vietnamese man in the navy gown keeps exactly the same face, calm and dignified, mouth closed the whole time, no fear, no exaggerated expression.';
+const add = {
+ s003: 'The British inspector with the ginger moustache tightens his grip on the thin Vietnamese man\'s arm and pulls him slightly toward himself; the thin man leans a little with the pull, stays upright and calm and blinks once. The young constable at the door tightens his hand on his baton. The dawn light outside the window grows slightly brighter. The room, table and papers stay still.' + BAC,
+ s006: 'The single hanging lamp above the table swings very slightly on its cord, so its yellow pool of light slides gently back and forth across the thick dossier and the gavel; tiny dust specks float in the light. The dossier, photo, stamp mark and gavel stay exactly still and unchanged; the deep shadows stay dark.',
+ s009: 'The French security officer in the white suit slowly strokes his curled moustache with one hand and gives a small smug smile with his mouth closed, his eyes narrowing. Behind him, black smoke rises slowly from the steamship funnel, the junk sails sway gently and the people on the busy quay move a little in place. The ship and buildings stay still.',
+ s010: 'Sea breeze: the hem of the thin Vietnamese man\'s navy gown flutters gently and his hair moves slightly; he stands still at the ship rail looking out to sea and blinks once. The blue waves roll softly and two seagulls glide far in the sky. The ship deck, rail and lifebuoy stay still.' + BAC,
+ s011: 'The thin Vietnamese man behind the prison bars breathes slowly, his hands tighten slightly on the iron bars, he blinks once and his eyes look steadily ahead. A pale stripe of light on the stone wall moves very slowly. The bars and walls stay still.' + BAC,
+ s027: 'The red flags with the yellow hammer and sickle wave strongly in the wind; the rice stalks sway; the long column of peasants in the distance moves slowly forward along the path, the people in front raise their fists. The sunset sky stays still. Faces keep the same flat cartoon style.',
+ s046: 'The wooden door in the grey stone wall slowly swings open a little wider, pushed by the gloved hand, and warm yellow light spills further out across the ground. The stone wall, sky and clouds stay still.',
+ s058: 'In the colonial courtroom the pages of the big wall calendar flip over one after another and a few loose sheets of paper drift through the air; the ceiling fans turn slowly. The judge, barristers, constable and the people stay almost still, only small natural breathing movements. Mouths closed.',
+ s070: 'The candle flame flickers softly and a thin curl of grey smoke rises from it into the dark; the warm light trembles slightly on the calendar page and the black ribbon. Everything else stays still.',
+ s088: 'Evening of the lunar new year at the harbour: red lanterns along the quay sway gently, small fireworks burst far away in the sky, the harbour water ripples and sparkles, the junk sails move slightly. The thin Vietnamese man in the navy gown stands at the ship rail looking at the town, breathes slowly and blinks once.' + BAC,
+ s097: 'The thin Vietnamese man in indigo Nung clothes walks slowly forward along the mountain path at a calm, natural pace: each step lands on the path and carries his body forward, his wooden staff touches the ground with each step, the cloth bag swings slightly; no walking in place. White mist drifts slowly between the limestone mountains. The wooden signboard and its text, the stone border marker and the mountains stay exactly the same. His face stays exactly the same, calm and determined, with the same thin beard, mouth closed.',
+};
+for (const [k, v] of Object.entries(add)) j[k] = H + v + T;
+j.s097b = j.s097; j.s097c = j.s097;
+fs.writeFileSync(f, JSON.stringify(j, null, 1));
+console.log(Object.keys(j).join(' '));

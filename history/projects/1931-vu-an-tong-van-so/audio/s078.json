@@ -1,0 +1,46 @@
+{
+ "key": "f48ab1883a36",
+ "duration": 3.004063,
+ "words": [
+  {
+   "start": 0.15,
+   "end": 0.381,
+   "text": "Một"
+  },
+  {
+   "start": 0.381,
+   "end": 0.657,
+   "text": "dòng"
+  },
+  {
+   "start": 0.657,
+   "end": 1.017,
+   "text": "chữ."
+  },
+  {
+   "start": 1.21,
+   "end": 1.441,
+   "text": "Đổi"
+  },
+  {
+   "start": 1.441,
+   "end": 1.671,
+   "text": "lấy"
+  },
+  {
+   "start": 1.671,
+   "end": 1.902,
+   "text": "một"
+  },
+  {
+   "start": 1.902,
+   "end": 2.178,
+   "text": "mạng"
+  },
+  {
+   "start": 2.178,
+   "end": 2.598,
+   "text": "người."
+  }
+ ]
+}

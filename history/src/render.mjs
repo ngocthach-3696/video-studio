@@ -202,8 +202,8 @@ const NORM = ",scale=out_range=tv,format=yuv420p";
 // hold the last frame for whatever is still missing.
 const MAX_SLOWDOWN = 1.35;
 
-function fitVideo(clipDur, sceneDur, W, H) {
-  const k = Math.min(Math.max(sceneDur / clipDur, 1), MAX_SLOWDOWN);
+function fitVideo(clipDur, sceneDur, W, H, original = false) {
+  const k = original ? 1 : Math.min(Math.max(sceneDur / clipDur, 1), MAX_SLOWDOWN);
   return [
     `setpts=${k.toFixed(4)}*PTS`,
     `fps=${FPS}`,
@@ -217,6 +217,27 @@ function fitVideo(clipDur, sceneDur, W, H) {
 // A still frame needs no zoompan: scale once and repeat it.
 const stillFilter = (W, H, cropBottom) =>
   `${cropBottom ? `crop=iw:ih*${(1 - cropBottom).toFixed(3)}:0:0,` : ""}scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
+
+// project.clipSpeed = "original" (user 2026-11-22): AI clips play at their own speed, never slowed.
+// When a line is longer than its clip, the picture cuts to the next scene early (the voice keeps
+// going over the next picture, a J-cut): the clip scene loses the extra frames, the next scene gains
+// them, so the total length and the narration timing do not change.
+export async function applyClipSpeed(project, dir, timeline, animated) {
+  if (project.clipSpeed !== "original") return [];
+  const moved = [];
+  const sc = timeline.scenes;
+  for (let i = 0; i < sc.length - 1; i++) {
+    if (!sceneUsesVideo(project, dir, i, sc[i].id, animated)) continue;
+    const clipFrames = Math.floor((await probeDuration(path.join(dir, "videos", `${sc[i].id}.mp4`))) * FPS);
+    const d = sc[i].frames - clipFrames;
+    if (d <= 0) continue;
+    sc[i].frames -= d; sc[i + 1].frames += d;
+    moved.push(`${sc[i].id} -${(d / FPS).toFixed(2)}s`);
+  }
+  let t = 0;
+  for (const s of sc) { s.dur = s.frames / FPS; s.start = t; t += s.dur - timeline.xf; }
+  return moved;
+}
 
 // True when scene i is shown with its AI clip videos/<id>.mp4 (not the still image).
 // Scenes with several pictures ("shots") go through the camera path, which plays clips per picture.
@@ -305,7 +326,7 @@ export async function renderClips(project, dir, timeline, { W, H, animated }) {
     } else if (motion === "still" && fit === "cover") {
       await ffmpeg(["-loop", "1", "-framerate", String(FPS), "-i", src, "-vf", stillFilter(W, H, cropBottom) + NORM, "-frames:v", String(s.frames), ...X264, out]);
     } else {
-      const vf = useVideo ? fitVideo(await probeDuration(src), s.dur, W, H) : kenBurns(motion, s.frames, W, H, cropBottom, fit);
+      const vf = useVideo ? fitVideo(await probeDuration(src), s.dur, W, H, project.clipSpeed === "original") : kenBurns(motion, s.frames, W, H, cropBottom, fit);
       await ffmpeg(["-i", src, "-an", "-vf", vf + NORM, "-frames:v", String(s.frames), ...X264, out]);
     }
     fs.writeFileSync(keyFile, key);

@@ -143,3 +143,4 @@ The user asked (2026-11-05) to remember ALL of their review and feedback for fut
 
 **Style files merged (2026-11-21, user: "ok ổn đấy")**
 - hoat-hinh-su-viet.md, ke-chuyen-cuon-hut.md and hoat-hinh-chuyen-dong-ai.md were deleted. history/styles/quy-chuan-dao-dien.md is the ONLY style guide, organised by topic (0 rules on one page, 1 script, 2 images, 3 motion, 4 camera, 6 checklists, 7 references / dropped ideas / pending proposals). New reference videos go into the matching topic section with "(mẫu X)", not as a new dated section or a new file.
+- (2026-11-22, episode 1931 script) The user finds the sign-off "Vy hẹn bạn ở tập sau nhé" repeated across episodes. Keep the curiosity hook for the next episode AND a short sign-off, but word the sign-off differently each episode (e.g. "Cùng đón chờ ở tập sau nhé", "Chuyện ấy, mình để dành cho tập sau nhé"); offer a few options and let the user pick.

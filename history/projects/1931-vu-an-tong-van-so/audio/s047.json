@@ -1,0 +1,36 @@
+{
+ "key": "d51f1b89bcb1",
+ "duration": 1.880813,
+ "words": [
+  {
+   "start": 0.088,
+   "end": 0.309,
+   "text": "Đuổi"
+  },
+  {
+   "start": 0.309,
+   "end": 0.456,
+   "text": "đi"
+  },
+  {
+   "start": 0.456,
+   "end": 0.695,
+   "text": "đâu,"
+  },
+  {
+   "start": 0.824,
+   "end": 1.045,
+   "text": "luật"
+  },
+  {
+   "start": 1.045,
+   "end": 1.303,
+   "text": "không"
+  },
+  {
+   "start": 1.303,
+   "end": 1.59,
+   "text": "hỏi."
+  }
+ ]
+}

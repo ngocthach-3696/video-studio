@@ -1,0 +1,29 @@
+{
+ "tong-van-so": {
+  "provider": "manual"
+ },
+ "ly-thuy": {
+  "provider": "manual"
+ },
+ "thau-chin": {
+  "provider": "manual"
+ },
+ "loseby": {
+  "provider": "manual"
+ },
+ "ba-loseby": {
+  "provider": "manual"
+ },
+ "mat-tham": {
+  "provider": "manual"
+ },
+ "canh-sat-anh": {
+  "provider": "manual"
+ },
+ "canh-sat-anh-2": {
+  "provider": "manual"
+ },
+ "ly-phuong-thuan": {
+  "provider": "manual"
+ }
+}
