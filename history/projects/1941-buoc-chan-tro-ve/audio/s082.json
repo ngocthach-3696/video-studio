@@ -1,0 +1,56 @@
+{
+ "key": "c42ee61aa62d",
+ "duration": 3.47425,
+ "words": [
+  {
+   "start": 0,
+   "end": 0.287,
+   "text": "Người"
+  },
+  {
+   "start": 0.287,
+   "end": 0.533,
+   "text": "cũng"
+  },
+  {
+   "start": 0.533,
+   "end": 0.852,
+   "text": "vậy."
+  },
+  {
+   "start": 1.024,
+   "end": 1.311,
+   "text": "Người"
+  },
+  {
+   "start": 1.311,
+   "end": 1.598,
+   "text": "không"
+  },
+  {
+   "start": 1.598,
+   "end": 1.844,
+   "text": "đoán"
+  },
+  {
+   "start": 1.844,
+   "end": 2.137,
+   "text": "ngày,"
+  },
+  {
+   "start": 2.295,
+   "end": 2.582,
+   "text": "Người"
+  },
+  {
+   "start": 2.582,
+   "end": 2.827,
+   "text": "đoán"
+  },
+  {
+   "start": 2.827,
+   "end": 3.147,
+   "text": "mùa."
+  }
+ ]
+}

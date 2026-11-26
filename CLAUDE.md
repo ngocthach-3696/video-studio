@@ -22,6 +22,8 @@ Node/FFmpeg portable nằm ở `<ROOT>\tools\node` và `<ROOT>\tools\ffmpeg\bin`
 @.claude/memory/chot-means-keep-as-is.md
 @.claude/memory/links-from-repo-root.md
 @.claude/memory/ai-clip-covers-whole-line.md
+@.claude/memory/no-pink-blossoms.md
+@.claude/memory/series-character-continuity.md
 
 ## Bối cảnh dự án & lưu ý kỹ thuật
 @.claude/memory/video-studio.md

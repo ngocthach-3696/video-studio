@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Condensed,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,2,110,110,420,1
+Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,90,1
+Style: Watermark,Noto Sans Condensed,37,&H50E0E0E0,&H000000FF,&H70000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,6,0,162,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:04.00,Title,,0,0,0,,{\fad(120,0)}TRONG HANG, VIẾT TRƯỚC 1945
+Dialogue: 1,0:00:09.57,0:00:13.53,Title,,0,0,0,,{\fad(120,0)}1945 – VIỆT NAM ĐỘC LẬP
+Dialogue: 1,0:00:17.67,0:00:20.77,Title,,0,0,0,,{\fad(120,0)}CHƯA AI BIẾT
+Dialogue: 1,0:00:27.83,0:00:30.93,Title,,0,0,0,,{\fad(120,0)}TỪNG BỊ BÁO "ĐÃ CHẾT"
+Dialogue: 1,0:00:30.93,0:00:34.43,Title,,0,0,0,,{\fad(120,0)}VÌ SAO?
+Dialogue: 1,0:00:43.33,0:00:47.30,Title,,0,0,0,,{\fad(120,0)}28.1.1941
+Dialogue: 1,0:01:14.03,0:01:18.50,Title,,0,0,0,,{\fad(120,0)}GIÀ THU
+Dialogue: 1,0:01:18.50,0:01:21.50,Title,,0,0,0,,{\fad(120,0)}HANG CỐC BÓ · 8.2.1941
+Dialogue: 1,0:02:03.73,0:02:06.27,Title,,0,0,0,,{\fad(120,0)}THẬT LÀ SANG
+Dialogue: 1,0:02:19.73,0:02:24.50,Title,,0,0,0,,{\fad(120,0)}KHUỔI NẬM · 5.1941
+Dialogue: 1,0:02:30.03,0:02:33.67,Title,,0,0,0,,{\fad(120,0)}ĐỘC LẬP TRƯỚC HẾT
+Dialogue: 1,0:02:47.23,0:02:51.43,Title,,0,0,0,,{\fad(120,0)}VIỆT MINH · 19.5.1941
+Dialogue: 1,0:02:59.37,0:03:02.47,Title,,0,0,0,,{\fad(120,0)}KÍNH CÁO ĐỒNG BÀO
+Dialogue: 1,0:03:23.30,0:03:29.03,Title,,0,0,0,,{\fad(120,0)}1.8.1941
+Dialogue: 1,0:03:45.90,0:03:50.10,Title,,0,0,0,,{\fad(120,0)}XUÂN NHÂM NGỌ · 1942
+Dialogue: 1,0:03:50.10,0:03:55.17,Title,,0,0,0,,{\fad(120,0)}LỊCH SỬ NƯỚC TA
+Dialogue: 1,0:04:17.87,0:04:21.43,Title,,0,0,0,,{\fad(120,0)}1945
+Dialogue: 1,0:04:29.00,0:04:33.47,Title,,0,0,0,,{\fad(120,0)}PA-RI · 6.1940
+Dialogue: 1,0:05:01.27,0:05:05.80,Title,,0,0,0,,{\fad(120,0)}9.3.1945
+Dialogue: 1,0:05:09.67,0:05:13.23,Title,,0,0,0,,{\fad(120,0)}ĐÚNG HẸN
+Dialogue: 1,0:05:33.53,0:05:37.03,Title,,0,0,0,,{\fad(120,0)}HỒ CHÍ MINH

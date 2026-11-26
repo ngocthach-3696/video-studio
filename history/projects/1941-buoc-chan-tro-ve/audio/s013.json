@@ -1,0 +1,61 @@
+{
+ "key": "2efe004da1fd",
+ "duration": 3.78775,
+ "words": [
+  {
+   "start": 0,
+   "end": 0.316,
+   "text": "Ngày"
+  },
+  {
+   "start": 0.316,
+   "end": 0.527,
+   "text": "28"
+  },
+  {
+   "start": 0.527,
+   "end": 0.896,
+   "text": "tháng"
+  },
+  {
+   "start": 0.896,
+   "end": 1.054,
+   "text": "1"
+  },
+  {
+   "start": 1.054,
+   "end": 1.318,
+   "text": "năm"
+  },
+  {
+   "start": 1.318,
+   "end": 1.695,
+   "text": "1941,"
+  },
+  {
+   "start": 1.898,
+   "end": 2.214,
+   "text": "mùng"
+  },
+  {
+   "start": 2.214,
+   "end": 2.478,
+   "text": "hai"
+  },
+  {
+   "start": 2.478,
+   "end": 2.741,
+   "text": "Tết"
+  },
+  {
+   "start": 2.741,
+   "end": 3.005,
+   "text": "Tân"
+  },
+  {
+   "start": 3.005,
+   "end": 3.382,
+   "text": "Tỵ."
+  }
+ ]
+}

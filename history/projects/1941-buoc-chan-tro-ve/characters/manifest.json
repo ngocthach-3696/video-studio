@@ -1,0 +1,17 @@
+{
+ "gia-thu": {
+  "provider": "manual"
+ },
+ "ly-quoc-sung": {
+  "provider": "manual"
+ },
+ "can-bo-a": {
+  "provider": "manual"
+ },
+ "can-bo-b": {
+  "provider": "manual"
+ },
+ "mat-tham-phap": {
+  "provider": "manual"
+ }
+}

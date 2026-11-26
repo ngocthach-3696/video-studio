@@ -1,0 +1,283 @@
+s001 dur 4.13 tail 0.23 last đời/đời
+  REF: Mùa xuân năm một chín bốn hai, ở Cao Bằng… một cuốn sách mỏng ra đời.
+  HYP: Mùa Xuân 1942, ở Cao Bằng, một cuốn sách mỏng ra đời.
+s002 dur 2.85 tail 0.21 last bát/bát
+  REF: Sách kể lịch sử nước ta, bằng thơ lục bát.
+  HYP: sách kể lịch sử nước ta bằng thơ lục bát.
+s003 dur 2.12 tail 0.18 last trọng/trọng
+  REF: Cuối sách là bảng những năm quan trọng.
+  HYP: Cuối xách là bảng những năm quan trọng.
+s004 dur 3.79 tail 0.19 last lập/lập
+  REF: Dòng cuối cùng ghi: năm một chín bốn lăm… Việt Nam độc lập.
+  HYP: Dòng cuối cùng ghi năm 1945 Việt Nam độc lập.
+s005 dur 3.97 tail 0.31 last dương/dương
+  REF: Lúc ấy, Pháp vẫn cai trị. Quân Nhật đóng khắp Đông Dương.
+  HYP: Lúc ấy, Pháp vẫn cài trị quân nhật đóng khắp đồng dương.
+s006 dur 2.93 tail 0.33 last nào/nào
+  REF: Chưa ai biết chiến tranh thế giới sẽ tàn vào năm nào.
+  HYP: Chưa ai biết chiến tranh thế giới sẽ tàn vào năm nào?
+s007 dur 3.32 tail 0.28 last hang/hàng  <-- KIỂM
+  REF: Người viết dòng chữ ấy… đang sống trong một cái hang.
+  HYP: Người viết dòng chữ ấy đang sống trong một cái hàng.
+s008 dur 3.40 tail 0.32 last đá/đá
+  REF: Bữa ăn là cháo ngô. Bàn làm việc là một phiến đá.
+  HYP: Bữa ăn là cháu ngô. Ban làm việc là một phiến đá.
+s009 dur 2.93 tail 0.31 last chết/chết
+  REF: Mười năm trước, báo chí còn đưa tin Người đã chết.
+  HYP: 10 năm trước, báo chí còn đưa tin người đã chết.
+s010 dur 3.32 tail 0.28 last lập/lập
+  REF: Ở trong hang, làm sao Người biết trước năm nước mình độc lập?
+  HYP: Ở trong hàng, làm sao người biết trước 5 nước mình độc lập?
+s011 dur 5.56 tail 0.28 last giới/giới
+  REF: Câu trả lời nằm ở một phiến đá bên suối, một tờ báo in trên đá, và một tấm bản đồ thế giới.
+  HYP: câu trả lời nằm ở một phía đá bên suối, một tờ báo in trên đá và một tấm bản đồ thế giới.
+s012 dur 3.00 tail 0.20 last nhé/nhé
+  REF: Hôm nay, hãy cùng Vy trở về mùa xuân Pác Bó nhé.
+  HYP: Hôm nay hãy cùng vi trở về mùa xuân Bắc Bó nhé!
+s013 dur 3.79 tail 0.25 last tỵ/tị  <-- KIỂM
+  REF: Ngày hai mươi tám tháng Một năm một chín bốn mốt, mùng hai Tết Tân Tỵ.
+  HYP: Ngày 28 tháng 1 năm 1941, mùng 2 Tết Tân Tị.
+s014 dur 4.52 tail 0.66 last tám/108  <-- KIỂM
+  REF: Trên biên giới Cao Bằng, sáu người lặng lẽ đi qua cột mốc số một trăm linh tám.
+  HYP: Trên biên giới cao bằng, 6 người lặng lẽ đi qua cụt móc số 108.
+s015 dur 1.72 tail 0.32 last tuổi/tuổi
+  REF: Người đi đầu đã năm mươi tuổi.
+  HYP: Người đi đầu đã 50 tuổi.
+s016 dur 2.51 tail 0.39 last mốt/21  <-- KIỂM
+  REF: Lần rời quê trước, Người mới hai mươi mốt.
+  HYP: lần rời quê trước người mới 21
+s017 dur 3.32 tail 0.24 last tên/tên
+  REF: Ba mươi năm. Ba châu lục. Hàng chục cái tên.
+  HYP: 30 năm, 3 châu lục, hàng chục cái tên
+s018 dur 4.60 tail 0.24 last núi/núi
+  REF: Ngày đi là một bến cảng. Ngày về… chỉ là một lối mòn trên núi.
+  HYP: Ngày đi là một bến cảng. Ngày về chỉ là một lối mòn trên núi.
+s019 dur 2.35 tail 0.21 last tết/tết
+  REF: Trong bản, người Nùng còn đang ăn Tết.
+  HYP: trong bản người nùng còn đang ăn tết.
+s020 dur 3.55 tail 0.35 last súng/súng
+  REF: Người ở nhờ nhà một nông dân người Nùng, ông Lý Quốc Súng.
+  HYP: Người ở nhờ nhà một nông dân người nùng, ông lý quốc súng.
+s021 dur 2.77 tail 0.37 last quốc/quốc
+  REF: Ở đây, không ai gọi Người là Nguyễn Ái Quốc.
+  HYP: Ở đây, không ai gọi người là Nguyễn Âi Quốc.
+s022 dur 4.28 tail 0.28 last tày/tây  <-- KIỂM
+  REF: Người là "Già Thu", một ông già mặc áo chàm, đang tập nói tiếng Tày.
+  HYP: Người là Gia Thu, một ông già mặc áo tràm đang tập nói tiếng Tây.
+s023 dur 2.85 tail 0.31 last hang/hàng  <-- KIỂM
+  REF: Mười một ngày sau, Người chuyển vào một cái hang.
+  HYP: 11 ngày sau, người chuyển vào một cái hàng.
+s024 dur 3.24 tail 0.20 last nguồn/nguồn
+  REF: Người Nùng gọi nó là Cốc Bó, nghĩa là "đầu nguồn".
+  HYP: Người đùng gọi nó là cốc bó, nghĩa là đầu nguồn.
+s025 dur 3.24 tail 0.20 last giới/giới
+  REF: Hang kín, có một lối nhỏ thông sang bên kia biên giới.
+  HYP: Hàng kín có một lối nhỏ thông sang bên kia bên giới.
+s026 dur 2.77 tail 0.23 last rút/rút
+  REF: Nếu mật thám tìm đến, Người còn đường rút.
+  HYP: Nếu mật thám tìm đến, người còn đường rút.
+s027 dur 1.65 tail 0.25 last lạnh/lạnh
+  REF: Hang chật, ẩm và lạnh.
+  HYP: Hăng chật ẩm và lạnh
+s028 dur 3.87 tail 0.27 last rừng/dừng  <-- KIỂM
+  REF: Bữa ăn là cháo bẹ, tức cháo bột ngô, với măng hái trong rừng.
+  HYP: Bữa ăn là cháu bẹ, tức cháu bột ngô với mang hái trong dừng.
+s029 dur 2.69 tail 0.27 last nin/ninh  <-- KIỂM
+  REF: Người gọi con suối trước hang là suối Lê-nin.
+  HYP: Người gọi con suối trước hàng là suối Lê Ninh.
+s030 dur 2.69 tail 0.31 last mác/mác
+  REF: Ngọn núi bên cạnh, Người gọi là núi Các Mác.
+  HYP: ngọn núi bên cạnh, người gọi là núi các mác.
+s031 dur 3.55 tail 0.21 last sách/sách
+  REF: Ngày ngày, Người ngồi bên một phiến đá ven suối, dịch sách.
+  HYP: Ngày ngày, người ngồi bên một phiến đá ven suối, dịch sách.
+s032 dur 3.47 tail 0.33 last va/sköva  <-- KIỂM
+  REF: Một người từng sống ở Pa-ri, Luân Đôn, Mát-xcơ-va.
+  HYP: Một người từng sống ở Paris, Luôn Đôn, Mát Sköva
+s033 dur 3.79 tail 0.31 last khổ/khổ
+  REF: Nay ngủ trong hang, ăn cháo ngô. Nghe thì thấy khổ.
+  HYP: Nãy ngủ trong hang, ăn cháo ngô. Nghe thì thấy khổ.
+s034 dur 2.85 tail 0.21 last thơ/thơ
+  REF: Nhưng tháng Hai năm ấy, Người viết bốn câu thơ.
+  HYP: Nhưng tháng 2 năm ấy, người viết 4 câu thơ.
+s035 dur 2.35 tail 0.29 last hang/hàng  <-- KIỂM
+  REF: Sáng ra bờ suối, tối vào hang.
+  HYP: Sáng ra bờ suối tối vào hàng.
+s036 dur 1.88 tail 0.30 last sàng/sàng
+  REF: Cháo bẹ rau măng vẫn sẵn sàng.
+  HYP: Cháo Bệ Giao Mang vẫn sẵn sàng.
+s037 dur 1.88 tail 0.18 last đảng/đảng
+  REF: Bàn đá chông chênh dịch sử Đảng.
+  HYP: Bàn đá trông tranh dịch sử đảng.
+s038 dur 2.35 tail 0.25 last sang/sang
+  REF: Cuộc đời cách mạng… thật là sang.
+  HYP: cuộc đời cách mạng thật là sang.
+s039 dur 2.85 tail 0.23 last đùa/đùa
+  REF: Vy nghĩ, chữ "sang" ấy không chỉ là câu đùa.
+  HYP: Vì nghĩ, chữ xa ngấy không chỉ là câu đùa.
+s040 dur 4.28 tail 0.38 last tin/tin
+  REF: Ba mươi năm, Người làm cách mạng từ xa, qua thư từ và người đưa tin.
+  HYP: 30 năm, người làm cách mạng từ xa qua thư tử và người đưa tin.
+s041 dur 3.08 tail 0.28 last mình/mình
+  REF: Giờ Người được đứng trên đất mình, giữa đồng bào mình.
+  HYP: Giờ người được đứng trên đất mình giữa đồng bào mình.
+s042 dur 2.59 tail 0.19 last sang/sang
+  REF: Với Người, như thế… đã là sang.
+  HYP: Với người như thế đã là sang.
+s043 dur 4.60 tail 0.28 last bó/bó
+  REF: Tháng Năm năm một chín bốn mốt, trong một cái lán nứa ở Khuổi Nậm, gần Pác Bó.
+  HYP: Tháng 5-1941 trong một cái lá nứa ở khuẩn nậm gần bác bó.
+s044 dur 3.79 tail 0.35 last chín/19  <-- KIỂM
+  REF: Cán bộ từ nhiều nơi lặn lội về họp, từ ngày mười đến ngày mười chín.
+  HYP: Cán bộ từ nhiều nơi lặn lội về họp từ ngày 10 đến ngày 19
+s045 dur 1.41 tail 0.25 last lớn/lớn
+  REF: Họ quyết một việc lớn.
+  HYP: Họ quyết một việc lớn
+s046 dur 3.47 tail 0.31 last hết/hết
+  REF: Lúc này, giành độc lập cho cả dân tộc phải đặt lên trước hết.
+  HYP: Lúc này, danh độc lập cho cả dân tộc phải đặt lên trước hết.
+s047 dur 3.55 tail 0.17 last lại/lại
+  REF: Chia ruộng, đòi quyền lợi cho từng giai cấp, đều tạm gác lại.
+  HYP: Chia ruộng đòi quyền lợi cho từng giai cấp đều tạm khắc lại.
+s048 dur 6.35 tail 0.27 last được/được
+  REF: Nghị quyết viết, đại ý: chưa đòi được độc lập… thì quyền lợi của giai cấp nào, đến vạn năm cũng không đòi lại được.
+  HYP: Nghị quyết viết đã ý, chưa đòi được độc lập thì quyền lợi của giai cấp nào đến vạn năm cũng không đòi lại được.
+s049 dur 3.16 tail 0.24 last chung/chung
+  REF: Muốn gom mọi người Việt yêu nước, phải có một mặt trận chung.
+  HYP: muốn gom mọi người Việt yêu nước, phải có một mặt trận chung.
+s050 dur 4.05 tail 0.33 last minh/minh
+  REF: Tên đầy đủ là Việt Nam độc lập đồng minh. Gọi tắt: Việt Minh.
+  HYP: Tên đầy đủ là Việt Nam độc lập đồng minh, gọi tắt Việt Minh.
+s051 dur 3.40 tail 0.40 last người/người
+  REF: Ngày thành lập là mười chín tháng Năm… đúng ngày sinh của Người.
+  HYP: Ngay thành lập là 19 tháng 5, đúng ngày sinh của người.
+s052 dur 4.21 tail 0.33 last nước/nước
+  REF: Mấy tuần sau, ngày sáu tháng Sáu, một lá thư được gửi đi khắp nước.
+  HYP: Mấy tuần sau, ngày 6 tháng 6, một lá thư được gửi đi khắp nước.
+s053 dur 2.93 tail 0.39 last sĩ/sĩ
+  REF: "Hỡi các bậc phụ huynh! Hỡi các hiền nhân chí sĩ!"
+  HYP: Hỡi các bậc phụ huynh, hỡi các hiền nhân trí sĩ.
+s054 dur 2.77 tail 0.33 last quốc/quốc
+  REF: Cuối thư ký một cái tên: Nguyễn Ái Quốc.
+  HYP: Cuối thư ký một cái tên, Nguyễn Âi Quốc.
+s055 dur 3.87 tail 0.35 last tù/tù
+  REF: Chín năm trước, báo chí đã đưa tin người mang tên ấy chết trong tù.
+  HYP: Chín năm trước, báo chí đã đưa tin người mang tên ấy chết trong tù.
+s056 dur 3.32 tail 0.24 last chết/chết
+  REF: Trong hồ sơ mật thám Pháp, cái tên ấy đã có chữ "chết".
+  HYP: Trong hồ sơ mật thám pháp, cái tên ấy đã có chữ chết.
+s057 dur 3.47 tail 0.25 last bàn/bàn
+  REF: Bạn thử hình dung viên mật thám, khi lá thư ấy rơi lên bàn.
+  HYP: Bạn thử hình dung viên mật thám khi lá thử ấy rơi lên bàn.
+s058 dur 3.79 tail 0.29 last chữ/chữ
+  REF: Lá thư đã có. Nhưng phần lớn người dân khi ấy không biết chữ.
+  HYP: Lá thư đã có, nhưng phần lớn người dân khi ấy không biết chữ.
+s059 dur 2.59 tail 0.35 last họ/họ
+  REF: Vậy làm sao để lời kêu gọi đến được với họ?
+  HYP: Vậy làm sao để lời kêu gọi đến được với họ?
+s060 dur 5.56 tail 0.20 last lập/lập
+  REF: Ngày một tháng Tám năm một chín bốn mốt, giữa rừng, một tờ báo nhỏ ra đời: Việt Nam Độc lập.
+  HYP: Ngày 1 tháng 8-1941 giữa dừng một tờ báo nhỏ ra đời Việt Nam độc lập.
+s061 dur 3.00 tail 0.32 last đá/đá
+  REF: Không có máy in. Báo được in… trên đá.
+  HYP: Không có máy in, báo được in trên đá.
+s062 dur 3.97 tail 0.21 last một/1  <-- KIỂM
+  REF: Chữ viết lên mặt đá phẳng, rồi lăn mực, ép giấy, in từng tờ một.
+  HYP: Chữ viết lên mặt đá phẳng rồi lan mực F giấy in từng tờ 1.
+s063 dur 2.59 tail 0.17 last tranh/tranh
+  REF: Người tự viết bài, có khi tự vẽ tranh.
+  HYP: Người tự viết bài có khi tự vẽ tranh.
+s064 dur 2.77 tail 0.29 last hiểu/hiểu
+  REF: Câu ngắn, chữ to, đọc lên là hiểu.
+  HYP: Câu ngắn, chữ to, đọc lên là hiểu.
+s065 dur 3.71 tail 0.27 last đá/đá
+  REF: Ở Pác Bó, bàn làm việc là đá, máy in cũng là đá.
+  HYP: Ở bác bó, bàn làm việc là đá, máy in cũng là đá.
+s066 dur 4.05 tail 0.77 last hai/1942  <-- KIỂM
+  REF: Rồi mùa xuân thứ hai đến. Xuân Nhâm Ngọ, một chín bốn hai.
+  HYP: Rồi mùa xuân thứ 2 đến, xuân miệm ngọ 1942.
+s067 dur 4.91 tail 0.27 last bát/bát
+  REF: Cuốn sách mỏng ở đầu câu chuyện ra đời: "Lịch sử nước ta", hơn hai trăm câu lục bát.
+  HYP: cuốn sách mỏng ở đầu câu chuyện gia đời lịch sử nước ta hơn 200 cầu lục bát.
+s068 dur 2.43 tail 0.21 last thuộc/thuộc
+  REF: Câu mở đầu, có lẽ bạn từng thuộc:
+  HYP: Câu mở đầu có lẽ bạn từng thuộc.
+s069 dur 3.87 tail 0.29 last nam/nam
+  REF: "Dân ta phải biết sử ta, cho tường gốc tích nước nhà Việt Nam."
+  HYP: dân ta phải biết sử ta cho tường gốc tích nước nhà Việt Nam.
+s070 dur 4.52 tail 0.30 last trung/trung
+  REF: Từ Hai Bà Trưng, Lý Thường Kiệt, đến Trần Hưng Đạo, Lê Lợi, Quang Trung.
+  HYP: Từ 2-3 trưng lý thường kiệt đến Trần Hưng Đạo lê lợi Quang Trung.
+s071 dur 2.69 tail 0.29 last thuộc/thuộc
+  REF: Ai không biết chữ, nghe đọc vài lần là thuộc.
+  HYP: Ai không biết chữ, nghe đọc vài lần là thuộc.
+s072 dur 5.72 tail 0.12 last minh/minh
+  REF: Câu kết sách, Người nhắc một chữ "đồng": đồng tình, đồng sức, đồng lòng, đồng minh.
+  HYP: Cầu kết sách người nhắc một chữ đồng, đồng tình, đồng sức, đồng lòng, đồng minh.
+s073 dur 2.43 tail 0.27 last trọng/trọng
+  REF: Và ngay sau đó là bảng những năm quan trọng.
+  HYP: và ngay sau đó là bảng những năm quan trọng.
+s074 dur 3.40 tail 0.24 last lập/lập
+  REF: Dòng cuối cùng: năm một chín bốn lăm… Việt Nam độc lập.
+  HYP: Dòng cuối cùng năm 1945, Việt Nam độc lập.
+s075 dur 2.93 tail 0.21 last ư/ứ  <-- KIỂM
+  REF: Vậy con số ấy từ đâu ra? Một lời tiên tri ư?
+  HYP: Vậy con số ấy từ đâu ra? Một lời tiên tri ứ?
+s076 dur 4.28 tail 0.30 last ấy/ấy
+  REF: Sử không chép Người tính toán thế nào. Nhưng hãy nhìn tấm bản đồ thế giới năm ấy.
+  HYP: Sử không chép người tính toán thế nào, nhưng hãy nhìn tấm bản đồ thế giới năm ấy.
+s077 dur 4.28 tail 0.22 last chiếm/chiếm
+  REF: Tháng Sáu năm một chín bốn mươi, nước Pháp thua Đức. Pa-ri bị chiếm.
+  HYP: Tháng 6-1940, nước Pháp thua Đức, Paris bị chiếm
+s078 dur 2.69 tail 0.27 last dương/dương
+  REF: Ba tháng sau, quân Nhật kéo vào Đông Dương.
+  HYP: Ba tháng sau, quân Nhật kéo vào Đông Dương.
+s079 dur 4.60 tail 0.22 last lớn/lớn
+  REF: Một xứ thuộc địa giờ có hai ông chủ. Cả hai đều đang dính vào một cuộc chiến lớn.
+  HYP: Một sứ thuộc địa giờ có hai ông chủ. Cả hai đều đang dính vào một cuộc chiến lớn.
+s080 dur 4.83 tail 0.13 last tàn/tàn
+  REF: Hai ông chủ ấy không thể chung nhau mãi. Và chiến tranh nào… rồi cũng tàn.
+  HYP: Hai ông chủ ấy không thể chung nhau mãi, và chiến tranh nào rồi cũng tàn.
+s081 dur 5.33 tail 0.29 last trước/trước
+  REF: Người nông dân không biết ngày nào trời mưa. Nhưng họ biết mùa nào mưa, nên gieo hạt từ trước.
+  HYP: Người nông dân không biết ngày nào trời mưa, nhưng họ biết mùa nào mưa nên giao hạt từ trước.
+s082 dur 3.47 tail 0.21 last mùa/mùa
+  REF: Người cũng vậy. Người không đoán ngày… Người đoán mùa.
+  HYP: Người cũng vậy. Người không đoán ngày. Người đoán mùa.
+s083 dur 5.88 tail 0.24 last mưa/mưa
+  REF: Mặt trận, tờ báo, cuốn sử, những lớp học trong rừng: tất cả là hạt giống gieo trước mùa mưa.
+  HYP: Mặt trận, tờ báo, cuốn sử, những lớp học trong rừng, tất cả là hạt giống giao trước mùa mưa.
+s084 dur 4.36 tail 0.28 last pháp/pháp
+  REF: Và mùa ấy đến thật. Tháng Ba năm một chín bốn lăm, Nhật lật đổ Pháp.
+  HYP: và mùa ấy đến thật, tháng 3 năm 1945, Nhật lật Đổ Pháp.
+s085 dur 3.71 tail 0.27 last lên/lên
+  REF: Tháng Tám, Nhật đầu hàng. Việt Minh khắp nước đứng lên.
+  HYP: Tháng 8, Nhật đầu hàng. Viet Minh khắp nước đứng lên.
+s086 dur 3.40 tail 0.10 last hẹn/hẹn  <-- KIỂM
+  REF: Con số viết trong hang năm một chín bốn hai… đã đúng hẹn.
+  HYP: Còn số viết trong hàng năm 1942 đã đúng hẹn.
+s087 dur 5.15 tail 0.29 last thơ/thơ
+  REF: Một phiến đá, một tờ báo in trên đá, một tấm bản đồ, hơn hai trăm câu thơ.
+  HYP: Một phiến đá, một tờ báo yên trên đá, một tấm bản đồ hơn 200 câu thơ.
+s088 dur 3.47 tail 0.27 last đầu/đầu
+  REF: Từ cái hang tên là "đầu nguồn", một dòng chảy đã bắt đầu.
+  HYP: Từ cái hang tên là Đầu Nguồn, một dòng chảy đã bắt đầu.
+s089 dur 6.43 tail 0.29 last ta/ta
+  REF: Hôm nay, học sinh vẫn về Pác Bó, đứng bên suối Lê-nin, đọc lại câu "Dân ta phải biết sử ta".
+  HYP: Hôm nay, học sinh vẫn về bác bó, đứng bên suối Lênin, đọc lại câu, dân ta phải biết sử ta.
+s090 dur 4.60 tail 0.22 last minh/minh
+  REF: Tháng Tám năm một chín bốn hai, Người rời Pác Bó, sang Trung Quốc tìm đồng minh.
+  HYP: Tháng 8 năm 1942, người dời bác bó sang Trung Quốc tìm đồng minh.
+s091 dur 3.32 tail 0.28 last minh/minh
+  REF: Lần này, Người mang một cái tên mới: Hồ Chí Minh.
+  HYP: Lần này người mang một cái tên mới Hồ Chí Minh
+s092 dur 4.68 tail 0.28 last giới/giới
+  REF: Cái tên ấy vừa ra đời… chủ nhân của nó đã bị bắt ở một thị trấn bên kia biên giới.
+  HYP: Cái tên ấy vừa ra đời, chủ nhân của nó đã bị bắt ở một thị trấn bên kia biên giới.
+s093 dur 3.79 tail 0.31 last chết/chết
+  REF: Và lần thứ hai, ở quê nhà, người ta nghe tin Người đã chết.
+  HYP: Và lần thứ hai, ở quê nhà, người ta nghe tin người đã chết.
+s094 dur 3.24 tail 0.14 last nhé/nhé
+  REF: Những ngày trong ngục ấy, Vy sẽ kể bạn nghe ở tập sau nhé.
+  HYP: Những ngày trong mục ấy, Vy sẽ kể bạn nghe ở tập sau nhé!
+XONG

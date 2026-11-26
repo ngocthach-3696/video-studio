@@ -1,0 +1,913 @@
+{
+ "title": "1941 – Bước chân trở về – Mùa xuân Pác Bó",
+ "series": "Loạt Bác Hồ – Tập 3",
+ "preset": "cartoon-flat",
+ "format": "9:16",
+ "imageProvider": "manual",
+ "animate": "flow",
+ "animateScope": "marked",
+ "clipSpeed": "original",
+ "veoAudio": {
+  "volume": 1,
+  "lufs": -24
+ },
+ "motion": "alternate",
+ "tts": "manual",
+ "voiceNote": "vibi.pro, giọng Tuấn Anh = ElevenLabs HG0MlJIknmaXREpTckfK, eleven_v3, stability 0.5, speed 1, lời từ tts-ngat-nhip.txt",
+ "brand": {
+  "logo": "auto",
+  "watermark": null,
+  "logoWidth": 0.18,
+  "logoOpacity": 0.7,
+  "logoBlur": 0.8,
+  "logoMarginX": 0.06
+ },
+ "loudnorm": -16,
+ "music": "projects/1941-buoc-chan-tro-ve/music/bgm.wav",
+ "musicStart": 0,
+ "musicVolume": 1,
+ "subtitles": false,
+ "characters": {
+  "gia-thu": {
+   "name": "Già Thu – Nguyễn Ái Quốc ở Pác Bó 1941–42",
+   "look": "very thin Vietnamese man about 50, thin sparse dark goatee and thin mustache, indigo Nung clothes, bamboo walking stick, cloth shoulder bag"
+  },
+  "ly-quoc-sung": {
+   "name": "Ông Lý Quốc Súng, nông dân Nùng",
+   "look": "adult Nung farmer about 45, indigo head cloth, indigo shirt, wicker back basket"
+  },
+  "can-bo-a": {
+   "name": "Cán bộ trẻ",
+   "look": "young Vietnamese cadre about 28, khaki-brown shirt with two pockets, shoulder bag"
+  },
+  "can-bo-b": {
+   "name": "Cán bộ lớn tuổi",
+   "look": "Vietnamese cadre about 38, thin mustache, dark brown peasant shirt, conical hat on his back"
+  },
+  "mat-tham-phap": {
+   "name": "Trùm mật thám Pháp ở Hà Nội 1941 (thiết kế mới)",
+   "look": "tall thin bald French officer about 50, round wire glasses, grey goatee, cream linen suit, black bow tie"
+  }
+ },
+ "scenes": [
+  {
+   "narration": "Mùa xuân 1942, ở Cao Bằng, một cuốn sách mỏng ra đời.",
+   "image": "Spring 1942 in the mountains of Cao Bang: close-up of a thin small hand-printed booklet with a plain faded brown paper cover (BLANK cover) lying on a big flat grey stone slab on the stream bank used as a desk beside the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, one small green leaf on its cover, morning mist on the peaks behind. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "TRONG HANG, VIẾT TRƯỚC 1945",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every object, no reframing, no crop, no zoom. Locked-off static camera the whole time. A spring breeze blows through the scene for the whole clip: the small green leaf on the booklet is blown away and floats out of the frame; then the wind lifts the booklet's plain brown cover and flips it fully open to the left, a few thin cream pages flutter and turn in the wind, and the booklet settles lying OPEN on the stone slab at its first page; the edges of the open pages keep trembling gently in the breeze until the end. The booklet stays in the same place on the stone slab. The open pages are cream paper with only plain wavy grey lines as handwriting: no letters, no words, no Chinese characters, no numbers. Background: the stream keeps flowing and sparkling, bamboo and banana leaves sway, soft mist drifts across the limestone peaks. No people, no animals, no birds, no flowers, no petals, no new objects. Keep the exact flat cartoon style, thick outlines, flat colours. Ambient sound only: wind, rustling paper and stream water, no music, no voices."
+  },
+  {
+   "narration": "Sách kể lịch sử nước ta, bằng thơ lục bát.",
+   "image": "Close-up from above: a thin small hand-printed booklet with a plain faded brown paper cover (BLANK cover) lies open on the stone; both pages are filled with short handwritten verse lines in two alternating lengths (a short line, then a longer line), drawn ONLY as wavy grey lines; a small ink brush beside it. Nobody in the scene: no people, no figures, no faces.",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. A spring breeze blows for the whole clip: several cream pages of the open booklet lift and turn one after another in the wind, then settle open; the bamboo brush pen rolls a little on the stone slab and stops against the ink pot; dry brown leaves on the ground skitter and tumble across the dirt; the green plants sway. The booklet stays on the stone slab. Sound: wind and rustling paper. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Cuối sách là bảng những năm quan trọng.",
+   "image": "Close-up: the last page of the booklet: a neat table of many short rows (wavy grey lines only), each row beginning with a small wavy mark; a thin bamboo pointer stick rests on the page; warm light. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Dòng cuối cùng ghi: năm 1945, Việt Nam độc lập.",
+   "image": "Extreme close-up of the very LAST row of the table in the booklet: that one row is underlined twice with bright red ink and glows softly, all other rows plain wavy grey lines; dramatic dark background around the page. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "1945 – VIỆT NAM ĐỘC LẬP",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The two bright red lines under the last row of the table draw themselves from left to right like ink being painted with a brush, then glow and pulse softly with red light; the flame of the oil lamp flickers and its warm light trembles on the page; the rest of the page stays still. Sound: a quiet brush stroke and a soft hum. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Lúc ấy, Pháp vẫn cai trị. Quân Nhật đóng khắp Đông Dương.",
+   "image": "Hanoi 1941, a street crossroads with yellow colonial buildings and tamarind trees: two French colonial soldiers in white uniforms and pith helmets stand guard on one corner, two Japanese soldiers in khaki uniforms and caps with rifles stand on the other corner; Vietnamese people in brown clothes and conical hats pass between them with heads lowered."
+  },
+  {
+   "narration": "Chưa ai biết chiến tranh thế giới sẽ tàn vào năm nào.",
+   "image": "Symbolic still life: a big old world globe on a dark wooden table, wrapped in grey war smoke clouds with tiny black silhouettes of warplanes and tanks around it; a huge black question-mark-shaped wisp of smoke above it (made of smoke, not a letter); tense mood. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "CHƯA AI BIẾT",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The old world globe turns slowly on its stand from left to right; the grey war smoke clouds wrapped around it swirl and roll; the tiny black aeroplanes circle around the globe through the smoke; the dark smoke column above rises and curls; the lantern flame flickers. The table and the papers stay still. Sound: distant low rumble and wind. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Người viết dòng chữ ấy đang sống trong một cái hang.",
+   "image": "the small Coc Bo cave at Pac Bo, Cao Bang: a low narrow limestone cave mouth half-hidden by green ferns and hanging vines, damp grey rock; the very thin man in indigo clothes sits just inside the cave mouth on a rock, writing in a small booklet on his knee by the light of a tiny oil lamp, ferns framing the shot.",
+   "characters": [
+    "gia-thu"
+   ],
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The very thin man in indigo sits writing in his notebook: his hand with the pen moves steadily along the page, then he lifts his head a little and gazes calmly out toward the stream for a moment, then looks back down and keeps writing; the small candle flame beside him flickers; the hanging vines at the cave mouth sway gently; the stream in the background flows. The very thin man in indigo with the thin dark goatee is a revered leader: his face stays exactly the same as in the first frame, calm and dignified, mouth closed the whole time, no exaggerated expressions. Sound: stream water, birds, pen on paper. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Bữa ăn là cháo ngô. Bàn làm việc là một phiến đá.",
+   "image": "Inside the cave mouth: the very thin man in indigo eats from a simple bowl of yellow corn porridge with chopsticks, sitting at a big flat grey stone slab on the stream bank used as a desk covered with papers and a book; a gentle smile.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Mười năm trước, báo chí còn đưa tin Người đã chết.",
+   "image": "Dark symbolic still life under a single hanging lamp: an old yellowed 1932 newspaper on a table with a black-bordered BLANK box on its front page and a small portrait photo of the thin man inside the box; a burnt-out candle beside it. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces except the small photo.",
+   "title": "TỪNG BỊ BÁO \"ĐÃ CHẾT\"",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.6,
+      "y": 0.7,
+      "z": 1.6
+     },
+     {
+      "t": 1,
+      "x": 0.6,
+      "y": 0.7,
+      "z": 1.6480000000000001
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Ở trong hang, làm sao Người biết trước năm nước mình độc lập?",
+   "image": "Night at the cave mouth: the very thin man in indigo stands under a flat navy sky full of stars, looking far out over the dark mountains, one hand on his walking stick, thoughtful; the little lamp glows inside the cave behind him. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "VÌ SAO?",
+   "characters": [
+    "gia-thu"
+   ],
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. Night: the very thin man in indigo slowly raises his eyes toward the starry sky and blinks once, thoughtful; a single small shooting star streaks across the navy sky from left to right; the stars twinkle; the warm lamp light inside the cave flickers on the rock; the leaves sway softly. He stays standing in place, holding his stick. The very thin man in indigo with the thin dark goatee is a revered leader: his face stays exactly the same as in the first frame, calm and dignified, mouth closed the whole time, no exaggerated expressions. Sound: night insects, soft wind. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Câu trả lời nằm ở một phiến đá bên suối, một tờ báo in trên đá, và một tấm bản đồ thế giới.",
+   "image": "Three mysterious objects in a row on the stream bank, lit by a beam of morning sun: a big flat grey stone slab on the stream bank used as a desk, a small sheet of paper printed in purple ink (wavy lines only), and a rolled-up old world map tied with string. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Hôm nay, hãy cùng Vy trở về mùa xuân Pác Bó nhé.",
+   "image": "Wide establishing view of Pac Bo in spring: the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, green bamboo groves, mist, a small dark cave mouth in the cliff; in the foreground on the left a small plain BLANK wooden signboard on a post facing the viewer (completely blank, nothing written). Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The clear stream flows fast over the round pebbles and sparkles; white clouds drift slowly across the blue sky; mist drifts across the limestone peaks; bamboo and banana leaves bend and sway in a fresh breeze; a small flock of tiny dark birds flies across the sky in the distance from left to right. The wooden signboard and its post stay completely still and blank. Sound: stream water, birds, wind. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Ngày 28 tháng 1 năm 1941, mùng hai Tết Tân Tỵ.",
+   "image": "Tet morning at the Vietnam-China border, 1941: a narrow mountain path through misty limestone peaks; far below, a Nung village with thin smoke rising from kitchens; small red paper firecracker scraps on the path. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "28.1.1941",
+   "layers": "layers/s013.json"
+  },
+  {
+   "narration": "Trên biên giới Cao Bằng, sáu người lặng lẽ đi qua cột mốc số 108.",
+   "image": "Side view of six men walking in single file along the misty mountain path past a small square stone border marker (BLANK, no carving): the very thin man in indigo with his walking stick goes first, then the young cadre in khaki, the older cadre in brown, then three more men in brown peasant clothes with bags.",
+   "characters": [
+    "gia-thu",
+    "can-bo-a",
+    "can-bo-b"
+   ]
+  },
+  {
+   "narration": "Người đi đầu đã năm mươi tuổi.",
+   "image": "Close-up, three-quarter view: the very thin man in indigo walking through the mist, calm and determined eyes looking ahead, the walking stick in his hand, green bamboo soft in the background.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Lần rời quê trước, Người mới hai mươi mốt.",
+   "image": "Flashback, Saigon harbour 1911: a slim young Vietnamese man of 21 in a simple white shirt stands at the railing of a big black-hulled steamship leaving the port, looking back at the shore with determination; the young man has EXACTLY the face of the young man in the second attached sheet (but in a white shirt); sepia-tinted warm colours, gulls.",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The young man in a white shirt stands at the ship's railing: the ship rocks slowly up and down on the swell, the white foam waves at the bow churn and splash, the seagulls glide and flap across the sky, the thick smoke from the funnel drifts away, his hair and shirt flutter in the sea wind; he keeps looking ahead with a determined face, mouth closed, he blinks once. Sound: sea waves, wind, seagulls, a distant ship horn. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Ba mươi năm. Ba châu lục. Hàng chục cái tên.",
+   "image": "Visual metaphor: an old world globe; a long red dotted line winds across three continents (Europe, Asia, Africa), and many small BLANK paper name tags hang along the line on tiny strings like a necklace. Nobody in the scene: no people, no figures, no faces.",
+   "layers": "layers/s017.json"
+  },
+  {
+   "narration": "Ngày đi là một bến cảng. Ngày về chỉ là một lối mòn trên núi.",
+   "image": "Split image down the middle: on the LEFT half a huge steamship at a busy port quay in 1911 with smoke from its funnel; on the RIGHT half a tiny narrow footpath on a misty mountain in 1941 where the very thin man in indigo walks small with his stick.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Trong bản, người Nùng còn đang ăn Tết.",
+   "image": "a Nung mountain village in Cao Bang in early 1941 at Tet: earth-walled houses and wooden stilt houses with dark tile roofs, green limestone peaks, terraced fields, green bamboo groves and banana trees, morning mist: Nung families in indigo clothes celebrate Tet in a courtyard, square sticky-rice cakes wrapped in green leaves, children playing with a shuttlecock, an old woman pouring tea."
+  },
+  {
+   "narration": "Người ở nhờ nhà một nông dân người Nùng, ông Lý Quốc Súng.",
+   "image": "At the door of an earth-walled Nung house with a dark tile roof: the Nung farmer with an indigo head cloth warmly welcomes the very thin man in indigo with both hands, bowing slightly; a green bamboo grove behind the house.",
+   "characters": [
+    "ly-quoc-sung",
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Ở đây, không ai gọi Người là Nguyễn Ái Quốc.",
+   "image": "Inside the Nung house by a warm hearth fire: the very thin man in indigo sits chatting with Nung villagers who laugh and offer him a cup of tea; nobody pays special attention to him, a cosy everyday mood.",
+   "characters": [
+    "gia-thu",
+    "ly-quoc-sung"
+   ]
+  },
+  {
+   "narration": "Người là \"Già Thu\", một ông già mặc áo chàm, đang tập nói tiếng Tày.",
+   "image": "In the village yard: the very thin man in indigo crouches among four laughing Nung children in indigo, pointing at a chicken and a basket as he learns their words, smiling warmly. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "GIÀ THU",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Mười một ngày sau, Người chuyển vào một cái hang.",
+   "image": "the small Coc Bo cave at Pac Bo, Cao Bang: a low narrow limestone cave mouth half-hidden by green ferns and hanging vines, damp grey rock; the very thin man in indigo walks toward the cave mouth carrying a small cloth bundle, the Nung farmer follows carrying a wicker basket of supplies; ferns and vines. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "HANG CỐC BÓ · 8.2.1941",
+   "characters": [
+    "gia-thu",
+    "ly-quoc-sung"
+   ]
+  },
+  {
+   "narration": "Người Nùng gọi nó là Cốc Bó, nghĩa là \"đầu nguồn\".",
+   "image": "Close-up of the place where the clear stream gushes out from under mossy rocks at the foot of the cliff, the source of the stream; above it the dark cave mouth; beside the water a small plain BLANK wooden signboard on a post facing the viewer (completely blank). Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Hang kín, có một lối nhỏ thông sang bên kia biên giới.",
+   "image": "Cutaway cross-section diagram of a limestone mountain in flat cartoon style: a small cave on one side with a lamp, a narrow winding passage inside the rock leading out to the other side of the mountain, where a small square stone border marker stands; simple and clear. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Nếu mật thám tìm đến, Người còn đường rút.",
+   "image": "High angle: far below on a winding path, two French colonial soldiers in white with rifles climb slowly; up in the foreground among ferns, the very thin man in indigo calmly watches from the cave mouth, half-hidden, one hand on the rock.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Hang chật, ẩm và lạnh.",
+   "image": "Inside the cramped damp cave: low rock ceiling, water drops on the grey walls, a small fire of twigs; the very thin man in indigo sits hunched with a thin blanket over his shoulders, still calm.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Bữa ăn là cháo bẹ, tức cháo bột ngô, với măng hái trong rừng.",
+   "image": "On the stream bank: the very thin man in indigo holds a bowl of yellow corn porridge; the Nung farmer kneels beside him and pours fresh bamboo shoots from his basket; morning sun.",
+   "characters": [
+    "gia-thu",
+    "ly-quoc-sung"
+   ]
+  },
+  {
+   "narration": "Người gọi con suối trước hang là suối Lê-nin.",
+   "image": "The very thin man in indigo stands on the bank of the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, smiling and pointing at the water as if giving it a name; beside him a small plain BLANK wooden signboard on a post facing the viewer (completely blank).",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Ngọn núi bên cạnh, Người gọi là núi Các Mác.",
+   "image": "Low angle: a tall green limestone peak rises beside the stream under a blue sky with white clouds; the very thin man in indigo, small at the bottom of the frame, points up at it with his walking stick, cheerful.",
+   "characters": [
+    "gia-thu"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.7,
+      "z": 1.3
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.3,
+      "z": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Ngày ngày, Người ngồi bên một phiến đá ven suối, dịch sách.",
+   "image": "The very thin man in indigo sits on a rock at a big flat grey stone slab on the stream bank used as a desk beside the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, translating a thick old book, writing with a pen on paper, sleeves rolled up, focused; sunlight through the leaves.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Một người từng sống ở Pa-ri, Luân Đôn, Mát-xcơ-va.",
+   "image": "Three old postcards laid on the flat stone slab: one shows the Eiffel Tower in Paris, one shows Big Ben and the Thames in London, one shows the onion domes of Moscow; a pebble holds them down; the stream sparkles behind. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Nay ngủ trong hang, ăn cháo ngô. Nghe thì thấy khổ.",
+   "image": "Contrast mood, inside the dark damp cave at night: the very thin man in indigo lies on a narrow plank by a dying small fire, an empty porridge bowl beside him; cold blue flat colours.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Nhưng tháng 2 năm ấy, Người viết bốn câu thơ.",
+   "image": "Bright morning by the stream: the very thin man in indigo sits on a rock, smiling, writing a short poem of four lines (wavy lines only) on a small sheet of paper on his knee.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "\"Sáng ra bờ suối, tối vào hang,",
+   "image": "Sunrise: the very thin man in indigo steps out of the cave mouth toward the sparkling stream, stretching gently, golden morning light on the limestone peaks.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Cháo bẹ rau măng vẫn sẵn sàng.",
+   "image": "Close-up: a bowl of steaming yellow corn porridge and a small dish of bamboo shoots on a stone, chopsticks across the bowl; the very thin man in indigo behind it, smiling with contentment.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Bàn đá chông chênh dịch sử Đảng,",
+   "image": "The flat stone slab tilts a little on uneven pebbles; the very thin man in indigo steadies it with one hand while writing a translation with the other, a thick book open, a slight amused smile.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Cuộc đời cách mạng thật là sang.\"",
+   "image": "The very thin man in indigo stands proudly on a rock above the stream, the valley and green peaks spread out below under a bright blue sky, his walking stick in one hand, a warm proud smile, a light breeze in his clothes. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "THẬT LÀ SANG",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Vy nghĩ, chữ \"sang\" ấy không chỉ là câu đùa.",
+   "image": "Close-up portrait: the very thin man in indigo, a gentle warm smile and kind bright eyes, the stream glittering softly behind him.",
+   "characters": [
+    "gia-thu"
+   ],
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. Close-up: the very thin man in indigo blinks slowly, and his gentle smile grows a little warmer, his eyes kind and bright; a light breeze moves his thin goatee and the edge of his collar slightly; behind him the stream glitters in the sun and the leaves sway; he stays in place facing the same direction. The very thin man in indigo with the thin dark goatee is a revered leader: his face stays exactly the same as in the first frame, calm and dignified, mouth closed the whole time, no exaggerated expressions. Sound: stream water, birds. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Ba mươi năm, Người làm cách mạng từ xa, qua thư từ và người đưa tin.",
+   "image": "Visual metaphor: an old map of the world; a long chain of envelopes passed from hand to hand (only hands and sleeves visible) stretches from Europe across the sea toward a small Vietnam far away; a feeling of great distance. Nobody in the scene: no people, no figures, only hands."
+  },
+  {
+   "narration": "Giờ Người được đứng trên đất mình, giữa đồng bào mình.",
+   "image": "On a terraced rice field at the foot of the mountains: the very thin man in indigo stands barefoot in the earth among Nung and Tay farmers in indigo, holding an old farmer's hand warmly, everyone smiling.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Với Người, như thế đã là sang.",
+   "image": "At the cave mouth in soft evening light: the very thin man in indigo sits peacefully on a rock, an empty porridge bowl beside him, looking at the stream with a quiet contented smile.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Tháng 5 năm 1941, trong một cái lán nứa ở Khuổi Nậm, gần Pác Bó.",
+   "image": "a small hut of split bamboo walls and a palm-leaf thatch roof hidden in a dense green forest at Khuoi Nam, in misty morning light; tall trees, ferns, a thin path leading to the door; in the foreground a small plain BLANK wooden signboard on a post facing the viewer (completely blank). Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "KHUỔI NẬM · 5.1941",
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Cán bộ từ nhiều nơi lặn lội về họp, từ ngày 10 đến ngày 19.",
+   "image": "A forest path: several Vietnamese cadres with walking sticks, cloth bags and rolled mats arrive at the bamboo hut after a long trek, wiping their brows; the young cadre in khaki and the older cadre in brown in front.",
+   "characters": [
+    "can-bo-a",
+    "can-bo-b"
+   ]
+  },
+  {
+   "narration": "Họ quyết một việc lớn.",
+   "image": "Inside the bamboo hut: the very thin man in indigo leads a meeting at a low bamboo table, six cadres sitting on the floor around it, serious faces, papers and an oil lamp on the table; light through the bamboo walls.",
+   "characters": [
+    "gia-thu",
+    "can-bo-a",
+    "can-bo-b"
+   ]
+  },
+  {
+   "narration": "Lúc này, giành độc lập cho cả dân tộc phải đặt lên trước hết.",
+   "image": "Close-up on the bamboo table: the very thin man's hand places one single BLANK sheet of paper on top of all the other papers, a beam of light falling on it; the cadres lean in. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "ĐỘC LẬP TRƯỚC HẾT",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Chia ruộng, đòi quyền lợi cho từng giai cấp, đều tạm gác lại.",
+   "image": "In the hut: the older cadre in brown carefully puts a bundle of papers, a small sickle and a rolled land map into a wooden box at the side, closing the lid gently, meaning \"for later\".",
+   "characters": [
+    "can-bo-b"
+   ]
+  },
+  {
+   "narration": "Nghị quyết viết, đại ý: chưa đòi được độc lập, thì quyền lợi của giai cấp nào, đến vạn năm cũng không đòi lại được.",
+   "image": "Close-up: an old resolution paper on the bamboo table with wavy grey lines and one round red BLANK seal mark, lit by the oil lamp, solemn mood. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Muốn gom mọi người Việt yêu nước, phải có một mặt trận chung.",
+   "image": "A long row of different Vietnamese people standing shoulder to shoulder, arms linked: a farmer in brown with a hoe, a factory worker in blue, a student in white, a woman trader with a basket, an old scholar in a black gown, a Tay woman and a Nung man in indigo; hopeful faces."
+  },
+  {
+   "narration": "Tên đầy đủ là Việt Nam độc lập đồng minh. Gọi tắt: Việt Minh.",
+   "image": "Inside the bamboo hut: all the cadres raise their hands in agreement around the low table, the very thin man in indigo nods with a satisfied smile; the young cadre in khaki beams. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "VIỆT MINH · 19.5.1941",
+   "characters": [
+    "gia-thu",
+    "can-bo-a",
+    "can-bo-b"
+   ]
+  },
+  {
+   "narration": "Ngày thành lập là 19 tháng 5, đúng ngày sinh của Người.",
+   "image": "After the meeting in the hut: the young cadre in khaki shyly offers the very thin man in indigo a small bunch of wild forest flowers on a leaf, the man laughs warmly and accepts it.",
+   "characters": [
+    "gia-thu",
+    "can-bo-a"
+   ]
+  },
+  {
+   "narration": "Mấy tuần sau, ngày 6 tháng 6, một lá thư được gửi đi khắp nước.",
+   "image": "A Vietnamese messenger in brown clothes and a conical hat slips a rolled letter into a bamboo tube and runs down a mountain path; below him many small paths branch out to rice fields and villages in the plains.",
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "\"Hỡi các bậc phụ huynh! Hỡi các hiền nhân chí sĩ!\"",
+   "image": "A village square under a big banyan tree: a young man holds up an unrolled letter (wavy lines only) and reads it aloud; villagers in brown clothes and conical hats crowd around to listen, an old man cups his ear. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "KÍNH CÁO ĐỒNG BÀO"
+  },
+  {
+   "narration": "Cuối thư ký một cái tên: Nguyễn Ái Quốc.",
+   "image": "Close-up: the bottom of a handwritten letter (wavy lines only) on a bamboo table; a hand holding a pen finishes a signature drawn as a single wavy flourish; oil lamp light. Nobody in the scene: no people, no figures, only one hand."
+  },
+  {
+   "narration": "Chín năm trước, báo chí đã đưa tin người mang tên ấy chết trong tù.",
+   "image": "Close-up: the old yellowed 1932 newspaper again, its black-bordered BLANK box with the small photo of the thin man; dust and a cobweb on it in a dark archive drawer. Nobody in the scene: no people, no figures, no faces except the small photo.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.58,
+      "y": 0.5,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.58,
+      "y": 0.5,
+      "z": 1.545
+     }
+    ],
+    "ease": "out",
+    "shake": {
+     "at": 0.5,
+     "dur": 0.4,
+     "amp": 0.006
+    }
+   }
+  },
+  {
+   "narration": "Trong hồ sơ mật thám Pháp, cái tên ấy đã có chữ \"chết\".",
+   "image": "In a high-ceilinged French Surete office in Hanoi 1941: ochre-yellow walls, tall dark green shutters with tropical light, a heavy dark wooden desk with a black telephone and a brass lamp, grey metal filing cabinets: on the desk a thick dossier lies open with a small photo of the thin man clipped to it and a big blood-red BLANK stamp mark across the page; the tall thin bald French officer taps it smugly with his pen.",
+   "characters": [
+    "mat-tham-phap"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.75,
+      "y": 0.78,
+      "z": 1.6
+     },
+     {
+      "t": 1,
+      "x": 0.75,
+      "y": 0.78,
+      "z": 1.6480000000000001
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Bạn thử hình dung viên mật thám, khi lá thư ấy rơi lên bàn.",
+   "image": "In a high-ceilinged French Surete office in Hanoi 1941: ochre-yellow walls, tall dark green shutters with tropical light, a heavy dark wooden desk with a black telephone and a brass lamp, grey metal filing cabinets: a letter flutters down onto the desk; the tall thin bald French officer jumps up from his chair, eyes wide behind his round glasses which slip down his nose, his pen dropping, utterly shocked.",
+   "characters": [
+    "mat-tham-phap"
+   ]
+  },
+  {
+   "narration": "Lá thư đã có. Nhưng phần lớn người dân khi ấy không biết chữ.",
+   "image": "A Vietnamese village in the plains: an old woman and a farmer in brown hold a letter (wavy lines) upside down, puzzled, scratching their heads; a buffalo behind them."
+  },
+  {
+   "narration": "Vậy làm sao để lời kêu gọi đến được với họ?",
+   "image": "By the stream: the very thin man in indigo sits on a rock with his chin in his hand, thinking hard, a stack of papers beside him.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Ngày 1 tháng 8 năm 1941, giữa rừng, một tờ báo nhỏ ra đời: Việt Nam Độc lập.",
+   "image": "Close-up in a forest clearing: a small freshly printed newspaper sheet in purple ink, a big blank title band at the top and a simple drawing of a farmer with a hoe, the rest wavy lines; sun dapples through the leaves. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "1.8.1941"
+  },
+  {
+   "narration": "Không có máy in. Báo được in trên đá.",
+   "image": "Inside the bamboo hut: a smooth flat stone slab on a low bench with an ink roller and a pot of purple ink beside it; clearly no printing machine anywhere. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Chữ viết lên mặt đá phẳng, rồi lăn mực, ép giấy, in từng tờ một.",
+   "image": "Inside the bamboo hut: the young cadre in khaki rolls purple ink over the flat stone slab, then presses a sheet of paper on it; several printed sheets hang drying on a string above.",
+   "characters": [
+    "can-bo-a"
+   ],
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. The young cadre in khaki presses the sheet of paper down onto the inked stone slab, smooths it firmly with both palms from the middle to the edges, then carefully peels the printed sheet up from one corner and lifts it (the sheet shows only plain wavy purple lines); the printed sheets hanging on the string above sway gently. He keeps his face as drawn, mouth closed. Sound: paper rustling, birds outside. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Người tự viết bài, có khi tự vẽ tranh.",
+   "image": "The very thin man in indigo writes an article on a sheet with a pen at a bamboo table, and on another sheet beside it draws a simple picture of a farmer with a hoe; focused, gentle.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Câu ngắn, chữ to, đọc lên là hiểu.",
+   "image": "Close-up of a printed sheet: a few short thick wavy lines (no letters) and a simple big drawing; a villager's finger points at the drawing with delight. Nobody in the scene: no people, no figures, only one finger."
+  },
+  {
+   "narration": "Ở Pác Bó, bàn làm việc là đá, máy in cũng là đá.",
+   "image": "Two flat stone slabs side by side in the forest: on the left one an open book and a pen (a desk), on the right one an ink roller and fresh printed sheets (a press); morning light. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Rồi mùa xuân thứ hai đến. Xuân Nhâm Ngọ, 1942.",
+   "image": "Spring 1942 at Pac Bo: fresh light-green spring leaves on the trees along the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, the dark cave mouth in the cliff behind, blue sky with white clouds, fresh green. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "XUÂN NHÂM NGỌ · 1942",
+   "camera": {
+    "whip": {
+     "dir": "left",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Cuốn sách mỏng ở đầu câu chuyện ra đời: \"Lịch sử nước ta\", hơn hai trăm câu lục bát.",
+   "image": "The very thin man in indigo holds up a thin small hand-printed booklet with a plain faded brown paper cover (BLANK cover), fresh from printing, with both hands and a proud warm smile, fresh green leaves around him. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "LỊCH SỬ NƯỚC TA",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Câu mở đầu, có lẽ bạn từng thuộc:",
+   "image": "Close-up: the first page of the booklet (wavy lines only), a finger resting under the very first line, a small green leaf on the page. Nobody in the scene: no people, no figures, only one finger."
+  },
+  {
+   "narration": "\"Dân ta phải biết sử ta, cho tường gốc tích nước nhà Việt Nam.\"",
+   "image": "Evening in a Nung village around a fire: the young cadre in khaki reads the booklet aloud, villagers of all ages sit listening, children repeating the verses with open eager faces.",
+   "characters": [
+    "can-bo-a"
+   ],
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. Evening around the fire: the flames of the campfire leap and flicker, sparks rise, the warm light flickers on the faces; the young cadre in khaki reads aloud from the booklet, only his mouth moves as he reads; the listening villagers and children stay seated, blink and nod slowly, their mouths closed; the leaves of the trees sway softly. Sound: crackling fire, night insects. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Từ Hai Bà Trưng, Lý Thường Kiệt, đến Trần Hưng Đạo, Lê Lợi, Quang Trung.",
+   "image": "An illustrated booklet page made of four small framed vignettes in flat cartoon style: two Vietnamese heroines riding war elephants; a general with stakes in a river and wooden warships; a leader in armour raising a sword under a tree; a warrior king on horseback charging at dawn; no text. Nobody in the scene: people only inside the small vignettes."
+  },
+  {
+   "narration": "Ai không biết chữ, nghe đọc vài lần là thuộc.",
+   "image": "A Vietnamese farmer in brown ploughs a terraced field behind a water buffalo, singing happily with his mouth open and musical notes drawn as small simple swirls around him; mountains behind."
+  },
+  {
+   "narration": "Câu kết sách, Người nhắc một chữ \"đồng\": đồng tình, đồng sức, đồng lòng, đồng minh.",
+   "image": "Close-up: four hands of different people (a farmer, a woman, a young man, an old man) placed one on top of another on the open booklet, warm light. Nobody in the scene: no people, no figures, only hands."
+  },
+  {
+   "narration": "Và ngay sau đó là bảng những năm quan trọng.",
+   "image": "Close-up: the last page of the booklet: a neat table of many short rows (wavy grey lines only), each row beginning with a small wavy mark, a finger moving down the rows toward the bottom. Nobody in the scene: no people, no figures, only one finger."
+  },
+  {
+   "narration": "Dòng cuối cùng: năm 1945, Việt Nam độc lập.",
+   "image": "Extreme close-up: the very last row of the table, underlined twice in bright red ink, glowing; the rest of the page dark. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "1945",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.82,
+      "z": 1.4
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.82,
+      "z": 1.442
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Vậy con số ấy từ đâu ra? Một lời tiên tri ư?",
+   "image": "Inside the cave by lamp light: on the stone a fortune teller's crystal ball glows mysteriously, but the very thin man in indigo ignores it and studies a stack of newspapers and a world map instead.",
+   "characters": [
+    "gia-thu"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.68,
+      "y": 0.42,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.68,
+      "y": 0.42,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Sử không chép Người tính toán thế nào. Nhưng hãy nhìn tấm bản đồ thế giới năm ấy.",
+   "image": "Inside the cave: a big old world map (no labels) pinned to the rock wall, covered with small arrows and pins; the very thin man in indigo stands in front of it with a lamp, studying it closely.",
+   "characters": [
+    "gia-thu"
+   ],
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 0.45,
+      "x": 0.5,
+      "y": 0.28,
+      "z": 1.5
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.28,
+      "z": 1.545
+     }
+    ],
+    "ease": "out"
+   }
+  },
+  {
+   "narration": "Tháng 6 năm 1940, nước Pháp thua Đức. Pa-ri bị chiếm.",
+   "image": "Paris in June 1940, a sad grey day: the Eiffel Tower stands over an empty avenue with closed shutters and fallen leaves; far away a long column of small grey military trucks rolls down the avenue; a lone Parisian woman in a 1940 coat watches from a doorway with a worried face; no flags, no symbols, no emblems. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "PA-RI · 6.1940",
+   "camera": {
+    "whip": {
+     "dir": "right",
+     "dur": 0.3
+    },
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.07
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Ba tháng sau, quân Nhật kéo vào Đông Dương.",
+   "image": "September 1940, a mountain border gate in northern Indochina: a column of Japanese soldiers in khaki with rifles and a few military trucks march in through the stone gate; French soldiers in white stand aside.",
+   "layers": "layers/s078.json"
+  },
+  {
+   "narration": "Một xứ thuộc địa giờ có hai ông chủ. Cả hai đều đang dính vào một cuộc chiến lớn.",
+   "image": "Visual metaphor: a thin Vietnamese farmer in brown bends under a bamboo shoulder pole; on one end sits a fat French colonial official in white with a pith helmet, on the other end a Japanese officer in khaki with a sword; the two masters glare at each other."
+  },
+  {
+   "narration": "Hai ông chủ ấy không thể chung nhau mãi. Và chiến tranh nào rồi cũng tàn.",
+   "image": "Visual metaphor: the French official in white and the Japanese officer in khaki pull hard on opposite ends of a long map of Indochina like a tug of war, the map tearing in the middle; dark storm clouds of war above them.",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.05
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ],
+    "shake": {
+     "at": 0.2,
+     "dur": 0.5,
+     "amp": 0.01
+    }
+   }
+  },
+  {
+   "narration": "Người nông dân không biết ngày nào trời mưa. Nhưng họ biết mùa nào mưa, nên gieo hạt từ trước.",
+   "image": "A Vietnamese farmer in brown sows seeds by hand in a freshly ploughed terraced field, while far away on the horizon dark rain clouds are gathering; calm and wise."
+  },
+  {
+   "narration": "Người cũng vậy. Người không đoán ngày, Người đoán mùa.",
+   "image": "The very thin man in indigo kneels on the hillside at Pac Bo, planting a small seed in the dark earth with his hand, glancing up at the far rain clouds with a calm knowing look.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Mặt trận, tờ báo, cuốn sử, những lớp học trong rừng: tất cả là hạt giống gieo trước mùa mưa.",
+   "image": "A hillside of small green seedlings; among them, as if they grew from the seeds, small things appear: a bamboo hut, a stack of printed sheets, a thin booklet, a small group of young cadres studying under a tree; rain clouds coming from afar. Nobody in the scene: only the small group of cadres far away."
+  },
+  {
+   "narration": "Và mùa ấy đến thật. Tháng 3 năm 1945, Nhật lật đổ Pháp.",
+   "image": "Night of 9 March 1945 at a colonial citadel in Hanoi: Japanese soldiers in khaki with rifles disarm French soldiers in white who raise their hands; searchlights, flat navy sky. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "9.3.1945",
+   "camera": {
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.05
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     }
+    ],
+    "shake": {
+     "at": 0.2,
+     "dur": 0.5,
+     "amp": 0.01
+    }
+   }
+  },
+  {
+   "narration": "Tháng 8, Nhật đầu hàng. Việt Minh khắp nước đứng lên.",
+   "image": "August 1945: a huge joyful crowd of Vietnamese people in brown, white and indigo flood a wide street, raising fists and red flags with one yellow five-pointed star in the centre; sunny sky.",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. August 1945: the red flags with the yellow star wave strongly in the wind; the joyful crowd cheers, raising and shaking their fists and arms, bouncing slightly on the spot, everyone stays in their place; the flags in the distance wave too. Faces keep their drawn shapes. Sound: crowd cheering, flags flapping. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Con số viết trong hang năm 1942, đã đúng hẹn.",
+   "image": "The booklet lies open on the stone by the stream at the very last row, underlined twice in red, a beam of sunlight on it and one small green leaf. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
+   "title": "ĐÚNG HẸN"
+  },
+  {
+   "narration": "Một phiến đá, một tờ báo in trên đá, một tấm bản đồ, hơn hai trăm câu thơ.",
+   "image": "Four objects arranged together on the stream bank: a big flat grey stone slab on the stream bank used as a desk, a printed sheet in purple ink, a rolled old world map and a thin small hand-printed booklet with a plain faded brown paper cover (BLANK cover); warm golden light. Nobody in the scene: no people, no figures, no faces."
+  },
+  {
+   "narration": "Từ cái hang tên là \"đầu nguồn\", một dòng chảy đã bắt đầu.",
+   "image": "View from the cave mouth: the small stream flows out and down the valley, growing into a wide shining river that winds far across green plains toward the horizon. Nobody in the scene: no people, no figures, no faces.",
+   "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every character and object, no reframing, no crop, no zoom. Locked-off static camera the whole time, no zoom, no pan. View from the cave mouth: the stream flows out and down the valley, the water sparkles and moves along its whole winding length into the wide shining river; white clouds and mist drift slowly over the green peaks; the hanging vines and leaves at the cave mouth sway in the breeze. Sound: flowing water, wind, birds. Keep the exact flat cartoon style, thick outlines, flat colours, and keep every face exactly as drawn. No text, no letters, no numbers, no symbols appear anywhere; papers show only plain wavy grey lines. No flowers, no petals, no new people, no new objects. Ambient sound only, no music, no voices, no speech."
+  },
+  {
+   "narration": "Hôm nay, học sinh vẫn về Pác Bó, đứng bên suối Lê-nin, đọc lại câu \"Dân ta phải biết sử ta\".",
+   "image": "Today at Pac Bo: Vietnamese school pupils in white shirts and red scarves stand on the bank of the clear blue-green stream, one girl reading aloud from a small book, the others listening; modern but simple, limestone peaks behind."
+  },
+  {
+   "narration": "Tháng 8 năm 1942, Người rời Pác Bó, sang Trung Quốc tìm đồng minh.",
+   "image": "August 1942: the very thin man in indigo with his walking stick and cloth bag sets off on a mountain path, turning his head to wave goodbye to the Nung farmer who waves back from the village gate.",
+   "characters": [
+    "gia-thu",
+    "ly-quoc-sung"
+   ]
+  },
+  {
+   "narration": "Lần này, Người mang một cái tên mới: Hồ Chí Minh.",
+   "image": "On a mountain road in Guangxi, China, 1942: the very thin man in indigo stands holding a small folded BLANK identity paper, looking ahead with calm resolve, a winding road and limestone hills behind. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title.",
+   "title": "HỒ CHÍ MINH",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Cái tên ấy vừa ra đời, chủ nhân của nó đã bị bắt ở một thị trấn bên kia biên giới.",
+   "image": "A small market town street in Guangxi, China, 1942, with grey brick houses and BLANK shop signs: two Chinese soldiers in grey-blue 1940s Nationalist army uniforms and caps grab the arms of the very thin man in indigo; he stays calm and upright.",
+   "characters": [
+    "gia-thu"
+   ]
+  },
+  {
+   "narration": "Và lần thứ hai, ở quê nhà, người ta nghe tin Người đã chết.",
+   "image": "Pac Bo at dusk: by the cave mouth a bamboo walking stick leans alone against the rock and a small oil lamp glows on the flat stone slab; two Nung villagers in indigo stand nearby looking at it quietly, worried.",
+   "camera": {
+    "black": 0.4,
+    "path": [
+     {
+      "t": 0,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1
+     },
+     {
+      "t": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "z": 1.06
+     }
+    ]
+   }
+  },
+  {
+   "narration": "Những ngày trong ngục ấy, Vy sẽ kể bạn nghe ở tập sau nhé.",
+   "image": "The very thin man in indigo sits calmly on a wooden bench in a small bare grey room with one small high window with iron bars, a beam of light falling on him, calm and dignified, determined eyes.",
+   "characters": [
+    "gia-thu"
+   ]
+  }
+ ]
+}

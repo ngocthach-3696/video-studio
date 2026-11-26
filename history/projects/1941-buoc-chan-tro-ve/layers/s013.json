@@ -1,0 +1,8 @@
+{
+ "camera": {"push": 0.05, "pan": [0, 0.01]},
+ "layers": [
+  {"path": "layers/map-s013.jpg", "cover": true},
+  {"type": "path", "draw": [0.3, 3.1], "color": [130, 60, 40], "width": 0.009, "dash": 0.018, "head": true, "icon": "banner", "target": true,
+   "points": [[0.146, 0.185], [0.260, 0.218], [0.391, 0.305], [0.547, 0.363], [0.560, 0.436], [0.547, 0.487], [0.592, 0.507]]}
+ ]
+}

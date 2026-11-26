@@ -1,0 +1,51 @@
+{
+ "key": "12e14a7071ec",
+ "duration": 3.395875,
+ "words": [
+  {
+   "start": 0.099,
+   "end": 0.371,
+   "text": "Dòng"
+  },
+  {
+   "start": 0.371,
+   "end": 0.643,
+   "text": "cuối"
+  },
+  {
+   "start": 0.643,
+   "end": 0.967,
+   "text": "cùng:"
+  },
+  {
+   "start": 1.142,
+   "end": 1.369,
+   "text": "năm"
+  },
+  {
+   "start": 1.369,
+   "end": 1.693,
+   "text": "1945,"
+  },
+  {
+   "start": 1.868,
+   "end": 2.14,
+   "text": "Việt"
+  },
+  {
+   "start": 2.14,
+   "end": 2.367,
+   "text": "Nam"
+  },
+  {
+   "start": 2.367,
+   "end": 2.594,
+   "text": "độc"
+  },
+  {
+   "start": 2.594,
+   "end": 2.948,
+   "text": "lập."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+[
+ {
+  "id": "map-s017",
+  "refs": [
+   "ref-style-2.jpg"
+  ],
+  "prompt": "Create a NEW image. Use the first attached cartoon image ONLY as the art-style reference: copy ONLY its drawing style, NEVER its content: do not copy any people, children, buildings, gates, trees or pink blossoms from it. Drawing style: a simple TV-cartoon look, big heads, simplified bodies, round white eyes with black dot pupils, bold simple eyebrows, simple line nose, simple mouth, very flat solid colours, thick uniform black outlines, no shading, no gradients, no texture, bright even light. Colours flat and clear. A flat cartoon world map seen from straight above, filling the whole vertical frame edge to edge: Europe in the upper left, the Mediterranean Sea, the top of Africa on the left below it, the Middle East and India in the middle, China and Southeast Asia on the right, Indochina with the S-shaped coast of Vietnam in the lower right, the Pacific coast on the far right. Oceans flat light blue with a few simple white wave marks, land flat warm beige with a few small green hills, thin dark coastline outlines, an old paper feel with a subtle torn-paper edge. Pure illustrated map only: NO text, NO letters, NO labels, NO numbers, NO compass letters, NO route lines, NO arrows, NO dots, NO markers, NO people. Generate exactly 1 image, vertical 9:16."
+ },
+ {
+  "id": "map-s013",
+  "refs": [
+   "ref-style-2.jpg"
+  ],
+  "prompt": "Create a NEW image. Use the first attached cartoon image ONLY as the art-style reference: copy ONLY its drawing style, NEVER its content: do not copy any people, children, buildings, gates, trees or pink blossoms from it. Drawing style: a simple TV-cartoon look, big heads, simplified bodies, round white eyes with black dot pupils, bold simple eyebrows, simple line nose, simple mouth, very flat solid colours, thick uniform black outlines, no shading, no gradients, no texture, bright even light. Colours flat and clear. A flat cartoon illustrated local map of a mountainous border area seen from straight above, filling the whole vertical frame: many small green limestone karst peaks drawn as simple cartoon icons, a winding blue mountain stream, a few tiny earth-walled houses with dark roofs, patches of forest; one thin dashed dark-grey border line runs across the middle of the frame from left to right (only this one dashed line); near the line, below it, a tiny dark cave mouth beside the stream. Warm beige paper background, flat colours. Pure illustrated map only: NO text, NO letters, NO labels, NO numbers, NO compass letters, NO route lines, NO arrows, NO dots, NO markers, NO people. Generate exactly 1 image, vertical 9:16."
+ },
+ {
+  "id": "map-s078",
+  "refs": [
+   "ref-style-2.jpg"
+  ],
+  "prompt": "Create a NEW image. Use the first attached cartoon image ONLY as the art-style reference: copy ONLY its drawing style, NEVER its content: do not copy any people, children, buildings, gates, trees or pink blossoms from it. Drawing style: a simple TV-cartoon look, big heads, simplified bodies, round white eyes with black dot pupils, bold simple eyebrows, simple line nose, simple mouth, very flat solid colours, thick uniform black outlines, no shading, no gradients, no texture, bright even light. Colours flat and clear. A flat cartoon map seen from straight above, filling the whole vertical frame: the S-shaped mainland of Vietnam along the right side (wide in the north, very narrow in the middle, the Ca Mau tip in the south), the Gulf of Tonkin and the East Sea in flat light blue on the right, southern China across the top of the frame, Laos and Cambodia to the left as plain flat beige land, two small groups of tiny islands far out in the East Sea (the Paracel and Spratly islands); do NOT draw Hainan island. Vietnam in flat warm yellow-beige, neighbouring countries in plainer pale beige, thin dark coastline and border outlines, small green hills. Pure illustrated map only: NO text, NO letters, NO labels, NO numbers, NO compass letters, NO route lines, NO arrows, NO dots, NO markers, NO people. Generate exactly 1 image, vertical 9:16."
+ }
+]

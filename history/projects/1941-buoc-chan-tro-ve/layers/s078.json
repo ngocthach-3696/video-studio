@@ -1,0 +1,10 @@
+{
+ "camera": {"push": 0.05, "pan": [0, -0.01]},
+ "layers": [
+  {"path": "layers/map-s078.jpg", "cover": true},
+  {"type": "path", "draw": [0.2, 1.5], "color": [45, 45, 185], "width": 0.012, "dash": 0, "head": "arrow",
+   "points": [[0.612, 0.044], [0.573, 0.102], [0.514, 0.156]]},
+  {"type": "path", "draw": [0.7, 2.1], "color": [45, 45, 185], "width": 0.012, "dash": 0, "head": "arrow",
+   "points": [[0.781, 0.305], [0.651, 0.262], [0.540, 0.222]]}
+ ]
+}
