@@ -1,111 +1,17 @@
-[14:07:23] Dự án: 1941 – Bước chân trở về – Mùa xuân Pác Bó — 94 cảnh, 9:16, preset cartoon-flat
-[14:07:23] [0/7] Ảnh tham chiếu nhân vật
-[14:07:23]   C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\gia-thu.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\ly-quoc-sung.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\can-bo-a.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\can-bo-b.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\mat-tham-phap.jpg
-[14:07:23] [1/7] Giọng đọc (Edge TTS)
-[14:07:23]   tổng lời đọc 333.4s
-[14:07:23] [2/7] Ảnh (khung đầu của clip Google Flow)
-[14:07:24]   contact sheet: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-01.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-02.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-03.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-04.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-05.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-06.jpg | C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-07.jpg
-[14:07:24] [3/7] Ảnh → video AI: dùng clip Google Flow có sẵn
-[14:07:26]   clip tốc độ gốc, cắt sớm: s001 -0.30s, s062 -0.13s, s069 -0.03s
-[14:07:26] [4/7] Clip từng cảnh
-[14:07:26]   clip s001 (ai-video, 4.0s)
-[14:07:27]   clip s002 (ai-video, 3.3s)
-[14:07:28]   clip s003 (push:2, 2.3s)
-[14:07:29]   clip s004 (ai-video, 4.0s)
-[14:07:30]   clip s005 (push:4, 4.1s)
-[14:07:33]   clip s006 (ai-video, 3.1s)
-[14:07:34]   clip s007 (ai-video, 3.5s)
-[14:07:35]   clip s008 (pull:1, 3.6s)
-[14:07:37]   clip s009 (camera x1, 3.1s)
-[14:07:38]   clip s010 (ai-video, 3.5s)
-[14:07:39]   clip s011 (push:4, 5.7s)
-[14:07:42]   clip s012 (ai-video, 3.2s)
-[14:07:43]   clip s013 (layers, 4.0s)
-[14:08:11]   clip s014 (pull:1, 4.7s)
-[14:08:15]   clip s015 (push:2, 1.9s)
-[14:08:16]   clip s016 (ai-video, 2.7s)
-[14:08:17]   clip s017 (layers, 3.5s)
-[14:08:37]   clip s018 (pull:5, 4.8s)
-[14:08:40]   clip s019 (push:0, 2.5s)
-[14:08:43]   clip s020 (pull:1, 3.7s)
-[14:08:45]   clip s021 (push:2, 2.9s)
-[14:08:47]   clip s022 (pull:3, 4.5s)
-[14:08:49]   clip s023 (push:4, 3.0s)
-[14:08:51]   clip s024 (pull:5, 3.4s)
-[14:08:53]   clip s025 (push:0, 3.4s)
-[14:08:55]   clip s026 (pull:1, 2.9s)
-[14:08:57]   clip s027 (push:2, 1.8s)
-[14:08:58]   clip s028 (pull:3, 4.0s)
-[14:09:00]   clip s029 (push:4, 2.9s)
-[14:09:02]   clip s030 (camera x1, 2.9s)
-[14:09:03]   clip s031 (push:0, 3.7s)
-[14:09:05]   clip s032 (pull:1, 3.6s)
-[14:09:07]   clip s033 (push:2, 4.0s)
-[14:09:09]   clip s034 (pull:3, 3.0s)
-[14:09:11]   clip s035 (push:4, 2.5s)
-[14:09:13]   clip s036 (pull:5, 2.0s)
-[14:09:14]   clip s037 (push:0, 2.0s)
-[14:09:15]   clip s038 (pull:1, 2.5s)
-[14:09:17]   clip s039 (ai-video, 3.0s)
-[14:09:18]   clip s040 (pull:3, 4.5s)
-[14:09:22]   clip s041 (push:4, 3.2s)
-[14:09:24]   clip s042 (pull:5, 2.8s)
-[14:09:26]   clip s043 (camera x1, 4.8s)
-[14:09:29]   clip s044 (pull:1, 4.0s)
-[14:09:31]   clip s045 (push:2, 1.6s)
-[14:09:33]   clip s046 (pull:3, 3.6s)
-[14:09:36]   clip s047 (push:4, 3.7s)
-[14:09:39]   clip s048 (pull:5, 6.5s)
-[14:09:45]   clip s049 (push:0, 3.3s)
-[14:09:47]   clip s050 (pull:1, 4.2s)
-[14:09:51]   clip s051 (push:2, 3.6s)
-[14:09:53]   clip s052 (camera x1, 4.4s)
-[14:09:56]   clip s053 (push:4, 3.1s)
-[14:09:58]   clip s054 (pull:5, 2.9s)
-[14:09:59]   clip s055 (camera x1, 4.0s)
-[14:10:01]   clip s056 (camera x1, 3.5s)
-[14:10:03]   clip s057 (push:2, 3.6s)
-[14:10:05]   clip s058 (pull:3, 4.0s)
-[14:10:07]   clip s059 (push:4, 2.8s)
-[14:10:09]   clip s060 (pull:5, 5.7s)
-[14:10:12]   clip s061 (push:0, 3.2s)
-[14:10:14]   clip s062 (ai-video, 4.0s)
-[14:10:15]   clip s063 (push:2, 2.9s)
-[14:10:17]   clip s064 (pull:3, 2.9s)
-[14:10:18]   clip s065 (push:4, 3.9s)
-[14:10:21]   clip s066 (camera x1, 4.2s)
-[14:10:23]   clip s067 (push:0, 5.1s)
-[14:10:26]   clip s068 (pull:1, 2.6s)
-[14:10:27]   clip s069 (ai-video, 4.0s)
-[14:10:28]   clip s070 (pull:3, 4.7s)
-[14:10:31]   clip s071 (push:4, 2.9s)
-[14:10:33]   clip s072 (pull:5, 5.9s)
-[14:10:36]   clip s073 (push:0, 2.6s)
-[14:10:39]   clip s074 (camera x1, 3.6s)
-[14:10:41]   clip s075 (camera x1, 3.1s)
-[14:10:42]   clip s076 (camera x1, 4.5s)
-[14:10:44]   clip s077 (camera x1, 4.5s)
-[14:10:47]   clip s078 (layers, 2.9s)
-[14:11:09]   clip s079 (push:0, 4.8s)
-[14:11:11]   clip s080 (camera x1, 5.0s)
-[14:11:13]   clip s081 (push:2, 5.5s)
-[14:11:16]   clip s082 (pull:3, 3.6s)
-[14:11:19]   clip s083 (push:4, 6.0s)
-[14:11:22]   clip s084 (camera x1, 4.5s)
-[14:11:24]   clip s085 (ai-video, 3.9s)
-[14:11:25]   clip s086 (pull:1, 3.6s)
-[14:11:27]   clip s087 (push:2, 5.3s)
-[14:11:30]   clip s088 (ai-video, 3.6s)
-[14:11:31]   clip s089 (push:4, 6.6s)
-[14:11:34]   clip s090 (pull:5, 4.8s)
-[14:11:37]   clip s091 (push:0, 3.5s)
-[14:11:39]   clip s092 (pull:1, 4.8s)
-[14:11:42]   clip s093 (camera x1, 4.0s)
-[14:11:44]   clip s094 (pull:3, 4.5s)
-[14:11:48] [5/7] Ghép clip (cắt thẳng)
-[14:11:51] [6/7] Âm thanh + phụ đề
-[14:11:54]   tiếng Veo: 13 clip (s001 s002 s004 s006 s007 s010 s012 s016 s039 s062 s069 s085 s088)
-[14:11:54]   nhạc nền: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\music\bgm.wav · logo: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\assets\brand\logo.png
-[14:11:54]   nhạc vào ở 0.0s (dài 350.3s)
-[14:11:54] [7/7] Xuất video
-[14:14:24] ✔ Xong: C:\Users\huynh.ngoc.thach\Desktop\video-studio\history\projects\1941-buoc-chan-tro-ve\final.mp4 — 350.3s, 180.7 MB, mất 7.0 phút
+[21:08:00] Dự án: 1941 – Bước chân trở về – Mùa xuân Pác Bó — 94 cảnh, 9:16, preset cartoon-flat
+[21:08:01] [0/7] Ảnh tham chiếu nhân vật
+[21:08:01]   c:\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\gia-thu.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\ly-quoc-sung.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\can-bo-a.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\can-bo-b.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\characters\mat-tham-phap.jpg
+[21:08:01] [1/7] Giọng đọc (Edge TTS)
+[21:08:01]   tổng lời đọc 333.4s
+[21:08:01] [2/7] Ảnh (khung đầu của clip Google Flow)
+[21:08:02]   contact sheet: c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-01.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-02.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-03.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-04.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-05.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-06.jpg | c:\video-studio\history\projects\1941-buoc-chan-tro-ve\sheets\sheet-07.jpg
+[21:08:02] [3/7] Ảnh → video AI: dùng clip Google Flow có sẵn
+[21:08:04]   clip tốc độ gốc, cắt sớm: s001 -0.30s, s062 -0.13s, s069 -0.03s
+[21:08:04] [4/7] Clip từng cảnh
+[21:08:04] [5/7] Ghép clip (cắt thẳng)
+[21:08:08] [6/7] Âm thanh + phụ đề
+[21:08:12]   tiếng Veo: 13 clip (s001 s002 s004 s006 s007 s010 s012 s016 s039 s062 s069 s085 s088)
+[21:08:12]   nhạc nền: c:\video-studio\history\projects\1941-buoc-chan-tro-ve\music\bgm.wav · logo: c:\video-studio\history\assets\brand\logo.png
+[21:08:12]   nhạc vào ở 0.0s (dài 350.3s)
+[21:08:12] [7/7] Xuất video
+[21:13:52] ✔ Xong: c:\video-studio\history\projects\1941-buoc-chan-tro-ve\final.mp4 — 350.3s, 180.0 MB, mất 5.9 phút

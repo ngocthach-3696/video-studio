@@ -13,7 +13,7 @@ Năm/số viết bằng chữ số cho dễ đọc; bản TTS sẽ viết thành
 
 ## Hook (0–35 s) – kiểu 7: nghịch lý + nhá đồ vật lạ (mẫu 8; tập 1931 dùng kiểu 8)
 *Người xem: tò mò, thấy con số như không thể có.*
-1. `[TRONG HANG, VIẾT TRƯỚC 1945]` Mùa xuân 1942, ở Cao Bằng, một cuốn sách mỏng ra đời.
+1. `[VIẾT TRONG HANG | TRƯỚC NĂM 1945]` Mùa xuân 1942, ở Cao Bằng, một cuốn sách mỏng ra đời.
 2. Sách kể lịch sử nước ta, bằng thơ lục bát.
 3. Cuối sách là bảng những năm quan trọng.
 4. `[1945 – VIỆT NAM ĐỘC LẬP]` Dòng cuối cùng ghi: năm 1945, Việt Nam độc lập.

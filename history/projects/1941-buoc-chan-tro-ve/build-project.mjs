@@ -140,12 +140,12 @@ const S = [
 
 // ── read script lines in order
 const lines = [];
-for (const l of fs.readFileSync(DIR + "kich-ban.md", "utf8").split("\n")) {
+for (const l of fs.readFileSync(DIR + "kich-ban.md", "utf8").split(/\r?\n/)) {
   const m = l.match(/^(\d+b?)\.\s+(.*)$/);
   if (m) lines.push(m[2]);
 }
 if (lines.length !== S.length) throw new Error(`kịch bản ${lines.length} câu, prompt ${S.length}`);
-const tts = fs.readFileSync(DIR + "tts-ngat-nhip.txt", "utf8").trim().split("\n");
+const tts = fs.readFileSync(DIR + "tts-ngat-nhip.txt", "utf8").trim().split(/\r?\n/);
 if (tts.length !== S.length) throw new Error(`tts ${tts.length} dòng`);
 
 const job = (id, [image, chars, extra = []]) => ({ id, refs: ["ref-style-2.jpg", ...chars.map(REF), ...extra], prompt: STYLE + (chars.length || extra.length ? CAST : "") + image + (chars.some((c) => BAC.includes(c)) ? RESPECT : "") + END });
@@ -153,7 +153,8 @@ const jobs = [];
 const scenes = lines.map((text, i) => {
   let title;
   const m = text.match(/`\[([^\]]+)\]`\s*/);
-  if (m) { title = m[1]; text = text.replace(m[0], ""); }
+  // " | " in a title tag = line break (ASS \N), e.g. `[VIẾT TRONG HANG | TRƯỚC NĂM 1945]`
+  if (m) { title = m[1].replace(/\s*\|\s*/g, "\\N"); text = text.replace(m[0], ""); }
   const narration = text.replace(/\s*[⚠💬⚖️]+/gu, "").trim();
   const [image, chars] = S[i];
   const s = { narration, image };
@@ -210,6 +211,8 @@ const project = {
   musicStart: 0,
   musicVolume: 1.0,
   subtitles: false,
+  // 2026-11-26 người dùng: chữ lớn "cao quá, dời xuống 1 tí" → lề trên 90 → 190 px (khung 1920)
+  titleStyle: { marginV: 190 },
   characters,
   scenes,
 };

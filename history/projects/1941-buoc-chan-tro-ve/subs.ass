@@ -8,12 +8,12 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Noto Sans Condensed,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,2,110,110,420,1
-Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,90,1
+Style: Title,Noto Sans Condensed,120,&H00C8E6F5,&H000000FF,&H0014243A,&H64000000,-1,0,0,0,100,100,0,0,1,7,4,8,60,60,190,1
 Style: Watermark,Noto Sans Condensed,37,&H50E0E0E0,&H000000FF,&H70000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,6,0,162,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.00,0:00:04.00,Title,,0,0,0,,{\fad(120,0)}TRONG HANG, VIẾT TRƯỚC 1945
+Dialogue: 1,0:00:00.00,0:00:04.00,Title,,0,0,0,,{\fad(120,0)}VIẾT TRONG HANG\NTRƯỚC NĂM 1945
 Dialogue: 1,0:00:09.57,0:00:13.53,Title,,0,0,0,,{\fad(120,0)}1945 – VIỆT NAM ĐỘC LẬP
 Dialogue: 1,0:00:17.67,0:00:20.77,Title,,0,0,0,,{\fad(120,0)}CHƯA AI BIẾT
 Dialogue: 1,0:00:27.83,0:00:30.93,Title,,0,0,0,,{\fad(120,0)}TỪNG BỊ BÁO "ĐÃ CHẾT"

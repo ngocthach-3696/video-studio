@@ -27,6 +27,9 @@
  "musicStart": 0,
  "musicVolume": 1,
  "subtitles": false,
+ "titleStyle": {
+  "marginV": 190
+ },
  "characters": {
   "gia-thu": {
    "name": "Già Thu – Nguyễn Ái Quốc ở Pác Bó 1941–42",
@@ -53,7 +56,7 @@
   {
    "narration": "Mùa xuân 1942, ở Cao Bằng, một cuốn sách mỏng ra đời.",
    "image": "Spring 1942 in the mountains of Cao Bang: close-up of a thin small hand-printed booklet with a plain faded brown paper cover (BLANK cover) lying on a big flat grey stone slab on the stream bank used as a desk beside the clear blue-green stream at Pac Bo flowing over round pebbles at the foot of green limestone peaks, one small green leaf on its cover, morning mist on the peaks behind. Keep the top quarter of the frame simple (sky, mist or plain rock), room for a big title. Nobody in the scene: no people, no figures, no faces.",
-   "title": "TRONG HANG, VIẾT TRƯỚC 1945",
+   "title": "VIẾT TRONG HANG\\NTRƯỚC NĂM 1945",
    "video": "Animate this exact flat 2D cartoon illustration. The first frame must be identical to the attached image: same framing, same size and position of every object, no reframing, no crop, no zoom. Locked-off static camera the whole time. A spring breeze blows through the scene for the whole clip: the small green leaf on the booklet is blown away and floats out of the frame; then the wind lifts the booklet's plain brown cover and flips it fully open to the left, a few thin cream pages flutter and turn in the wind, and the booklet settles lying OPEN on the stone slab at its first page; the edges of the open pages keep trembling gently in the breeze until the end. The booklet stays in the same place on the stone slab. The open pages are cream paper with only plain wavy grey lines as handwriting: no letters, no words, no Chinese characters, no numbers. Background: the stream keeps flowing and sparkling, bamboo and banana leaves sway, soft mist drifts across the limestone peaks. No people, no animals, no birds, no flowers, no petals, no new objects. Keep the exact flat cartoon style, thick outlines, flat colours. Ambient sound only: wind, rustling paper and stream water, no music, no voices."
   },
   {
